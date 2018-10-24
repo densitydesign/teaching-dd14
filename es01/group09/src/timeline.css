@@ -1,0 +1,72 @@
+.timeline-nofill {
+  fill: none;
+}
+.timeline-blue-text {
+  fill: #0033ff;
+}
+.timeline-arc {
+  fill: none;
+  stroke: #ce3b19;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+.timeline-font {
+  font-family: "IBM Plex Mono";
+  font-size: 12px;
+}
+.timeline-line {
+  fill: #0033ff;
+  stroke: #0033ff;
+  stroke-width: 1;
+  stroke-miterlimit: 10;
+}
+.timeline-blue-circle {
+  fill: #0033ff;
+  stroke: #f6f6f6;
+  stroke-width: 3;
+  stroke-miterlimit: 10;
+}
+.timeline-wave-path {
+  fill: none;
+  stroke: #0033ff;
+  stroke-miterlimit: 10;
+}
+.timeline-rectangle-overlay {
+  opacity: 0.6;
+  fill: #ce3b19;
+}
+.timeline-rectangle {
+  fill: url(#USGS_17_Lago_sabbioso_asciutto);
+  stroke: #cb4c45;
+  stroke-miterlimit: 10;
+}
+.timeline-red-text {
+  fill: #ce3b19;
+}
+.timeline-red-circle {
+  fill: #ce3b19;
+  stroke: #f6f6f6;
+  stroke-miterlimit: 10;
+}
+.timeline-vertical-tick {
+  fill: #ffffff;
+  stroke: #0033ff;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+.timeline-purple-circle {
+  fill: #650499;
+  stroke: #f6f6f6;
+  stroke-miterlimit: 10;
+}
+.timeline-pattern-fill {
+  fill: url(#SVGID_1_);
+  stroke: #cb4c45;
+  stroke-miterlimit: 10;
+}
+.timeline-polyline {
+  fill: none;
+  stroke: #0033ff;
+  stroke-width: 1;
+  stroke-miterlimit: 10;
+}
