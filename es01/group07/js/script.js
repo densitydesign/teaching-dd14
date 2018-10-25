@@ -40,7 +40,8 @@ $(document).ready(function () {
         // alert('mobile');
         $('#fullpage').fullpage({
             autoScrolling: false, //scroll
-            verticalCentered: false //flex
+            verticalCentered: false, //flex
+            licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE'
         });
     }
     ///////////////// desktop
@@ -52,7 +53,8 @@ $(document).ready(function () {
             easing: 'easeInOutCubic',
             easingcss3: 'cubic-bezier(0.92,0.13,0.84,0.86)',
             verticalCentered: false, //flex
-            scrollBar: true
+            scrollBar: true,
+            licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE'
         });
     }
 
