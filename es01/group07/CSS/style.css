@@ -615,18 +615,6 @@ input[type=range]::-webkit-slider-thumb {
     padding-top: 0rem;
 }
 
-
-.cc {
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    bottom: 4vh;
-    width: 55vw;
-    padding-top: 4rem;
-}
-
 .cc2 {
     position: absolute;
     bottom: -2.5rem;
@@ -737,6 +725,10 @@ input[type=range]::-webkit-slider-thumb {
 
 .is-hidden {
     display: none;
+}
+
+.transparent {
+    opacity: 0.4;
 }
 
 .right {
@@ -939,6 +931,23 @@ input[type=range]::-webkit-slider-thumb {
     margin-left: auto;
     margin-right: auto;
     width: 95%;
+}
+
+.conflict-circle:hover {
+    opacity: 1;
+}
+
+.macro-area:hover >.cls-26 {
+    fill: url(#Nuovo_campione_pattern_1);
+}
+.macro-area:hover >.cls-29 {
+    fill: url(#Nuovo_campione_pattern_1);
+}
+.macro-area:hover >.cls-36 {
+    fill: url(#Nuovo_campione_pattern_1);
+}
+.macro-area:hover >.cls-37 {
+    fill: url(#Nuovo_campione_pattern_1);
 }
 
 #show-conflicts {
