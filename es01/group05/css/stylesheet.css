@@ -89,7 +89,7 @@ p {
   background-color: #f7f4f3;
   font-family: 'FiraSansR', 'FrankRuhlLibreR', Arial;
   position: absolute;
-	top: 99%;
+	top: 100%;
   left: 0%;
 	 box-shadow: 0 2px 1px -1px #999;
 }
@@ -312,6 +312,7 @@ font-family: "FrankRuhlLibreM";
 .titlovi {
 	width: 100%;
 	padding: 0;
+	margin: 0;
 	
 }
 .pbot {
@@ -423,7 +424,7 @@ a.tip2:hover span {
 .kraj {
 	  background-color: #c6c6c6;
 
-	
+	margin: 0;
   width: 100%;
   padding: 0% 10%;
 }
@@ -501,3 +502,37 @@ a.tip2:hover span {
 	padding-right: 0%;
 }
 
+
+@media only screen and (max-width: 600px) {
+	
+	html {
+		font-size: 40%;
+	}
+	.spec3 {
+		width: 100%;
+		height: 80%;
+	}
+	.spec4 {
+		width: 100%;
+		height: 100%;
+	}
+	.sec1 {
+		 height: 91vh;
+  background: url('../assets/bg.gif') no-repeat center center ;
+   background-size: cover;
+  background-color: #f7f4f3;
+	}
+	
+	.start {
+  margin: 0 auto;
+  padding-top: 75%;
+	padding-bottom: 0;
+	line-height: .8;
+  width: 100%;
+  font-size: 4.5rem;
+  color: #ff7644;
+
+
+}
+
+}
