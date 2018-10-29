@@ -209,10 +209,7 @@
 	 cursor: pointer;
 	opacity: 0;
 }
-.nalepi1:hover {
-	    
-	opacity: 1;
-}
+
 .nalepi1--Shown {
 	opacity: 1;
 }
@@ -515,7 +512,7 @@ svg {
 }
 .movetop {
 	position: absolute;
-	top: -1000%;
+	top: -10000%;
 	margin: 0;
 	padding: 0;
 }
@@ -1411,7 +1408,7 @@ svg {
 
       .u2ls-22, .u2ls-25 {
         isolation: isolate;
-        font-family: FiraSans-Medium, Fira Sans;
+        font-family:'FiraSansM', Fira Sans;
       }
 
       .u2ls-23 {
