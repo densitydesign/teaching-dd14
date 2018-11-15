@@ -34,7 +34,7 @@ body {
 }
 
 .homecover {
-    opacity: 0.4;
+    opacity: 0.5;
     align-content: center;
     left: 0;
     right: 0;
@@ -42,6 +42,7 @@ body {
     width: 100%;
     height: auto;
     z-index: 0;
+    min-height: 100vh;
 }
 
 .mezzo {
