@@ -1,0 +1,296 @@
+body {
+    --coefficent: 1;
+}
+
+.graph-curve, .higher, #x-axis {
+    transition: opacity calc(var(--a-transition)/var(--coefficent)) cubic-bezier(.65, 0, .15, 1),
+                transform calc(var(--a-transition)/var(--coefficent)) cubic-bezier(.65, 0, .15, 1),
+                background-color calc(var(--a-transition)/var(--coefficent)) cubic-bezier(.65, 0, .15, 1);
+}
+
+.graph-curve.disappear {
+    opacity: .1;
+    transition: opacity calc(var(--a-transition)/var(--coefficent)) cubic-bezier(.65, 0, .15, 1),
+                transform calc(var(--a-transition)/var(--coefficent)) cubic-bezier(.65, 0, .15, 1),
+                background-color calc(var(--a-transition)/var(--coefficent)) cubic-bezier(.65, 0, .15, 1);
+}
+
+#y-axis{
+    transition: opacity calc(var(--a-transition)/var(--coefficent)) cubic-bezier(.65, 0, .15, 1);
+}
+
+/* -------------- SVG -------------- */
+
+.curve-stroke {
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-miterlimit: 10;
+}
+
+.perc-labels {
+    opacity: 0;
+    transition: opacity calc(var(--a-transition)/var(--coefficent)) cubic-bezier(.65, 0, .15, 1);
+}
+
+.perc-labels.highlight {
+    opacity: 1;
+    transition: opacity calc(var(--a-transition)/var(--coefficent)) cubic-bezier(.65, 0, .15, 1);
+}
+
+.country-text {
+    font-family: 'IBM Plex Mono';
+    font-size: 16px;
+}
+
+.perc-text {
+    font-family: 'IBM Plex Mono';
+    font-size: 14px;
+}
+
+.text-general {
+    fill: var(--c-2);
+}
+
+.encounter-side-line {
+    fill: none;
+    stroke: url(#SVGID_1_);
+    stroke-miterlimit: 10;
+}
+
+.encounter-polygon-fill {
+    fill: url(#SVGID_2_);
+}
+
+.encounter-blue-line {
+    fill: none;
+    stroke: var(--c-2);
+    stroke-miterlimit: 10;
+}
+
+.encounter-perc {
+    fill: var(--c-1);
+    stroke: var(--c-2);
+    stroke-miterlimit: 10;
+}
+
+.encounter-text {
+    font-family: 'IBM Plex Mono';
+    font-size: 14px;
+}
+                
+.encounter-graph-mountains {
+    opacity: 0.7;
+}
+
+.encounter-malta-fill {
+    fill: url(#SVGID_3_);
+    fill: #1E4BFD;
+}
+
+.encounter-st-14 {
+    fill: url(#SVGID_4_);
+}
+
+.encounter-st-15 {
+    fill: url(#SVGID_5_);
+}
+
+.encounter-st-16 {
+    fill: #244FFD;
+}
+
+.encounter-st-17 {
+    fill: url(#SVGID_6_);
+}
+
+.encounter-st-18 {
+    fill: #2D57FD;
+}
+
+.encounter-st-19 {
+    fill: url(#SVGID_7_);
+}
+
+.encounter-st-20 {
+    fill: #325AFC;
+}
+
+.encounter-st-21 {
+    fill: url(#SVGID_8_);
+}
+
+.encounter-st-22 {
+    fill: #385FFC;
+}
+
+.encounter-st-23 {
+    fill: url(#SVGID_9_);
+}
+
+.encounter-st-24 {
+    fill: #3D63FC;
+}
+
+.encounter-st-25 {
+    fill: url(#SVGID_10_);
+}
+
+.encounter-st-26 {
+    fill: #4065FC;
+}
+
+.encounter-st-27 {
+    fill: url(#SVGID_11_);
+}
+
+.encounter-st-28 {
+    fill: #466AFB;
+}
+
+.encounter-st-29 {
+    fill: url(#SVGID_12_);
+}
+
+.encounter-st-30 {
+    fill: #4E70FB;
+}
+
+.encounter-st-31 {
+    fill: url(#SVGID_13_);
+}
+
+.encounter-st-32 {
+    fill: #5878FA;
+}
+
+.encounter-st-33 {
+    fill: url(#SVGID_14_);
+}
+
+.encounter-st-34 {
+    fill: #6281FA;
+}
+
+.encounter-st-35 {
+    fill: url(#SVGID_15_);
+}
+
+.encounter-st-36 {
+    fill: #6683FA;
+}
+
+.encounter-st-37 {
+    fill: url(#SVGID_16_);
+}
+
+.encounter-st-38 {
+    fill: #6E8AF9;
+}
+
+.encounter-st-39 {
+    fill: url(#SVGID_17_);
+}
+
+.encounter-st-40 {
+    fill: #7A93F8;
+}
+
+.encounter-st-41 {
+    fill: url(#SVGID_18_);
+}
+
+.encounter-st-42 {
+    fill: #8199F8;
+}
+
+.encounter-st-43 {
+    fill: url(#SVGID_19_);
+}
+
+.encounter-st-44 {
+    fill: #8BA1F8;
+}
+
+.encounter-st-45 {
+    fill: url(#SVGID_20_);
+}
+
+.encounter-st-46 {
+    fill: #8FA4F7;
+}
+
+.encounter-st-47 {
+    fill: #98ABF7;
+}
+
+.encounter-st-48 {
+    fill: url(#SVGID_21_);
+}
+
+.encounter-st-49 {
+    fill: #9FB0F6;
+}
+
+.encounter-st-50 {
+    fill: url(#SVGID_22_);
+}
+
+.encounter-st-51 {
+    fill: #A8B8F6;
+}
+
+.encounter-st-52 {
+    fill: url(#SVGID_23_);
+}
+
+.encounter-st-53 {
+    fill: url(#SVGID_24_);
+}
+
+.encounter-st-54 {
+    fill: url(#SVGID_25_);
+}
+
+.encounter-st-55 {
+    fill: #BBC7F5;
+}
+
+.encounter-st-56 {
+    fill: url(#SVGID_26_);
+}
+
+.encounter-st-57 {
+    fill: url(#SVGID_27_);
+}
+
+.encounter-st-58 {
+    fill: url(#SVGID_28_);
+}
+
+.encounter-st-59 {
+    fill: #CCD4F4;
+}
+
+.encounter-st-60 {
+    fill: url(#SVGID_29_);
+}
+
+.encounter-st-61 {
+    fill: #D7DDF3;
+}
+
+.encounter-st-62 {
+    fill: url(#SVGID_30_);
+}
+
+.encounter-st-63 {
+    fill: #DDE1F3;
+}
+
+.encounter-st-64 {
+    fill: url(#SVGID_31_);
+}
+
+.encounter-st-65 {
+    fill: #E6E8F3;
+}

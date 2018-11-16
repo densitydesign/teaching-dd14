@@ -1,0 +1,2235 @@
+       .g3ls-1 {
+        fill: #f6f2f2;
+        stroke: #f6f3f2;
+        stroke-width: 0.05px;
+        opacity: 0.5;
+      }
+
+      .g3ls-2 {
+        font-size: 8px;
+      }
+
+      .g3ls-2, .g3ls-21 {
+        fill: #c6c6c6;
+      }
+
+      .g3ls-11, .g3ls-2, .g3ls-9 {
+        font-family: FiraSans-Light, Fira Sans;
+      }
+
+      .g3ls-3 {
+        letter-spacing: -0.01em;
+      }
+
+      .g3ls-4 {
+        letter-spacing: 0em;
+      }
+
+      .g3ls-5 {
+        letter-spacing: -0.01em;
+      }
+
+      .g3ls-6 {
+        letter-spacing: -0.03em;
+      }
+
+      .g3ls-7 {
+        letter-spacing: -0.02em;
+      }
+
+      .g3ls-8 {
+        letter-spacing: -0.01em;
+      }
+
+      .g3ls-11, .g3ls-9 {
+        font-size: 10px;
+      }
+
+      .g3ls-9 {
+        fill: #f6f2f3;
+      }
+
+      .g3ls-10 {
+        letter-spacing: -0.01em;
+      }
+
+      .g3ls-11, .g3ls-45, .g3ls-47 {
+        fill: #ed764a;
+      }
+
+      .g3ls-12 {
+        letter-spacing: -0.03em;
+      }
+
+      .g3ls-13 {
+        letter-spacing: -0.01em;
+      }
+
+      .g3ls-14 {
+        letter-spacing: -0.07em;
+      }
+
+      .g3ls-15 {
+        letter-spacing: -0.07em;
+      }
+
+      .g3ls-16 {
+        letter-spacing: -0.06em;
+      }
+
+      .g3ls-17, .g3ls-20, .g3ls-23, .g3ls-36 {
+        fill: none;
+      }
+
+      .g3ls-17, .g3ls-21 {
+        stroke: #c6c6c6;
+      }
+
+      .g3ls-17, .g3ls-23 {
+        stroke-width: 0.88px;
+      }
+
+      .g3ls-18, .g3ls-19, .g3ls-24, .g3ls-33, .g3ls-35, .g3ls-44 {
+        fill: #c6c5c5;
+      }
+
+      .g3ls-19, .g3ls-20, .g3ls-36 {
+        stroke: #c6c5c5;
+      }
+
+      .g3ls-19, .g3ls-20 {
+        stroke-width: 0.88px;
+      }
+
+      .g3ls-21, .g3ls-22 {
+        stroke-width: 0.26px;
+      }
+
+      .g3ls-22 {
+        fill: #ef764b;
+      }
+
+      .g3ls-22, .g3ls-23 {
+        stroke: #ef764b;
+      }
+
+      .g3ls-24, .g3ls-25, .g3ls-31, .g3ls-33, .g3ls-34, .g3ls-35, .g3ls-36, .g3ls-40, .g3ls-42, .g3ls-45, .g3ls-47 {
+        isolation: isolate;
+      }
+
+      .g3ls-25, .g3ls-46 {
+        font-size: 15.65px;
+      }
+
+      .g3ls-25, .g3ls-42, .g3ls-46 {
+        fill: #fff;
+        font-family: FiraSans-Medium, Fira Sans;
+      }
+
+      .g3ls-26 {
+        letter-spacing: -0.03em;
+      }
+
+      .g3ls-27 {
+        letter-spacing: -0.03em;
+      }
+
+      .g3ls-28 {
+        letter-spacing: 0em;
+      }
+
+      .g3ls-29 {
+        letter-spacing: -0.01em;
+      }
+
+      .g3ls-30 {
+        letter-spacing: 0em;
+      }
+
+      .g3ls-31, .g3ls-33, .g3ls-34, .g3ls-40, .g3ls-42, .g3ls-47 {
+        font-size: 15px;
+      }
+
+      .g3ls-31 {
+        fill: #f7f3f2;
+      }
+
+      .g3ls-31, .g3ls-33, .g3ls-35, .g3ls-40, .g3ls-44, .g3ls-47, .g3ls-48 {
+        font-family: FrankRuhlLibre-Regular, Frank Ruhl Libre;
+      }
+
+      .g3ls-32 {
+        letter-spacing: -0.01em;
+      }
+
+      .g3ls-34, .g3ls-40 {
+        fill: #d9428f;
+      }
+
+      .g3ls-34 {
+        font-family: SolferinoText-Regular, SolferinoText Regular;
+      }
+
+      .g3ls-35, .g3ls-44 {
+        font-size: 30px;
+      }
+
+      .g3ls-36 {
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .g3ls-37 {
+        letter-spacing: -0.08em;
+      }
+
+      .g3ls-38 {
+        letter-spacing: -0.02em;
+      }
+
+      .g3ls-39 {
+        letter-spacing: -0.01em;
+      }
+
+      .g3ls-41 {
+        letter-spacing: -0.01em;
+      }
+
+      .g3ls-43 {
+        letter-spacing: 0em;
+      }
+
+      .g3ls-48 {
+        font-size: 29.34px;
+        fill: #e95730;
+      }
+
+
+.nalepi1 {
+	 cursor: pointer;
+	opacity: 0;
+}
+
+.nalepi1--Shown {
+	opacity: 1;
+}
+.prikazi1 {
+	 cursor: pointer;
+	opacity: .1;
+}
+.prikazi1:hover {
+	    stroke: #1c1c1c;
+	opacity: 1;
+}
+.prikazi1--Shown {
+	opacity: 1;
+}
+
+
+
+
+
+.     .gls-1 {
+        fill: #f7f4f3;
+        stroke: #f7f4f3;
+		
+     
+        opacity: 1;
+      }
+
+      .gls-2 {
+        font-size: 8px;
+        fill: #c6c6c6;
+      }
+
+      .gls-11, .gls-2, .gls-9 {
+        font-family: FiraSans-Light, Fira Sans;
+      }
+
+      .gls-3 {
+        letter-spacing: -0.01em;
+      }
+
+      .gls-4 {
+        letter-spacing: 0em;
+      }
+
+      .gls-5 {
+        letter-spacing: -0.01em;
+      }
+
+      .gls-6 {
+        letter-spacing: -0.03em;
+      }
+
+      .gls-7 {
+        letter-spacing: -0.02em;
+      }
+
+      .gls-8 {
+        letter-spacing: -0.01em;
+      }      .gls-1 {
+        font-size: 8px;
+        fill: #c6c6c6;
+      }
+
+      .gls-1, .gls-10, .gls-8 {
+        font-family: FiraSans-Light, Fira Sans;
+      }
+
+      .gls-2 {
+        letter-spacing: -0.01em;
+      }
+
+      .gls-3 {
+        letter-spacing: 0em;
+      }
+
+      .gls-4 {
+        letter-spacing: -0.01em;
+      }
+
+      .gls-5 {
+        letter-spacing: -0.03em;
+      }
+
+      .gls-6 {
+        letter-spacing: -0.02em;
+      }
+
+      .gls-7 {
+        letter-spacing: -0.01em;
+      }
+
+      .gls-10, .gls-8 {
+        font-size: 10px;
+      }
+
+      .gls-8 {
+        fill: #f6f2f3;
+      }
+
+      .gls-9 {
+        letter-spacing: -0.01em;
+      }
+
+      .gls-10, .gls-42, .gls-44 {
+        fill: #ed764a;
+      }
+
+      .gls-11 {
+        letter-spacing: -0.03em;
+      }
+
+      .gls-12 {
+        letter-spacing: -0.01em;
+      }
+
+      .gls-13 {
+        letter-spacing: -0.07em;
+      }
+
+      .gls-14 {
+        letter-spacing: -0.07em;
+      }
+
+      .gls-15 {
+        letter-spacing: -0.06em;
+      }
+
+      .gls-16, .gls-17, .gls-20, .gls-29, .gls-31, .gls-41 {
+        fill: #c6c5c5;
+      }
+
+      .gls-16, .gls-32, .gls-40 {
+        stroke: #c6c5c5;
+      }
+
+      .gls-16 {
+        stroke-width: 0.88px;
+      }
+
+      .gls-18, .gls-19 {
+        fill: #ef764b;
+        stroke: #ef764b;
+      }
+
+      .gls-18 {
+        stroke-width: 0.88px;
+      }
+
+      .gls-19 {
+        stroke-width: 0.26px;
+      }
+
+      .gls-20, .gls-21, .gls-27, .gls-29, .gls-30, .gls-31, .gls-32, .gls-36, .gls-38, .gls-40, .gls-42, .gls-44 {
+        isolation: isolate;
+      }
+
+      .gls-21, .gls-43 {
+        font-size: 15.65px;
+      }
+
+      .gls-21, .gls-38, .gls-43 {
+        fill: #fff;
+        font-family: FiraSans-Medium, Fira Sans;
+      }
+
+      .gls-22 {
+        letter-spacing: -0.03em;
+      }
+
+      .gls-23 {
+        letter-spacing: -0.03em;
+      }
+
+      .gls-24 {
+        letter-spacing: 0em;
+      }
+
+      .gls-25 {
+        letter-spacing: -0.01em;
+      }
+
+      .gls-26 {
+        letter-spacing: 0em;
+      }
+
+      .gls-27, .gls-29, .gls-30, .gls-36, .gls-38, .gls-44 {
+        font-size: 15px;
+      }
+
+      .gls-27 {
+        fill: #f7f3f2;
+      }
+
+      .gls-27, .gls-29, .gls-31, .gls-36, .gls-41, .gls-44, .gls-45 {
+        font-family: FrankRuhlLibre-Regular, Frank Ruhl Libre;
+      }
+
+      .gls-28 {
+        letter-spacing: -0.01em;
+      }
+
+      .gls-30, .gls-36 {
+        fill: #d9428f;
+      }
+
+      .gls-30 {
+        font-family: SolferinoText-Regular, SolferinoText Regular;
+      }
+
+      .gls-31, .gls-41 {
+        font-size: 30px;
+      }
+
+      .gls-32, .gls-40 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .gls-32 {
+        stroke-width: 2px;
+      }
+
+      .gls-33 {
+        letter-spacing: -0.08em;
+      }
+
+      .gls-34 {
+        letter-spacing: -0.02em;
+      }
+
+      .gls-35 {
+        letter-spacing: -0.01em;
+      }
+
+      .gls-37 {
+        letter-spacing: -0.01em;
+      }
+
+      .gls-39 {
+        letter-spacing: 0em;
+      }
+
+      .gls-40 {
+        stroke-width: 3px;
+      }
+
+      .gls-45 {
+        font-size: 29.34px;
+        fill: #e95730;
+      }
+/*circle packaging styles*/
+
+#_grid_ {
+	opacity: 1;
+}
+
+#_grid_ path {
+	opacity: 1;
+	height: 2px;
+	width: 100%;
+}
+.drugs {
+    cursor: pointer;
+	opacity: .1;
+}
+
+.drugs:hover {
+    stroke: #1c1c1c;
+	opacity: 1;
+    
+}
+
+.drugs--Shown {
+    
+    opacity:1;
+    
+}
+.labels {
+    opacity: 0;
+    
+    pointer-events: none;
+    
+}
+
+.labels--Shown {
+    
+    opacity:1;
+    
+}
+svg {
+	max-width: 100%;
+	height: auto;
+}
+.nonstu {
+
+
+}
+.stu {
+
+}
+.movetop {
+	position: absolute;
+	top: -10000%;
+	margin: 0;
+	padding: 0;
+}
+.btns {
+	background-color: transparent;
+	color: #f7f4f3;
+	border: none;
+	opacity: .3;
+	padding: 1% 2%;
+	margin: 0%;
+	width: 100;
+	text-align: center;
+	font-size: 1.3rem;
+	font-family: 'FiraSansM';
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+
+}
+.btns:hover {
+	color: #f2562b;
+	
+}
+.btns-active {
+	color: #ff7644;
+	pointer-events: none;
+	opacity: 1;
+}
+       .mls-1 {
+        fill: #ffce00;
+      }
+
+      .mls-10, .mls-15, .mls-17, .mls-2, .mls-3, .mls-84 {
+        font-size: 10px;
+      }
+
+      .mls-10, .mls-15, .mls-17, .mls-2, .mls-3, .mls-5, .mls-84 {
+        font-family: FiraSans-Light, Fira Sans;
+      }
+
+      .mls-3 {
+        letter-spacing: -0.16em;
+      }
+
+      .mls-4 {
+        fill: #ec9a0e;
+      }
+
+      .mls-5 {
+        font-size: 10.04px;
+      }
+
+      .mls-6 {
+        letter-spacing: -0.02em;
+      }
+
+      .mls-17, .mls-7 {
+        letter-spacing: -0.01em;
+      }
+
+      .mls-8 {
+        letter-spacing: -0.01em;
+      }
+
+      .mls-9 {
+        fill: #d8661c;
+      }
+
+      .mls-10 {
+        letter-spacing: -0.06em;
+      }
+
+      .mls-11 {
+        letter-spacing: 0em;
+      }
+
+      .mls-12, .mls-15 {
+        letter-spacing: -0.01em;
+      }
+
+      .mls-13, .mls-31, .mls-58, .mls-86 {
+        letter-spacing: -0.02em;
+      }
+
+      .mls-14 {
+        fill: #ce4a24;
+      }
+
+      .mls-16 {
+        fill: #e01919;
+      }
+
+      .mls-18 {
+        letter-spacing: 0em;
+      }
+
+      .mls-19 {
+        fill: #c1272d;
+      }
+
+      .mls-20, .mls-62 {
+        font-size: 12px;
+      }
+
+      .mls-20, .mls-30, .mls-31, .mls-32, .mls-45, .mls-46, .mls-48, .mls-49, .mls-65 {
+        fill: #f2562b;
+      }
+
+      .mls-20, .mls-29, .mls-30, .mls-31, .mls-45, .mls-46, .mls-48, .mls-49, .mls-52, .mls-65 {
+        font-family: FrankRuhlLibre-Medium, Frank Ruhl Libre;
+      }
+
+      .mls-21 {
+        letter-spacing: -0.02em;
+      }
+
+      .mls-22, .mls-23, .mls-24, .mls-25, .mls-26, .mls-27, .mls-34, .mls-35, .mls-37, .mls-39, .mls-41, .mls-43, .mls-44, .mls-54, .mls-58, .mls-59, .mls-61, .mls-62 {
+        fill: #1c1c1c;
+      }
+
+      .mls-23, .mls-45, .mls-63 {
+        letter-spacing: -0.03em;
+      }
+
+      .mls-24, .mls-40 {
+        letter-spacing: -0.02em;
+      }
+
+      .mls-25, .mls-36, .mls-46 {
+        letter-spacing: 0em;
+      }
+
+      .mls-26, .mls-38 {
+        letter-spacing: -0.07em;
+      }
+
+      .mls-27, .mls-62, .mls-67, .mls-68, .mls-86 {
+        font-family: FiraSans-Regular, Fira Sans;
+      }
+
+      .mls-28, .mls-35, .mls-49 {
+        letter-spacing: -0.03em;
+      }
+
+      .mls-33, .mls-82 {
+        fill: none;
+      }
+
+      .mls-33, .mls-81, .mls-82 {
+        stroke: #1c1c1c;
+        stroke-miterlimit: 10;
+      }
+
+      .mls-33 {
+        stroke-width: 0.75px;
+        stroke-dasharray: 1.5 1.5;
+      }
+
+      .mls-34, .mls-47 {
+        letter-spacing: -0.04em;
+      }
+
+      .mls-37, .mls-42, .mls-48, .mls-52 {
+        letter-spacing: 0em;
+      }
+
+      .mls-39 {
+        letter-spacing: -0.07em;
+      }
+
+      .mls-41 {
+        letter-spacing: -0.09em;
+      }
+
+      .mls-43 {
+        letter-spacing: -0.09em;
+      }
+
+      .mls-44 {
+        letter-spacing: -0.04em;
+      }
+
+      .mls-50 {
+        letter-spacing: -0.05em;
+      }
+
+      .mls-51 {
+        letter-spacing: -0.01em;
+      }
+
+      .mls-53 {
+        letter-spacing: 0.02em;
+      }
+
+      .mls-54, .mls-66 {
+        letter-spacing: -0.07em;
+      }
+
+      .mls-55 {
+        letter-spacing: -0.11em;
+      }
+
+      .mls-56 {
+        letter-spacing: -0.05em;
+      }
+
+      .mls-57 {
+        letter-spacing: -0.01em;
+      }
+
+      .mls-59 {
+        letter-spacing: -0.03em;
+      }
+
+      .mls-60 {
+        letter-spacing: -0.06em;
+      }
+
+      .mls-61 {
+        letter-spacing: -0.02em;
+      }
+
+      .mls-64, .mls-65 {
+        letter-spacing: 0em;
+      }
+
+      .mls-67, .mls-68, .mls-86 {
+        font-size: 11px;
+      }
+
+      .mls-68 {
+        letter-spacing: 0em;
+      }
+
+      .mls-69 {
+        letter-spacing: -0.01em;
+      }
+
+      .mls-70 {
+        letter-spacing: -0.01em;
+      }
+
+      .mls-71 {
+        letter-spacing: -0.03em;
+      }
+
+      .mls-72 {
+        letter-spacing: 0em;
+      }
+
+      .mls-73 {
+        letter-spacing: -0.01em;
+      }
+
+      .mls-74 {
+        letter-spacing: 0em;
+      }
+
+      .mls-75 {
+        letter-spacing: -0.07em;
+      }
+
+      .mls-76 {
+        letter-spacing: 0em;
+      }
+
+      .mls-77 {
+        letter-spacing: 0.01em;
+      }
+
+      .mls-78 {
+        letter-spacing: -0.04em;
+      }
+
+      .mls-79 {
+        letter-spacing: 0em;
+      }
+
+      .mls-80 {
+        letter-spacing: -0.07em;
+      }
+
+      .mls-81 {
+        fill: #c6c6c6;
+        stroke-width: 0.25px;
+      }
+
+      .mls-82 {
+        stroke-width: 0.47px;
+        stroke-dasharray: 0.93 0.93;
+      }
+
+      .mls-83 {
+        letter-spacing: -0.01em;
+      }
+
+      .mls-84 {
+        letter-spacing: -0.02em;
+      }
+
+      .mls-85 {
+        letter-spacing: -0.05em;
+      }
+
+      .mls-87 {
+        letter-spacing: -0.07em;
+      }
+
+      .mls-88 {
+        letter-spacing: -0.04em;
+      }
+
+      .mls-89 {
+        letter-spacing: -0.06em;
+      }
+/*circle packaging styles*/
+
+.mapz {
+    cursor: pointer;
+	opacity: .5;
+}
+
+.mapz:hover {
+
+	opacity: 1;
+    
+}
+.mapz--Hide {
+	opacity: .1;
+}
+
+.states {
+    opacity: 0;
+   
+    pointer-events: none;
+
+    
+}
+.bgmat {
+	
+}
+
+.states--Shown {
+
+    opacity:1;
+	
+    
+}
+      .krava {
+        fill: #e95730;
+      }
+      .m2ls-1 {
+        fill: #e95730;
+      }
+
+      .m2ls-2 {
+        fill: #ed764a;
+      }
+
+      .m2ls-10, .m2ls-17, .m2ls-3, .m2ls-39, .m2ls-41, .m2ls-43 {
+        fill: #f6f3f2;
+      }
+
+      .m2ls-31, .m2ls-32, .m2ls-33, .m2ls-34, .m2ls-35, .m2ls-36, .m2ls-4, .m2ls-5, .m2ls-6, .m2ls-7, .m2ls-8, .m2ls-9 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+      }
+
+      .m2ls-4, .m2ls-5, .m2ls-6, .m2ls-7, .m2ls-8, .m2ls-9 {
+        stroke: #1d1d1b;
+        stroke-width: 0.5px;
+      }
+
+      .m2ls-5 {
+        stroke-dasharray: 3.2 3.2;
+      }
+
+      .m2ls-6 {
+        stroke-dasharray: 4 4;
+      }
+
+      .m2ls-7 {
+        stroke-dasharray: 3.73 3.73;
+      }
+
+      .m2ls-8 {
+        stroke-dasharray: 3.84 3.84;
+      }
+
+      .m2ls-9 {
+        stroke-dasharray: 3.89 3.89;
+      }
+
+      .m2ls-10, .m2ls-17, .m2ls-41, .m2ls-43 {
+        font-size: 12px;
+      }
+
+      .m2ls-10, .m2ls-17 {
+        font-family: FiraSans-Medium, Fira Sans;
+      }
+
+      .m2ls-11 {
+        letter-spacing: -0.05em;
+      }
+
+      .m2ls-12 {
+        letter-spacing: -0.01em;
+      }
+
+      .m2ls-13 {
+        letter-spacing: 0em;
+      }
+
+      .m2ls-14 {
+        letter-spacing: -0.01em;
+      }
+
+      .m2ls-15 {
+        letter-spacing: -0.05em;
+      }
+
+      .m2ls-16 {
+        letter-spacing: -0.06em;
+      }
+
+      .m2ls-17 {
+        letter-spacing: -0.07em;
+      }
+
+      .m2ls-18 {
+        letter-spacing: -0.03em;
+      }
+
+      .m2ls-19 {
+        letter-spacing: 0em;
+      }
+
+      .m2ls-20 {
+        letter-spacing: -0.02em;
+      }
+
+      .m2ls-21, .m2ls-37 {
+        font-size: 11px;
+      }
+
+      .m2ls-21, .m2ls-30 {
+        fill: #f6f2f1;
+      }
+
+      .m2ls-21, .m2ls-37, .m2ls-41, .m2ls-43 {
+        font-family: FiraSans-Regular, Fira Sans;
+      }
+
+      .m2ls-22 {
+        letter-spacing: -0.01em;
+      }
+
+      .m2ls-23 {
+        letter-spacing: 0em;
+      }
+
+      .m2ls-24 {
+        letter-spacing: -0.02em;
+      }
+
+      .m2ls-25 {
+        letter-spacing: -0.02em;
+      }
+
+      .m2ls-26 {
+        letter-spacing: -0.01em;
+      }
+
+      .m2ls-27 {
+        letter-spacing: -0.01em;
+      }
+
+      .m2ls-28 {
+        fill: #ed774a;
+      }
+
+      .m2ls-29 {
+        letter-spacing: 0.01em;
+      }
+
+      .m2ls-31, .m2ls-32, .m2ls-33, .m2ls-34, .m2ls-35, .m2ls-36 {
+        stroke: #f7f6f4;
+      }
+
+      .m2ls-31 {
+        stroke-dasharray: 3;
+      }
+
+      .m2ls-33 {
+        stroke-dasharray: 2.24 2.24;
+      }
+
+      .m2ls-34 {
+        stroke-dasharray: 3 3;
+      }
+
+      .m2ls-35 {
+        stroke-dasharray: 3 3;
+      }
+
+      .m2ls-36 {
+        stroke-dasharray: 2.25 2.25;
+      }
+
+      .m2ls-37 {
+        fill: #f7f6f4;
+      }
+
+      .m2ls-38 {
+        font-size: 8px;
+      }
+
+      .m2ls-39 {
+        font-size: 24px;
+        font-family: FrankRuhlLibre-Regular, Frank Ruhl Libre;
+      }
+
+      .m2ls-40, .m2ls-48 {
+        font-size: 13px;
+      }
+
+      .m2ls-42 {
+        letter-spacing: -0.01em;
+      }
+
+      .m2ls-43 {
+        letter-spacing: -0.05em;
+      }
+
+      .m2ls-44 {
+        letter-spacing: 0em;
+      }
+
+      .m2ls-45 {
+        letter-spacing: -0.01em;
+      }
+
+      .m2ls-46 {
+        letter-spacing: -0.03em;
+      }
+
+      .m2ls-47 {
+        letter-spacing: 0em;
+      }
+
+      .m2ls-48 {
+        letter-spacing: 0em;
+      }
+
+      .m2ls-49 {
+        letter-spacing: -0.04em;
+      }
+
+      .m2ls-50 {
+        letter-spacing: -0.02em;
+      }
+/*circle packaging styles*/
+
+
+.m2ls-1 {
+    opacity: 0;
+   
+    pointer-events: none;
+
+    
+}
+
+
+.m2ls-1--Shown {
+
+    opacity:1;
+	
+    
+}
+.m2ls-2 {
+    opacity: 0;
+   
+    pointer-events: none;
+
+    
+}
+
+
+.m2ls-2--Shown {
+
+    opacity:1;
+	
+    
+}
+.m2ls-3 {
+    opacity: 0;
+   
+    pointer-events: none;
+
+    
+}
+
+
+.m2ls-3--Shown {
+
+    opacity:1;
+	
+    
+}
+ 
+
+
+.grid {
+    opacity: 0;
+   
+    pointer-events: none;
+
+    
+}
+
+
+.grid--Shown {
+
+    opacity:1;
+	
+    
+}
+.perstu {
+    opacity: 0;
+   
+    pointer-events: none;
+
+    
+}
+
+
+.perstu--Shown {
+
+    opacity:1;
+	
+    
+}
+.pernon {
+    opacity: 0;
+   
+    pointer-events: none;
+
+    
+}
+
+
+.pernon--Shown {
+
+    opacity:1;
+	
+    
+}
+.perave {
+    opacity: 0;
+   
+    pointer-events: none;
+
+    
+}
+
+
+.perave--Shown {
+
+    opacity:1;
+	
+    
+}
+
+
+     .cls-1, .cls-4 {
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-8 {
+        font-size: 9px;
+      }
+
+      .cls-1, .cls-4, .cls-8 {
+        font-family: FiraSans-Light, Fira Sans;
+      }
+
+      .cls-2 {
+        fill: #000001;
+      }
+
+      .cls-3 {
+        fill: #e45e27;
+      }
+
+      .cls-4 {
+        font-size: 10px;
+      }
+
+      .cls-5, .cls-6, .cls-7 {
+        fill: none;
+        stroke-linecap: round;
+      }
+
+      .cls-5 {
+        stroke: #000002;
+      }
+
+      .cls-5, .cls-6 {
+        stroke-linejoin: round;
+      }
+
+      .cls-6 {
+        stroke: #e45e27;
+      }
+
+      .cls-7 {
+        stroke: #565656;
+        stroke-miterlimit: 10;
+        stroke-width: 0.75px;
+      }
+
+      .cls-9 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-10 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-11 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+
+      .cls-13 {
+        fill: #000002;
+      }
+/*circle packaging styles*/
+
+.wdots {
+    cursor: pointer;
+	opacity: 1;
+}
+
+.wdots:hover {
+	
+	
+		width: 2.7%;
+	height: 4%;
+	
+}
+.wdots--Shown {
+		width: 2.7%;
+	height: 4%;
+}
+.wdots--Hide {
+	opacity: 0.4;
+}
+.bdots {
+    cursor: pointer;
+	opacity: 1;
+}
+
+.bdots:hover {
+
+	width: 2.7%;
+	height: 4%;
+	
+}
+.bdots--Shown {
+
+		width: 2.7%;
+	height: 4%;
+}
+.bdots--Hide {
+	opacity: 0.4;
+}
+.questions {
+    opacity: 0;
+   
+    pointer-events: none;
+
+    
+}
+
+.questions--Shown {
+ 
+    opacity:1;
+	
+    
+}
+
+
+   .u2ls-1 {
+        fill: #c6c6c6;
+      }
+
+      .u2ls-2, .u2ls-22, .u2ls-25 {
+        font-size: 12px;
+      }
+
+      .u2ls-2, .u2ls-22, .u2ls-6 {
+        fill: #1a1a1a;
+      }
+
+      .u2ls-19, .u2ls-2, .u2ls-20 {
+        font-family: FrankRuhlLibre-Regular, Frank Ruhl Libre;
+      }
+
+      .u2ls-3 {
+        letter-spacing: 0em;
+      }
+
+      .u2ls-4 {
+        letter-spacing: 0em;
+      }
+
+      .u2ls-5 {
+        letter-spacing: 0em;
+      }
+
+      .u2ls-6 {
+        font-size: 28.81px;
+        font-family: FiraSans-Regular, Fira Sans;
+      }
+
+      .u2ls-7 {
+        letter-spacing: 0.01em;
+      }
+
+      .u2ls-8 {
+        letter-spacing: -0.01em;
+      }
+
+      .u2ls-9 {
+        letter-spacing: 0em;
+      }
+
+      .u2ls-10 {
+        letter-spacing: -0.02em;
+      }
+
+      .u2ls-11 {
+        letter-spacing: -0.01em;
+      }
+
+      .u2ls-12 {
+        letter-spacing: 0em;
+      }
+
+      .u2ls-13 {
+        letter-spacing: 0em;
+      }
+
+      .u2ls-14 {
+        letter-spacing: -0.01em;
+      }
+
+      .u2ls-15 {
+        letter-spacing: 0em;
+      }
+
+      .u2ls-16 {
+        letter-spacing: 0em;
+      }
+
+      .u2ls-17 {
+        letter-spacing: 0em;
+      }
+
+      .u2ls-18 {
+        letter-spacing: 0em;
+      }
+
+      .u2ls-19 {
+        font-size: 28px;
+        letter-spacing: 0.03em;
+      }
+
+      .u2ls-20 {
+        font-size: 26px;
+      }
+
+      .u2ls-21 {
+        fill: #e3633a;
+        opacity: 0.61;
+      }
+
+      .u2ls-22, .u2ls-25 {
+        isolation: isolate;
+        font-family:'FiraSansM', Fira Sans;
+      }
+
+      .u2ls-23 {
+        letter-spacing: -0.02em;
+      }
+
+      .u2ls-24 {
+        letter-spacing: -0.01em;
+      }
+
+      .u2ls-26 {
+        letter-spacing: 0.01em;
+      }
+
+      .u2ls-27 {
+        letter-spacing: -0.08em;
+      }
+
+      .u2ls-28 {
+        letter-spacing: -0.01em;
+      }
+
+      .u2ls-29 {
+        letter-spacing: 0em;
+      }
+
+      .u2ls-30 {
+        letter-spacing: -0.02em;
+      }
+
+      .u2ls-31 {
+        letter-spacing: 0em;
+      }
+
+      .u2ls-32 {
+        letter-spacing: -0.02em;
+      }
+
+      .u2ls-33 {
+        letter-spacing: -0.01em;
+      }
+
+      .u2ls-34 {
+        letter-spacing: -0.01em;
+      }
+
+      .u2ls-35 {
+        letter-spacing: -0.01em;
+      }
+
+
+.u2ls-21  {
+    cursor: pointer;
+	opacity: .4;
+}
+
+.u2ls-21:hover {
+
+	opacity: 1;
+	
+}
+.u2ls-21--Shown {
+
+		opacity: 1;
+}
+.u2ls-21--Hide {
+	opacity: 0.4;
+}
+
+.u2ls-22  {
+    cursor: pointer;
+	opacity: .4;
+}
+
+.u2ls-22:hover {
+
+	opacity: 1;
+	
+}
+.u2ls-22--Shown {
+
+	opacity: 1;
+}
+.u2ls-22--Hide {
+	opacity: 0.4;
+}
+
+      .m3ls-1, .m3ls-2, .m3ls-8, .m3ls-9 {
+        fill: #f7f5f6;
+      }
+
+      .m3ls-2 {
+        font-size: 50px;
+        letter-spacing: -0.07em;
+      }
+
+      .m3ls-11, .m3ls-2, .m3ls-8, .m3ls-9 {
+        font-family: 'FrankRuhlLibreB', Frank Ruhl Libre;
+      }
+
+      .m3ls-11, .m3ls-3, .m3ls-4, .m3ls-5, .m3ls-6 {
+        fill: #1c1c1c;
+      }
+
+      .m3ls-3, .m3ls-7 {
+        letter-spacing: -0.07em;
+      }
+
+      .m3ls-4 {
+        letter-spacing: -0.09em;
+      }
+
+      .m3ls-5 {
+        letter-spacing: -0.11em;
+      }
+
+      .m3ls-8 {
+        font-size: 74px;
+        letter-spacing: 0.22em;
+      }
+
+      .m3ls-9 {
+        font-size: 71.85px;
+      }
+
+      .m3ls-10 {
+        fill: #f2562b;
+      }
+
+      .m3ls-11 {
+        font-size: 124.33px;
+      }
+
+      .m3ls-12 {
+        font-size: 12px;
+        fill: #f7f6f5;
+        font-family: FiraSans-Regular, Fira Sans;
+      }
+
+      .m3ls-13 {
+        fill: #c6c6c6;
+      }
+
+      .m3ls-13, .m3ls-15, .m3ls-16, .m3ls-17 {
+        opacity: 0.3;
+      }
+
+      .m3ls-14 {
+        fill: #b1b1b1;
+        opacity: 0.5;
+      }
+
+      .m3ls-15 {
+        fill: #a5a5a5;
+      }
+
+      .m3ls-16 {
+        fill: #8e8e8e;
+      }
+
+      .m3ls-17 {
+        fill: #6b6b6b;
+      }
+
+      .m3ls-18 {
+        letter-spacing: -0.02em;
+      }
+
+      .m3ls-19 {
+        letter-spacing: -0.01em;
+      }
+
+      .m3ls-20 {
+        letter-spacing: -0.02em;
+      }
+
+      .m3ls-21 {
+        letter-spacing: -0.08em;
+      }
+
+      .m3ls-22 {
+        letter-spacing: -0.12em;
+      }
+
+      .m3ls-23 {
+        letter-spacing: 0em;
+      }
+
+      .m3ls-24 {
+        letter-spacing: 0em;
+      }
+
+      .m3ls-25 {
+        letter-spacing: -0.01em;
+      }
+
+      .m3ls-26 {
+        letter-spacing: 0.01em;
+      }
+
+.headlines {
+	opacity: 0;
+}
+.headlines--Shown {
+	opacity: 1;
+}
+
+.hldata {
+	opacity: 0.3;
+}
+.hldata--Shown {
+	opacity: 1;
+}
+
+     .u4ls-1 {
+        fill: #f28252;
+      }
+
+      .u4ls-2 {
+        fill: #e3633a;
+      }
+
+      .u4ls-28, .u4ls-3, .u4ls-30, .u4ls-5, .u4ls-6, .u4ls-7 {
+        font-size: 12px;
+      }
+
+      .u4ls-3, .u4ls-5 {
+        fill: #1a1a1a;
+      }
+
+      .u4ls-3, .u4ls-5, .u4ls-6, .u4ls-7 {
+        font-family: FrankRuhlLibre-Medium, Frank Ruhl Libre;
+      }
+
+      .u4ls-29, .u4ls-3, .u4ls-7 {
+        letter-spacing: 0em;
+      }
+
+      .u4ls-4, .u4ls-8 {
+        font-size: 11px;
+      }
+
+      .u4ls-4 {
+        letter-spacing: 0em;
+      }
+
+      .u4ls-30, .u4ls-35, .u4ls-5, .u4ls-6 {
+        letter-spacing: 0em;
+      }
+
+      .u4ls-6, .u4ls-7 {
+        fill: #f7f5f4;
+      }
+
+      .u4ls-8 {
+        letter-spacing: 0em;
+      }
+
+      .u4ls-24, .u4ls-9 {
+        font-size: 14px;
+        font-family: FiraSans-Regular, Fira Sans;
+      }
+
+      .u4ls-24, .u4ls-28, .u4ls-30, .u4ls-9 {
+        fill: #595959;
+      }
+
+      .u4ls-10, .u4ls-24 {
+        letter-spacing: 0em;
+      }
+
+      .u4ls-11 {
+        letter-spacing: 0.01em;
+      }
+
+      .u4ls-12 {
+        letter-spacing: -0.01em;
+      }
+
+      .u4ls-13 {
+        letter-spacing: 0em;
+      }
+
+      .u4ls-14 {
+        letter-spacing: 0.01em;
+      }
+
+      .u4ls-15 {
+        letter-spacing: -0.01em;
+      }
+
+      .u4ls-16 {
+        letter-spacing: 0.01em;
+      }
+
+      .u4ls-17 {
+        letter-spacing: -0.01em;
+      }
+
+      .u4ls-18 {
+        letter-spacing: 0.01em;
+      }
+
+      .u4ls-19 {
+        letter-spacing: 0em;
+      }
+
+      .u4ls-20 {
+        letter-spacing: 0.01em;
+      }
+
+      .u4ls-21 {
+        letter-spacing: -0.01em;
+      }
+
+      .u4ls-22 {
+        letter-spacing: 0.01em;
+      }
+
+      .u4ls-23 {
+        letter-spacing: 0.01em;
+      }
+
+      .u4ls-25 {
+        letter-spacing: 0.02em;
+      }
+
+      .u4ls-26 {
+        letter-spacing: 0em;
+      }
+
+      .u4ls-27 {
+        fill: none;
+        stroke: #d9d9d9;
+        stroke-linejoin: round;
+        stroke-width: 0.75px;
+      }
+
+      .u4ls-28, .u4ls-30 {
+        font-family: FrankRuhlLibre-Regular, Frank Ruhl Libre;
+      }
+
+      .u4ls-31 {
+        letter-spacing: 0em;
+      }
+
+      .u4ls-32 {
+        letter-spacing: 0em;
+      }
+
+      .u4ls-33 {
+        letter-spacing: 0em;
+      }
+
+      .u4ls-34 {
+        letter-spacing: 0em;
+      }
+
+.rombs{
+	opacity: 0.3;
+	cursor: pointer;
+}
+.rombs--Shown {
+	opacity: 1;
+}
+.pers{
+	opacity: 0;
+	pointer-events: none;
+}
+.pers--Shown {
+	opacity: 1;
+	pointer-events: none;	
+}
+
+
+
+      .dls-1, .dls-27, .dls-3, .dls-30, .dls-6, .dls-8 {
+        font-size: 10px;
+      }
+
+      .dls-1, .dls-3, .dls-6, .dls-8 {
+        fill: #f7f4f3;
+      }
+
+      .dls-1, .dls-27, .dls-3, .dls-6, .dls-64, .dls-8 {
+        font-family: FiraSans-Light, Fira Sans;
+      }
+
+      .dls-2 {
+        letter-spacing: -0.02em;
+      }
+
+      .dls-3 {
+        letter-spacing: 0.01em;
+      }
+
+      .dls-4 {
+        letter-spacing: 0.02em;
+      }
+
+      .dls-5, .dls-8 {
+        letter-spacing: -0.01em;
+      }
+
+      .dls-6 {
+        letter-spacing: -0.01em;
+      }
+
+      .dls-7 {
+        letter-spacing: 0em;
+      }
+
+      .dls-9 {
+        letter-spacing: 0em;
+      }
+
+      .dls-10 {
+        letter-spacing: -0.01em;
+      }
+
+      .dls-11 {
+        letter-spacing: -0.06em;
+      }
+
+      .dls-12 {
+        letter-spacing: -0.01em;
+      }
+
+      .dls-13 {
+        letter-spacing: -0.03em;
+      }
+
+      .dls-14 {
+        letter-spacing: -0.01em;
+      }
+
+      .dls-15 {
+        letter-spacing: 0em;
+      }
+
+      .dls-16 {
+        letter-spacing: -0.03em;
+      }
+
+      .dls-17 {
+        letter-spacing: -0.02em;
+      }
+
+      .dls-18 {
+        letter-spacing: -0.03em;
+      }
+
+      .dls-19 {
+        letter-spacing: -0.03em;
+      }
+
+      .dls-20 {
+        letter-spacing: -0.02em;
+      }
+
+      .dls-21 {
+        letter-spacing: -0.01em;
+      }
+
+      .dls-22, .dls-56 {
+        font-size: 12px;
+      }
+
+      .dls-22 {
+        fill: #f7f5f4;
+      }
+
+      .dls-22, .dls-63, .dls-75 {
+        font-family: FiraSans-Regular, Fira Sans;
+      }
+
+      .dls-23 {
+        letter-spacing: 0em;
+      }
+
+      .dls-24 {
+        letter-spacing: 0em;
+      }
+
+      .dls-25 {
+        letter-spacing: -0.02em;
+      }
+
+      .dls-26 {
+        letter-spacing: -0.01em;
+      }
+
+      .dls-28 {
+        letter-spacing: 0em;
+      }
+
+      .dls-29, .dls-55, .dls-77, .dls-83 {
+        fill: #1c1c1c;
+      }
+
+      .dls-29 {
+        stroke: #f6f3f5;
+      }
+
+      .dls-29, .dls-31, .dls-34, .dls-35, .dls-36, .dls-37, .dls-38, .dls-39, .dls-40, .dls-41, .dls-42, .dls-51, .dls-52, .dls-53, .dls-54, .dls-55, .dls-62, .dls-77, .dls-83, .dls-88, .dls-89 {
+        stroke-miterlimit: 10;
+      }
+
+      .dls-29, .dls-62 {
+        stroke-width: 0.75px;
+      }
+
+      .dls-30 {
+        fill: #f7f5f6;
+      }
+
+      .dls-30, .dls-56 {
+        font-family: FrankRuhlLibre-Regular, Frank Ruhl Libre;
+      }
+
+      .dls-31, .dls-34, .dls-35, .dls-36, .dls-37, .dls-38, .dls-39, .dls-40, .dls-41, .dls-42 {
+        fill: none;
+      }
+
+      .dls-31, .dls-34 {
+        stroke: #f7f5f6;
+      }
+
+      .dls-31, .dls-55 {
+        stroke-width: 0.5px;
+      }
+
+      .dls-32 {
+        letter-spacing: -0.02em;
+      }
+
+      .dls-33 {
+        letter-spacing: -0.02em;
+      }
+
+      .dls-34 {
+        stroke-width: 0.6px;
+      }
+
+      .dls-35, .dls-36, .dls-37, .dls-38, .dls-39, .dls-40, .dls-41, .dls-42, .dls-55, .dls-77, .dls-83 {
+        stroke: #f7f4f3;
+      }
+
+      .dls-35, .dls-36, .dls-37, .dls-38, .dls-39, .dls-40, .dls-41, .dls-42 {
+        stroke-linecap: round;
+      }
+
+      .dls-35, .dls-36 {
+        stroke-width: 0.48px;
+      }
+
+      .dls-36 {
+        stroke-dasharray: 0.48 3.82;
+      }
+
+      .dls-37, .dls-38 {
+        stroke-width: 0.47px;
+      }
+
+      .dls-38 {
+        stroke-dasharray: 0.47 3.75;
+      }
+
+      .dls-39, .dls-40 {
+        stroke-width: 0.47px;
+      }
+
+      .dls-40 {
+        stroke-dasharray: 0.47 3.75;
+      }
+
+      .dls-41, .dls-42 {
+        stroke-width: 0.46px;
+      }
+
+      .dls-42 {
+        stroke-dasharray: 0.46 3.67;
+      }
+
+      .dls-43 {
+        letter-spacing: -0.01em;
+      }
+
+      .dls-44 {
+        letter-spacing: -0.02em;
+      }
+
+      .dls-45 {
+        letter-spacing: 0em;
+      }
+
+      .dls-46 {
+        letter-spacing: -0.01em;
+      }
+
+      .dls-47 {
+        letter-spacing: 0em;
+      }
+
+      .dls-48 {
+        letter-spacing: 0em;
+      }
+
+      .dls-49 {
+        letter-spacing: -0.01em;
+      }
+
+      .dls-50 {
+        letter-spacing: -0.01em;
+      }
+
+      .dls-51, .dls-53 {
+        fill: #ffce00;
+      }
+
+      .dls-51, .dls-52, .dls-53, .dls-54, .dls-62, .dls-88, .dls-89 {
+        stroke: #f7f4f6;
+      }
+
+      .dls-51, .dls-52 {
+        stroke-width: 0.19px;
+      }
+
+      .dls-51, .dls-52, .dls-53, .dls-54 {
+        opacity: 0.3;
+      }
+
+      .dls-52, .dls-54, .dls-63, .dls-75 {
+        fill: #e9572f;
+      }
+
+      .dls-53, .dls-54, .dls-88, .dls-89 {
+        stroke-width: 0.25px;
+      }
+
+      .dls-56, .dls-62 {
+        fill: #fff;
+      }
+
+      .dls-57 {
+        letter-spacing: -0.03em;
+      }
+
+      .dls-58 {
+        letter-spacing: 0.03em;
+      }
+
+      .dls-59 {
+        letter-spacing: -0.04em;
+      }
+
+      .dls-60 {
+        font-size: 11px;
+      }
+
+      .dls-60, .dls-66 {
+        font-family: FrankRuhlLibre-Light, Frank Ruhl Libre;
+      }
+
+      .dls-61 {
+        letter-spacing: -0.03em;
+      }
+
+      .dls-63, .dls-76 {
+        font-size: 27px;
+      }
+
+      .dls-64 {
+        font-size: 14px;
+      }
+
+      .dls-65 {
+        letter-spacing: -0.04em;
+      }
+
+      .dls-67 {
+        letter-spacing: -0.06em;
+      }
+
+      .dls-68 {
+        letter-spacing: -0.07em;
+      }
+
+      .dls-69 {
+        letter-spacing: -0.01em;
+      }
+
+      .dls-70 {
+        letter-spacing: -0.06em;
+      }
+
+      .dls-71 {
+        letter-spacing: -0.02em;
+      }
+
+      .dls-72 {
+        letter-spacing: -0.12em;
+      }
+
+      .dls-73 {
+        letter-spacing: -0.05em;
+      }
+
+      .dls-74 {
+        letter-spacing: -0.06em;
+      }
+
+      .dls-75 {
+        font-size: 20px;
+      }
+
+      .dls-77 {
+        stroke-width: 0.48px;
+      }
+
+      .dls-78 {
+        letter-spacing: -0.04em;
+      }
+
+      .dls-79 {
+        letter-spacing: 0.02em;
+      }
+
+      .dls-80 {
+        letter-spacing: -0.09em;
+      }
+
+      .dls-81 {
+        letter-spacing: -0.09em;
+      }
+
+      .dls-82 {
+        letter-spacing: -0.03em;
+      }
+
+      .dls-83 {
+        stroke-width: 0.45px;
+      }
+
+      .dls-84 {
+        letter-spacing: -0.04em;
+      }
+
+      .dls-85 {
+        letter-spacing: -0.06em;
+      }
+
+      .dls-86 {
+        letter-spacing: -0.02em;
+      }
+
+      .dls-87 {
+        letter-spacing: -0.05em;
+      }
+
+      .dls-88 {
+        fill: #69bf97;
+        opacity: 0.4;
+      }
+
+      .dls-89 {
+        fill: #6983bf;
+        opacity: 0.17;
+      }
+
+
+.najbolji{
+	display: none;
+}
+.najbolji--Shown{
+	display: block;
+}
+
+.najboljil{
+	display: none;
+}
+.najboljil--Shown{
+	display: block;;
+}
+
+.visemanje{
+	display: none;
+}
+.visemanje--Shown{
+	display: block;
+}
+
+.visemanjel{
+		display: none;
+}
+.visemanjel--Shown{
+	display: block;
+}
+
+.totalni{
+		display: none;
+}
+.totalni--Shown{
+	display: block;
+}
+.naj1{
+	opacity: .3;
+}
+.naj1--Shown{
+	opacity: .7;
+}
+}
+.naj1--Hide {
+	opacity: .1;
+}
+.vm1{
+	opacity: .3;
+}
+.vm1--Shown{
+	opacity: .7;
+}
+.vm1--Hide {
+	opacity: .1;
+}
