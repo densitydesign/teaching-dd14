@@ -346,7 +346,12 @@
 
     .project__cover,
     .project__cover:first-child {
+        grid-column: span 4;
         margin-left: var(--grid-unit);
+    }
+
+    .project__cover:nth-child(2) {
+        grid-column: span 4;
     }
 
     .project__image {

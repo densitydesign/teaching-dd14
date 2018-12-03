@@ -119,4 +119,8 @@
     .project__cover {
         margin-left: calc(var(--grid-unit) * 2);
     }
+    
+    .project__cover:nth-child(2) {
+        grid-column: span 5;
+    }
 }

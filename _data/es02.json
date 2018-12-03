@@ -6,91 +6,81 @@
             group: "group01",
             members: "Giuliano Mozzillo, Jacopo Perico, Noemi Schiavi, Amarildo Shelna, Daniele Zanetti, Shan Zhu, Alice Ziantoni",
             theme: "Hate speech",
-            title: "Ordinary Sexism",
-            excerpt: "The intent of this artifact is to highlight different forms of ordinary sexism. The aim of the website is not just to show the different types of violence but also to point out who are the major perpetrators and the psychological consequences that these types of harassment have on women.",
-            cover_website: "/cover/web-cover.jpg",
-            cover_lettura: "/cover/lettura.jpg"
+            title: "Do we still need Feminism?",
+            excerpt: "Anyone has an opinion over what feminism is and do anything using the name of it. Today being a feminist is a choice, anyone can call themselves a feminist, and can do rallies or give opinions or demand in the name of feminism. But what is feminism? What is the debate growing around it?",
+            cover_website: "/assets/images/covers/cover.gif"
         },
         {
             group: "group02",
             members: "Bao Yifang, Cao Jiaxing, Chen Yi, Li Shangshu, Niu Yijiang, Tang Yaqiao, Wang Ning",
             theme: "Datafication",
-            title: "Above the cloud",
-            excerpt: "In 2017, there were approximately 8 million data centers around the world. They required an astronomical 416.2 terawatt-hours of electricity. That’s 2 percent of total global use, and it’s expected to reach an unprecedented 5 percent of global electricity consumption by 2020.",
-            cover_website: "/cover/web-cover.jpg",
-            cover_lettura: "/cover/lettura.jpg"
+            title: "Exploring Data Center Energy",
+            excerpt: "Can public accurately, objectively and comprehensively understand the current status of the rapidly developing data industry? We try to represent the whole picture of the data center panorama in the virtual world.",
+            cover_website: "/cover/web-cover.jpg"
         },
         {
             group: "group03",
             members: "Francesca Calloni, Qixuan Chen, Lucia Di Terlizzi, Yuke Lei, Bin Wu, Axia Zucchi",
             theme: "Food economics",
-            title: "Avomania",
-            excerpt: "Avocado is the one of the hottest health food out there right now. Put that green mush on a plate and you’ve got an Instagram-worthy dish and (apparently) a healthy meal. But there’s something you should know: the planet is not meant to grow this many avocados.",
-            cover_website: "/cover/web-cover.jpg",
-            cover_lettura: "/cover/lettura.jpg"
+            title: "The Dark Side of Avocado",
+            excerpt: "The dark side of avocado is something usually hidden in the weaves of big flows of trade. How much do we know about the impact that intensive farming has both on soil and local producers?",
+            cover_website: "/cover/web-cover.jpg"
         },
         {
             group: "group04",
             members: "Sara Dalla Rosa, Mariachiara Manelli, Alessia Musio, Erica Pellegatta, Camilla Pilotto, Yi Wang",
             theme: "Datafication",
-            title: "Data future?",
-            excerpt: "In this world of big data, companies are able to create entirely new business models, based on people’s information. Let’s explore this huge controversial topic by starting with explaining the relationship among the three main actors in this field: people, companies and governments.",
-            cover_website: "/cover/web-cover.jpg",
-            cover_lettura: "/cover/lettura.jpg"
+            title: "SCS_ Breathing scores?",
+            excerpt: "In this new digital era, every people’s action contributes to the creation of big data. Three major actors plays within the exchange of data to have services in return: people, companies and governments. Will they be able to work together to build a world based on data trading?",
+            cover_website: "/cover/web-cover.jpg"
         },
         {
             group: "group05",
             members: "Davide Armani, Matteo Banal, Kacper Bierylo, Gabriele Wiedenmann, Luka Zelenovic, Ulkar Zeynalli",
             theme: "Addiction",
-            title: "Dope your grades",
-            excerpt: "In the last years, the use of prescription drugs has grown among college students in the US. These drugs are primarily used to treat ADHD, narcolepsy and sleep apnea. From 2009 until 2017 there has been an increase in non-medical usage of stimulants by full-time college students.",
-            cover_website: "/cover/web-cover.jpg",
-            cover_lettura: "/cover/lettura.jpg"
+            title: "Prescribe me an A+",
+            excerpt: "The misuse of stimulants is a growing problem on campus. Some students feel like everyone they know is using study drugs. The focus of this research is the perception of these drugs by the major groups, which are public newspapers, students, Universities and the advertising world.",
+            cover_website: "/cover/web-cover.jpg"
         },
         {
             group: "group06",
             members: "Luisa Cadelli, Yixiao Cai, Eleonora Cappuccio, Francesca Grignani, Paolo Vernocchi, Carlotta Xiao",
             theme: "Addiction",
-            title: "It may have some side effects",
-            excerpt: "Today in the US the consumption and diffusion of opioids pain-relievers are alarmingly high. Those medications are still prescribed to treat not just cancer patients but to cure different kinds of chronic pain from severe to moderate.",
-            cover_website: "/cover/web-cover.jpg",
-            cover_lettura: "/cover/lettura.jpg"
+            title: "Opiate of the masses",
+            excerpt: "It’s called ‘opioid epidemic’ but how much people are actually aware of it and its dangerousness? Affecting the U.S population for about 20 years now, the problem is getting more and more attention, not only by governmental agencies or health institutions but also by people.",
+            cover_website: "/cover/web-cover.jpg"
         },
         {
             group: "group07",
             members: "Alessandra Facchin, Alessandro Ferrari, Jingjing Gui, Paula Lozano, Nicolò Marchetti, Valeria Quiroga",
             theme: "Climate change",
-            title: "Troubled waters",
-            excerpt: "If there is an area where we feel the most the impact of climate change, it’s water. In a warming world, the fight for water can push nations apart, as the fragile hydropolitical balance is disrupted by scarcity.",
-            cover_website: "/cover/web-cover.jpg",
-            cover_lettura: "/cover/lettura.jpg"
+            title: "The Amazon's Damnation",
+            excerpt: "The Belo Monte dam complex in Brazil has flared up local and international opposition since its inception in the mid Seventies, and still remains highly contested after almost fourty years. Is a country’s prosperity worth the environmental toll caused by the impacts of mega-dams?",
+            cover_website: "/cover/web-cover.jpg"
         },
         {
             group: "group08",
             members: "Lorenzo Angè, Alberto Argento, Giacomo Bevacqua, Andrea Lai, Alessia Parrulli, Seyedsajad Kasaee, Ahmad Zakerialhoseini",
             theme: "Migration",
-            title: "A World Beyond",
-            excerpt: "This webpage aims to explore the current scenario, where collaborations between private companies and national agencies are turning space operations into an unprecedented scientific and economic model. Will this new space game might be able to push humans further than ever?",
-            cover_website: "/cover/web-cover.jpg",
-            cover_lettura: "/cover/lettura.jpg"
+            title: "Feet on the stars, eyes on the ground",
+            excerpt: "Within many contemporary controversial debates, we wanted to focus our attention on the growing interest about the future of human space exploration. Nowadays, we can observe how serious and intricates disputes, such as Climate Change, take into account the possibility for human mass migration to other planets.",
+            cover_website: "/cover/web-cover.jpg"
         },
         {
             group: "group09",
             members: "Nicola Brignoli, Francesca Brotto, Lea Mara Fabiano, Elena Filippi, Edoardo Guido, Jacopo Poletto",
             theme: "Hate speech",
-            title: "404 Hate non found",
-            excerpt: "Free speech is one of the most important humans rights but it has a difficult equilibrium when people want to contain and prevent hate. Indeed, hate speech cannot be easily defined, but it expresses loathing and intolerance: the consequences can range from mere bullying to actual violent events.",
-            cover_website: "/cover/web-cover.jpg",
-            cover_lettura: "/cover/lettura.jpg"
+            title: "Hate Shades",
+            excerpt: "We tried to follow a possible path that a user could take in order to get information and form an opinion about hate speech, trying to map the controversial debate that the Hate Speech term generates: is it filtering or censorship?",
+            cover_website: "/cover/web-cover.jpg"
         },
         {
             group: "group10",
             members: "Chen Wen, Chung Wuikang, Huang Yuping, Hu Xun, Qian Yujie, Yang Shiqi",
             theme: "Migration",
-            title: "Migration of Malaysian Chinese",
-            excerpt: "The ethnical separated community, in daily life, education, employment, and the sense of discrimination in political representation result in the gradual lose of the people may very well lead to the loss of the country's incredible diversity, one of many things that makes Malaysia so unique.",
-            cover_website: "/cover/web-cover.jpg",
-            cover_lettura: "/cover/lettura.jpg"
+            title: "Malaysian Chinese citizens in the cyberworld",
+            excerpt: "We want to understand when people refer to Malaysian Chinese in different language fields in the cyber world, what are they talking about? What are the most interesting topics? In which fields they are being discussed more? Who is talking about them?",
+            cover_website: "/cover/web-cover.jpg"
         }
     ]
 }

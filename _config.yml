@@ -18,3 +18,5 @@ defaults:
 
 sass:
     style: compressed
+
+exclude: ["es02"]

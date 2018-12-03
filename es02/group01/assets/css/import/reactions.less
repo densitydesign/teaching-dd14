@@ -1,0 +1,270 @@
+#reaction {
+    background: @dark;
+    padding: 0px 0 50px;
+    position: relative;
+    overflow: hidden;
+
+
+    #howto {
+        padding-top: 25px;
+    }
+
+    #howto2 {
+        img {
+            height: 25px;
+            width: auto;
+        }
+    }
+
+    #overlay {
+        background: @dark;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        pointer-events: none;
+        opacity: 0;
+        width: 100vw;
+        height: auto;
+        display: block;
+
+        &.is-visible {
+            pointer-events: all;
+        }
+    }
+
+    #sidebar {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: fade(@light, 60);
+        opacity: 0;
+        transition: opacity @ease;
+        pointer-events: none;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+
+
+
+
+        .video {
+            z-index: 10000000000000;
+            position: relative;
+            width: 50vw;
+            background: @dark;
+            box-shadow: 0px 0px 50px @dark;
+
+            transform: translateY(10vh);
+            transition: transform @ease;
+
+            .container {
+                padding: 25px 50px;
+                width: auto;
+                margin: auto;
+                box-sizing: border-box;
+            }
+
+            &_header {
+                width: 100%;
+                display: flex;
+                align-content: center;
+                align-items: center;
+                justify-content: space-between;
+                padding-top: 10px;
+            }
+
+            &_all {
+                width: 100px;
+            }
+
+            &_title {
+                font-size: 26px;
+                color: @white;
+            }
+
+            &_orientation {
+                font-size: 18px;
+                text-transform: uppercase;
+
+
+                &.antifeminist {
+                    color: #4A74FF;
+                }
+
+                &.feminist {
+                    color: #FF3502;
+                }
+
+                &.neutral {
+                    color: #F2D51C;
+                }
+
+            }
+
+            &_reaction {
+                display: flex;
+                align-content: center;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+
+
+
+                .like,
+                .dislike {
+                    height: 2px;
+                    width: 50%;
+
+                }
+
+                .like {
+                    background: #30D840;
+                }
+
+                .dislike {
+                    background: @primary;
+                }
+            }
+
+            &_percentage {
+                display: flex;
+                align-content: center;
+                align-items: center;
+
+                justify-content: space-between;
+
+                .like {
+                    color: #30D840;
+                }
+
+                .dislike {
+                    color: @primary;
+                }
+
+            }
+
+
+
+            &_views {
+                color: @light;
+                font-size: 18px;
+
+            }
+
+            &_iframe {
+                position: relative;
+                width: 100%;
+                height: 0;
+                padding-bottom: 60%;
+
+                iframe {
+                    width: 100%;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    left: 0;
+                    top: 0;
+                }
+            }
+
+
+
+        }
+
+        &.is-visible {
+            opacity: 1;
+            pointer-events: all;
+
+
+            .video {
+                transform: translate(0);
+            }
+
+        }
+
+    }
+
+
+    .header {
+        color: @white;
+        padding: 50px 0 25px 0;
+        display: flex;
+        align-content: space-between;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid @white;
+
+        h1 {
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: normal;
+            padding-top: 10px;
+        }
+    }
+
+
+    &-viz {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+
+        svg {
+            margin: auto;
+
+            .axis-label {
+                fill: @white;
+            }
+
+
+            .y {
+                .tick {
+                    stroke-dasharray: 1 5
+                }
+            }
+
+
+            circle {
+                transition: opacity @ease;
+                cursor: pointer;
+            }
+
+            .point {
+                pointer-events: none;
+            }
+
+            .tick {
+                pointer-events: none;
+
+                line {
+                    stroke: @light;
+
+                }
+
+                text {
+                    fill: @white;
+                }
+
+            }
+
+            .domain {
+                stroke-width: 0;
+
+            }
+
+
+            .background {
+                fill: @dark;
+            }
+
+        }
+    }
+
+
+
+}

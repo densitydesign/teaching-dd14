@@ -63,7 +63,7 @@ layout: default
                         <span>{{ project.members }}</span>
                     </div>
                 </div>
-                <div class="project__images">
+                <div class="project__images {% if page.phase != 'es01' %}column--single{% endif %}">
                         <div class="project__cover">
                             <a href="{{ path | relative_url }}" target="_blank">
                                 <div class="project__image" style="background-image: url({{ project.cover_website | prepend: path | relative_url }})">
@@ -73,6 +73,7 @@ layout: default
                                 </div>
                             </a>
                         </div>
+                        {% if page.phase == 'es01' %}
                         <div class="project__cover">
                             <a href="{{ project.cover_lettura | prepend: path | remove: '/cover' | replace: '.jpg', '.pdf' | relative_url }}" target="_blank">
                                 <div class="project__image" style="background-image: url({{ project.cover_lettura | prepend: path | relative_url }})">
@@ -82,6 +83,7 @@ layout: default
                                 </div>
                             </a>
                         </div>
+                        {% endif %}
                 </div>
             </div>
         {% endfor %}
