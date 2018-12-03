@@ -46,7 +46,7 @@ $(document).ready(function () {
     }
     ///////////////// desktop
     else {
-        //alert('desktop'); 
+        //alert('desktop');
         $('#fullpage').fullpage({
             autoScrolling: true, //scroll
             scrollingSpeed: 700, //scrollinspeed
@@ -83,8 +83,8 @@ $(document).ready(function () {
     var counter = 1;
 
     $(window).mousemove(function () {
-        var images = "url(css/wave" + counter + ".png)";
-        console.log(images);
+        var images = "url(./css/wave" + counter + ".png)";
+        // console.log(images);
 
         $('#one').css({
             "background-image": images
@@ -217,46 +217,31 @@ function removeConflicts() {
 /*///////////////////////////GRAFICO FINALE//////////////////////////////*/
 let left = document.getElementById("viz-contour-aa");
 let right = document.getElementById("viz-contour-bb");
-let tre = document.getElementById("trend");
 let sourceA = document.getElementById("source-aa");
 let sourceB = document.getElementById("source-bb");
 let titleA = document.getElementById("title-aa");
 let titleB = document.getElementById("title-bb");
 
 function toggleGraphA() {
-    tre.classList.add("is-hidden");
     left.classList.remove("is-hidden");
     right.classList.remove("is-hidden");
     sourceA.innerHTML = "Source: ACQUASTAT, October 2018";
     sourceB.innerHTML = "Source: ACQUASTAT, October 2018";
     titleA.innerHTML = "People Without Access to Freshwater Distribution";
     titleB.innerHTML = "Water Stress Distribution";
-    left.src = "assets/contour_1.png";
-    right.src = "assets/contour_2.png";
+    left.src = "assets/scatter_no_access.png";
+    right.src = "assets/scatter_stress.png";
 };
 
 function toggleGraphB() {
-    tre.classList.add("is-hidden");
     left.classList.remove("is-hidden");
     right.classList.remove("is-hidden");
     sourceA.innerHTML = "Source: ACQUASTAT, October 2018";
     sourceB.innerHTML = "Source: UNEP/GEF, October 2018";
-    titleA.innerHTML = "Flood Occurrency Distribution";
-    titleB.innerHTML = "Drought Incidence Distribution";
-    left.src = "assets/contour_3.png";
-    right.src = "assets/contour_4.png";
-};
-
-function toggleGraphC() {
-    console.log(tre);
-    left.classList.add("is-hidden");
-    right.classList.add("is-hidden");
-    tre.classList.remove("is-hidden");
-    sourceA.innerHTML = "";
-    sourceB.innerHTML = "";
-    titleA.innerHTML = "";
-    titleB.innerHTML = "";
-    return;
+    titleA.innerHTML = "Flood Occurrency";
+    titleB.innerHTML = "Drought Risk";
+    left.src = "assets/scatter_floods.png";
+    right.src = "assets/scatter_droughts.png";
 };
 
 //ALLUVIAL

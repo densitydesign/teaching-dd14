@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title></title>
+
+    <meta name="author" content="DensityDesign Research Lab">
+    <meta name="description" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="http://localhost:4000/es01/group07/js/fullPage.js-master/lang/spanish/parallax-extension.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:site_name" content="DensityDesign F.S.D.S 2018/2019">
+    <meta name="twitter:image:alt" content="">
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/images/favicons/favicon-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/favicons/favicon-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/images/favicons/favicon-72.png">
+    <link rel="apple-touch-icon-precomposed" href="/assets/images/favicons/favicon-57.png">
+    <link rel="shortcut icon" href="/assets/images/favicons/favicon-32.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Bitter:400,400i|Muli:400,900" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+    <p><img src="https://cloud.githubusercontent.com/assets/1706326/23580315/f28edab4-00f6-11e7-90f9-81ffafd77b0e.gif" alt="" /></p>
+
+<p>Lee <a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/spanish#uso-de-extensiones">como usar Extensiones</a> antes de usar la opción de parallax.</p>
+<ul>
+  <li><a href="http://alvarotrigo.com/fullPage/extensions/parallax.html">Ejemplo online</a></li>
+  <li><a href="#estructura-html-necesaria">Estructura HTML necesaria</a></li>
+  <li><a href="#a%C3%B1adiendo-la-imagen-de-fondo">Añadiendo la imagen de fondo</a></li>
+  <li><a href="#opciones">Opciones</a>
+    <ul>
+      <li><a href="#opciones-del-efecto-parallax">Opciones del efecto parallax</a></li>
+    </ul>
+  </li>
+  <li><a href="#m%C3%A9todos">Métodos</a></li>
+</ul>
+
+<h2 id="estructura-html-necesaria">Estructura HTML necesaria</h2>
+<p>Para usar el efecto de parallax en secciones o diapositivas, tendremos que añadir un nuevo elemento que use la clase <code class="highlighter-rouge">fp-bg</code>. Será un elemento <code class="highlighter-rouge">div</code> vacío que situaremos como primer elemento debajo de la sección o diapositiva a la que pertenece.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"fp-bg"</span><span class="nt">&gt;&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<p>Sobre éste elemento tendremos que aplicar la imagen de fondo, en lugar de hacerlo diréctamente sobre la sección o las diapositivas a las que pertenece.</p>
+
+<p>Por ejemplo:</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"fullpage"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"section"</span> <span class="na">id=</span><span class="s">"section1"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"fp-bg"</span><span class="nt">&gt;&lt;/div&gt;</span>
+        Diapositiva 1.1
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"section"</span> <span class="na">id=</span><span class="s">"section2"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"slide"</span> <span class="na">id=</span><span class="s">"slide2-1"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"fp-bg"</span><span class="nt">&gt;&lt;/div&gt;</span>
+            Diapositiva 2.1
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"slide"</span> <span class="na">id=</span><span class="s">"slide2-2"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"fp-bg"</span><span class="nt">&gt;&lt;/div&gt;</span>
+            Diapositiva 2.2
+        <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<p>Podrás observar esta misma estructura en el código fuente del <a href="http://alvarotrigo.com/fullPage/extensions/parallax.html">ejemplo de parallax</a>.</p>
+
+<blockquote>
+  <p>Si por alguna razón no quieres añadir un nuevo elemento fp-bg en la estructura de la página, puedes usar la opción <code class="highlighter-rouge">property</code> dentro de <code class="highlighter-rouge">parallaxOptions</code> y definir su valor a <code class="highlighter-rouge">background</code>. De este modo podrás aplicar el fondo directamente sobre la sección o diapositiva.
+Como se explicará luego en la sección de Opciones del efecto parallax, solamente recomiendo hacer ésto si es realmente necesario, pues el rendimiento no será el mismo que cuando se usa el elemento <code class="highlighter-rouge">fp-bg</code>.</p>
+</blockquote>
+
+<p><br /></p>
+
+<h2 id="añadiendo-la-imagen-de-fondo">Añadiendo la imagen de fondo</h2>
+<p>El fondo debe aplicarse directamente sobre el elemento <code class="highlighter-rouge">fp-bg</code> del mismo modo que lo harías en una sección o diapositiva.
+Puedes usar CSS para ello o bien usar estilos inline a través del atributo <code class="highlighter-rouge">style</code>.</p>
+
+<p>Por ejemplo:</p>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">#section1</span> <span class="nc">.fp-bg</span><span class="p">{</span>
+    <span class="nl">background-image</span><span class="p">:</span> <span class="sx">url('imgs/alvaro-genious.jpg')</span><span class="p">;</span>
+    <span class="nl">background-size</span><span class="p">:</span> <span class="n">cover</span><span class="p">;</span>
+    <span class="nl">background-position</span><span class="p">:</span> <span class="nb">center</span> <span class="m">80%</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="opciones">Opciones</h2>
+
+<p>| Opción  | Descripción |
+| ————- | ————- |
+| <strong>parallax</strong>  | (por defecto <code class="highlighter-rouge">false</code>). <a href="http://alvarotrigo.com/fullPage/extensions/">Extension of fullPage.js</a>. Determina si usar el efecto de parallax en secciones y diapositivas.  |
+| <strong>parallaxOptions:</strong>   | (por defecto: <code class="highlighter-rouge">{ type: 'reveal', percentage: 62, property: 'translate'}</code>). Permite configurar los parámetros para el efecto de parallax cuando se usa la opción <code class="highlighter-rouge">parallax: true</code>.     |
+<br /></p>
+
+<h3 id="opciones-del-efecto-parallax">Opciones del efecto parallax</h3>
+<p>Puedes verlas en acción en <a href="http://alvarotrigo.com/fullPage/extensions/parallax.html">la página de ejemplo</a>.</p>
+
+<p>Descripción de las opciones de configuración disponibles en la opción <code class="highlighter-rouge">parallaxOptions</code>:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>parallaxOptions</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>type</strong></td>
+      <td>(por defecto <code class="highlighter-rouge">reveal</code>) Los posibles valores para esta opción son <code class="highlighter-rouge">cover</code> y <code class="highlighter-rouge">reveal</code>. Permiten escoger el modo en el que se superponen las secciones o diapositivas determinando si la sección/diapositiva actual estará encima o debajo de la de destino. Cuando se usa la opción <code class="highlighter-rouge">cover</code> la sección/diapositiva destino aparecerá cubriendo parte de la sección/diapositiva actual. Si se usa <code class="highlighter-rouge">reveal</code> el efecto será el contrario y se cubrirá parte de la sección/diapositiva de destino mientras ésta va apareciendo.</td>
+    </tr>
+    <tr>
+      <td><strong>percentage</strong></td>
+      <td>(por defecto 62 ) permite definir el porcentaje del efecto parallax en relación con el viewport (tamaño de la pantalla). Usar un valor pequeño resultará en un efecto parallax menor, y usar 100, que es el máximo, mostrará un fondo estático.</td>
+    </tr>
+    <tr>
+      <td><strong>property</strong></td>
+      <td>Determina si se aplicará el efecto parallax sobre el elemento <code class="highlighter-rouge">fp-bg</code> o directamente sobre la propiedad background de la sección/diapositva. Se recomienda usar el valor por defecto para esta opción.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Se ha de tener en cuenta que usar el elemento <code class="highlighter-rouge">fp-bg</code> proporciona un rendimiento mucho mejor y más fluido a la hora de realizar el efecto. Ésto es así porque de este modo se hace uso de la aceleración por hardware al usar translate3d. La opción <code class="highlighter-rouge">background</code> está disponible para  aquellos que por alguna razón no quieran añadir el elemento extra <code class="highlighter-rouge">fp-bg</code> o que no puedan modificar el código HTML.</p>
+
+<h2 id="métodos">Métodos</h2>
+<p>Puedes verlos en acción en <a href="http://alvarotrigo.com/fullPage/extensions/parallax.html">la página de ejemplo</a>.</p>
+
+<h3 id="setoptionoptionname-value">setOption(optionName, value)</h3>
+<p>Define un valor para la opción que se le pase como parámetro. <code class="highlighter-rouge">optionName</code> puede ser cualquiera de las opciones disponibles en <code class="highlighter-rouge">parallaxOptions</code>. (<code class="highlighter-rouge">type</code>, <code class="highlighter-rouge">percentage</code>, o <code class="highlighter-rouge">property</code>).</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//cambiando el valor de la propiedad `typo`</span>
+<span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">parallax</span><span class="p">.</span><span class="nx">setOption</span><span class="p">(</span><span class="s1">'type'</span><span class="p">,</span> <span class="s1">'cover'</span><span class="p">);</span>
+
+<span class="c1">//cambiando el valor de la propiedad `percentage`</span>
+<span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">parallax</span><span class="p">.</span><span class="nx">setOption</span><span class="p">(</span><span class="s1">'percentage'</span><span class="p">,</span> <span class="s1">'30'</span><span class="p">);</span>
+</code></pre></div></div>
+<hr />
+
+<h3 id="init">init()</h3>
+<p>Habilita el efecto parallax. Es útil cuando se necesita habilitar dicho efecto de modo dinámico en cierto momento determinado.</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">parallax</span><span class="p">.</span><span class="nx">init</span><span class="p">();</span>
+</code></pre></div></div>
+<hr />
+<h3 id="destroy">destroy()</h3>
+<p>Deshabilita el efecto parallax.</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">parallax</span><span class="p">.</span><span class="nx">destroy</span><span class="p">();</span>
+</code></pre></div></div>
+
+    <footer>
+    <img class="footer__image logo-density" src="/assets/images/logo_density.svg" alt="DensityDesign logo">
+    <img class="footer__image logo-poli" src="/assets/images/polimi_logo.svg" alt="Politecnico di Milano logo">
+    <div class="footer__item footer__faculty">
+        <h6 class="footer__title">Faculty</h6>
+        <ul class="footer__list">
+            <li>Paolo Ciuccarelli</li>
+            <li>Stefano Mandato</li>
+            <li>Michele Mauri</li>
+            <li>Simone Vantini</li>
+            <li>Salvatore Zingale</li>
+        </ul>
+    </div>
+    <div class="footer__item footer__assistants">
+        <h6 class="footer__title">Teaching Assistants</h6>
+        <ul class="footer__list">
+            <li>Ángeles Briones</li>
+            <li>Gabriele Colombo</li>
+            <li>Jacopo Di Iorio</li>
+            <li>Tommaso Elli</li>
+            <li>Beatrice Gobbo</li>
+            <li>Michele Invernizzi</li>
+            <li>Ginevra Terenghi</li>
+        </ul>
+    </div>
+</footer>
+
+    
+        <script src="/assets/js/perlin.js" charset="utf-8"></script>
+        <script src="/assets/js/mask.js" charset="utf-8"></script>
+    
+</body>
+
+</html>

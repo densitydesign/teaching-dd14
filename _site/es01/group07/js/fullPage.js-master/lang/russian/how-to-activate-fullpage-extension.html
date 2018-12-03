@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Как активировать расширение fullPage.js</title>
+
+    <meta name="author" content="DensityDesign Research Lab">
+    <meta name="description" content="">
+    <meta property="og:title" content="Как активировать расширение fullPage.js">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="http://localhost:4000/es01/group07/js/fullPage.js-master/lang/russian/how-to-activate-fullpage-extension.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:site_name" content="DensityDesign F.S.D.S 2018/2019">
+    <meta name="twitter:image:alt" content="">
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/images/favicons/favicon-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/favicons/favicon-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/images/favicons/favicon-72.png">
+    <link rel="apple-touch-icon-precomposed" href="/assets/images/favicons/favicon-57.png">
+    <link rel="shortcut icon" href="/assets/images/favicons/favicon-32.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Bitter:400,400i|Muli:400,900" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+    <h1 id="как-активировать-расширение-fullpagejs">Как активировать расширение fullPage.js</h1>
+
+<ol>
+  <li>Перейдите по <a href="https://alvarotrigo.com/fullPage/extensions/activationKey.html">URL</a>, который был отправлен на ваш электронный адрес при покупке расширения. (https://alvarotrigo.com/fullPage/extensions/activationKey.html)</li>
+  <li>Введите ключ лицензии, предоставленный вам при покупке. Он также есть в электронном письме, подтверждающем вашу покупку.</li>
+  <li>Дополнительно может потребоваться имя домена для получения ключа активации для вашего продукта.</li>
+  <li>Затем добавьте ключ активации для определённого расширения, добавив опцию в инициализацию fullpage.js в виде <code class="highlighter-rouge">nameOfExtension + "Key": key</code>:</li>
+</ol>
+
+<p>Например:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">myFullpage</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">fullpage</span><span class="p">(</span><span class="s1">'#fullpage'</span><span class="p">,</span> <span class="p">{</span>
+    <span class="na">fadingEffect</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+    <span class="na">fadingEffectKey</span><span class="p">:</span> <span class="s1">'ЗДЕСЬ ДОЛЖЕН БЫТЬ КЛЮЧ АКТИВАЦИИ'</span><span class="p">,</span>
+<span class="p">});</span>
+</code></pre></div></div>
+<p>То же самое нужно сделать и для остальных расширений, если вы ими пользуетесь.
+Ниже приведены опции расширений, доступные сейчас:</p>
+<ul>
+  <li><code class="highlighter-rouge">fadingEffectKey</code></li>
+  <li><code class="highlighter-rouge">responsiveSlidesKey</code></li>
+  <li><code class="highlighter-rouge">continuousHorizontalKey</code></li>
+  <li><code class="highlighter-rouge">interlockedSlidesKey</code></li>
+  <li><code class="highlighter-rouge">scrollHorizontallyKey</code></li>
+  <li><code class="highlighter-rouge">resetSlidersKey</code></li>
+  <li><code class="highlighter-rouge">offsetSectionsKey</code></li>
+  <li><code class="highlighter-rouge">dragAndMoveKey</code></li>
+  <li><code class="highlighter-rouge">parallaxKey</code></li>
+</ul>
+
+<p>Помните, что для применения расширений требуется использование <a href="https://github.com/alvarotrigo/fullPage.js/blob/master/dist/jquery.fullpage.extensions.min.js"><code class="highlighter-rouge">jquery.fullpage.extensions.min.js</code></a> вместо стандартного файла fullPage.js (<code class="highlighter-rouge">jquery.fullpage.js</code>), как объясняется в параграфе [использование расширений] (https://github.com/alvarotrigo/fullPage.js#use-extensions).</p>
+<h3 id="как-быть-со-средами-разработкивеб-сайтами">Как быть со средами разработки/веб-сайтами?</h3>
+<p>Для локальной среды не требуется никаких ключей активации.
+Если вам нужно использовать ключ в другой внешней среде разработки, вы можете получить ключ активации для этого домена и [попросить у меня] (http://alvarotrigo.com/#contact) позже ещё один.</p>
+
+
+    <footer>
+    <img class="footer__image logo-density" src="/assets/images/logo_density.svg" alt="DensityDesign logo">
+    <img class="footer__image logo-poli" src="/assets/images/polimi_logo.svg" alt="Politecnico di Milano logo">
+    <div class="footer__item footer__faculty">
+        <h6 class="footer__title">Faculty</h6>
+        <ul class="footer__list">
+            <li>Paolo Ciuccarelli</li>
+            <li>Stefano Mandato</li>
+            <li>Michele Mauri</li>
+            <li>Simone Vantini</li>
+            <li>Salvatore Zingale</li>
+        </ul>
+    </div>
+    <div class="footer__item footer__assistants">
+        <h6 class="footer__title">Teaching Assistants</h6>
+        <ul class="footer__list">
+            <li>Ángeles Briones</li>
+            <li>Gabriele Colombo</li>
+            <li>Jacopo Di Iorio</li>
+            <li>Tommaso Elli</li>
+            <li>Beatrice Gobbo</li>
+            <li>Michele Invernizzi</li>
+            <li>Ginevra Terenghi</li>
+        </ul>
+    </div>
+</footer>
+
+    
+        <script src="/assets/js/perlin.js" charset="utf-8"></script>
+        <script src="/assets/js/mask.js" charset="utf-8"></script>
+    
+</body>
+
+</html>

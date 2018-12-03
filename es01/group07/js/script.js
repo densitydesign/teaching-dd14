@@ -46,7 +46,7 @@ $(document).ready(function () {
     }
     ///////////////// desktop
     else {
-        //alert('desktop'); 
+        //alert('desktop');
         $('#fullpage').fullpage({
             autoScrolling: true, //scroll
             scrollingSpeed: 700, //scrollinspeed
@@ -83,8 +83,8 @@ $(document).ready(function () {
     var counter = 1;
 
     $(window).mousemove(function () {
-        var images = "url(css/wave" + counter + ".png)";
-        console.log(images);
+        var images = "url(./css/wave" + counter + ".png)";
+        // console.log(images);
 
         $('#one').css({
             "background-image": images

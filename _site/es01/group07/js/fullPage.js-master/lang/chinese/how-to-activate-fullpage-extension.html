@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>如何激活fullPage.js扩展</title>
+
+    <meta name="author" content="DensityDesign Research Lab">
+    <meta name="description" content="">
+    <meta property="og:title" content="如何激活fullPage.js扩展">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="http://localhost:4000/es01/group07/js/fullPage.js-master/lang/chinese/how-to-activate-fullpage-extension.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:site_name" content="DensityDesign F.S.D.S 2018/2019">
+    <meta name="twitter:image:alt" content="">
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/images/favicons/favicon-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/favicons/favicon-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/images/favicons/favicon-72.png">
+    <link rel="apple-touch-icon-precomposed" href="/assets/images/favicons/favicon-57.png">
+    <link rel="shortcut icon" href="/assets/images/favicons/favicon-32.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Bitter:400,400i|Muli:400,900" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+    <h1 id="如何激活fullpagejs扩展">如何激活fullPage.js扩展</h1>
+
+<ol>
+  <li>访问 https://alvarotrigo.com/fullPage/extensions/activationKey.html. (当购买扩展时，此链接会发送到你的邮箱中)</li>
+  <li>介绍在购买物品时给予您的<strong>许可证密钥</strong>。也可以在您的购买确认邮件中找到。</li>
+  <li>可能需要域名才能获取产品的<strong>激活密钥</strong>。</li>
+  <li>拿到扩展和域的激活密钥（在前面的步骤中生成）后，你需要在fullpage.js初始化中添加一个选项，其形式为<code class="highlighter-rouge">nameOfExtension + "Key": key</code>。</li>
+</ol>
+
+<p>例如：</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">myFullpage</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">fullpage</span><span class="p">(</span><span class="s1">'#fullpage'</span><span class="p">,</span> <span class="p">{</span>
+    <span class="na">fadingEffect</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+    <span class="na">fadingEffectKey</span><span class="p">:</span> <span class="s1">'激活密钥应在这里'</span><span class="p">,</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<p>如果您已使用扩展，则其余的扩展名也是如此。
+以下是目前所有的扩展关键字选项：</p>
+
+<ul>
+  <li><code class="highlighter-rouge">fadingEffectKey</code></li>
+  <li><code class="highlighter-rouge">responsiveSlidesKey</code></li>
+  <li><code class="highlighter-rouge">continuousHorizontalKey</code></li>
+  <li><code class="highlighter-rouge">interlockedSlidesKey</code></li>
+  <li><code class="highlighter-rouge">scrollHorizontallyKey</code></li>
+  <li><code class="highlighter-rouge">resetSlidersKey</code></li>
+  <li><code class="highlighter-rouge">offsetSectionsKey</code></li>
+  <li><code class="highlighter-rouge">dragAndMoveKey</code></li>
+  <li><code class="highlighter-rouge">parallaxKey</code></li>
+</ul>
+
+<p>请记住，如<a href="https://github.com/alvarotrigo/fullPage.js#use-extensions">扩展的使用</a>[]中所介绍的，使用扩展需要调用<a href="https://github.com/alvarotrigo/fullPage.js/blob/master/dist/jquery.fullpage.extensions.min.js"><code class="highlighter-rouge">jquery.fullpage.extensions.min.js</code></a>，而不像平常的fullPage.js文件（<code class="highlighter-rouge">jquery.fullpage.js</code>）那样使用扩展。</p>
+
+<h3 id="如何做开发环境网站">如何做开发环境/网站？</h3>
+<p>本地主机环境不需要激活密钥。
+如果您需要在另一个外部开发环境中使用它，则可以获取该域的激活密钥，在转移到产品中后再<a href="http://alvarotrigo.com/#contact">询问我</a> 要另一个激活密钥。</p>
+
+<h3 id="许可证密钥与激活密钥">许可证密钥与激活密钥</h3>
+<p>两者是不同的密钥。</p>
+<ul>
+  <li>购买任何扩展程序时，您将获得<strong>许可证密钥</strong>。</li>
+  <li>激活特定域的扩展时，您将获得<strong>激活密钥</strong> （除非使用“无限许可证”）。 生成<strong>激活密钥</strong>需要<strong>许可证密钥</strong>。</li>
+</ul>
+
+<p>许可证密钥由4组字符组成，每组字符为8个字符(<code class="highlighter-rouge">XXXXXXXX-XXXXXXXX-XXXXXXXX-XXXXXXXX</code>)。激活密钥的长度可变，且不是由分隔的字符组组成(<code class="highlighter-rouge">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</code>)。不要将两者混淆。</p>
+
+    <footer>
+    <img class="footer__image logo-density" src="/assets/images/logo_density.svg" alt="DensityDesign logo">
+    <img class="footer__image logo-poli" src="/assets/images/polimi_logo.svg" alt="Politecnico di Milano logo">
+    <div class="footer__item footer__faculty">
+        <h6 class="footer__title">Faculty</h6>
+        <ul class="footer__list">
+            <li>Paolo Ciuccarelli</li>
+            <li>Stefano Mandato</li>
+            <li>Michele Mauri</li>
+            <li>Simone Vantini</li>
+            <li>Salvatore Zingale</li>
+        </ul>
+    </div>
+    <div class="footer__item footer__assistants">
+        <h6 class="footer__title">Teaching Assistants</h6>
+        <ul class="footer__list">
+            <li>Ángeles Briones</li>
+            <li>Gabriele Colombo</li>
+            <li>Jacopo Di Iorio</li>
+            <li>Tommaso Elli</li>
+            <li>Beatrice Gobbo</li>
+            <li>Michele Invernizzi</li>
+            <li>Ginevra Terenghi</li>
+        </ul>
+    </div>
+</footer>
+
+    
+        <script src="/assets/js/perlin.js" charset="utf-8"></script>
+        <script src="/assets/js/mask.js" charset="utf-8"></script>
+    
+</body>
+
+</html>

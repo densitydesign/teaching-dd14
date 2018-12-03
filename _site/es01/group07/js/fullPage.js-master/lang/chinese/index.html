@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>fullPage.js</title>
+
+    <meta name="author" content="DensityDesign Research Lab">
+    <meta name="description" content="">
+    <meta property="og:title" content="fullPage.js">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="http://localhost:4000/es01/group07/js/fullPage.js-master/lang/chinese/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:site_name" content="DensityDesign F.S.D.S 2018/2019">
+    <meta name="twitter:image:alt" content="">
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/images/favicons/favicon-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/favicons/favicon-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/images/favicons/favicon-72.png">
+    <link rel="apple-touch-icon-precomposed" href="/assets/images/favicons/favicon-57.png">
+    <link rel="shortcut icon" href="/assets/images/favicons/favicon-32.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Bitter:400,400i|Muli:400,900" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+    <h1 id="fullpagejs">fullPage.js</h1>
+<p><img src="https://raw.github.com/alvarotrigo/fullPage.js/master/examples/imgs/intro.png" alt="preview" />
+<img src="https://raw.github.com/alvarotrigo/fullPage.js/master/examples/imgs/compatible.gif?v=2" alt="compatibility" /></p>
+
+<p align="center">
+  <a href="https://github.com/alvarotrigo/fullPage.js">English</a> |
+  <a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/spanish#fullpagejs">Español</a> |
+  <a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/russian#fullpagejs">Pусский</a> |
+  <span>中文</span> |
+  <a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/korean#fullpagejs">한국어</a>
+</p>
+
+<p align="center">
+	适用于<a href="https://github.com/alvarotrigo/vue-fullpage.js">Vue</a>和<a href="https://github.com/alvarotrigo/react-fullpage">React</a>
+</p>
+<hr />
+
+<p><img src="http://img.shields.io/badge/fullPage.js-v3.0.3-brightgreen.svg" alt="fullPage.js version" />
+<a href="https://www.gnu.org/licenses/gpl-3.0.html"><img src="https://img.shields.io/badge/License-GPL-blue.svg" alt="License" /></a>
+<a href="https://www.paypal.me/alvarotrigo/9.95"><img src="https://img.shields.io/badge/donate-PayPal.me-ff69b4.svg" alt="PayPal Donate" /></a>
+<a href="https://www.jsdelivr.com/package/npm/fullpage.js"><img src="https://data.jsdelivr.com/v1/package/npm/fullpage.js/badge?style=rounded" alt="jsDelivr Hits" /></a>
+   <strong>|</strong>   <em>7Kb gziped</em>   <strong>|</strong>   <em>Created by <a href="https://twitter.com/imac2">@imac2</a></em></p>
+
+<ul>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td><a href="http://alvarotrigo.com/fullPage/">现场演示</a></td>
+          <td><a href="https://codepen.io/alvarotrigo/pen/NxyPPp">Codepen</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li><a href="http://alvarotrigo.com/fullPage/utils/wordpress.html">Wordpress 的主题</a></li>
+  <li><a href="http://alvarotrigo.com/fullPage/extensions/">fullpage.js扩展</a></li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Wrappers: [Vue.js[()]</td>
+          <td>React.js</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li><a href="https://github.com/alvarotrigo/fullPage.js/wiki/FAQ---Frequently-Answered-Questions">常见问题</a></li>
+</ul>
+
+<hr />
+
+<p>通过调用本库可轻易创建全屏滚动网站(也称为单页网站)。
+本库可创建全屏滚动网站，同时也可在网站中添加横向滚动条。</p>
+
+<ul>
+  <li><a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese/#%E4%BB%8B%E7%BB%8D">介绍</a></li>
+  <li><a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese/#%E5%85%BC%E5%AE%B9%E6%80%A7">兼容性</a></li>
+  <li><a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese/#%E8%AE%B8%E5%8F%AF%E8%AF%81">许可证</a></li>
+  <li><a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese/#%E7%94%A8%E6%B3%95">用法</a>
+    <ul>
+      <li><a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese/#%E5%88%9B%E5%BB%BA%E9%93%BE%E6%8E%A5%E5%88%B0%E6%AE%B5%E8%90%BD%E6%88%96%E5%B9%BB%E7%81%AF%E7%89%87">创建链接到段落或幻灯片</a></li>
+      <li><a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese/#%E5%88%9B%E5%BB%BA%E6%9B%B4%E5%B0%8F%E6%88%96%E6%9B%B4%E5%A4%A7%E7%9A%84%E6%AE%B5%E8%90%BD">创建更小或更大的段落</a></li>
+      <li><a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese/#%E7%94%B1fullpagejs%E6%B7%BB%E5%8A%A0%E7%9A%84%E7%8A%B6%E6%80%81%E7%B1%BB">fullpage.js添加的状态类</a></li>
+      <li><a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese/#%E5%BB%B6%E8%BF%9F%E5%8A%A0%E8%BD%BD">快速加载</a></li>
+      <li><a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese/#%E8%87%AA%E5%8A%A8%E6%92%AD%E6%94%BE%E6%9A%82%E5%81%9C%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%AA%92%E4%BD%93">自动播放内嵌媒体</a></li>
+      <li><a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese/#%E4%BD%BF%E7%94%A8%E6%89%A9%E5%B1%95">使用扩展</a></li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese/#%E9%80%89%E9%A1%B9">选项</a></li>
+  <li><a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese/#%E6%96%B9%E6%B3%95">方法</a></li>
+  <li><a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese/#callbacks">回调</a></li>
+  <li><a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese/#%E6%8A%A5%E5%91%8A%E9%97%AE%E9%A2%98">报告问题</a></li>
+  <li><a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese/#%E8%B4%A1%E7%8C%AE%E7%BB%99fullpagejs">完善fullpage.js</a></li>
+  <li><a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese/#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97">变更日志</a></li>
+  <li><a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese/#%E6%9E%84%E5%BB%BA%E4%BB%BB%E5%8A%A1">创建任务</a></li>
+  <li><a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese/#%E5%8F%82%E8%80%83%E8%B5%84%E6%BA%90">资源</a></li>
+  <li><a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese/#%E8%B0%81%E5%9C%A8%E4%BD%BF%E7%94%A8-fullpagejs">谁在使用fullpage.js</a></li>
+  <li><a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese/#%E6%8D%90%E7%8C%AE">赞赏</a></li>
+</ul>
+
+<h2 id="介绍">介绍</h2>
+<p>不仅限于提需求，也欢迎提出编码风格改进的建议。
+集思广益，让这个库更加强大，让写代码更轻松！</p>
+
+<h2 id="兼容性">兼容性</h2>
+<p>fullPage.js兼容所有的现代浏览器，以及一些旧版浏览器，如Internet Explorer 9，Opera 12等都能兼容。
+可兼容支持CSS3的浏览器与非支持CSS3的浏览器，适用于旧版浏览器。 同时，手机、平板电脑和触摸屏电脑还提供触屏支持。</p>
+
+<p>特别感谢<a href="http://www.browserstack.com/">Browserstack</a> 支持fullpage.js。</p>
+
+<h2 id="许可证">许可证</h2>
+
+<h3 id="商业许可证">商业许可证</h3>
+<p>如果您想使用fullPage开发商业网站、主题、项目和应用程序，商业许可证是您应使用的许可证。使用这个许可证，您的源代码将保留专有权。 这意味着，您不必将整个应用程序源代码更改为开源许可证。<a href="https://alvarotrigo.com/fullPage/pricing/">点击此处购买fullpage商业许可证</a></p>
+
+<h3 id="开源许可证">开源许可证</h3>
+<p>如果您使用与<a href="https://www.gnu.org/licenses/gpl-3.0.html">GNU GPL license v3</a>兼容的许可证创建开源应用程序，则可以在GPLv3条款下使用fullPage。</p>
+
+<p><strong>JavaScript和CSS文件中的信用评论应保持完整 (即使在组合或缩小后）</strong></p>
+
+<p><a href="https://alvarotrigo.com/fullPage/pricing/">阅读更多关于fullPage的许可证</a>。</p>
+
+<h2 id="用法">用法</h2>
+<p>正如示例文件所示，需要引用：</p>
+<ul>
+  <li>JavaScript 文件<code class="highlighter-rouge">fullpage.js</code> (或其缩小版本 <code class="highlighter-rouge">fullpage.min.js</code>)</li>
+  <li>css 文件<code class="highlighter-rouge">fullpage.css</code></li>
+</ul>
+
+<p><strong>可选</strong>，使用<code class="highlighter-rouge">css3:false</code>时，如果您想要使用库中包含的其他缓动效果的功能（<code class="highlighter-rouge">easeInOutCubic</code>），您可以添加<a href="https://github.com/alvarotrigo/fullPage.js/tree/master/vendors/easings.min.js">easings file</a>。</p>
+
+<h3 id="使用bower或npm进行安装">使用bower或npm进行安装</h3>
+<p><strong>或者</strong>，如果您愿意，可以使用bower或npm安装fullPage.js：</p>
+
+<p>终端：</p>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// 使用bower
+bower install fullpage.js
+
+// 使用npm
+npm install fullpage.js
+</code></pre></div></div>
+
+<h3 id="包含文件">包含文件：</h3>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">type=</span><span class="s">"text/css"</span> <span class="na">href=</span><span class="s">"fullpage.css"</span> <span class="nt">/&gt;</span>
+
+<span class="c">&lt;!-- 以下行是可选的。 只有在使用选项css3:false，并且您希望使用其他缓动效果，而非“linear”、“swing”或“easeInOutCubic”时才有必要。 --&gt;</span>
+<span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"vendors/easings.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+
+<span class="c">&lt;!-- 以下行仅在使用选项scrollOverflow:true的情况下是必需的 --&gt;</span>
+<span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span> <span class="na">src=</span><span class="s">"vendors/scrolloverflow.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+
+<span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span> <span class="na">src=</span><span class="s">"fullpage.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<p>Using Webpack, Browserify or Require.js? Check <a href="https://github.com/alvarotrigo/fullPage.js/wiki/Use-module-loaders-for-fullPage.js">how to use fullPage.js with module loaders</a>.</p>
+
+<h3 id="可选用cdn">可选用CDN：</h3>
+<p>如果您倾向使用CDN载入所需文件，fullPage.js在CDNJS：
+https://cdnjs.com/libraries/fullPage.js</p>
+
+<h3 id="要求html结构">要求HTML结构</h3>
+<p>HTML文件中的首行HTML代码必须使用<a href="http://www.corelangs.com/html/introduction/doctype.html">HTML DOCTYPE 声明</a>，否则可能会遇到代码段高度问题。HTML 5 doctype中的示例： <code class="highlighter-rouge"><span class="cp">&lt;!DOCTYPE html&gt;</span></code>.</p>
+
+<p>每个代码段定义为包含<code class="highlighter-rouge">section</code>类的元素。
+第一个代码段作为主页，是默认激活代码。
+代码段应进行封装（即<code class="highlighter-rouge">&lt;div id="fullpage"&gt;</code> ）。 封装不能是<code class="highlighter-rouge">body</code>元素。</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"fullpage"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"section"</span><span class="nt">&gt;</span>Some section<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"section"</span><span class="nt">&gt;</span>Some section<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"section"</span><span class="nt">&gt;</span>Some section<span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"section"</span><span class="nt">&gt;</span>Some section<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+<p>如果你想定义一个与众不同的起始页面，而不是原始第一段或第一个滑动页，只需将<code class="highlighter-rouge">active</code>类添加到你想首先载入的段或滑动页。</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"section active"</span><span class="nt">&gt;</span>Some section<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+<p>为在代码段中创建横向滑块，每个滑动页将默认定义为包含<code class="highlighter-rouge">slide</code>类的元素：</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"section"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"slide"</span><span class="nt">&gt;</span> 幻灯片 1 <span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"slide"</span><span class="nt">&gt;</span> 幻灯片 2 <span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"slide"</span><span class="nt">&gt;</span> 幻灯片 3 <span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"slide"</span><span class="nt">&gt;</span> 幻灯片 4 <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+<p>可以在<a href="https://github.com/alvarotrigo/fullPage.js/tree/master/examples/simple.html"><code class="highlighter-rouge">simple.html</code>文件</a>看到完整的HTML结构的例子</p>
+
+<h3 id="初始化">初始化</h3>
+
+<h4 id="用vanilla-javascript初始化">用Vanilla Javascript初始化</h4>
+<p>您只需要在关闭<code class="highlighter-rouge">&lt;/body&gt;</code>标签之前调用fullPage.js。</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">new</span> <span class="nx">fullpage</span><span class="p">(</span><span class="s1">'#fullpage'</span><span class="p">,</span> <span class="p">{</span>
+	<span class="c1">//options here</span>
+	<span class="na">autoScrolling</span><span class="p">:</span><span class="kc">true</span><span class="p">,</span>
+	<span class="na">scrollHorizontally</span><span class="p">:</span> <span class="kc">true</span>
+<span class="p">});</span>
+
+<span class="c1">//methods</span>
+<span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">setAllowScrolling</span><span class="p">(</span><span class="kc">false</span><span class="p">);</span>
+</code></pre></div></div>
+
+<h4 id="使用jquery进行初始化">使用jQuery进行初始化</h4>
+<p>如果您需要，您也可以将fullpage.js作为jQuery插件使用！</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+	<span class="nx">$</span><span class="p">(</span><span class="s1">'#fullpage'</span><span class="p">).</span><span class="nx">fullpage</span><span class="p">({</span>
+		<span class="c1">//options here</span>
+		<span class="na">autoScrolling</span><span class="p">:</span><span class="kc">true</span><span class="p">,</span>
+		<span class="na">scrollHorizontally</span><span class="p">:</span> <span class="kc">true</span>
+	<span class="p">});</span>
+
+	<span class="c1">//methods</span>
+	<span class="nx">$</span><span class="p">.</span><span class="nx">fn</span><span class="p">.</span><span class="nx">fullpage</span><span class="p">.</span><span class="nx">setAllowScrolling</span><span class="p">(</span><span class="kc">false</span><span class="p">);</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<p>函数和方法仍然可以用jQuery方式调用，如在<a href="https://github.com/alvarotrigo/fullPage.js/tree/2.9.7">fullPage.js v2.X</a>中一样。</p>
+
+<h4 id="带有所有功能选项的vanilla-js-演示">带有所有功能选项的Vanilla JS 演示</h4>
+<p>所有选项设置的更复杂的初始化如下所示：</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">myFullpage</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">fullpage</span><span class="p">(</span><span class="s1">'#fullpage'</span><span class="p">,</span> <span class="p">{</span>
+	<span class="c1">//导航</span>
+	<span class="na">menu</span><span class="p">:</span> <span class="s1">'#menu'</span><span class="p">,</span>
+	<span class="na">lockAnchors</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+	<span class="na">anchors</span><span class="p">:[</span><span class="s1">'firstPage'</span><span class="p">,</span> <span class="s1">'secondPage'</span><span class="p">],</span>
+	<span class="na">navigation</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+	<span class="na">navigationPosition</span><span class="p">:</span> <span class="s1">'right'</span><span class="p">,</span>
+	<span class="na">navigationTooltips</span><span class="p">:</span> <span class="p">[</span><span class="s1">'firstSlide'</span><span class="p">,</span> <span class="s1">'secondSlide'</span><span class="p">],</span>
+	<span class="na">showActiveTooltip</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+	<span class="na">slidesNavigation</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+	<span class="na">slidesNavPosition</span><span class="p">:</span> <span class="s1">'bottom'</span><span class="p">,</span>
+
+	<span class="c1">//滚动</span>
+	<span class="na">css3</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+	<span class="na">scrollingSpeed</span><span class="p">:</span> <span class="mi">700</span><span class="p">,</span>
+	<span class="na">autoScrolling</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+	<span class="na">fitToSection</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+	<span class="na">fitToSectionDelay</span><span class="p">:</span> <span class="mi">1000</span><span class="p">,</span>
+	<span class="na">scrollBar</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+	<span class="na">easing</span><span class="p">:</span> <span class="s1">'easeInOutCubic'</span><span class="p">,</span>
+	<span class="na">easingcss3</span><span class="p">:</span> <span class="s1">'ease'</span><span class="p">,</span>
+	<span class="na">loopBottom</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+	<span class="na">loopTop</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+	<span class="na">loopHorizontal</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+	<span class="na">continuousVertical</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+	<span class="na">continuousHorizontal</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+	<span class="na">scrollHorizontally</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+	<span class="na">interlockedSlides</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+	<span class="na">dragAndMove</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+	<span class="na">offsetSections</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+	<span class="na">resetSliders</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+	<span class="na">fadingEffect</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+	<span class="na">normalScrollElements</span><span class="p">:</span> <span class="s1">'#element1, .element2'</span><span class="p">,</span>
+	<span class="na">scrollOverflow</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+	<span class="na">scrollOverflowReset</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+	<span class="na">scrollOverflowOptions</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+	<span class="na">touchSensitivity</span><span class="p">:</span> <span class="mi">15</span><span class="p">,</span>
+	<span class="na">normalScrollElementTouchThreshold</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span>
+	<span class="na">bigSectionsDestination</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+
+	<span class="c1">//可访问</span>
+	<span class="na">keyboardScrolling</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+	<span class="na">animateAnchor</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+	<span class="na">recordHistory</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+
+	<span class="c1">//设计</span>
+	<span class="na">controlArrows</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+	<span class="na">verticalCentered</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+	<span class="na">sectionsColor</span> <span class="p">:</span> <span class="p">[</span><span class="s1">'#ccc'</span><span class="p">,</span> <span class="s1">'#fff'</span><span class="p">],</span>
+	<span class="na">paddingTop</span><span class="p">:</span> <span class="s1">'3em'</span><span class="p">,</span>
+	<span class="na">paddingBottom</span><span class="p">:</span> <span class="s1">'10px'</span><span class="p">,</span>
+	<span class="na">fixedElements</span><span class="p">:</span> <span class="s1">'#header, .footer'</span><span class="p">,</span>
+	<span class="na">responsiveWidth</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+	<span class="na">responsiveHeight</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+	<span class="na">responsiveSlides</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+	<span class="na">parallax</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+	<span class="na">parallaxOptions</span><span class="p">:</span> <span class="p">{</span><span class="na">type</span><span class="p">:</span> <span class="s1">'reveal'</span><span class="p">,</span> <span class="na">percentage</span><span class="p">:</span> <span class="mi">62</span><span class="p">,</span> <span class="na">property</span><span class="p">:</span> <span class="s1">'translate'</span><span class="p">},</span>
+
+	<span class="c1">//自定义选择器</span>
+	<span class="na">sectionSelector</span><span class="p">:</span> <span class="s1">'.section'</span><span class="p">,</span>
+	<span class="na">slideSelector</span><span class="p">:</span> <span class="s1">'.slide'</span><span class="p">,</span>
+
+	<span class="na">lazyLoading</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+
+	<span class="c1">//事件</span>
+	<span class="na">onLeave</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">origin</span><span class="p">,</span> <span class="nx">destination</span><span class="p">,</span> <span class="nx">direction</span><span class="p">){},</span>
+	<span class="na">afterLoad</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">origin</span><span class="p">,</span> <span class="nx">destination</span><span class="p">,</span> <span class="nx">direction</span><span class="p">){},</span>
+	<span class="na">afterRender</span><span class="p">:</span> <span class="kd">function</span><span class="p">(){},</span>
+	<span class="na">afterResize</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">width</span><span class="p">,</span> <span class="nx">height</span><span class="p">){},</span>
+	<span class="na">afterResponsive</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">isResponsive</span><span class="p">){},</span>
+	<span class="na">afterSlideLoad</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">section</span><span class="p">,</span> <span class="nx">origin</span><span class="p">,</span> <span class="nx">destination</span><span class="p">,</span> <span class="nx">direction</span><span class="p">){},</span>
+	<span class="na">onSlideLeave</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">section</span><span class="p">,</span> <span class="nx">origin</span><span class="p">,</span> <span class="nx">destination</span><span class="p">,</span> <span class="nx">direction</span><span class="p">){}</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<h3 id="创建链接到段落或幻灯片">创建链接到段落或幻灯片</h3>
+<p>如果你在段落中使用fullPage.js和锚链接（在每个部分使用<code class="highlighter-rouge">anchors</code>选项或属性<code class="highlighter-rouge">data-anchor</code>），那么你将能够在一个段落里使用锚链接直接导航到某个幻灯片。</p>
+
+<p>这是一个锚链接的例子：
+http://alvarotrigo.com/fullPage/#secondPage/2 （在你手动访问该段落/幻灯片就会看到的URL）
+请注意，URL的最后部分以<code class="highlighter-rouge">＃secondPage / 2</code>结尾。</p>
+
+<p>以下初始化：</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">new</span> <span class="nx">fullpage</span><span class="p">(</span><span class="s1">'#fullpage'</span><span class="p">,</span> <span class="p">{</span>
+	<span class="na">anchors</span><span class="p">:[</span><span class="s1">'firstPage'</span><span class="p">,</span> <span class="s1">'secondPage'</span><span class="p">,</span> <span class="s1">'thirdPage'</span><span class="p">]</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<p>URL<code class="highlighter-rouge">#secondPage/2</code> 结尾处的锚分别定义了目标段落和幻灯片。 在前面的URL中，目标段落将是使用锚点 <code class="highlighter-rouge">secondPage</code> 定义的段落，幻灯片将会是第2张幻灯片，因为我们使用索引 <code class="highlighter-rouge">2</code> 。 （一个段落的第一个幻灯片有索引0，在技术上这是一个段落）。</p>
+
+<p>如果我们在HTML标记中使用属性<code class="highlighter-rouge">data-anchor</code>，就可以使用自定义锚点来代替它的索引：</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"section"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"slide"</span> <span class="na">data-anchor=</span><span class="s">"slide1"</span><span class="nt">&gt;</span> 幻灯片 1 <span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"slide"</span> <span class="na">data-anchor=</span><span class="s">"slide2"</span><span class="nt">&gt;</span> 幻灯片 2 <span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"slide"</span> <span class="na">data-anchor=</span><span class="s">"slide3"</span><span class="nt">&gt;</span> 幻灯片 3 <span class="nt">&lt;/div&gt;</span>
+	<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"slide"</span> <span class="na">data-anchor=</span><span class="s">"slide4"</span><span class="nt">&gt;</span> 幻灯片 4 <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+<p>在最后一种情况中，我们使用的URL将是<code class="highlighter-rouge">#secondPage/slide3</code>，这相当于之前的 <code class="highlighter-rouge">#secondPage/2</code>。</p>
+
+<p>请注意，如果没有提供<code class="highlighter-rouge">anchors</code>数组，则也可以使用<code class="highlighter-rouge">data-anchor</code>属性以同样的方式定义节锚点。</p>
+
+<p><strong>注意！</strong><code class="highlighter-rouge">data-anchor</code>标记的值不能与站点上的任何ID元素（或IE的NAME元素）相同。</p>
+
+<h3 id="创建更小或更大的段落">创建更小或更大的段落</h3>
+<p><a href="http://codepen.io/alvarotrigo/pen/BKjRYm">演示</a> fullPage.js提供了一种方法来删除段落和幻灯片的全高限制。 可以创建高度小于或大于视口的段落。 这是页脚的理想方式。
+需明白所有段落使用此功能并没有意义，这一点很重要。 如果网站的初始加载中有多个段落，则fullPage.js将不会滚动以查看下一个段落，因为它已经在视口中。</p>
+
+<p>创建更小的段落，只需在要应用的段落中使用<code class="highlighter-rouge">fp-auto-height</code> 类即可，则可以调用您的段落/幻灯片中定义的高度。</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"section"</span><span class="nt">&gt;</span>整个视口<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"section fp-auto-height"</span><span class="nt">&gt;</span>自动高度<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h4 id="响应自动高度段落">响应自动高度段落</h4>
+<p><a href="https://codepen.io/alvarotrigo/pen/WZmMgZ">演示</a> 响应自动高度可以通过使用<code class="highlighter-rouge">fp-auto-height-responsive</code>类来调用。 这种方式段落将全屏，直到响应模式终止。 根据定义调整大小，可能是大于或小于视口。</p>
+
+<h3 id="由fullpagejs添加的状态类">由fullpage.js添加的状态类</h3>
+<p>Fullpage.js在不同的元素中添加多个类来保存网站状态的记录：</p>
+
+<ul>
+  <li><code class="highlighter-rouge">active</code> 添加当前可见部分并滑动。</li>
+  <li><code class="highlighter-rouge">active</code> 被添加到当前菜单元素（如果使用<code class="highlighter-rouge">menu</code>选项）。</li>
+  <li><code class="highlighter-rouge">fp-viewing-SECTION-SLIDE</code>形式的类被添加到网站的 <code class="highlighter-rouge">body</code> 元素中。(例如： <a href="http://alvarotrigo.com/fullPage/#secondPage"><code class="highlighter-rouge">fp-viewing-secondPage-0</code></a>) <code class="highlighter-rouge">SECTION</code>和<code class="highlighter-rouge">SLIDE</code>部分将成为当前部分和幻灯片的锚（或索引，如果没有提供锚）。</li>
+  <li>当进入响应模式时，<code class="highlighter-rouge">fp-responsive</code>添加到<code class="highlighter-rouge">body</code>元素`</li>
+  <li>当启用fullpage.js时，<code class="highlighter-rouge">fp-enabled</code>添加到<code class="highlighter-rouge">html</code>元素。 （并在销毁时被移除）。</li>
+  <li>当fullPage.js被销毁时，<code class="highlighter-rouge">fp-destroyed</code>被添加到fullpage.js容器中。</li>
+</ul>
+
+<h3 id="延迟加载">延迟加载</h3>
+<p><a href="http://codepen.io/alvarotrigo/pen/eNLBXo">演示</a> fullPage.js提供了一种延迟加载图像、视频和音频元素的方式，这样它们不会减慢网站的加载速度，也不会浪费数据传输。
+当使用延迟加载时，所有这些元素只有在进入视口时才会加载。
+要启用延迟加载，您只需将<code class="highlighter-rouge">src</code>属性更改为<code class="highlighter-rouge">data-src</code>，如下所示：</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;img data-src="image.png"&gt;
+&lt;video&gt;
+	&lt;source data-src="video.webm" type="video/webm" /&gt;
+	&lt;source data-src="video.mp4" type="video/mp4" /&gt;
+&lt;/video&gt;
+</code></pre></div></div>
+
+<p>如果您已经使用另一个使用<code class="highlighter-rouge">data-src</code>的延迟加载解决方案，则可以通过设置 <code class="highlighter-rouge">lazyLoading: false</code>选项来禁用fullPage.js延迟加载。</p>
+
+<h3 id="自动播放暂停嵌入式媒体">自动播放/暂停嵌入式媒体</h3>
+
+<p><strong>注意</strong>：根据操作系统和浏览器的不同，自动播放功能可能无法在某些移动设备上使用（即<a href="https://webkit.org/blog/6784/new-video-policies-for-ios/">iOS的Safari</a> 版本 &lt; 10.0）。</p>
+
+<h4 id="播放部分幻灯片载入">播放部分/幻灯片载入：</h4>
+<p>对于视频或音频使用属性 <code class="highlighter-rouge">autoplay</code>，或者对于youtube iframe使用参数<code class="highlighter-rouge">autoplay=1</code>将使得在加载页面时播放媒体元素。
+在段落/幻灯片载入使用而不是属性<code class="highlighter-rouge">data-autoplay</code>播放。 例如：</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;audio</span> <span class="na">data-autoplay</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;source</span> <span class="na">src=</span><span class="s">"http://metakoncept.hr/horse.ogg"</span> <span class="na">type=</span><span class="s">"audio/ogg"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/audio&gt;</span>
+</code></pre></div></div>
+
+<h4 id="暂停">暂停</h4>
+<p>嵌入式HTML5<code class="highlighter-rouge">&lt;video&gt;</code>/<code class="highlighter-rouge">&lt;audio&gt;</code>和Youtube iframe在离开某个段落或幻灯片时自动暂停。 可以通过使用属性<code class="highlighter-rouge">data-keepplaying</code>来禁用。 例如：</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;audio</span> <span class="na">data-keepplaying</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;source</span> <span class="na">src=</span><span class="s">"http://metakoncept.hr/horse.ogg"</span> <span class="na">type=</span><span class="s">"audio/ogg"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/audio&gt;</span>
+</code></pre></div></div>
+
+<h3 id="使用扩展">使用扩展</h3>
+<p>fullpage.js <a href="http://alvarotrigo.com/fullPage/extensions/">提供了一组扩展</a>您可以使用它来增强其默认功能。 所有这些都被列为 <a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese/#%E9%80%89%E9%A1%B9">fullpage.js 选项</a>.</p>
+
+<p>扩展需要使用在<a href="https://github.com/alvarotrigo/fullPage.js/tree/master/dist/"><code class="highlighter-rouge">dist</code> 文件夹</a>中的缩小文件 <a href="https://github.com/alvarotrigo/fullPage.js/tree/master/dist/fullpage.extensions.min.js"><code class="highlighter-rouge">fullpage.extensions.min.js</code></a>，而不是通常的fullPage.js文件 (<code class="highlighter-rouge">fullpage.js</code> 或 <code class="highlighter-rouge">fullpage.min.js</code>)。</p>
+
+<p>一旦你需要扩展文件，你需要在fullPage之前添加它。 例如，如果我想要使用Continuos Horizontal扩展，我将包含扩展文件，然后包含fullPage文件的扩展版本。</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span> <span class="na">src=</span><span class="s">"fullpage.continuousHorizontal.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span> <span class="na">src=</span><span class="s">"fullpage/fullpage.extensions.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<p>每个扩展都需要激活密钥和许可证密钥。<a href="https://github.com/alvarotrigo/fullPage.js/blob/master/lang/chinese/how-to-activate-fullpage-extension.md">在这里看到更多细节</a>.</p>
+
+<p>然后你就可以按照<a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese/#%E9%80%89%E9%A1%B9">选项</a>的说明使用和配置它们。</p>
+
+<h2 id="选项">选项</h2>
+
+<p>-<code class="highlighter-rouge">licenseKey</code>：（默认<code class="highlighter-rouge">null</code>）。 <strong>此选项是强制性的。</strong>如果您在非开源项目中使用fullPage，则应使用购买fullPage商业许可证时提供的许可证密钥。 否则，您可以使用字符串<code class="highlighter-rouge">OPEN-SOURCE-GPLV3-LICENSE</code>。 请阅读更多关于许可[这里]（https://github.com/alvarotrigo/fullPage.js#license）和[在网页上]（https://alvarotrigo.com/fullPage/pricing/）。例如：</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">new</span> <span class="nx">fullpage</span><span class="p">({</span>
+    <span class="na">licenseKey</span><span class="p">:</span> <span class="s1">'YOUR_KEY_HERE'</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p><code class="highlighter-rouge">v2compatible</code>: (默认 <code class="highlighter-rouge">false</code>). 确定是否使其与版本2编写的任何代码100％兼容，忽略版本3的新功能或api更改。状态类，回调签名等的工作方式与在版本2上完全相同。<strong>请注意该选项将在之后的某个时候被删除。</strong>。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">controlArrows</code>：（默认为 <code class="highlighter-rouge">true</code>）确定是否将幻灯片的控制箭头向右或向左移动。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">verticalCentered</code>：（默认为<code class="highlighter-rouge">true</code>）在段落内部垂直居中。 当设置为<code class="highlighter-rouge">true</code>时，您的代码将被库包装。可考虑使用委托或在<code class="highlighter-rouge">afterRender</code>回调中加载其他脚本。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">scrollingSpeed</code>：（默认<code class="highlighter-rouge">700</code>）滚动转换的速度（以毫秒为单位）。</p>
+  </li>
+  <li><code class="highlighter-rouge">sectionsColor</code>：（默认<code class="highlighter-rouge">none</code>）为每个部分定义CSS<code class="highlighter-rouge">background-color</code>属性。
+例：
+    <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">new</span> <span class="nx">fullpage</span><span class="p">(</span><span class="s1">'#fullpage'</span><span class="p">,</span> <span class="p">{</span>
+  <span class="na">sectionsColor</span><span class="p">:</span> <span class="p">[</span><span class="s1">'#f2f2f2'</span><span class="p">,</span> <span class="s1">'#4BBFC3'</span><span class="p">,</span> <span class="s1">'#7BAABE'</span><span class="p">,</span> <span class="s1">'whitesmoke'</span><span class="p">,</span> <span class="s1">'#000'</span><span class="p">],</span>
+<span class="p">});</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">anchors</code>：（默认<code class="highlighter-rouge">[]</code>）定义要在每个部分的URL上显示的锚链接（#example）。 锚点的值应该是独一无二的。 数组中的锚的位置将限定锚被应用于哪些部分。 （第二部分的第二个位置等等）。 通过浏览器也可以使用锚点向前和向后导航。 该选项还允许用户为特定的部分或幻灯片添加书签。 <strong>注意！</strong>锚点不能与站点上的任何ID元素（或IE的NAME元素）具有相同的值。
+现在可以通过使用属性<code class="highlighter-rouge">data-anchor</code>直接在HTML结构中定义锚点，如此处所述。</p>
+  </li>
+  <li><code class="highlighter-rouge">lockAnchors</code>：（默认为<code class="highlighter-rouge">false</code>）确定URL中的锚是否在库中完全有效。 您仍然可以在函数和回调内部使用锚，但是它们在滚动网站时不起任何作用。 如果你想在URL中使用锚点来将fullPage.js和其他插件结合起来，那就很有用。</li>
+</ul>
+
+<p><strong>重要</strong>理解 <code class="highlighter-rouge">anchors</code>选项数组中的值通过在标记中的位置直接关联到具有<code class="highlighter-rouge">.section</code> 类的元素是有帮助的。</p>
+
+<ul>
+  <li>
+    <p><code class="highlighter-rouge">easing</code>:(默认<code class="highlighter-rouge">easeInOutCubic</code>）定义用于垂直和水平滚动的过渡效果。
+它需要文件<code class="highlighter-rouge">vendors / easings.min.js</code>或<a href="http://jqueryui.com/">jQuery UI</a>来使用<a href="http://api.jqueryui.com/easings/">它的转换</a>。 其他库可以用来代替。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">easingcss3</code>: （默认<code class="highlighter-rouge">ease</code>）定义在使用<code class="highlighter-rouge">css3：true</code>的情况下使用的过渡效果。 你可以使用<a href="http://www.w3schools.com/cssref/css3_pr_transition-timing-function.asp">预定义的</a>（比如<code class="highlighter-rouge">linear</code>，<code class="highlighter-rouge">ease-out</code> …）或者使用<code class="highlighter-rouge">立方bezier</code>功能创建你自己的。 你可能想使用<a href="http://matthewlein.com/ceaser/">Matthew Lein CSS缓动动画工具</a>。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">loopTop</code>:（默认为<code class="highlighter-rouge">false</code>）定义在第一节中向上滚动是否滚动到最后一个。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">loopBottom</code>: （默认为<code class="highlighter-rouge">false</code>）定义滚动到最后一节是否应该滚动到第一个。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">loopHorizontal</code>:（默认为<code class="highlighter-rouge">true</code>）定义水平滑块是否在到达上一张或上一张幻灯片后循环。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">css3</code>: （默认<code class="highlighter-rouge">true</code>）。 定义是否使用JavaScript或CSS3变换在部分和幻灯片中滚动。 有助于通过支持CSS3的浏览器加速平板电脑和移动设备的移动。 如果此选项设置为`true，并且浏览器不支持CSS3，则将使用后备。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">autoScrolling</code>: （默认为<code class="highlighter-rouge">true</code>）定义是使用“自动”滚动还是“正常”滚动。 它同时也影响了平板电脑和移动电话中浏览器/设备窗口部分适配的方式。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">fitToSection</code>: （默认为<code class="highlighter-rouge">true</code>）确定是否节放入视口中。 当设置为`true时，当前活动节将始终填充整个视口。 否则，用户可以自由地停留在一个节的中间（何时）</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">fitToSectionDelay</code>: （默认1000）。 如果<code class="highlighter-rouge">fitToSection</code>设置为true，则延迟
+以毫秒为单位进行拟合。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">scrollBar</code>: （默认<code class="highlighter-rouge">false</code>）确定是否使用站点的滚动条。 在使用滚动条的情况下，<code class="highlighter-rouge">autoScrolling</code>功能仍将按预期工作。 用户也可以使用滚动条自由滚动网站，当滚动完成时，fullPage.js将适配屏幕上的部分。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">paddingTop</code>: （默认<code class="highlighter-rouge">0</code>）用数值和度量（paddingTop：’10px’，paddingTop：’10em’…）定义每个部分的顶部填充。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">paddingBottom</code>: （默认为<code class="highlighter-rouge">0</code>）用数值和度量（paddingBottom：’10px’，paddingBottom：’10em’…）定义每个部分的底部填充。 使用固定页脚的情况下会有用。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">fixedElements</code>: （默认<code class="highlighter-rouge">null</code>）定义当使用<code class="highlighter-rouge">css3</code>选项保持固定时，哪些元素将从插件的滚动结构中移除。 它需要一个字符串与这些元素的Javascript选择器。 （例如：<code class="highlighter-rouge">fixedElements：'＃element1，.element2'</code>）</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">normalScrollElements</code>: （默认<code class="highlighter-rouge">null</code>）如果你想在滚动某些元素时避免自动滚动，这是你需要使用的选项。 （地图，滚动div等有用）它需要一个字符串与这些元素的Javascript选择器。 （例如：<code class="highlighter-rouge">normalScrollElements：'＃element1，.element2'</code>）。 此选项不应该应用于任何节/幻灯片元素本身。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">normalScrollElementTouchThreshold</code> : （默认<code class="highlighter-rouge">5</code>）定义html节点树的跳数阈值Fullpage将测试<code class="highlighter-rouge">normalScrollElements是否匹配，以允许在触摸设备上的div的滚动功能。 （例如：</code>normalScrollElementTouchThreshold：3`）</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">bigSectionsDestination</code>: （默认<code class="highlighter-rouge">null</code>）定义如何滚动到比视口大的部分。 默认情况下，如果您来自目的地上方的部分，fullPage.js将滚动到顶部，如果您来自目的地之下的部分，则会滚动到底部。 可能的值是<code class="highlighter-rouge">top</code>，<code class="highlighter-rouge">bottom</code>，<code class="highlighter-rouge">null</code>。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">keyboardScrolling</code>: （默认为<code class="highlighter-rouge">true</code>）定义是否可以使用键盘浏览内容。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">touchSensitivity</code>: （默认<code class="highlighter-rouge">5</code>）定义浏览器窗口宽度/高度的百分比，以及滑动到下一个节/幻灯片必须测量的距离</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">continuousVertical</code>:（默认为<code class="highlighter-rouge">false</code>）定义是否在最后一个区段向下滚动，或是否应该向下滚动到第一个区段，或如果在第一个区段向上滚动时是否应该滚动到最后一个区段。 不兼容<code class="highlighter-rouge">loopTop</code>，<code class="highlighter-rouge">loopBottom</code>或站点中存在的任何滚动条（<code class="highlighter-rouge">scrollBar：true</code>或<code class="highlighter-rouge">autoScrolling：false</code>）。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">continuousHorizontal</code>: （默认<code class="highlighter-rouge">false</code>）<a href="http://alvarotrigo.com/fullPage/extensions/">fullpage.js的扩展</a>。 定义在最后一张幻灯片中向右滑动是否应该向右滑动到第一张幻灯片，或者如果在第一张幻灯片中向左滚动是否应向左滑动到最后一张。 不兼容<code class="highlighter-rouge">loopHorizontal</code>。 需要fullpage.js&gt; = 2.8.3。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">scrollHorizontally</code>:（默认<code class="highlighter-rouge">false</code>）<a href="http://alvarotrigo.com/fullPage/extensions/">fullpage.js的扩展</a>。 定义是否使用鼠标滚轮或触控板在滑块内水平滑动。 讲故事的理想选择。 需要fullpage.js&gt; = 2.8.3。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">interlockedSlides</code>: （默认<code class="highlighter-rouge">false</code>）<a href="http://alvarotrigo.com/fullPage/extensions/">fullpage.js的扩展</a>。 确定移动一个水平滑块是否会强制滑块在其他段落中的滑动方向相同。 可能的值是<code class="highlighter-rouge">true</code>，<code class="highlighter-rouge">false或带有互锁部分的数组。 例如</code>[1,3,5]`从1开始。需要fullpage.js&gt; = 2.8.3。</p>
+  </li>
+  <li><code class="highlighter-rouge">dragAndMove</code>: （默认<code class="highlighter-rouge">false</code>）<a href="http://alvarotrigo.com/fullPage/extensions/">fullpage.js的扩展</a>。 启用或禁用鼠标或手指拖动和滑动部分和幻灯片。 需要fullpage.js&gt; = 2.8.9。 可能的值是：
+    <ul>
+      <li><code class="highlighter-rouge">true</code>: 启用该功能。</li>
+      <li><code class="highlighter-rouge">false</code>: 禁用该功能。</li>
+      <li><code class="highlighter-rouge">vertical</code>: 只能在垂直情况下启用该功能。</li>
+      <li><code class="highlighter-rouge">horizontal</code>: 只能在水平情况下启用该功能。</li>
+      <li><code class="highlighter-rouge">fingersonly</code>: 仅启用触摸设备的功能。</li>
+      <li><code class="highlighter-rouge">mouseonly</code>: 仅启用桌面设备的功能（鼠标和触控板）。</li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">offsetSections</code>: （默认<code class="highlighter-rouge">false</code>）<a href="http://alvarotrigo.com/fullPage/extensions/">fullpage.js的扩展</a>。 提供基于百分比使用非全屏幕部分的方法。 通过显示下一部分或上一部分的内容，向访问者显示网站中的更多内容的理想选择。 需要fullPage.js&gt; = 2.8.8
+要定义每个部分的百分比，必须使用属性<code class="highlighter-rouge">data-percentage</code>。 可以通过在属性<code class="highlighter-rouge">data-centered</code>中使用布尔值来确定视口中该部分的居中（如果未指定，则默认为<code class="highlighter-rouge">true</code>）。 例如：
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"section"</span> <span class="na">data-percentage=</span><span class="s">"80"</span> <span class="na">data-centered=</span><span class="s">"true"</span><span class="nt">&gt;</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">resetSliders</code>: （默认<code class="highlighter-rouge">false</code>）。 <a href="http://alvarotrigo.com/fullPage/extensions/">fullpage.js的扩展</a>。 定义是否在离开节后重置每个滑块。 需要fullpage.js&gt; = 2.8.3。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">fadingEffect</code>: （默认<code class="highlighter-rouge">false</code>）。 <a href="http://alvarotrigo.com/fullPage/extensions/">fullpage.js的扩展</a>。 定义是否使用淡入淡出效果，而不是默认的滚动效果。 可能的值是<code class="highlighter-rouge">true</code>，<code class="highlighter-rouge">false</code>，<code class="highlighter-rouge">sections</code>，<code class="highlighter-rouge">slides</code>。 因此，可以垂直或水平地应用，或者同时应用于两者。 需要fullpage.js&gt; = 2.8.6。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">animateAnchor</code>: （默认<code class="highlighter-rouge">true</code>）定义给定锚点（＃）的站点的负载是否会随着动画滚动到其目的地或直接加载给定部分。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">recordHistory</code>: （默认为<code class="highlighter-rouge">true</code>）定义是否将网站的状态推送到浏览器的历史记录。 设置为<code class="highlighter-rouge">true</code>时，网站的每个部分/幻灯片将作为新页面，浏览器的后退和前进按钮将滚动部分/幻灯片以达到网站的上一个或下一个状态。 当设置为<code class="highlighter-rouge">false</code>时，URL将保持更改，但不会影响浏览器的历史记录。 使用<code class="highlighter-rouge">autoScrolling：false</code>时，该选项会自动关闭。</p>
+  </li>
+  <li><code class="highlighter-rouge">menu</code>: （默认<code class="highlighter-rouge">false</code>）选择器可以用来指定菜单链接到部分。 这样，节的滚动将使用<code class="highlighter-rouge">active类激活菜单中的相应元素。
+这将不会生成菜单，而只是将</code>active类添加到给定菜单中的元素，并带有相应的锚链接。
+为了将菜单的元素与各个部分相链接，将需要一个HTML 5数据标签（<code class="highlighter-rouge">data-menuanchor</code>）来使用这些部分中使用的锚链接。 例：
+```html</li>
+</ul>
+<ul id="myMenu">
+	<li data-menuanchor="firstPage" class="active"><a href="#firstPage">第一节</a></li>
+	<li data-menuanchor="secondPage"><a href="#secondPage">第二节</a></li>
+	<li data-menuanchor="thirdPage"><a href="#thirdPage">第三节</a></li>
+	<li data-menuanchor="fourthPage"><a href="#fourthPage">第四节</a></li>
+</ul>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>```javascript
+new fullpage('#fullpage', {
+	anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
+	menu: '#myMenu'
+});
+</code></pre></div></div>
+
+<p><strong>注意：</strong> 菜单元素应放置在整页包装外，以避免使用<code class="highlighter-rouge">css3：true</code>时出现问题。 否则它会被插件本身附加到<code class="highlighter-rouge">body</code>。</p>
+
+<ul>
+  <li>
+    <p><code class="highlighter-rouge">navigation</code>: （默认<code class="highlighter-rouge">false</code>）如果设置为<code class="highlighter-rouge">true</code>，则会显示一个由小圆圈组成的导航栏。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">navigationPosition</code>: （默认<code class="highlighter-rouge">none</code>）可以设置为<code class="highlighter-rouge">left</code>或<code class="highlighter-rouge">right</code>，并定义导航栏显示的位置（如果使用的话）。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">navigationTooltips</code>: （默认为[]）定义要使用导航圈的工具提示。 例如：<code class="highlighter-rouge">navigationTooltips：['firstSlide'，'secondSlide']</code>。 如果您愿意，也可以在每个部分中使用属性<code class="highlighter-rouge">data-tooltip</code>来定义它们。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">showActiveTooltip</code>: （默认为<code class="highlighter-rouge">false</code>）显示垂直导航中主动查看节的持久工具提示。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">slidesNavigation</code>: （默认为<code class="highlighter-rouge">false</code>）如果设置为<code class="highlighter-rouge">true</code>，则会显示一个导航栏，该导航栏由站点上每个横向滑块的小圆圈组成。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">slidesNavPosition</code>: （默认<code class="highlighter-rouge">bottom</code>）定义滑块的横向导航栏的位置。 值为<code class="highlighter-rouge">top</code>和<code class="highlighter-rouge">bottom</code>。 您可能需要修改CSS样式以确定从顶部或底部以及任何其他样式（如颜色）的距离。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">scrollOverflow</code>: （默认为<code class="highlighter-rouge">false</code>）定义在内容大于它的高度的情况下是否为节/幻灯片创建滚动。 当设置为<code class="highlighter-rouge">true</code>时，您的内容将被插件包装。 考虑使用委托或在<code class="highlighter-rouge">afterRender</code>回调中加载其他脚本。
+如果设置为<code class="highlighter-rouge">true</code>，则需要库<a href="https://github.com/alvarotrigo/fullPage.js/tree/master/vendors/scrolloverflow.min.js"><code class="highlighter-rouge">scrolloverflow.min.js</code></a>。 这个文件必须在fullPage.js插件之前而非jQuery（在使用它的情况下）加载。
+例如：</p>
+  </li>
+</ul>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span> <span class="na">src=</span><span class="s">"vendors/scrolloverflow.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="nt">&lt;script </span><span class="na">type=</span><span class="s">"text/javascript"</span> <span class="na">src=</span><span class="s">"fullpage.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+</code></pre></div></div>
+
+<p>为了防止fullpage.js在某些节或幻灯片中创建滚动条，请使用<code class="highlighter-rouge">fp-noscroll</code>类。 例如： <code class="highlighter-rouge">&lt;div class="section fp-noscroll"&gt;</code></p>
+
+<p>在section元素中使用<code class="highlighter-rouge">fp-auto-height-responsive</code>时，您也可以防止scrolloverflow应用于响应模式。</p>
+
+<ul>
+  <li>
+    <p><code class="highlighter-rouge">scrollOverflowReset</code>:（默认<code class="highlighter-rouge">false</code>）<a href="http://alvarotrigo.com/fullPage/extensions/">fullpage.js的扩展</a>。 如果设置为<code class="highlighter-rouge">true</code>，当离开另一个垂直节时，使用滚动条向上滚动节/幻灯片的内容。 这样，即使从下面的节滚动，节/幻灯片也会始终显示其内容的开始。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">scrollOverflowOptions</code>: 当使用scrollOverflow：true时，fullpage.js将使用<a href="https://github.com/cubiq/iscroll/">iScroll.js库文件</a>的分叉和修改版本。 您可以通过为要使用的iScroll.js选项提供fullpage.js来自定义滚动行为。 查看<a href="http://iscrolljs.com/">它的文档</a>了解更多信息。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">sectionSelector</code>: （默认<code class="highlighter-rouge">.section</code>）定义用于插件部分的Javascript选择器。 有时可能需要更改，以避免与使用与fullpage.js相同的选择器的其他插件的问题。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">slideSelector</code>: （默认<code class="highlighter-rouge">.slide</code>）定义用于插件幻灯片的Javascript选择器。 有时可能需要更改，以避免与使用与fullpage.js相同的选择器的其他插件的问题。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">responsiveWidth</code>: （默认<code class="highlighter-rouge">0</code>）一个正常的滚动（<code class="highlighter-rouge">autoScrolling：false</code>）将在定义的宽度下以像素为单位使用。 如果用户希望将自己的响应式CSS用于身体标记，则会将<code class="highlighter-rouge">fp-responsive</code>类添加到身体标记中。 例如，如果设置为900，则每当浏览器的宽度小于900时，插件将像正常站点一样滚动。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">responsiveHeight</code>: （默认<code class="highlighter-rouge">0</code>）一个正常的滚动（<code class="highlighter-rouge">autoScrolling：false</code>）将在定义的高度下以像素为单位使用。 如果用户希望将自己的响应式CSS用于身体标记，则会将<code class="highlighter-rouge">fp-responsive</code>类添加到身体标记中。 例如，如果设置为900，则每当浏览器的高度小于900时，插件将像正常站点一样滚动。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">responsiveSlides</code>: （默认<code class="highlighter-rouge">false</code>）<a href="http://alvarotrigo.com/fullPage/extensions/">fullpage.js的扩展</a>。 设置为<code class="highlighter-rouge">true</code>时，在响应模式被触发时，幻灯片将变成垂直节。 （通过使用上面详述的<code class="highlighter-rouge">responsiveWidth</code>或<code class="highlighter-rouge">responsiveHeight</code>选项）。 需要fullpage.js&gt; = 2.8.5。</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">parallax</code>: （默认<code class="highlighter-rouge">false</code>）<a href="http://alvarotrigo.com/fullPage/extensions/">fullpage.js的扩展</a>。 定义是否在节/幻灯片上使用视差背景效果。 <a href="https://github.com/alvarotrigo/fullPage.js/blob/master/lang/chinese/parallax-extension.md">详细了解如何应用视差选项</a>.</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">parallaxOptions</code>: （默认：<code class="highlighter-rouge">{type：'reveal'，percent：62，property：'translate'}</code>）。 允许在使用选项parallax:true时配置视差背景效果的参数。 <a href="https://github.com/alvarotrigo/fullPage.js/blob/master/lang/chinese/parallax-extension.md">详细了解如何应用视差选项</a>.</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">lazyLoading</code>: （默认<code class="highlighter-rouge">true</code>）延迟加载默认是激活的，这意味着它会延迟加载包含属性<code class="highlighter-rouge">data-src</code>的任何媒体元素，详见<a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese/#%E5%BB%B6%E8%BF%9F%E5%8A%A0%E8%BD%BD">Lazy Loading docs</a>。 如果你想使用任何其他的后加载库，你可以禁用这个fullpage.js功能。</p>
+  </li>
+</ul>
+
+<h2 id="方法">方法</h2>
+<p>你可以在<a href="http://alvarotrigo.com/fullPage/examples/methods.html">这里</a>看到它们</p>
+
+<h3 id="getactivesection">getActiveSection()</h3>
+<p><a href="https://codepen.io/alvarotrigo/pen/VdpzRN/">示例</a> 获取包含活跃部分及其属性的对象（键入[Section](https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese#callbacks））。</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">getActiveSection</span><span class="p">();</span>
+</code></pre></div></div>
+
+<h3 id="getactiveslide">getActiveSlide()</h3>
+<p><a href="https://codepen.io/alvarotrigo/pen/VdpzRN/">示例</a>  获取包含活跃部分及其属性的对象（键入[Slide](https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese#callbacks））。）。</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">getActiveSlide</span><span class="p">();</span>
+</code></pre></div></div>
+
+<h3 id="movesectionup">moveSectionUp()</h3>
+<p><a href="http://codepen.io/alvarotrigo/pen/GJXNMN">示例</a> 向上滚动一节：</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">moveSectionUp</span><span class="p">();</span>
+</code></pre></div></div>
+<hr />
+<h3 id="movesectiondown">moveSectionDown()</h3>
+<p><a href="http://codepen.io/alvarotrigo/pen/jPvVZx">示例</a> 向下滚动一节：</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">moveSectionDown</span><span class="p">();</span>
+</code></pre></div></div>
+<hr />
+<h3 id="moveto第节-幻灯片">moveTo(第节, 幻灯片)</h3>
+<p><a href="http://codepen.io/alvarotrigo/pen/doqOmY">示例</a> 将页面滚动到给定节并滑动。 第一张幻灯片，默认情况下，将有索引0。</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/*滚动到锚链接`firstSlide`和第二张幻灯片的部分 */</span>
+<span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">moveTo</span><span class="p">(</span><span class="s1">'firstSlide'</span><span class="p">,</span> <span class="mi">2</span><span class="p">);</span>
+
+</code></pre></div></div>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//滚动到网站的第三节</span>
+<span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">moveTo</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+
+<span class="c1">//这是一样的</span>
+<span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">moveTo</span><span class="p">(</span><span class="mi">3</span><span class="p">);</span>
+</code></pre></div></div>
+<hr />
+<h3 id="silentmoveto第节-幻灯片">silentMoveTo(第节, 幻灯片)</h3>
+<p><a href="http://codepen.io/alvarotrigo/pen/doqOeY">示例</a> 与<a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese/#moveto%E7%AC%AC%E8%8A%82-%E5%B9%BB%E7%81%AF%E7%89%87"><code class="highlighter-rouge">moveTo</code></a>完全相同，但是在这种情况下，它将执行没有动画的滚动。 直接跳到目的地。</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/*滚动到锚链接`firstSlide`和第二张幻灯片的部分 */</span>
+<span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">silentMoveTo</span><span class="p">(</span><span class="s1">'firstSlide'</span><span class="p">,</span> <span class="mi">2</span><span class="p">);</span>
+</code></pre></div></div>
+<hr />
+<h3 id="moveslideright">moveSlideRight()</h3>
+<p><a href="http://codepen.io/alvarotrigo/pen/Wvgoyz">示例</a> 将当前节的水平滑块滚动到下一张幻灯片：</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">moveSlideRight</span><span class="p">();</span>
+</code></pre></div></div>
+<hr />
+<h3 id="moveslideleft">moveSlideLeft()</h3>
+<p><a href="http://codepen.io/alvarotrigo/pen/gpdLjW">示例</a> 将当前节的水平滑块滚动到上一张幻灯片:</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">moveSlideLeft</span><span class="p">();</span>
+</code></pre></div></div>
+<hr />
+<h3 id="setautoscrollingboolean">setAutoScrolling(boolean)</h3>
+<p><a href="http://codepen.io/alvarotrigo/pen/rVZWrR">示例</a> 实时设置滚动配置。
+定义页面滚动行为的方式。 如果设置为<code class="highlighter-rouge">true</code>，则将使用”自动”滚动，否则将使用站点的”手动”或”正常”滚动。</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">setAutoScrolling</span><span class="p">(</span><span class="kc">false</span><span class="p">);</span>
+</code></pre></div></div>
+<hr />
+<h3 id="setfittosectionboolean">setFitToSection(boolean)</h3>
+<p><a href="http://codepen.io/alvarotrigo/pen/GJXNYm">示例</a> 设置选项<code class="highlighter-rouge">fitToSection</code>的值，确定是否适合屏幕中的部分。</p>
+
+<pre><code class="language-JavaScript">fullpage_api.setFitToSection(false);
+</code></pre>
+<hr />
+<h3 id="fittosection">fitToSection()</h3>
+<p><a href="http://codepen.io/alvarotrigo/pen/JWWagj">示例</a> 滚动到最近的适合视口的活动节。</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">fitToSection</span><span class="p">();</span>
+</code></pre></div></div>
+<hr />
+<h3 id="setlockanchorsboolean">setLockAnchors(boolean)</h3>
+<p><a href="http://codepen.io/alvarotrigo/pen/yNxVRQ">示例</a> 设置选项<code class="highlighter-rouge">lockAnchors</code>的值，确定锚是否在URL中有效。</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">setLockAnchors</span><span class="p">(</span><span class="kc">false</span><span class="p">);</span>
+</code></pre></div></div>
+<hr />
+<h3 id="setallowscrollingboolean-directions">setAllowScrolling(boolean, [directions])</h3>
+<p><a href="http://codepen.io/alvarotrigo/pen/EjeNdq">示例</a> 添加或删除通过使用鼠标滚轮/触控板或触摸手势（默认处于活动状态）滚动节/幻灯片的可能性。 注意这不会禁用键盘滚动。 您将需要使用<code class="highlighter-rouge">setKeyboardScrolling</code>。</p>
+
+<ul>
+  <li><code class="highlighter-rouge">directions</code>：（可选参数）允许的值：<code class="highlighter-rouge">all</code>，<code class="highlighter-rouge">up</code>，<code class="highlighter-rouge">down</code>，<code class="highlighter-rouge">left</code>，<code class="highlighter-rouge">right</code>或者它们的组合，用<code class="highlighter-rouge">down，right</code>等逗号分隔。 它定义了滚动将被启用或禁用的方向。</li>
+</ul>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="c1">//禁用滚动</span>
+<span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">setAllowScrolling</span><span class="p">(</span><span class="kc">false</span><span class="p">);</span>
+
+<span class="c1">//禁用向下滚动</span>
+<span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">setAllowScrolling</span><span class="p">(</span><span class="kc">false</span><span class="p">,</span> <span class="s1">'down'</span><span class="p">);</span>
+
+<span class="c1">//禁用向下和向右滚动</span>
+<span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">setAllowScrolling</span><span class="p">(</span><span class="kc">false</span><span class="p">,</span> <span class="s1">'down, right'</span><span class="p">);</span>
+</code></pre></div></div>
+<hr />
+<h3 id="setkeyboardscrollingboolean-directions">setKeyboardScrolling(boolean, [directions])</h3>
+<p><a href="http://codepen.io/alvarotrigo/pen/GJXNwm">示例</a> 添加或删除通过使用键盘（默认情况下处于活动状态）滚动节的可能性。</p>
+
+<ul>
+  <li><code class="highlighter-rouge">directions</code>: （可选参数）允许的值：<code class="highlighter-rouge">all</code>，<code class="highlighter-rouge">up</code>，<code class="highlighter-rouge">down</code>，<code class="highlighter-rouge">left</code>，<code class="highlighter-rouge">right</code>或者它们的组合，用<code class="highlighter-rouge">down，right</code>等逗号分隔。 它定义了滚动将被启用或禁用的方向。</li>
+</ul>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//禁用所有键盘滚动</span>
+<span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">setKeyboardScrolling</span><span class="p">(</span><span class="kc">false</span><span class="p">);</span>
+
+<span class="c1">//禁用键盘向下滚动</span>
+<span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">setKeyboardScrolling</span><span class="p">(</span><span class="kc">false</span><span class="p">,</span> <span class="s1">'down'</span><span class="p">);</span>
+
+<span class="c1">//禁用键盘向下和向右滚动</span>
+<span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">setKeyboardScrolling</span><span class="p">(</span><span class="kc">false</span><span class="p">,</span> <span class="s1">'down, right'</span><span class="p">);</span>
+</code></pre></div></div>
+<hr />
+<h3 id="setrecordhistoryboolean">setRecordHistory(boolean)</h3>
+<p><a href="http://codepen.io/alvarotrigo/pen/rVZWQb">示例</a> 定义是否在URL中记录每个散列更改的历史记录。</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">setRecordHistory</span><span class="p">(</span><span class="kc">false</span><span class="p">);</span>
+</code></pre></div></div>
+<hr />
+<h3 id="setscrollingspeedmilliseconds">setScrollingSpeed(milliseconds)</h3>
+<p><a href="http://codepen.io/alvarotrigo/pen/NqLbeY">示例</a> 定义以毫秒为单位的滚动速度。</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">setScrollingSpeed</span><span class="p">(</span><span class="mi">700</span><span class="p">);</span>
+</code></pre></div></div>
+<hr />
+<h3 id="destroytype">destroy(type)</h3>
+<p><a href="http://codepen.io/alvarotrigo/pen/bdxBzv">示例</a> 销毁插件事件以及可选的HTML标记和样式。使用AJAX加载内容时的理想选择。</p>
+
+<ul>
+  <li><code class="highlighter-rouge">type</code>: （可选参数）可以为空或<code class="highlighter-rouge">all</code>。 如果<code class="highlighter-rouge">all</code>被传递，fullpage.js使用的HTML标记和样式将被删除。 这样，原始的HTML标记，即任何插件修改之前使用的标记都将被保留。</li>
+</ul>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//销毁由fullPage.js创建的所有Javascript事件（URL中的卷动，hashchange）</span>
+<span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">destroy</span><span class="p">();</span>
+
+<span class="c1">//销毁所有的JavaScript事件，以及在原始HTML标记中由fullPage.js所做的任何修改。</span>
+<span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">destroy</span><span class="p">(</span><span class="s1">'all'</span><span class="p">);</span>
+</code></pre></div></div>
+<hr />
+<h3 id="rebuild">reBuild()</h3>
+<p>更新DOM结构以适应新的窗口大小或其内容。
+  非常适合与AJAX调用或站点的DOM结构中的外部更改结合使用，特别是在使用<code class="highlighter-rouge">scrollOverflow：true</code>时。</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">reBuild</span><span class="p">();</span>
+</code></pre></div></div>
+<hr />
+<h3 id="setresponsiveboolean">setResponsive(boolean)</h3>
+<p><a href="http://codepen.io/alvarotrigo/pen/WxOyLA">示例</a> 设置页面的响应模式。 当设置为<code class="highlighter-rouge">true时，自动滚动将被关闭，结果与</code>responsiveWidth<code class="highlighter-rouge">或</code>responsiveHeight`选项被触发时的结果完全相同。</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">setResponsive</span><span class="p">(</span><span class="kc">true</span><span class="p">);</span>
+</code></pre></div></div>
+<hr />
+<h3 id="responsiveslidestosections">responsiveSlides.toSections()</h3>
+<p><a href="http://alvarotrigo.com/fullPage/extensions/">fullpage.js的扩展</a>。 需要fullpage.js&gt; = 2.8.5。将水平幻灯片变成垂直节。</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">responsiveSlides</span><span class="p">.</span><span class="nx">toSections</span><span class="p">();</span>
+</code></pre></div></div>
+<hr />
+<h3 id="responsiveslidestoslides">responsiveSlides.toSlides()</h3>
+<p><a href="http://alvarotrigo.com/fullPage/extensions/">fullpage.js的扩展</a>。 需要fullpage.js&gt; = 2.8.5。将原始幻灯片（现转换为垂直节）重新转换为水平幻灯片。</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">fullpage_api</span><span class="p">.</span><span class="nx">responsiveSlides</span><span class="p">.</span><span class="nx">toSlides</span><span class="p">();</span>
+</code></pre></div></div>
+
+<h2 id="callbacks">Callbacks</h2>
+<p><a href="http://codepen.io/alvarotrigo/pen/XbPNQv">示例</a> 你可以在<a href="http://alvarotrigo.com/fullPage/examples/callbacks.html">这里</a>看到他们。</p>
+
+<p>一些回调，例如<code class="highlighter-rouge">onLeave</code>将包含<code class="highlighter-rouge">Section</code>或<code class="highlighter-rouge">Slide</code>类型的参数。 这些对象将包含以下属性：</p>
+<ul>
+  <li><code class="highlighter-rouge">anchor</code>: <em>(String)</em> 项目的anchorLink。</li>
+  <li><code class="highlighter-rouge">index</code>: <em>(Number)</em> 项目的index。</li>
+  <li><code class="highlighter-rouge">item</code>: <em>(DOM element)</em> 项目元素。</li>
+  <li><code class="highlighter-rouge">isFirst</code>: <em>(Boolean)</em> 判断游标是否在第一行。</li>
+  <li><code class="highlighter-rouge">isLast</code>: <em>(Boolean)</em> 判断游标是否在最后一行。</li>
+</ul>
+
+<h3 id="afterload-origin-destination-direction">afterLoad (<code class="highlighter-rouge">origin</code>, <code class="highlighter-rouge">destination</code>, <code class="highlighter-rouge">direction</code>)</h3>
+<p>滚动结束之后，一旦加载了节，就会触发回调。参数：</p>
+
+<ul>
+  <li><code class="highlighter-rouge">origin</code>: <em>(Object)</em> active section</li>
+  <li><code class="highlighter-rouge">destination</code>: <em>(Object)</em> 终点部分。</li>
+  <li><code class="highlighter-rouge">direction</code>: <em>(String)</em> 它将根据滚动方向采用<code class="highlighter-rouge">up</code>或<code class="highlighter-rouge">down</code>值。</li>
+</ul>
+
+<p>例如：</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">new</span> <span class="nx">fullpage</span><span class="p">(</span><span class="s1">'#fullpage'</span><span class="p">,</span> <span class="p">{</span>
+	<span class="na">anchors</span><span class="p">:</span> <span class="p">[</span><span class="s1">'firstPage'</span><span class="p">,</span> <span class="s1">'secondPage'</span><span class="p">,</span> <span class="s1">'thirdPage'</span><span class="p">,</span> <span class="s1">'fourthPage'</span><span class="p">,</span> <span class="s1">'lastPage'</span><span class="p">],</span>
+
+	<span class="na">afterLoad</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">origin</span><span class="p">){</span>
+		<span class="kd">var</span> <span class="nx">loadedSection</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
+
+		<span class="c1">//使用 index</span>
+		<span class="k">if</span><span class="p">(</span><span class="nx">origin</span><span class="p">.</span><span class="nx">index</span> <span class="o">==</span> <span class="mi">2</span><span class="p">){</span>
+			<span class="nx">alert</span><span class="p">(</span><span class="s2">"第3节停止加载"</span><span class="p">);</span>
+		<span class="p">}</span>
+
+		<span class="c1">//使用 anchorLink</span>
+		<span class="k">if</span><span class="p">(</span><span class="nx">origin</span><span class="p">.</span><span class="nx">anchor</span> <span class="o">==</span> <span class="s1">'secondSlide'</span><span class="p">){</span>
+			<span class="nx">alert</span><span class="p">(</span><span class="s2">"第2节停止加载"</span><span class="p">);</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+<span class="p">});</span>
+</code></pre></div></div>
+<hr />
+<h3 id="onleave-origin-destination-direction">onLeave (<code class="highlighter-rouge">origin</code>, <code class="highlighter-rouge">destination</code>, <code class="highlighter-rouge">direction</code>)</h3>
+<p>一旦用户离开某个节，过渡到新节，就会触发此回调。
+返回“false”将在移动发生之前取消移动。</p>
+
+<p>参数：</p>
+
+<ul>
+  <li><code class="highlighter-rouge">origin</code>:  <em>(Object)</em> 起始部分</li>
+  <li><code class="highlighter-rouge">destination</code>: <em>(Object)</em> 终点部分。</li>
+  <li><code class="highlighter-rouge">direction</code>: <em>(String)</em> 它将根据滚动方向采用<code class="highlighter-rouge">up</code>或<code class="highlighter-rouge">down</code>值。</li>
+</ul>
+
+<p>例如：</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">new</span> <span class="nx">fullpage</span><span class="p">(</span><span class="s1">'#fullpage'</span><span class="p">,</span> <span class="p">{</span>
+	<span class="na">onLeave</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">index</span><span class="p">,</span> <span class="nx">nextIndex</span><span class="p">,</span> <span class="nx">direction</span><span class="p">){</span>
+		<span class="kd">var</span> <span class="nx">leavingSection</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
+
+		<span class="c1">//离开第二节后</span>
+		<span class="k">if</span><span class="p">(</span><span class="nx">origin</span><span class="p">.</span><span class="nx">index</span> <span class="o">==</span> <span class="mi">1</span> <span class="o">&amp;&amp;</span> <span class="nx">direction</span> <span class="o">==</span><span class="s1">'down'</span><span class="p">){</span>
+			<span class="nx">alert</span><span class="p">(</span><span class="s2">"前往第3节！"</span><span class="p">);</span>
+		<span class="p">}</span>
+
+		<span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="nx">origin</span><span class="p">.</span><span class="nx">index</span> <span class="o">==</span> <span class="mi">1</span> <span class="o">&amp;&amp;</span> <span class="nx">direction</span> <span class="o">==</span> <span class="s1">'up'</span><span class="p">){</span>
+			<span class="nx">alert</span><span class="p">(</span><span class="s2">"前往第1节！"</span><span class="p">);</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<h4 id="触发之前取消滚动">触发之前取消滚动</h4>
+<p>您可以通过在<code class="highlighter-rouge">onLeave</code>回调函数上返回`false来取消滚动：</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">new</span> <span class="nx">fullpage</span><span class="p">(</span><span class="s1">'#fullpage'</span><span class="p">,</span> <span class="p">{</span>
+	<span class="na">onLeave</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">origin</span><span class="p">,</span> <span class="nx">destination</span><span class="p">,</span> <span class="nx">direction</span><span class="p">){</span>
+		<span class="c1">//如果目标是第三节，它将不会滚动</span>
+		<span class="k">if</span><span class="p">(</span><span class="nx">destination</span><span class="p">.</span><span class="nx">index</span> <span class="o">==</span> <span class="mi">2</span><span class="p">){</span>
+			<span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<hr />
+<h3 id="afterrender">afterRender()</h3>
+<p>这个回调在页面结构生成后立即被触发。 这是您要用来初始化其他插件的回调函数，或者触发任何需要文档准备就绪的代码（因为这个插件修改了DOM来创建结果的结构）。 请参阅<a href="https://github.com/alvarotrigo/fullPage.js/wiki/FAQ---Frequently-Answered-Questions">常见问题</a>了解更多信息。</p>
+
+<p>例如：</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">new</span> <span class="nx">fullpage</span><span class="p">(</span><span class="s1">'#fullpage'</span><span class="p">,</span> <span class="p">{</span>
+	<span class="na">afterRender</span><span class="p">:</span> <span class="kd">function</span><span class="p">(){</span>
+		<span class="kd">var</span> <span class="nx">pluginContainer</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
+		<span class="nx">alert</span><span class="p">(</span><span class="s2">"DOM结构已完成"</span><span class="p">);</span>
+	<span class="p">}</span>
+<span class="p">});</span>
+</code></pre></div></div>
+<hr />
+<h3 id="afterresize">afterResize()</h3>
+<p>调整浏览器窗口大小后，会触发此回调。 就在节被调整之后。</p>
+
+<p>参数：</p>
+
+<ul>
+  <li><code class="highlighter-rouge">width</code>:  <em>(Number)</em> 屏幕宽度。</li>
+  <li><code class="highlighter-rouge">height</code>: <em>(Number)</em> 屏幕高度。</li>
+</ul>
+
+<p>例如：</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">new</span> <span class="nx">fullpage</span><span class="p">(</span><span class="s1">'#fullpage'</span><span class="p">,</span> <span class="p">{</span>
+	<span class="na">afterResize</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">width</span><span class="p">,</span> <span class="nx">height</span><span class="p">){</span>
+		<span class="kd">var</span> <span class="nx">pluginContainer</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
+		<span class="nx">alert</span><span class="p">(</span><span class="s2">"节已重新调整大小"</span><span class="p">);</span>
+	<span class="p">}</span>
+<span class="p">});</span>
+</code></pre></div></div>
+<hr />
+<h3 id="afterresponsiveisresponsive">afterResponsive(<code class="highlighter-rouge">isResponsive</code>)</h3>
+<p>在fullpage.js从正常模式变为响应模式或从响应模式变为正常模式之后，此回调将被触发。</p>
+
+<p>参数：</p>
+
+<ul>
+  <li><code class="highlighter-rouge">isResponsive</code>：<em>(Boolean)</em> 布尔值，用于确定是否进入响应模式（<code class="highlighter-rouge">true</code>）或返回正常模式（<code class="highlighter-rouge">false</code>）。</li>
+</ul>
+
+<p>例如：</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">new</span> <span class="nx">fullpage</span><span class="p">(</span><span class="s1">'#fullpage'</span><span class="p">,</span> <span class="p">{</span>
+	<span class="na">afterResponsive</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">isResponsive</span><span class="p">){</span>
+		<span class="nx">alert</span><span class="p">(</span><span class="s2">"是否响应"</span> <span class="o">+</span> <span class="nx">isResponsive</span><span class="p">);</span>
+	<span class="p">}</span>
+<span class="p">});</span>
+</code></pre></div></div>
+<hr />
+<h3 id="afterslideload-section-origin-destination-direction">afterSlideLoad (<code class="highlighter-rouge">section</code>, <code class="highlighter-rouge">origin</code>, <code class="highlighter-rouge">destination</code>, <code class="highlighter-rouge">direction</code>)</h3>
+<p>滚动结束后，加载一个节的幻灯片后触发回调。</p>
+
+<p>参数：</p>
+
+<ul>
+  <li><code class="highlighter-rouge">section</code>: <em>(Object)</em> 活跃垂直部分。</li>
+  <li><code class="highlighter-rouge">origin</code>: <em>(Object)</em>水平滑动起始。</li>
+  <li><code class="highlighter-rouge">destination</code>: <em>(Object)</em>水平滑动终点。</li>
+  <li><code class="highlighter-rouge">direction</code>: <em>(String)</em> <code class="highlighter-rouge">它将根据滚动方向采用right</code> 或 <code class="highlighter-rouge">left</code> 值。</li>
+</ul>
+
+<p>例如：</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">new</span> <span class="nx">fullpage</span><span class="p">(</span><span class="s1">'#fullpage'</span><span class="p">,</span> <span class="p">{</span>
+	<span class="na">anchors</span><span class="p">:</span> <span class="p">[</span><span class="s1">'firstPage'</span><span class="p">,</span> <span class="s1">'secondPage'</span><span class="p">,</span> <span class="s1">'thirdPage'</span><span class="p">,</span> <span class="s1">'fourthPage'</span><span class="p">,</span> <span class="s1">'lastPage'</span><span class="p">],</span>
+
+	<span class="na">afterSlideLoad</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span> <span class="nx">section</span><span class="p">,</span> <span class="nx">origin</span><span class="p">,</span> <span class="nx">destination</span><span class="p">,</span> <span class="nx">direction</span><span class="p">){</span>
+		<span class="kd">var</span> <span class="nx">loadedSlide</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
+
+		<span class="c1">//第二节的第一张幻灯片</span>
+		<span class="k">if</span><span class="p">(</span><span class="nx">section</span><span class="p">.</span><span class="nx">anchor</span> <span class="o">==</span> <span class="s1">'secondPage'</span> <span class="o">&amp;&amp;</span> <span class="nx">destination</span><span class="p">.</span><span class="nx">index</span> <span class="o">==</span> <span class="mi">1</span><span class="p">){</span>
+			<span class="nx">alert</span><span class="p">(</span><span class="s2">"第一张幻灯片加载完毕"</span><span class="p">);</span>
+		<span class="p">}</span>
+
+		<span class="c1">//第二节的第二张幻灯片（假设#secondSlide是</span>
+        <span class="c1">//为第二张幻灯片锚点</span>
+		<span class="k">if</span><span class="p">(</span><span class="nx">section</span><span class="p">.</span><span class="nx">index</span> <span class="o">==</span> <span class="mi">1</span> <span class="o">&amp;&amp;</span> <span class="nx">destination</span><span class="p">.</span><span class="nx">anchor</span> <span class="o">==</span> <span class="s1">'secondSlide'</span><span class="p">){</span>
+			<span class="nx">alert</span><span class="p">(</span><span class="s2">"第二张幻灯片加载完毕"</span><span class="p">);</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<hr />
+<h3 id="onslideleave-section-origin-destination-direction">onSlideLeave (<code class="highlighter-rouge">section</code>, <code class="highlighter-rouge">origin</code>, <code class="highlighter-rouge">destination</code>, <code class="highlighter-rouge">direction</code>)</h3>
+<p>一旦用户离开幻灯片转到另一个幻灯片，就会触发此回调。返回<code class="highlighter-rouge">false</code>将在移动发生之前取消移动。</p>
+
+<p>参数：</p>
+
+<ul>
+  <li><code class="highlighter-rouge">section</code>: <em>(Object)</em> active vertical section.</li>
+  <li><code class="highlighter-rouge">origin</code>: <em>(Object)</em> horizontal slide of origin.</li>
+  <li><code class="highlighter-rouge">destination</code>: <em>(Object)</em> destination horizontal slide.</li>
+  <li><code class="highlighter-rouge">direction</code>: <em>(String)</em> <code class="highlighter-rouge">right</code> or <code class="highlighter-rouge">left</code> depending on the scrolling direction.</li>
+</ul>
+
+<p>例如：</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">new</span> <span class="nx">fullpage</span><span class="p">(</span><span class="s1">'#fullpage'</span><span class="p">,</span> <span class="p">{</span>
+	<span class="na">onSlideLeave</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span> <span class="nx">section</span><span class="p">,</span> <span class="nx">origin</span><span class="p">,</span> <span class="nx">destination</span><span class="p">,</span> <span class="nx">direction</span><span class="p">){</span>
+		<span class="kd">var</span> <span class="nx">leavingSlide</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
+
+		<span class="c1">//留下第二节的第一张幻灯片</span>
+		<span class="k">if</span><span class="p">(</span><span class="nx">section</span><span class="p">.</span><span class="nx">index</span> <span class="o">==</span> <span class="mi">1</span> <span class="o">&amp;&amp;</span> <span class="nx">origin</span><span class="p">.</span><span class="nx">index</span> <span class="o">==</span> <span class="mi">0</span> <span class="o">&amp;&amp;</span> <span class="nx">direction</span> <span class="o">==</span> <span class="s1">'right'</span><span class="p">){</span>
+			<span class="nx">alert</span><span class="p">(</span><span class="s2">"离开第一张幻灯片！"</span><span class="p">);</span>
+		<span class="p">}</span>
+
+		<span class="c1">//将第二节的第三张幻灯片留在左边</span>
+		<span class="k">if</span><span class="p">(</span><span class="nx">section</span><span class="p">.</span><span class="nx">index</span> <span class="o">==</span> <span class="mi">1</span> <span class="o">&amp;&amp;</span> <span class="nx">origin</span><span class="p">.</span><span class="nx">index</span> <span class="o">==</span> <span class="mi">2</span> <span class="o">&amp;&amp;</span> <span class="nx">direction</span> <span class="o">==</span> <span class="s1">'left'</span><span class="p">){</span>
+			<span class="nx">alert</span><span class="p">(</span><span class="s2">"前往第二张幻灯片！"</span><span class="p">);</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<h4 id="在发生移动之前取消移动">在发生移动之前取消移动</h4>
+<p>您可以通过在<code class="highlighter-rouge">onSlideLeave</code>回调中返回<code class="highlighter-rouge">false</code>来取消移动。 <a href="https://github.com/alvarotrigo/fullPage.js/tree/master/lang/chinese/#%E8%A7%A6%E5%8F%91%E4%B9%8B%E5%89%8D%E5%8F%96%E6%B6%88%E6%BB%9A%E5%8A%A8">与使用<code class="highlighter-rouge">onLeave</code>取消动作一样</a>。</p>
+
+<h1 id="报告问题">报告问题</h1>
+<p>1.请在提问之前使用github问题搜索查找您的问题。
+2.确保使用最新的fullpage.js版本。 不支持旧版本。
+3.使用<a href="https://github.com/alvarotrigo/fullPage.js/issues">Github问题论坛</a>来创建问题。
+4.<strong>需要单独复制该问题</strong>使用<a href="https://jsfiddle.net/alvarotrigo/ea17skjr/">jsfiddle</a>或<a href="http://codepen.io/alvarotrigo/pen/NxyPPp">codepen</a>，如果可能的话。</p>
+
+<h1 id="贡献给fullpagejs">贡献给fullpage.js</h1>
+<p>请参阅<a href="https://github.com/alvarotrigo/fullPage.js/wiki/Contributing-to-fullpage.js">贡献给fullpage.js</a></p>
+
+<h1 id="更新日志">更新日志</h1>
+<p>要查看最近更改的列表，请参见<a href="https://github.com/alvarotrigo/fullPage.js/releases">发行版部分</a>.</p>
+
+<h1 id="构建任务">构建任务</h1>
+<p>想要构建fullpage.js分发文件？ 请参阅<a href="https://github.com/alvarotrigo/fullPage.js/wiki/Build-tasks">Build Tasks</a></p>
+
+<h1 id="参考资源">参考资源</h1>
+<ul>
+  <li><a href="http://alvarotrigo.com/fullPage/utils/wordpress.html">Wordpress theme</a></li>
+  <li><a href="https://github.com/alvarotrigo/vue-fullpage.js">Official Vue.js wrapper component</a></li>
+  <li><a href="https://github.com/alvarotrigo/react-fullpage">Official React.js wrapper component</a></li>
+  <li><a href="http://matthewlein.com/ceaser/">CSS Easing Animation Tool - Matthew Lein</a> (用于定义`easingcss3的值)</li>
+  <li><a href="https://www.jsdelivr.com/package/npm/fullpage.js">fullPage.js jsDelivr CDN</a></li>
+  <li><a href="http://octobercms.com/plugin/freestream-parallax">fullPage.js plugin for October CMS</a></li>
+  <li><a href="https://wordpress.org/plugins/wp-fullpage/">fullPage.js wordpress plugin</a></li>
+  <li><a href="https://github.com/meiblorn/ng2-fullpage">fullPage.js Angular2 directive</a></li>
+  <li><a href="https://github.com/hellsan631/angular-fullpage.js">fullPage.js angular directive</a></li>
+  <li><a href="https://www.npmjs.com/package/ember-cli-fullpagejs">fullPage.js ember-cli addon</a></li>
+  <li><a href="https://rubygems.org/gems/fullpagejs-rails">fullPage.js Rails Ruby Gem</a></li>
+  <li><a href="https://github.com/mmautomatizacion/angular-fullpage.js">Angular fullPage.js - Adaptation for Angular.js v1.x</a></li>
+  <li><a href="http://premium.wpmudev.org/blog/build-apple-inspired-full-page-scrolling-pages-for-your-wordpress-site/">Integrating fullPage.js with Wordpress (Tutorial)</a></li>
+</ul>
+
+<h2 id="谁在使用-fullpagejs">谁在使用 fullPage.js</h2>
+<p>如果你想让你的页面在这里列出。 请使用网址<a href="mailto:alvaro@alvarotrigo.com">与我联系</a>。</p>
+
+<p><a href="http://www.yourprimer.com/"><img src="http://wallpapers-for-ipad.com/fullpage/imgs3/logos/google-4.png" alt="Google" /></a>
+<a href="https://www.coca-colacompany.com/annual-review/2017/index.html"><img src="http://wallpapers-for-ipad.com/fullpage/imgs3/logos/cocacola-4.png" alt="Coca-cola" /></a>
+<img src="http://wallpapers-for-ipad.com/fullpage/imgs3/logos/ebay-4.png" alt="eBay" />
+<a href="http://www.bbc.co.uk/news/resources/idt-d88680d1-26f2-4863-be95-83298fd01e02"><img src="http://wallpapers-for-ipad.com/fullpage/imgs3/logos/bbc-4.png" alt="BBC" /></a>
+<img src="http://wallpapers-for-ipad.com/fullpage/imgs3/logos/sony-4.png" alt="Sony" /></p>
+
+<p><img src="http://wallpapers-for-ipad.com/fullpage/imgs3/logos/vodafone-5.png" alt="Vodafone" />
+<img src="http://wallpapers-for-ipad.com/fullpage/imgs3/logos/british-airways-5.png" alt="British Airways" />
+<img src="http://wallpapers-for-ipad.com/fullpage/imgs3/logos/mcdonalds-6.png" alt="McDonalds" />
+<img src="http://wallpapers-for-ipad.com/fullpage/imgs3/logos/ea-6.png" alt="EA" />
+<a href="http://www.vogue.fr/chaumet-histoires-de-liens"><img src="http://wallpapers-for-ipad.com/fullpage/imgs3/logos/vogue-6.png" alt="Vogue" /></a>
+<img src="http://wallpapers-for-ipad.com/fullpage/imgs3/logos/mi-6.png" alt="Mi" /></p>
+
+<p><a href="https://www.x-class.com.au/"><img src="http://wallpapers-for-ipad.com/fullpage/imgs3/logos/mercedes-5.png" alt="Mercedes" /></a>
+<a href="http://www.sanyang.com.tw/service/Conception/"><img src="http://wallpapers-for-ipad.com/fullpage/imgs3/logos/sym-5.png" alt="sym" /></a>
+<img src="http://wallpapers-for-ipad.com/fullpage/imgs3/logos/bugatti-5.png" alt="Bugatti" />
+<a href="https://www.edarling.de/"><img src="http://wallpapers-for-ipad.com/fullpage/imgs3/logos/edarling-5.png" alt="eDarling" /></a>
+<img src="http://wallpapers-for-ipad.com/fullpage/imgs3/logos/ubisoft-5.png" alt="Ubisoft" /></p>
+
+<ul>
+  <li>https://www.coca-colacompany.com/annual-review/2017/index.html</li>
+  <li>http://www.bbc.co.uk/news/resources/idt-d88680d1-26f2-4863-be95-83298fd01e02</li>
+  <li>https://www.x-class.com.au</li>
+  <li>http://www.yourprimer.com/</li>
+  <li>http://www.vogue.fr/chaumet-histoires-de-liens</li>
+  <li>http://burntmovie.com/</li>
+  <li>http://www.newjumoconcept.com/</li>
+  <li>http://www.shootinggalleryasia.com/</li>
+  <li>http://medoff.ua/en/</li>
+  <li>http://promo.prestigio.com/grace1/</li>
+  <li>http://www.commoditiesdemystified.info/en/</li>
+  <li>http://torchbrowser.com/</li>
+  <li>http://thekorner.fr/</li>
+  <li>https://www.edarling.de/</li>
+  <li>http://urban-walks.com/</li>
+  <li>http://lingualeo.com/</li>
+  <li>http://charlotteaimes.com/</li>
+  <li>http://collection.madeofsundays.com</li>
+  <li>http://www.boxreload.com/</li>
+  <li>http://educationaboveall.org/</li>
+  <li>http://camfindapp.com/</li>
+  <li>http://rockercreative.com/</li>
+  <li>http://usescribe.com/</li>
+  <li>http://lucilecazanave.com/</li>
+  <li>http://boxx.hk/</li>
+  <li>http://bearonunicycle.com/</li>
+  <li>http://rawmilk.dk/en/</li>
+  <li>http://www.famavolat.com/</li>
+  <li>http://www.sanyang.com.tw/service/Conception/</li>
+  <li>http://www.batzaya.net/</li>
+  <li>http://medissix.com/</li>
+  <li>http://trasmissione-energia.terna.it/</li>
+  <li>http://www.thefoodmovie.com/</li>
+  <li>http://www.villareginateodolinda.it</li>
+  <li>http://www.kesstrio.com</li>
+  <li>http://ded-morozz.kiev.ua/</li>
+  <li>http://unabridgedsoftware.com/</li>
+  <li>http://atlanticcorp.us/</li>
+  <li>http://moysport.ru/</li>
+  <li>http://themify.me/demo/#theme=fullpane</li>
+  <li>http://dancingroad.com</li>
+  <li>http://www.camanihome.com/</li>
+  <li>https://life2film.com/en/</li>
+</ul>
+
+<p>你可以找到另一个列表<a href="http://libscore.com/#$.fn.fullpage">这里</a>.</p>
+
+<h2 id="捐献">捐献</h2>
+<p>非常欢迎您的捐款:)</p>
+
+<p><a href="https://www.patreon.com/fullpagejs">Patreon page</a></p>
+
+<p><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=BEK5JQCQMED4J&amp;lc=GB&amp;item_name=fullPage%2ejs&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted"><img src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" alt="Donate" /></a></p>
+
+<h2 id="sponsors">Sponsors</h2>
+<p>Become a sponsor and get your logo on our README on Github with a link to your site. [<a href="https://alvarotrigo.com/#contact">Become a sponsor</a>] | [<a href="https://www.patreon.com/fullpagejs">Become a patreon</a>]</p>
+
+<p><a href="https://www.stackpath.com/"><img src="http://wallpapers-for-ipad.com/fullpage/imgs3/logos/stackpath3.png" alt="Stackpath" /></a>
+<a href="http://www.browserstack.com/"><img src="http://wallpapers-for-ipad.com/fullpage/imgs3/logos/browserstack3.png" alt="Browserstack" /></a>
+<a href="https://hostpresto.com/?utm_source=alvaro"><img src="http://wallpapers-for-ipad.com/fullpage/imgs3/logos/hostpresto3.png" alt="HostPresto" /></a>
+<a href="https://codepen.com"><img src="http://wallpapers-for-ipad.com/fullpage/imgs3/logos/codepen3.png" alt="CodePen" /></a></p>
+
+<h3 id="people">People</h3>
+<p><a href="https://github.com/donsalvadori" target="_blank" rel="nofollow">
+	<img src="http://wallpapers-for-ipad.com/fullpage/imgs3/avatars/donsalvadori.jpg" />
+</a></p>
+
+    <footer>
+    <img class="footer__image logo-density" src="/assets/images/logo_density.svg" alt="DensityDesign logo">
+    <img class="footer__image logo-poli" src="/assets/images/polimi_logo.svg" alt="Politecnico di Milano logo">
+    <div class="footer__item footer__faculty">
+        <h6 class="footer__title">Faculty</h6>
+        <ul class="footer__list">
+            <li>Paolo Ciuccarelli</li>
+            <li>Stefano Mandato</li>
+            <li>Michele Mauri</li>
+            <li>Simone Vantini</li>
+            <li>Salvatore Zingale</li>
+        </ul>
+    </div>
+    <div class="footer__item footer__assistants">
+        <h6 class="footer__title">Teaching Assistants</h6>
+        <ul class="footer__list">
+            <li>Ángeles Briones</li>
+            <li>Gabriele Colombo</li>
+            <li>Jacopo Di Iorio</li>
+            <li>Tommaso Elli</li>
+            <li>Beatrice Gobbo</li>
+            <li>Michele Invernizzi</li>
+            <li>Ginevra Terenghi</li>
+        </ul>
+    </div>
+</footer>
+
+    
+        <script src="/assets/js/perlin.js" charset="utf-8"></script>
+        <script src="/assets/js/mask.js" charset="utf-8"></script>
+    
+</body>
+
+</html>

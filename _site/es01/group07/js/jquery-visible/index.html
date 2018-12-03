@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Element Onscreen Visibility</title>
+
+    <meta name="author" content="DensityDesign Research Lab">
+    <meta name="description" content="">
+    <meta property="og:title" content="Element Onscreen Visibility">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="http://localhost:4000/es01/group07/js/jquery-visible/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:site_name" content="DensityDesign F.S.D.S 2018/2019">
+    <meta name="twitter:image:alt" content="">
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/images/favicons/favicon-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/favicons/favicon-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/images/favicons/favicon-72.png">
+    <link rel="apple-touch-icon-precomposed" href="/assets/images/favicons/favicon-57.png">
+    <link rel="shortcut icon" href="/assets/images/favicons/favicon-32.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Bitter:400,400i|Muli:400,900" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+    <h1 id="element-onscreen-visibility">Element Onscreen Visibility</h1>
+
+<p>This is a <a href="http://jquery.com/">jQuery</a> plugin which allows us to quickly check if an element 
+is within the browsers <a href="http://www.quirksmode.org/mobile/viewports.html">visual viewport</a>, 
+regardless of the scroll position. If a user can see this element, the function will return true.</p>
+
+<h2 id="documentation">Documentation</h2>
+<h3 id="basic-visibility-check">Basic visibility check</h3>
+
+<p>This basic check will return <code class="highlighter-rouge">true</code> if the entire element is visible to the user (within the visual viewport).</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$('#element').visible();
+</code></pre></div></div>
+
+<p>If you’d like to check for ANY PART of the element, you can use the following:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$('#element').visible( true );
+</code></pre></div></div>
+
+<p>The plugin ignores the elements visibility by default. E.g., <code class="highlighter-rouge">display:none</code>, <code class="highlighter-rouge">visibility: hidden</code>, <code class="highlighter-rouge">offsetWidth</code> or <code class="highlighter-rouge">offsetHeight</code> is 0). 
+To filter on css visibility, you can use the jQuery <code class="highlighter-rouge">:visible</code> selector:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$('#element:visible').visible();
+</code></pre></div></div>
+
+<p>Optionally, you can specify a second parameter to the <code class="highlighter-rouge">.visible</code> plugin, which will check whether the element is visible, as well as
+whether it’s within the viewport too.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$('#element:visible').visible( false, true );
+</code></pre></div></div>
+
+<p>Optionally, you can add a third parameter to specify the direction to check for visibility. This can either be ‘horizontal’, ‘vertical’ or ‘both’.
+Default is to ‘both’.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$('#element').visible( false, false, 'horizontal' );
+</code></pre></div></div>
+
+<h2 id="demos">Demos</h2>
+
+<p>The Demos for this plugin live under the examples/ directory. Open them directly in your web browser, or view the following online examples:</p>
+
+<ul>
+  <li><a href="http://opensource.teamdf.com/visible/examples/demo-basic.html">Basic Demo</a></li>
+</ul>
+
+<p>See the blog article:</p>
+
+<ul>
+  <li><a href="https://www.customd.com/articles/13/checking-if-an-element-is-visible-on-screen-using-jquery">Checking if an element is visible on-screen using jQuery</a></li>
+</ul>
+
+<h2 id="limitations">Limitations</h2>
+
+<p>Currently, this plugin will not check for visibility in nested scrollable areas, only on the main viewport (window object).</p>
+
+    <footer>
+    <img class="footer__image logo-density" src="/assets/images/logo_density.svg" alt="DensityDesign logo">
+    <img class="footer__image logo-poli" src="/assets/images/polimi_logo.svg" alt="Politecnico di Milano logo">
+    <div class="footer__item footer__faculty">
+        <h6 class="footer__title">Faculty</h6>
+        <ul class="footer__list">
+            <li>Paolo Ciuccarelli</li>
+            <li>Stefano Mandato</li>
+            <li>Michele Mauri</li>
+            <li>Simone Vantini</li>
+            <li>Salvatore Zingale</li>
+        </ul>
+    </div>
+    <div class="footer__item footer__assistants">
+        <h6 class="footer__title">Teaching Assistants</h6>
+        <ul class="footer__list">
+            <li>Ángeles Briones</li>
+            <li>Gabriele Colombo</li>
+            <li>Jacopo Di Iorio</li>
+            <li>Tommaso Elli</li>
+            <li>Beatrice Gobbo</li>
+            <li>Michele Invernizzi</li>
+            <li>Ginevra Terenghi</li>
+        </ul>
+    </div>
+</footer>
+
+    
+        <script src="/assets/js/perlin.js" charset="utf-8"></script>
+        <script src="/assets/js/mask.js" charset="utf-8"></script>
+    
+</body>
+
+</html>
