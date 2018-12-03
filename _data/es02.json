@@ -24,7 +24,7 @@
             theme: "Food economics",
             title: "The Dark Side of Avocado",
             excerpt: "The dark side of avocado is something usually hidden in the weaves of big flows of trade. How much do we know about the impact that intensive farming has both on soil and local producers?",
-            cover_website: "/cover/web-cover.jpg"
+            cover_website: "/assets/images/covers/cover-01.gif"
         },
         {
             group: "group04",
