@@ -83,7 +83,7 @@ $(document).ready(function () {
     var counter = 1;
 
     $(window).mousemove(function () {
-        var images = "url(./css/wave" + counter + ".png)";
+        var images = "url(CSS/wave" + counter + ".png)";
         // console.log(images);
 
         $('#one').css({
