@@ -16,7 +16,7 @@
             theme: "Datafication",
             title: "Exploring Data Center Energy",
             excerpt: "Can public accurately, objectively and comprehensively understand the current status of the rapidly developing data industry? We try to represent the whole picture of the data center panorama in the virtual world.",
-            cover_website: "/cover/web-cover.jpg"
+            cover_website: "/assets/images/covers/cover.jpg"
         },
         {
             group: "group03",
