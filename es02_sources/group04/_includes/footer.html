@@ -1,0 +1,41 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700');
+</style>
+
+<footer>
+    <img class="footer__image logo-density" src="{{ '/assets/images/logo_density.png' | relative_url }}" alt="DensityDesign logo">
+    <img class="footer__image logo-poli" src="{{ '/assets/images/logo_poli.png' | relative_url }}" alt="Politecnico di Milano logo">
+    <div class="footer__item">
+        <h6 class="footer__title">Project by</h6>
+        <ul class="footer__list">
+            {% assign members = site.pages[0].members | split: ', ' %}
+            {% for member in members %}
+            <li>{{ member }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="footer__item">
+        <h6 class="footer__title">Faculty</h6>
+        <ul class="footer__list">
+            <li>Paolo Ciuccarelli</li>
+            <li>Stefano Mandato</li>
+            <li>Michele Mauri</li>
+            <li>Simone Vantini</li>
+            <li>Salvatore Zingale</li>
+        </ul>
+    </div>
+    <div class="footer__item">
+        <h6 class="footer__title">Teaching Assistants</h6>
+        <ul class="footer__list">
+            <li>Ángeles Briones</li>
+            <li>Gabriele Colombo</li>
+            <li>Jacopo Di Iorio</li>
+            <li>Tommaso Elli</li>
+            <li>Beatrice Gobbo</li>
+            <li>Michele Invernizzi</li>
+            <li>Ginevra Terenghi</li>
+        </ul>
+    </div>
+</footer>
