@@ -160,7 +160,7 @@ loadJSON();
 
 function loadJSON() {
 
-    var file = "/assets/kialo.json";
+    var file = "./assets/kialo.json";
     var xobj = new XMLHttpRequest();
     xobj.overrideMimeType("application/json");
     xobj.open('GET', file, true); // Replace 'my_data' with the path to your file
@@ -181,7 +181,7 @@ function storeJSONData(jsonObject) {
 
             // PRIMA DI PRENDERE IL COMMENTO A CASO DEVI PRENDERE QUELLI DEL CLUSTER HOVERATO
             var whichOpinion = this.id.replace('c', '');
-            
+
             var selectedEls = [];
             parsed.forEach(element => {
                 if (element.opinion == whichOpinion) {
@@ -201,7 +201,7 @@ function selectEntry(el) {
 
 function injectComment(content, target) {
     // console.log(content);
-    target.innerHTML = "&lsquo;" + content.body + "&rsquo;" + "<br><br>" + 
+    target.innerHTML = "&lsquo;" + content.body + "&rsquo;" + "<br><br>" +
     "Tree: " + content.tree + " (Level " + content.level + ")";
 }
 
