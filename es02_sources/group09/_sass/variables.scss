@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Mono Light';
+    src: url('../font/IBMPlexMono/IBMPlexMono-Light.otf');
+}
+@font-face {
+    font-family: 'Mono Regular';
+    src: url('../font/IBMPlexMono/IBMPlexMono-Regular.otf');
+}
+@font-face {
+    font-family: 'Mono Text';
+    src: url('../font/IBMPlexMono/IBMPlexMono-Text.otf');
+}
+@font-face {
+    font-family: 'Mono Medium';
+    src: url('../font/IBMPlexMono/IBMPlexMono-Medium.otf');
+}
+@font-face {
+    font-family: 'Mono SemiBold';
+    src: url('../font/IBMPlexMono/IBMPlexMono-SemiBold.otf');
+}
+@font-face {
+    font-family: 'Mono Bold';
+    src: url('../font/IBMPlexMono/IBMPlexMono-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Sans Regular';
+    src: url('../font/IBMPlexSans/IBMPlexSans-Regular.otf');
+}
+@font-face {
+    font-family: 'Sans SemiBold';
+    src: url('../font/IBMPlexSans/IBMPlexSans-SemiBold.otf');
+}
+
+html {
+    --color-main: #F78028;
+    --color-main-2: #0033FF;
+    --color-dark: #2a2a2a;
+    --color-light: #fbfef9;
+    --font-display: 'Sans SemiBold', sans-serif;
+    --font-text: 'Sans Regular', sans-serif;
+}

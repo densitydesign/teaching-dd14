@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<header class="cover">
+    <style> iframe{ border: none; overflow: hidden;  } </style>
+    <!-- <img class="cover__image" src="{{ page.cover | relative_url }}" alt="cover image of the project"> -->
+    <iframe class="cover__image" src="/assets/cover/index.html" ></iframe>
+    <div class="cover__background"></div>
+    <h5 class="cover__heading">DensityDesign F.S.S. 2018/2019</h5>
+    <h1 class="display cover__title">{{ page.title }}</h1>
+    <p class="cover__subtitle">A project by {{ page.members }}
+    </p>
+    <div class="btn--burger" role="button" tabindex="0" aria-pressed="false">
+        <div class="btn--burger__line"></div>
+        <div class="btn--burger__line"></div>
+        <div class="btn--burger__line"></div>
+    </div>
+    <div class="btn--close" role="button" tabindex="0" aria-pressed="false">
+        <div class="btn--close__line"></div>
+    </div>
+</header>
+
+<main class="container content">
+    <div class="intro">
+        {{ content }}
+    </div>
+    <div class="research">
+        <h3 class="display research__title"><span>research roadmap</span></h3>
+        <div class="research__map">
+            {% include_relative research_map/research_map.html %}
+        </div>
+    </div>
+</main>
