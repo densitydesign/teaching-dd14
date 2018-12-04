@@ -26,9 +26,9 @@ layout: default
     <img class="cover__logo" src="{{ '/assets/images/logo_density.svg' | relative_url }}" alt="DensityDesign logo">
     <h1 class="cover__title display">{{ site.data[page.phase].title }}<span></h1>
     <div class="cover__nav">
-        {% if prevurl %}<a href="{{prevurl | relative_url }}" class="nav__link nav__prev" style="display: none">{{prevtitle}}</a>{% endif %}
+        {% if prevurl and page.phase == "es02" %}<a href="{{prevurl | relative_url }}" class="nav__link nav__prev">{{prevtitle}}</a>{% endif %}
         <a href="{{ site.pages[0].url | relative_url }}" class="nav__link nav__back">Back to main page</a>
-        {% if nexturl %}<a href="{{nexturl | relative_url }}" class="nav__link nav__next" style="display: none">{{nexttitle}}</a>{% endif %}
+        {% if nexturl and page.phase == "es01" %}<a href="{{nexturl | relative_url }}" class="nav__link nav__next">{{nexttitle}}</a>{% endif %}
     </div>
 </header>
 
