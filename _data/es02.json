@@ -40,7 +40,7 @@
             theme: "Addiction",
             title: "Prescribe me an A+",
             excerpt: "The misuse of stimulants is a growing problem on campus. Some students feel like everyone they know is using study drugs. The focus of this research is the perception of these drugs by the major groups, which are public newspapers, students, Universities and the advertising world.",
-            cover_website: "/cover/web-cover.jpg"
+            cover_website: "/assets/images/covers/coverbg.png"
         },
         {
             group: "group06",
