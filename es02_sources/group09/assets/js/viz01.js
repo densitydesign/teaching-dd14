@@ -59,9 +59,9 @@ for (var i = 0; i < ball.length; i++) {
                 ball[t].classList.add('fade');
                 tooltip.classList.add('summon');
 
-                var percentage = event.target.getAttribute('js-perc');
-                var websiteName = event.target.getAttribute('js-name');
-                var text = event.target.getAttribute('js-text');
+                var percentage = thisBall.target.getAttribute('js-perc');
+                var websiteName = thisBall.target.getAttribute('js-name');
+                var text = thisBall.target.getAttribute('js-text');
                 tooltip.innerHTML =
                     (websiteName == null ? toolTxt.innerHTML = '' : websiteName + '<br>') +
                     (percentage == null ? toolTxt.innerHTML = 'No&nbsp;data' : 'Share:&nbsp;' + percentage + '%' + '<br><br>') +

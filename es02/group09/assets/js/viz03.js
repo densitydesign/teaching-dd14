@@ -103,7 +103,7 @@ function setAttributes(svgEl, attributes, values) {
     }
 }
 
-document.addEventListener('mousemove', function () {
+document.addEventListener('mousemove', function (event) {
     updateCursor(event, cursor);
     updateCursor(event, cursorTag);
     updateCursor(event, cursorLabel);
@@ -139,7 +139,7 @@ function updateCursor(e, el) {
         el.classList.remove('show');
     };
 
-    
+
     var newAttributes = ['x1', 'x2', 'y1', 'y2'];
     var newValues = [svgCoord.x, svgCoord.x, 100, svgHeight];
 
@@ -155,10 +155,10 @@ function updateCursor(e, el) {
     var newXTag2 = mouseCoordSvg.x - cursorTag.getAttribute('width') / 2;
     var newYTag2 = mouseCoordSvg.y - cursorTag.getAttribute('height') - 96;
     var newValuesTag2 = [newXTag2, newYTag2];
-    
+
     var newAttributesLabel2 = ['x', 'y'];
     var newValuesLabel2 = [svgCoord.x, mouseCoordSvg.y - cursorLabel2.getBoundingClientRect().height - 24 * 4.75];
-    
+
     var newAttributesCursor = ['x', 'y'];
     var newValuesCursor = [svgCoord.x, mouseCoordSvg.y - cursorCaption.getBoundingClientRect().height - 24 * 7.2];
 
