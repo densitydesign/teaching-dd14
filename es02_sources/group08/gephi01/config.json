@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "gephi01/data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "g8"
+  },
+  "text": {
+    "more": "Seealsology map \n-space exploration\n-space colonization\n-human migration",
+    "intro": "Seealsology map \n-space exploration\n-space colonization\n-human migration",
+    "title": "Seealsology"
+  },
+  "legend": {
+    "edgeLabel": "neighbor",
+    "colorLabel": "pertinence",
+    "nodeLabel": "topic"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Seed",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

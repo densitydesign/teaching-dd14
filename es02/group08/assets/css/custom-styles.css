@@ -1,0 +1,249 @@
+body {
+    background-color: #0c1d26;
+}
+
+.index__heading {
+    font-size: 1.4rem !important;
+}
+
+.question__title {
+    font-family: "Kanit";
+    font-weight: 400;
+    
+}
+
+
+#roadmap {
+    transform: scale(0.8);
+}
+
+#container-seealsone {
+    position: relative;
+    height: 750px;
+}
+
+#seealsone {
+    position: relative;
+    top: -380px;
+    transform: scale(0.5);
+}
+
+.unselected {
+    opacity: 0.1;
+}
+
+#dot-col-event-1, #dot-col-event-2, #dot-col-event-3, #dot-exp-event-1, #dot-exp-event-2, #dot-exp-event-3 {
+    cursor: pointer;
+}
+
+.hidden-element {
+    opacity: 0;
+}
+
+#alluvial-p3 {
+    transform: scale(1.15);
+}
+
+.alluvial-selected {
+    fill: #f6f6f6;
+    opacity: 0.8;
+    z-index: 999;
+    mix-blend-mode: screen;
+    
+}
+
+.alluvial-label-selected {
+    fill: #e39778;
+    color: #e39778;
+}
+
+#p4-1 {
+    transform: scale(1.12);    
+    left: 1.8%;
+    top: 14%
+}
+
+#p4-2 {
+    transform: scale(1.12);    
+    left: 1.8%;
+    top: 14%
+}
+
+#p4-1-b {
+    position:relative;    
+    left: 1.8%;
+    top: 50%;
+    left: -3.5%
+}
+
+#p4-2-b {
+    position:relative;    
+    left: 1.8%;
+    top: 50%;
+    left: -3.5%
+}
+
+.p4-button {
+
+}
+
+#container-p4 {
+    height: 1580px;
+    position: relative;
+}
+
+#p4-1, #p4-2 {
+    position: absolute;
+    margin-bottom: 100%;
+}
+
+.month {
+    cursor: pointer;
+}
+
+.exp-month-sel {
+    fill: #829cba;
+}
+
+.col-month-sel {
+    fill: #e39778;
+}
+
+.exp-sel {
+    mix-blend-mode: screen;
+    fill: #829cba;
+    opacity: 0.9;
+}
+
+.col-sel {
+    mix-blend-mode: screen;
+    fill: #e39778;
+    opacity: 0.9;
+}
+
+.bumper {
+    cursor: pointer;
+}
+
+#leg-p5 {
+    transform: scale(0.89);
+}
+
+#container-p5 {
+    height: 1480px;
+    position: relative;
+}
+
+#p5-1 {
+    position: absolute;
+    margin-bottom: 100%;
+    top: 16%;
+}
+
+#img-p5-2 {
+    
+}
+
+#p5-2 {
+    position: absolute;
+    margin-bottom: 70%;
+    top: 21.35%;
+}
+
+
+.swarm {
+    cursor: pointer;
+}
+
+.swarmo-button {
+    cursor: pointer;
+}
+
+.unselected-swarm {
+    opacity: 0.5;
+}
+
+.p6-nodes {
+	cursor: pointer;
+}
+
+.label-p6 {
+    opacity: 0;
+    font-size: 12px;
+    pointer-events: none;
+}
+
+.label-shown{
+
+	opacity: 1;
+}
+
+#esa-agency, #nasa-agency, #boeing-agency, #sierra-agency, #ula-agency, #rosco-agency, #blue-agency, #sx-agency, #virgin-agency, #strato-agency, #lock-agency, #jan-ceo, #jim-ceo, #muilenburg-ceo, #bruno-ceo, #jeff-ceo, #elon-ceo, #branson-ceo {
+    cursor: pointer;
+}
+
+.hidden-path {
+    opacity: 0.2;
+}
+
+.hidden-names {
+    fill: #f6f6f6;
+    opacity: 0.5;
+}
+
+.unselected-element {
+    z-index: -1;
+    display: none;
+}
+
+.selected-element {
+    z-index: 999;
+    border: 5px solid #F6F6F6;
+}
+
+#treemap {
+    position: relative;
+    top: 2%;
+    transform: scale(0.9);
+}
+
+.hidden-category {
+    opacity: 0.2;
+}
+
+#redditone {
+    transform: scale(0.85);
+}
+
+#leg-redditone {
+    transform: scale(0.85);
+    position: relative;
+    top: 48%;
+}
+
+#leg-beeswarm {
+    transform: scale(0.89);
+}
+
+.selected {
+    fill: #e39778;
+    opacity: 0.5;
+}
+
+#space-main-leg, #spaceporn-main-leg, #nasa-main-leg, #spacex-main-leg, #elon-main-leg, #spaceflight-main-leg, #spacexlounge-main-leg, #mars-main-leg, #spaceexploration-main-leg, #blueorigin-main-leg, #ula-main-leg, #esa-main-leg, #iss-main-leg {
+    cursor: pointer;
+}
+
+.button-path {
+    cursor: pointer;
+}
+
+#leg-sito {
+    position: relative;
+    margin-top: 4%;
+    transform: scale(0.85);
+}
+
+.protocolli {
+    margin: 75px 0 75px 0;
+}

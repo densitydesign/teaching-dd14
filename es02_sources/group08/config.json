@@ -1,0 +1,53 @@
+{
+    "type": "network",
+    "version": "1.0",
+    "data": "gephi06/data.json",
+    "logo": {
+        "file": "",
+        "link": "",
+        "text": "G8"
+    },
+    "text": {
+        "more": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "title": "Seealsology"
+    },
+    "legend": {
+        "edgeLabel": "Neighbor",
+        "colorLabel": "On Topic or not",
+        "nodeLabel": "Topics"
+    },
+    "features": {
+        "search": true,
+        "groupSelectorAttribute": false,
+        "hoverBehavior": "dim"
+    },
+    "informationPanel": {
+        "groupByEdgeDirection": false,
+        "imageAttribute": false
+    },
+    "sigma": {
+        "drawingProperties": {
+            "defaultEdgeType": "curve",
+            "defaultHoverLabelBGColor": "#002147",
+            "defaultLabelBGColor": "#ddd",
+            "activeFontStyle": "bold",
+            "defaultLabelColor": "#000",
+            "labelThreshold": 10,
+            "defaultLabelHoverColor": "#fff",
+            "fontStyle": "bold",
+            "hoverFontStyle": "bold",
+            "defaultLabelSize": 14
+        },
+        "graphProperties": {
+            "maxEdgeSize": 0.5,
+            "minEdgeSize": 0.2,
+            "minNodeSize": 1,
+            "maxNodeSize": 7
+        },
+        "mouseProperties": {
+            "maxRatio": 20,
+            "minRatio": 0.75
+        }
+    }
+}

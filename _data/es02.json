@@ -64,7 +64,7 @@
             theme: "Migration",
             title: "Feet on the stars, eyes on the ground",
             excerpt: "Within many contemporary controversial debates, we wanted to focus our attention on the growing interest about the future of human space exploration. Nowadays, we can observe how serious and intricates disputes, such as Climate Change, take into account the possibility for human mass migration to other planets.",
-            cover_website: "/cover/web-cover.jpg"
+            cover_website: "/assets/images/covers/cover@xl.jpeg"
         },
         {
             group: "group09",
