@@ -1,0 +1,25 @@
+<!-- Add the HTML code for your visualization here -->
+<style>
+
+ .column {
+  float: left;
+  width: 40%;
+  padding: 5px;
+  display: inline-block;
+}
+
+
+ .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+<div class="row">
+<div class="column">
+<a> <img border=0 src="{{ 'assets/images/covers/male.gif' | relative_url }}" alt="Visualization of research question" ></a>
+</div>
+<div class="column">
+<a><img border=0 src="{{ 'assets/images/covers/female.gif' | relative_url }}" alt="Visualization of research question" ></a>
+</div>
+</div>

@@ -48,7 +48,7 @@
             theme: "Addiction",
             title: "Opiate of the masses",
             excerpt: "It’s called ‘opioid epidemic’ but how much people are actually aware of it and its dangerousness? Affecting the U.S population for about 20 years now, the problem is getting more and more attention, not only by governmental agencies or health institutions but also by people.",
-            cover_website: "/cover/web-cover.jpg"
+            cover_website: "/assets/images/covers/covernew.gif"
         },
         {
             group: "group07",
