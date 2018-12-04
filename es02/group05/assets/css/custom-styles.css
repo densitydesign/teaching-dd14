@@ -1,0 +1,3681 @@
+.intro h2 {
+	font-size: 3rem;
+}
+.intro h3 {
+	font-size: 2rem;
+	text-align: left;
+}
+.intro p {
+	font-size: 1.33rem;
+}
+
+h3,h4,a {
+	font-family: "Fira Sans", serif;
+	font-weight: 300;
+}
+footer h6, h5 {
+	font-family: 'Fira Sans';
+	font-weight: 500;
+}
+footer li {
+	font-family: 'Fira Sans';
+	font-weight: 300;
+}
+p {
+	color: black;
+}
+.cover__subtitle {
+	color: white;
+}
+
+.rr {
+	color: #f15a2c;
+	stroke: #f15a2c;
+}
+.question__heading {
+	margin-top: 0;
+	padding-top: 0;
+}
+.question_content h3 {
+	font-weight: 300;
+}
+h2 {
+	font-family: "Fira Sans", serif;
+	font-weight: 400;
+}
+
+
+html {
+	user-select: none;
+
+}
+
+.vizuals {
+	margin: 0 12.5%;
+	padding-top: 5%;
+}
+
+      .rmls-1, .rmls-3, .rmls-5, .rmls-6, .rmls-7 {
+        fill: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .rmls-1 {
+        stroke: #2b317f;
+      }
+
+      .rmls-2 {
+        fill: #231f20;
+      }
+
+      .rmls-3, .rmls-7 {
+        stroke: #c6c6c6;
+      }
+
+      .rmls-3 {
+        stroke-dasharray: 3;
+      }
+
+      .rmls-4 {
+        fill: #f15a2c;
+      }
+
+      .rmls-5, .rmls-6 {
+        stroke: #f15a2c;
+      }
+
+      .rmls-6 {
+        stroke-width: 2px;
+      }
+
+      .rmls-7 {
+        stroke-width: 1.5px;
+      }
+
+      .rmls-8 {
+        fill: #2b317f;
+      }
+.rmapsvg {
+	width: 100%;
+
+	margin-left: 1.5%;
+}
+.rmapq:hover {
+	cursor: pointer;
+}
+.rmapq:hover rect{
+	cursor: pointer;
+	fill: #51717c;
+	fill-opacity: .2;
+}
+
+
+ .uls-1, .uls-111, .uls-114, .uls-13, .uls-14, .uls-15, .uls-16, .uls-17, .uls-18, .uls-2, .uls-22, .uls-24, .uls-27, .uls-28, .uls-29, .uls-3, .uls-31, .uls-6, .uls-67 {
+        fill: none;
+      }
+
+      .uls-1, .uls-2, .uls-3 {
+        stroke: #27326d;
+        stroke-linecap: round;
+      }
+
+      .uls-1, .uls-10, .uls-111, .uls-114, .uls-119, .uls-13, .uls-14, .uls-15, .uls-16, .uls-17, .uls-18, .uls-2, .uls-22, .uls-24, .uls-27, .uls-28, .uls-29, .uls-3, .uls-31, .uls-6, .uls-67, .uls-9 {
+        stroke-miterlimit: 10;
+      }
+
+      .uls-2 {
+        stroke-dasharray: 0 2.02;
+      }
+
+      .uls-3 {
+        stroke-dasharray: 0 2.05;
+      }
+
+      .uls-4 {
+        font-size: 12px;
+      }
+
+      .uls-21, .uls-30, .uls-4 {
+        fill: #262626;
+      }
+
+      .uls-112, .uls-21, .uls-30, .uls-4, .uls-87 {
+        font-family: "Fira Sans", serif;
+	font-weight: 400;
+      }
+
+      .uls-5 {
+        letter-spacing: 0.01em;
+      }
+
+      .uls-6 {
+        stroke: #787878;
+      }
+
+      .uls-111, .uls-114, .uls-13, .uls-6, .uls-67 {
+        stroke-width: 0.5px;
+      }
+
+      .uls-7 {
+        letter-spacing: -0.01em;
+      }
+
+      .uls-8 {
+        fill: #ababab;
+      }
+
+      .uls-10, .uls-9 {
+        fill: #fff;
+      }
+
+      .uls-9 {
+        stroke: #1e2452;
+      }
+
+      .uls-10 {
+        stroke: #747bac;
+      }
+
+      .uls-11 {
+        letter-spacing: -0.01em;
+      }
+
+      .uls-12 {
+        letter-spacing: 0em;
+      }
+
+      .uls-119, .uls-13, .uls-14, .uls-15, .uls-16, .uls-17, .uls-18 {
+        stroke: #101010;
+      }
+
+      .uls-13 {
+        stroke-dasharray: 5.89 5.89;
+      }
+
+      .uls-14 {
+        stroke-width: 0.36px;
+        stroke-dasharray: 4.25 4.25;
+      }
+
+      .uls-15 {
+        stroke-width: 0.31px;
+        stroke-dasharray: 3.6 3.6;
+      }
+
+      .uls-16 {
+        stroke-width: 0.31px;
+        stroke-dasharray: 3.59 3.59;
+      }
+
+      .uls-17 {
+        stroke-width: 0.31px;
+        stroke-dasharray: 3.59 3.59;
+      }
+
+      .uls-18 {
+        stroke-width: 0.41px;
+        stroke-dasharray: 4.84 4.84;
+      }
+
+      .uls-19, .uls-20 {
+        font-size: 8px;
+        fill: #231f20;
+        font-family: "Frank Ruhl Libre", serif;
+	font-weight: 400;
+      }
+
+      .uls-19 {
+        letter-spacing: 0.04em;
+      }
+
+      .uls-20 {
+        letter-spacing: 0.04em;
+      }
+
+      .uls-21 {
+        font-size: 14.15px;
+        letter-spacing: 0.04em;
+      }
+
+      .uls-22 {
+        stroke: #ffce54;
+      }
+
+      .uls-23 {
+        letter-spacing: 0.03em;
+      }
+
+      .uls-24 {
+        stroke: #f7933b;
+      }
+
+      .uls-25 {
+        letter-spacing: -0.02em;
+      }
+
+      .uls-26 {
+        letter-spacing: 0.04em;
+      }
+
+      .uls-27 {
+        stroke: #f15a2b;
+      }
+
+      .uls-28 {
+        stroke: #c62128;
+      }
+
+      .uls-29 {
+        stroke: #721112;
+      }
+
+      .uls-30 {
+        font-size: 14px;
+        letter-spacing: 0.04em;
+      }
+
+      .uls-31 {
+        stroke: #231f20;
+      }
+
+      .uls-32 {
+        fill: #fcb850;
+      }
+
+      .uls-102, .uls-33, .uls-55, .uls-66, .uls-70, .uls-76 {
+        font-size: 13.36px;
+        font-family: "Fira Sans", serif;
+	font-weight: 300;
+      }
+
+      .uls-34 {
+        letter-spacing: -0.03em;
+      }
+
+      .uls-35 {
+        letter-spacing: -0.01em;
+      }
+
+      .uls-36, .uls-76 {
+        letter-spacing: -0.01em;
+      }
+
+      .uls-37 {
+        letter-spacing: 0em;
+      }
+
+      .uls-38 {
+        letter-spacing: -0.01em;
+      }
+
+      .uls-39 {
+        letter-spacing: -0.01em;
+      }
+
+      .uls-40 {
+        letter-spacing: 0em;
+      }
+
+      .uls-41 {
+        letter-spacing: -0.02em;
+      }
+
+      .uls-42 {
+        letter-spacing: -0.04em;
+      }
+
+      .uls-43 {
+        letter-spacing: 0em;
+      }
+
+      .uls-44 {
+        letter-spacing: -0.01em;
+      }
+
+      .uls-45 {
+        letter-spacing: -0.02em;
+      }
+
+      .uls-46 {
+        letter-spacing: -0.01em;
+      }
+
+      .uls-47 {
+        letter-spacing: -0.03em;
+      }
+
+      .uls-48 {
+        letter-spacing: -0.01em;
+      }
+
+      .uls-49 {
+        letter-spacing: 0em;
+      }
+
+      .uls-50 {
+        letter-spacing: -0.01em;
+      }
+
+      .uls-51 {
+        letter-spacing: -0.01em;
+      }
+
+      .uls-52 {
+        letter-spacing: -0.01em;
+      }
+
+      .uls-53 {
+        letter-spacing: -0.02em;
+      }
+
+      .uls-54 {
+        letter-spacing: -0.01em;
+      }
+
+      .uls-55 {
+        isolation: isolate;
+      }
+
+      .uls-56 {
+        letter-spacing: 0em;
+      }
+
+      .uls-57 {
+        letter-spacing: 0em;
+      }
+
+      .uls-58 {
+        letter-spacing: -0.02em;
+      }
+
+      .uls-59 {
+        letter-spacing: -0.01em;
+      }
+
+      .uls-60 {
+        letter-spacing: -0.03em;
+      }
+
+      .uls-61 {
+        letter-spacing: -0.04em;
+      }
+
+      .uls-62 {
+        letter-spacing: -0.02em;
+      }
+
+      .uls-63 {
+        letter-spacing: -0.01em;
+      }
+
+      .uls-64 {
+        letter-spacing: -0.02em;
+      }
+
+      .uls-65 {
+        letter-spacing: -0.04em;
+      }
+
+      .uls-66 {
+        letter-spacing: -0.05em;
+      }
+
+      .uls-67 {
+        stroke: #7b7b7b;
+      }
+
+      .uls-68 {
+        letter-spacing: 0em;
+      }
+
+      .uls-69 {
+        letter-spacing: -0.04em;
+      }
+
+      .uls-70, .uls-78 {
+        letter-spacing: -0.06em;
+      }
+
+      .uls-71 {
+        letter-spacing: -0.05em;
+      }
+
+      .uls-72 {
+        letter-spacing: -0.03em;
+      }
+
+      .uls-73 {
+        letter-spacing: -0.01em;
+      }
+
+      .uls-74 {
+        letter-spacing: -0.01em;
+      }
+
+      .uls-75 {
+        letter-spacing: -0.04em;
+      }
+
+      .uls-77 {
+        letter-spacing: -0.01em;
+      }
+
+      .uls-79 {
+        letter-spacing: -0.01em;
+      }
+
+      .uls-80 {
+        letter-spacing: -0.01em;
+      }
+
+      .uls-81 {
+        letter-spacing: 0em;
+      }
+
+      .uls-82 {
+        letter-spacing: -0.04em;
+      }
+
+      .uls-83 {
+        letter-spacing: -0.02em;
+      }
+
+      .uls-84 {
+        letter-spacing: -0.01em;
+      }
+
+      .uls-85 {
+        letter-spacing: -0.02em;
+      }
+
+      .uls-102, .uls-86 {
+        letter-spacing: -0.02em;
+      }
+
+      .uls-112, .uls-87 {
+        font-size: 16.04px;
+      }
+
+      .uls-88 {
+        letter-spacing: -0.01em;
+      }
+
+      .uls-89 {
+        letter-spacing: -0.01em;
+      }
+
+      .uls-90 {
+        letter-spacing: -0.01em;
+      }
+
+      .uls-91 {
+        letter-spacing: 0em;
+      }
+
+      .uls-92 {
+        letter-spacing: -0.02em;
+      }
+
+      .uls-93 {
+        letter-spacing: 0em;
+      }
+
+      .uls-94 {
+        letter-spacing: -0.02em;
+      }
+
+      .uls-95 {
+        letter-spacing: -0.01em;
+      }
+
+      .uls-96 {
+        letter-spacing: 0em;
+      }
+
+      .uls-97 {
+        fill: #747bac;
+      }
+
+      .uls-98 {
+        fill: #3b4d92;
+      }
+
+      .uls-99 {
+        letter-spacing: 0em;
+      }
+
+      .uls-100 {
+        letter-spacing: -0.08em;
+      }
+
+      .uls-101 {
+        letter-spacing: -0.02em;
+      }
+
+      .uls-103 {
+        letter-spacing: 0.01em;
+      }
+
+      .uls-104 {
+        fill: #515e9c;
+      }
+
+      .uls-105 {
+        letter-spacing: -0.02em;
+      }
+
+      .uls-106 {
+        letter-spacing: -0.01em;
+      }
+
+      .uls-107 {
+        letter-spacing: -0.02em;
+      }
+
+      .uls-108 {
+        letter-spacing: -0.02em;
+      }
+
+      .uls-109 {
+        letter-spacing: -0.05em;
+      }
+
+      .uls-110 {
+        fill: #273c86;
+      }
+
+      .uls-111 {
+        stroke: #777;
+      }
+
+      .uls-112 {
+        letter-spacing: 0em;
+      }
+
+      .uls-113 {
+        letter-spacing: -0.08em;
+      }
+
+      .uls-114 {
+        stroke: #717270;
+      }
+
+      .uls-115 {
+        letter-spacing: -0.01em;
+      }
+
+      .uls-116 {
+        letter-spacing: -0.01em;
+      }
+
+      .uls-117 {
+        fill: #1e2452;
+      }
+
+      .uls-118 {
+        fill: #27326d;
+      }
+
+      .uls-119 {
+        fill: #fffeff;
+      }
+
+.all-but {
+	cursor: pointer;
+}
+.all-sve {
+	cursor: pointer;
+}
+.appearr {
+	opacity: 0;
+}
+.appearr--Show {
+	opacity: 1;
+}
+.removee {
+	opacity: 1;
+}
+.removee--Show {
+	opacity: 0;
+}
+.lhover {
+	opacity: 0;
+}
+.lhover--Show {
+	opacity: .5;
+}
+.lhover--Shown {
+	opacity: 1;
+}
+.laclick {
+	opacity: 0;
+}
+.laclick--Show {
+	opacity: 1;
+}
+.buthover2 {
+	fill: #f6923b;
+	opacity: .7;
+}
+.buthover3 {
+	fill: #f05a2b;
+	opacity: .7;
+}
+.buthover5 {
+	fill: #721112;
+	opacity: .7;
+}
+.buthover4 {
+	fill: #c52128;
+	opacity: .7;
+}
+.buthover1 {
+	fill: #ffce54;
+	opacity: .7;
+}
+.fbuthover2 {
+	fill: #f6923b;
+	opacity: .7;
+}
+.fbuthover3 {
+	fill: #f05a2b;
+	opacity: .7;
+}
+.fbuthover5 {
+	fill: #721112;
+	opacity: .7;
+}
+.fbuthover4 {
+	fill: #c52128;
+	opacity: .7;
+}
+.fbuthover1 {
+	fill: #ffce54;
+	opacity: .7;
+}
+.butallhover {
+	fill: #231f20;
+	opacity: .7;
+}
+
+
+ .kls-1, .kls-10, .kls-120, .kls-125, .kls-127, .kls-130, .kls-131, .kls-133, .kls-135, .kls-136, .kls-137, .kls-138, .kls-15, .kls-16, .kls-17, .kls-18, .kls-19, .kls-20, .kls-21, .kls-25, .kls-28, .kls-29, .kls-3, .kls-30, .kls-33, .kls-54, .kls-58, .kls-77, .kls-79, .kls-8 {
+        fill: none;
+      }
+
+      .kls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .kls-18, .kls-3, .kls-33, .kls-77 {
+        stroke: #c6c6c6;
+      }
+
+      .kls-3 {
+        stroke-width: 2.5px;
+      }
+
+      .kls-4 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .kls-5 {
+        clip-path: url(#clip-path-3);
+      }
+
+      .kls-6 {
+        clip-path: url(#clip-path-4);
+      }
+
+      .kls-7 {
+        clip-path: url(#clip-path-5);
+      }
+
+      .kls-30, .kls-8 {
+        stroke: #2b317f;
+      }
+
+      .kls-10, .kls-125, .kls-131, .kls-133, .kls-136, .kls-137, .kls-138, .kls-17, .kls-18, .kls-19, .kls-20, .kls-21, .kls-25, .kls-28, .kls-8 {
+        stroke-width: 0.5px;
+      }
+
+      .kls-10, .kls-8 {
+        stroke-dasharray: 2 2;
+      }
+
+      .kls-23, .kls-9 {
+        fill: #2b317f;
+      }
+.kls-225 {
+	fill:#fff;
+	stroke:#f0562b;
+}
+
+      .kls-10, .kls-133, .kls-58 {
+        stroke: #f0562b;
+      }
+
+      .kls-11, .kls-22, .kls-55 {
+        fill: #f0562b;
+      }
+
+      .kls-12, .kls-22, .kls-23, .kls-34, .kls-59, .kls-61, .kls-65 {
+        font-size: 12px;
+      }
+
+      .kls-12, .kls-22, .kls-23, .kls-26, .kls-34, .kls-57 {
+        font-family: "Fira Sans", serif;
+	font-weight: 300;
+      }
+
+      .kls-12, .kls-22, .kls-23, .kls-35, .kls-59 {
+        letter-spacing: 0.04em;
+      }
+
+      .kls-13 {
+        letter-spacing: 0.03em;
+      }
+
+      .kls-14, .kls-61 {
+        letter-spacing: 0.04em;
+      }
+
+      .kls-15, .kls-21 {
+        stroke: #771610;
+      }
+
+      .kls-16 {
+        stroke: #f7f3f2;
+      }
+
+      .kls-17, .kls-54 {
+        stroke: #eb652c;
+      }
+
+      .kls-19 {
+        stroke: #c51819;
+      }
+
+      .kls-20, .kls-79 {
+        stroke: #d63518;
+      }
+
+      .kls-24 {
+        fill: #fff;
+      }
+
+      .kls-25 {
+        stroke: #f7ac97;
+      }
+
+      .kls-125, .kls-127, .kls-130, .kls-131, .kls-133, .kls-135, .kls-136, .kls-138, .kls-25, .kls-28, .kls-29, .kls-33, .kls-58 {
+        stroke-miterlimit: 10;
+      }
+
+      .kls-26, .kls-55 {
+        font-size: 10px;
+      }
+
+      .kls-27 {
+        letter-spacing: -0.05em;
+      }
+
+      .kls-28, .kls-29 {
+        stroke: #f1643d;
+      }
+
+      .kls-29, .kls-58 {
+        stroke-width: 0.75px;
+      }
+
+      .kls-31 {
+        letter-spacing: 0.03em;
+      }
+
+      .kls-32 {
+        letter-spacing: 0.02em;
+      }
+
+      .kls-34 {
+        letter-spacing: 0.01em;
+      }
+
+      .kls-36 {
+        letter-spacing: 0.02em;
+      }
+
+      .kls-37, .kls-65 {
+        letter-spacing: 0.03em;
+      }
+
+      .kls-38 {
+        letter-spacing: 0.03em;
+      }
+
+      .kls-39 {
+        letter-spacing: 0.03em;
+      }
+
+      .kls-40 {
+        letter-spacing: 0.02em;
+      }
+
+      .kls-41 {
+        letter-spacing: 0.01em;
+      }
+
+      .kls-42 {
+        letter-spacing: 0.03em;
+      }
+
+      .kls-43 {
+        letter-spacing: -0.01em;
+      }
+
+      .kls-44 {
+        letter-spacing: 0.02em;
+      }
+
+      .kls-45 {
+        fill: #b44120;
+      }
+
+      .kls-46 {
+        fill: #c74823;
+      }
+
+      .kls-47 {
+        fill: #e35229;
+      }
+
+      .kls-48 {
+        fill: #f26f4a;
+      }
+
+      .kls-49 {
+        fill: #f69a80;
+      }
+
+      .kls-50 {
+        fill: #f9bbaa;
+      }
+
+      .kls-51 {
+        fill: #c6c6c6;
+      }
+
+      .kls-52 {
+        fill: url(#Nuovo_pattern_4);
+      }
+
+      .kls-53 {
+        fill: #c7c6c6;
+      }
+
+      .kls-54 {
+        stroke-width: 0.67px;
+      }
+
+      .kls-55 {
+        font-family: "Fira Sans", serif;
+	font-weight: 500;
+        letter-spacing: 0.04em;
+      }
+
+      .kls-56 {
+        letter-spacing: 0.02em;
+      }
+
+      .kls-59, .kls-61, .kls-65 {
+        font-family: "Fira Sans", serif;
+	font-weight: 400;
+      }
+
+      .kls-60 {
+        letter-spacing: 0.01em;
+      }
+
+      .kls-62 {
+        letter-spacing: 0.03em;
+      }
+
+      .kls-63 {
+        letter-spacing: -0.01em;
+      }
+
+      .kls-64 {
+        letter-spacing: 0.05em;
+      }
+
+      .kls-66 {
+        letter-spacing: 0.04em;
+      }
+
+      .kls-67 {
+        letter-spacing: 0.04em;
+      }
+
+      .kls-68 {
+        letter-spacing: 0.03em;
+      }
+
+      .kls-69 {
+        letter-spacing: -0.02em;
+      }
+
+      .kls-70 {
+        letter-spacing: -0.01em;
+      }
+
+      .kls-71 {
+        letter-spacing: 0em;
+      }
+
+      .kls-72 {
+        letter-spacing: -0.02em;
+      }
+
+      .kls-73 {
+        letter-spacing: 0em;
+      }
+
+      .kls-74 {
+        letter-spacing: -0.01em;
+      }
+
+      .kls-75 {
+        letter-spacing: -0.03em;
+      }
+
+      .kls-76 {
+        letter-spacing: 0em;
+      }
+
+      .kls-78 {
+        fill: #f6f2f3;
+      }
+
+      .kls-120, .kls-79 {
+        stroke-width: 1.6px;
+      }
+
+      .kls-80 {
+        letter-spacing: -0.03em;
+      }
+
+      .kls-81 {
+        letter-spacing: -0.01em;
+      }
+
+      .kls-82 {
+        letter-spacing: 0em;
+      }
+
+      .kls-83 {
+        letter-spacing: -0.02em;
+      }
+
+      .kls-84 {
+        letter-spacing: -0.01em;
+      }
+
+      .kls-85 {
+        letter-spacing: -0.06em;
+      }
+
+      .kls-86 {
+        letter-spacing: -0.04em;
+      }
+
+      .kls-87 {
+        letter-spacing: -0.02em;
+      }
+
+      .kls-88 {
+        letter-spacing: -0.05em;
+      }
+
+      .kls-89 {
+        letter-spacing: -0.01em;
+      }
+
+      .kls-90 {
+        letter-spacing: -0.02em;
+      }
+
+      .kls-91 {
+        letter-spacing: -0.01em;
+      }
+
+      .kls-92 {
+        letter-spacing: -0.01em;
+      }
+
+      .kls-93 {
+        letter-spacing: -0.01em;
+      }
+
+      .kls-94 {
+        letter-spacing: -0.04em;
+      }
+
+      .kls-95 {
+        letter-spacing: 0em;
+      }
+
+      .kls-96 {
+        letter-spacing: -0.01em;
+      }
+
+      .kls-97 {
+        letter-spacing: -0.04em;
+      }
+
+      .kls-98 {
+        letter-spacing: -0.01em;
+      }
+
+      .kls-99 {
+        letter-spacing: -0.01em;
+      }
+
+      .kls-100 {
+        letter-spacing: -0.02em;
+      }
+
+      .kls-101 {
+        letter-spacing: -0.02em;
+      }
+
+      .kls-102 {
+        fill: #c6c5c5;
+      }
+
+      .kls-103 {
+        letter-spacing: -0.07em;
+      }
+
+      .kls-104 {
+        letter-spacing: 0em;
+      }
+
+      .kls-105 {
+        letter-spacing: 0em;
+      }
+
+      .kls-106 {
+        letter-spacing: -0.01em;
+      }
+
+      .kls-107 {
+        letter-spacing: -0.02em;
+      }
+
+      .kls-108 {
+        letter-spacing: 0em;
+      }
+
+      .kls-109 {
+        letter-spacing: -0.03em;
+      }
+
+      .kls-110 {
+        letter-spacing: 0em;
+      }
+
+      .kls-111 {
+        letter-spacing: -0.02em;
+      }
+
+      .kls-112 {
+        letter-spacing: -0.04em;
+      }
+
+      .kls-113 {
+        letter-spacing: -0.01em;
+      }
+
+      .kls-114 {
+        letter-spacing: -0.01em;
+      }
+
+      .kls-115 {
+        letter-spacing: -0.01em;
+      }
+
+      .kls-116 {
+        letter-spacing: -0.01em;
+      }
+
+      .kls-117 {
+        letter-spacing: -0.02em;
+      }
+
+      .kls-118 {
+        letter-spacing: -0.05em;
+      }
+
+      .kls-119 {
+        letter-spacing: -0.01em;
+      }
+
+      .kls-120 {
+        stroke: #f2922e;
+      }
+
+      .kls-121 {
+        letter-spacing: -0.01em;
+      }
+
+      .kls-122 {
+        letter-spacing: -0.03em;
+      }
+
+      .kls-123 {
+        letter-spacing: -0.02em;
+      }
+
+      .kls-124 {
+        letter-spacing: -0.01em;
+      }
+
+      .kls-125, .kls-127 {
+        stroke: #f9bbaa;
+      }
+
+      .kls-126 {
+        fill: #eb652b;
+      }
+
+      .kls-128 {
+        letter-spacing: -0.03em;
+      }
+
+      .kls-129 {
+        letter-spacing: -0.01em;
+      }
+
+      .kls-130 {
+        stroke: #f69a80;
+      }
+
+      .kls-131, .kls-135 {
+        stroke: #f26f4a;
+      }
+
+      .kls-132 {
+        letter-spacing: -0.03em;
+      }
+
+      .kls-134 {
+        letter-spacing: -0.02em;
+      }
+
+      .kls-136 {
+        stroke: #e35229;
+      }
+
+      .kls-137 {
+        stroke: #c74823;
+      }
+
+      .kls-138 {
+        stroke: #b44120;
+      }
+
+      .kls-139 {
+        letter-spacing: 0em;
+      }
+.macro1 {
+	opacity: 1;
+}
+.macro1--Hide {
+	opacity: 0.3;
+}
+.labuni {
+	opacity: 1;
+}
+.labuni--Hide {
+	opacity: 0.4;
+}
+
+.mrzimte {
+	opacity: 1;
+}
+.mrzimte--Hide {
+	opacity: 0;
+}
+
+
+ .pls-1, .pls-71 {
+        fill: #2b317f;
+      }
+
+      .pls-2, .pls-23 {
+        fill: #f0562b;
+      }
+
+      .pls-3, .pls-73 {
+        fill: #3d438a;
+      }
+
+      .pls-4, .pls-72 {
+        fill: #f69a80;
+      }
+
+      .pls-5, .pls-74 {
+        fill: #797cad;
+      }
+
+      .pls-6, .pls-75 {
+        fill: #f9bbaa;
+      }
+
+      .pls-7 {
+        fill: #c6c6c6;
+      }
+
+      .pls-17, .pls-18, .pls-8 {
+        font-size: 10px;
+      }
+
+      .pls-26, .pls-8 {
+        fill: #010000;
+      }
+
+      .pls-31, .pls-36, .pls-8 {
+        font-family: "Fira Sans", serif;
+	font-weight: 300;
+      }
+
+      .pls-9 {
+        letter-spacing: 0em;
+      }
+
+      .pls-10 {
+        letter-spacing: 0em;
+      }
+
+      .pls-11 {
+        letter-spacing: -0.01em;
+      }
+
+      .pls-12 {
+        letter-spacing: -0.01em;
+      }
+
+      .pls-13 {
+        letter-spacing: 0em;
+      }
+
+      .pls-14 {
+        letter-spacing: -0.01em;
+      }
+
+      .pls-15 {
+        letter-spacing: -0.02em;
+      }
+
+      .pls-16 {
+        letter-spacing: -0.01em;
+      }
+
+      .pls-17, .pls-18, .pls-26, .pls-56, .pls-57, .pls-58, .pls-66 {
+        font-family: "Fira Sans", serif;
+	font-weight: 400;
+      }
+
+      .pls-17, .pls-38 {
+        letter-spacing: 0.04em;
+      }
+
+      .pls-18 {
+        letter-spacing: 0.04em;
+      }
+
+      .pls-19, .pls-21, .pls-22, .pls-49, .pls-50, .pls-51, .pls-52, .pls-53, .pls-54, .pls-55 {
+        fill: none;
+      }
+
+      .pls-19, .pls-25 {
+        stroke: #b0b0b0;
+        stroke-linecap: round;
+      }
+
+      .pls-19, .pls-21, .pls-22, .pls-23, .pls-25, .pls-27, .pls-35, .pls-42, .pls-43, .pls-45, .pls-49, .pls-50, .pls-51, .pls-52, .pls-53, .pls-54, .pls-55, .pls-71, .pls-72, .pls-73, .pls-74, .pls-75, .pls-76 {
+        stroke-miterlimit: 10;
+      }
+
+      .pls-19, .pls-23, .pls-27, .pls-49, .pls-50, .pls-52, .pls-53, .pls-54, .pls-55, .pls-71, .pls-72, .pls-73, .pls-74, .pls-75 {
+        stroke-width: 0.5px;
+      }
+
+      .pls-20 {
+        fill: #b0b0b0;
+      }
+
+      .pls-21 {
+        stroke: #1d1e1c;
+      }
+
+      .pls-21, .pls-76 {
+        stroke-width: 0.35px;
+      }
+
+      .pls-22 {
+        stroke: #000;
+        stroke-width: 0.35px;
+      }
+
+      .pls-23, .pls-27, .pls-71, .pls-72, .pls-73, .pls-74, .pls-75, .pls-76 {
+        stroke: #fff;
+      }
+
+      .pls-24 {
+        fill: #e84e1b;
+      }
+
+      .pls-25, .pls-30, .pls-35, .pls-42, .pls-43, .pls-45 {
+        fill: #fff;
+      }
+
+      .pls-25 {
+        stroke-width: 1.05px;
+      }
+
+      .pls-26 {
+        font-size: 12px;
+      }
+
+      .pls-27, .pls-28 {
+        fill: #848585;
+      }
+
+      .pls-29 {
+        letter-spacing: 0.01em;
+      }
+
+      .pls-31, .pls-36, .pls-56, .pls-57, .pls-58, .pls-66 {
+        font-size: 14px;
+      }
+
+      .pls-31, .pls-58, .pls-61 {
+        letter-spacing: 0.03em;
+      }
+
+      .pls-32, .pls-36, .pls-56 {
+        letter-spacing: 0.04em;
+      }
+
+      .pls-33 {
+        letter-spacing: -0.01em;
+      }
+
+      .pls-34 {
+        letter-spacing: 0.02em;
+      }
+
+      .pls-35, .pls-50 {
+        stroke: #f69a80;
+      }
+
+      .pls-37 {
+        letter-spacing: -0.04em;
+      }
+
+      .pls-39 {
+        letter-spacing: 0.03em;
+      }
+
+      .pls-40, .pls-57 {
+        letter-spacing: 0.04em;
+      }
+
+      .pls-41 {
+        letter-spacing: 0.03em;
+      }
+
+      .pls-42, .pls-53 {
+        stroke: #797cad;
+      }
+
+      .pls-43, .pls-54 {
+        stroke: #f9bbaa;
+      }
+
+      .pls-44 {
+        letter-spacing: 0.03em;
+      }
+
+      .pls-45, .pls-55 {
+        stroke: #c6c6c6;
+      }
+
+      .pls-46 {
+        letter-spacing: 0.01em;
+      }
+
+      .pls-47 {
+        letter-spacing: 0.03em;
+      }
+
+      .pls-48 {
+        opacity: 0.5;
+      }
+
+      .pls-49 {
+        stroke: #2b317f;
+      }
+
+      .pls-51 {
+        stroke: #95cef1;
+        stroke-width: 1.4px;
+      }
+
+      .pls-52 {
+        stroke: #e84e1b;
+      }
+
+      .pls-59 {
+        letter-spacing: 0.01em;
+      }
+
+      .pls-60 {
+        letter-spacing: -0.05em;
+      }
+
+      .pls-62 {
+        letter-spacing: -0.01em;
+      }
+
+      .pls-63 {
+        letter-spacing: 0.04em;
+      }
+
+      .pls-64 {
+        letter-spacing: 0.03em;
+      }
+
+      .pls-65 {
+        letter-spacing: 0.02em;
+      }
+
+      .pls-66 {
+        letter-spacing: -0.03em;
+      }
+
+      .pls-67 {
+        letter-spacing: 0.03em;
+      }
+
+      .pls-68 {
+        letter-spacing: 0.03em;
+      }
+
+      .pls-69, .pls-76 {
+        fill: #d3d3d7;
+      }
+
+      .pls-70 {
+        letter-spacing: 0.02em;
+      }
+
+
+.proto1but {
+	opacity: 1;
+	cursor: pointer;
+}
+.proto1but--Hide {
+	opacity: 0.5;
+}
+.proto1smalllabel {
+	opacity: 1;
+	cursor: pointer;
+}
+.proto1smalllabel--Hide {
+	opacity: 0;
+}
+.proto1biglabel {
+	opacity: 1;
+}
+.proto1biglabel--Hide {
+	opacity: 0.5;
+}
+.cgrey {
+	fill: #c6c6c6;
+	opacity: .3;
+}
+.textfull {
+	opacity: 1;
+}
+
+
+
+
+	   .dlablls-1 {
+        fill: #fff;
+        stroke: #3e438a;
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+      }
+
+      .dlablls-2 {
+        font-size: 10.67px;
+      }
+
+      .dlablls-107, .dlablls-2 {
+        fill: #f2652b;
+        font-family: "Fira Sans", serif;
+	font-weight: 400;
+      }
+
+      .dlablls-12, .dlablls-3 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlablls-32, .dlablls-4 {
+        letter-spacing: 0.01em;
+      }
+
+      .dlablls-10, .dlablls-101, .dlablls-103, .dlablls-104, .dlablls-105, .dlablls-11, .dlablls-111, .dlablls-112, .dlablls-113, .dlablls-115, .dlablls-116, .dlablls-117, .dlablls-118, .dlablls-119, .dlablls-12, .dlablls-122, .dlablls-123, .dlablls-124, .dlablls-125, .dlablls-13, .dlablls-14, .dlablls-16, .dlablls-17, .dlablls-18, .dlablls-19, .dlablls-20, .dlablls-22, .dlablls-26, .dlablls-27, .dlablls-28, .dlablls-29, .dlablls-30, .dlablls-31, .dlablls-32, .dlablls-35, .dlablls-36, .dlablls-37, .dlablls-38, .dlablls-44, .dlablls-45, .dlablls-47, .dlablls-48, .dlablls-5, .dlablls-52, .dlablls-53, .dlablls-59, .dlablls-6, .dlablls-64, .dlablls-65, .dlablls-66, .dlablls-67, .dlablls-68, .dlablls-69, .dlablls-7, .dlablls-70, .dlablls-71, .dlablls-72, .dlablls-73, .dlablls-74, .dlablls-76, .dlablls-77, .dlablls-78, .dlablls-79, .dlablls-82, .dlablls-86, .dlablls-87, .dlablls-89, .dlablls-9, .dlablls-90, .dlablls-96 {
+        fill: #000;
+      }
+
+      .dlablls-10, .dlablls-101, .dlablls-103, .dlablls-104, .dlablls-105, .dlablls-11, .dlablls-111, .dlablls-112, .dlablls-113, .dlablls-115, .dlablls-116, .dlablls-117, .dlablls-118, .dlablls-119, .dlablls-12, .dlablls-122, .dlablls-123, .dlablls-124, .dlablls-125, .dlablls-13, .dlablls-14, .dlablls-16, .dlablls-17, .dlablls-18, .dlablls-19, .dlablls-20, .dlablls-22, .dlablls-26, .dlablls-27, .dlablls-28, .dlablls-29, .dlablls-30, .dlablls-31, .dlablls-32, .dlablls-35, .dlablls-36, .dlablls-37, .dlablls-38, .dlablls-44, .dlablls-45, .dlablls-47, .dlablls-48, .dlablls-52, .dlablls-53, .dlablls-59, .dlablls-6, .dlablls-64, .dlablls-65, .dlablls-66, .dlablls-67, .dlablls-68, .dlablls-69, .dlablls-7, .dlablls-70, .dlablls-71, .dlablls-72, .dlablls-73, .dlablls-74, .dlablls-76, .dlablls-77, .dlablls-78, .dlablls-79, .dlablls-82, .dlablls-86, .dlablls-87, .dlablls-89, .dlablls-9, .dlablls-90, .dlablls-96 {
+        font-family: "Fira Sans", serif;
+	font-weight: 300;
+      }
+
+      .dlablls-15, .dlablls-7 {
+        letter-spacing: -0.02em;
+      }
+
+      .dlablls-13, .dlablls-8 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlablls-34, .dlablls-9 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlablls-10, .dlablls-25 {
+        letter-spacing: 0em;
+      }
+
+      .dlablls-11, .dlablls-97 {
+        letter-spacing: 0em;
+      }
+
+      .dlablls-14, .dlablls-55 {
+        letter-spacing: -0.03em;
+      }
+
+      .dlablls-16, .dlablls-81 {
+        letter-spacing: -0.02em;
+      }
+
+      .dlablls-17, .dlablls-23 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlablls-18 {
+        letter-spacing: -0.03em;
+      }
+
+      .dlablls-19 {
+        letter-spacing: -0.04em;
+      }
+
+      .dlablls-100, .dlablls-20 {
+        letter-spacing: -0.03em;
+      }
+
+      .dlablls-21 {
+        letter-spacing: 0.01em;
+      }
+
+      .dlablls-22 {
+        letter-spacing: -0.05em;
+      }
+
+      .dlablls-24, .dlablls-35 {
+        letter-spacing: 0em;
+      }
+
+      .dlablls-26, .dlablls-40 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlablls-27, .dlablls-49 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlablls-28 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlablls-29, .dlablls-39 {
+        letter-spacing: -0.02em;
+      }
+
+      .dlablls-30, .dlablls-46 {
+        letter-spacing: 0em;
+      }
+
+      .dlablls-31, .dlablls-41 {
+        letter-spacing: 0em;
+      }
+
+      .dlablls-33, .dlablls-36 {
+        letter-spacing: -0.03em;
+      }
+
+      .dlablls-37, .dlablls-51 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlablls-38 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlablls-42, .dlablls-65 {
+        letter-spacing: 0em;
+      }
+
+      .dlablls-43, .dlablls-72 {
+        letter-spacing: -0.02em;
+      }
+
+      .dlablls-44 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlablls-45, .dlablls-92 {
+        letter-spacing: -0.02em;
+      }
+
+      .dlablls-47, .dlablls-84 {
+        letter-spacing: -0.02em;
+      }
+
+      .dlablls-48, .dlablls-50 {
+        letter-spacing: -0.02em;
+      }
+
+      .dlablls-52, .dlablls-54 {
+        letter-spacing: -0.02em;
+      }
+
+      .dlablls-53 {
+        letter-spacing: -0.05em;
+      }
+
+      .dlablls-56 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlablls-57 {
+        letter-spacing: -0.02em;
+      }
+
+      .dlablls-58, .dlablls-69 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlablls-59 {
+        letter-spacing: -0.04em;
+      }
+
+      .dlablls-60, .dlablls-90 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlablls-61, .dlablls-67 {
+        letter-spacing: -0.03em;
+      }
+
+      .dlablls-62, .dlablls-73 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlablls-63 {
+        letter-spacing: -0.02em;
+      }
+
+      .dlablls-64, .dlablls-99 {
+        letter-spacing: -0.04em;
+      }
+
+      .dlablls-66, .dlablls-83 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlablls-68 {
+        letter-spacing: -0.02em;
+      }
+
+      .dlablls-70 {
+        letter-spacing: -0.05em;
+      }
+
+      .dlablls-106, .dlablls-71 {
+        letter-spacing: -0.04em;
+      }
+
+      .dlablls-74, .dlablls-93 {
+        letter-spacing: -0.06em;
+      }
+
+      .dlablls-75 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlablls-76, .dlablls-85 {
+        letter-spacing: -0.06em;
+      }
+
+      .dlablls-77 {
+        letter-spacing: 0.01em;
+      }
+
+      .dlablls-78 {
+        letter-spacing: -0.03em;
+      }
+
+      .dlablls-79 {
+        letter-spacing: -0.05em;
+      }
+
+      .dlablls-105, .dlablls-80 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlablls-82 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlablls-86, .dlablls-88 {
+        letter-spacing: -0.06em;
+      }
+
+      .dlablls-87, .dlablls-95 {
+        letter-spacing: 0em;
+      }
+
+      .dlablls-89 {
+        letter-spacing: -0.05em;
+      }
+
+      .dlablls-91 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlablls-94 {
+        letter-spacing: -0.02em;
+      }
+
+      .dlablls-96, .dlablls-98 {
+        letter-spacing: -0.06em;
+      }
+
+      .dlablls-101 {
+        letter-spacing: -0.08em;
+      }
+
+      .dlablls-102 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlablls-103 {
+        letter-spacing: -0.1em;
+      }
+
+      .dlablls-104 {
+        letter-spacing: -0.1em;
+      }
+
+      .dlablls-107 {
+        font-size: 10.51px;
+      }
+
+      .dlablls-108, .dlablls-119 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlablls-109 {
+        letter-spacing: 0.01em;
+      }
+
+      .dlablls-110, .dlablls-115 {
+        letter-spacing: 0em;
+      }
+
+      .dlablls-111 {
+        letter-spacing: -0.05em;
+      }
+
+      .dlablls-112 {
+        letter-spacing: -0.03em;
+      }
+
+      .dlablls-113 {
+        letter-spacing: 0em;
+      }
+
+      .dlablls-114 {
+        letter-spacing: 0em;
+      }
+
+      .dlablls-116 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlablls-117 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlablls-118, .dlablls-121 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlablls-120 {
+        letter-spacing: -0.04em;
+      }
+
+      .dlablls-122 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlablls-123 {
+        letter-spacing: -0.04em;
+      }
+
+      .dlablls-124 {
+        letter-spacing: -0.02em;
+      }
+
+      .dlablls-125 {
+        letter-spacing: -0.03em;
+      }
+
+           .dls-1 {
+        fill: #c6c6c6;
+        opacity: 0.4;
+      }
+
+      .dls-2, .dls-8 {
+        font-size: 10px;
+      }
+
+      .dls-2 {
+        font-family: "Fira Sans", serif;
+	font-weight: 400;
+      }
+
+      .dls-3 {
+        letter-spacing: -0.05em;
+      }
+
+      .dls-4 {
+        letter-spacing: -0.01em;
+      }
+
+      .dls-5 {
+        letter-spacing: 0em;
+      }
+
+      .dls-6 {
+        letter-spacing: -0.01em;
+      }
+
+      .dls-7, .dls-8 {
+        fill: #282d74;
+      }
+
+      .dls-8 {
+       font-family: "Fira Sans", serif;
+	font-weight: 500;
+      }
+
+      .dls-9 {
+        letter-spacing: -0.02em;
+      }
+
+      .dls-10 {
+        letter-spacing: -0.02em;
+      }
+
+      .dls-11 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 0.5px;
+      }
+
+      .dls-12 {
+        fill: #f2652b;
+      }
+
+      .dls-13 {
+        fill: #2b317f;
+      }
+  .drls-1 {
+        fill: #fff;
+      }
+
+      .drls-2 {
+        font-size: 10px;
+        font-family: "Fira Sans", serif;
+	font-weight: 400;
+      }
+
+      .drls-15, .drls-3 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .drls-3 {
+        stroke-width: 0.67px;
+      }
+
+      .drls-4 {
+        letter-spacing: -0.1em;
+      }
+
+      .drls-5 {
+        letter-spacing: 0em;
+      }
+
+      .drls-6 {
+        letter-spacing: -0.03em;
+      }
+
+      .drls-7 {
+        letter-spacing: 0.01em;
+      }
+
+      .drls-8 {
+        letter-spacing: 0.01em;
+      }
+
+      .drls-9 {
+        letter-spacing: 0.01em;
+      }
+
+      .drls-10 {
+        letter-spacing: 0.01em;
+      }
+
+      .drls-11 {
+        letter-spacing: -0.03em;
+      }
+
+      .drls-12 {
+        letter-spacing: -0.1em;
+      }
+
+      .drls-13 {
+        letter-spacing: 0em;
+      }
+
+      .drls-14 {
+        letter-spacing: -0.01em;
+      }
+
+      .drls-15 {
+        stroke-width: 0.5px;
+      }
+               .dlls-1 {
+        fill: #fff;
+      }
+
+      .dlls-2 {
+        font-size: 10px;
+       font-family: "Fira Sans", serif;
+	font-weight: 400;
+      }
+
+      .dlls-3, .dlls-5, .dlls-6 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .dlls-3 {
+        stroke-width: 0.67px;
+      }
+
+      .dlls-4 {
+        letter-spacing: 0em;
+      }
+
+      .dlls-5 {
+        stroke-width: 0.5px;
+      }
+
+      .dlls-6 {
+        stroke-width: 0.5px;
+      }
+  .dlels-1, .dlels-2 {
+        fill: none;
+      }
+
+      .dlels-2, .dlels-3, .dlels-4 {
+        stroke: #c6c6c6;
+        stroke-miterlimit: 10;
+      }
+
+      .dlels-2 {
+        stroke-width: 2.5px;
+      }
+
+      .dlels-2, .dlels-20, .dlels-3 {
+        opacity: 0.25;
+      }
+
+      .dlels-20, .dlels-3 {
+        fill: #c6c6c6;
+      }
+
+      .dlels-4 {
+        stroke-width: 0.33px;
+        fill: url(#Nuovo_pattern_3);
+      }
+
+      .dlels-5 {
+        font-size: 12px;
+        font-family: "Fira Sans", serif;
+	font-weight: 400;
+      }
+
+      .dlels-6 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlels-7 {
+        letter-spacing: 0em;
+      }
+
+      .dlels-8 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlels-9 {
+        letter-spacing: -0.02em;
+      }
+
+      .dlels-10 {
+        letter-spacing: -0.02em;
+      }
+
+      .dlels-11 {
+        letter-spacing: 0em;
+      }
+
+      .dlels-12 {
+        letter-spacing: 0em;
+      }
+
+      .dlels-13 {
+        fill: #2b317f;
+      }
+
+      .dlels-14 {
+        letter-spacing: -0.03em;
+      }
+
+      .dlels-15 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlels-16 {
+        letter-spacing: 0em;
+      }
+
+      .dlels-17 {
+        letter-spacing: -0.03em;
+      }
+
+      .dlels-18 {
+        letter-spacing: -0.01em;
+      }
+
+      .dlels-19 {
+        fill: #f2652b;
+      }
+
+      .dlels-21 {
+        letter-spacing: -0.04em;
+      }
+
+      .dlels-22 {
+        letter-spacing: -0.02em;
+      }
+	.dlels-23 {
+        fill: #fff;
+      }
+
+
+
+.scroll-bot {
+   	padding-top: 5%;
+	width: ;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+body {
+	overflow-x: hidden;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 12px;
+	height: 12px;
+	border: none;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    display: none;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+
+	width: 2%;
+
+    background:  #c6c6c6;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+
+}
+.legmain {
+	position: absolute;
+	 	padding-top: 0%;
+	top: .2%;
+	margin: 0 5%;
+
+}
+.legtop {
+	position: absolute;
+
+	top: 0%;
+	left: 25%;
+	width: 60%;
+	margin-left: 12.5%;
+}
+.leglab {
+	position: absolute;
+	 	padding-top: 0%;
+	top: 15%;
+	left: 35%;
+	width: 50%;
+}
+.legleft {
+	position: absolute;
+	 	padding-top: %;
+
+	top: 1.5%;
+	left: 0%;
+	width: 5%;
+}
+.legright
+{
+	position: absolute;
+	 	padding-top: 0%;
+	top: 2.8%;
+	left: 95.5%;
+	width: 5%;
+}
+
+.news-label {
+	display: none;
+
+}
+.news-label--Show {
+	display: block;
+
+}
+.news-bricks {
+	opacity: 1;
+	cursor: pointer
+}
+.news-bricks--Show {
+	stroke: #2b317f;
+	opacity: 1;
+}
+.news-bricks--Hover {
+
+	opacity: .5;
+}
+.scroll-containn {
+	width: 100%;
+	margin-top: 5%;
+	position: relative;
+	height: 80vh;
+	overflow-x: scroll;
+}
+
+
+.tmapls-1 {
+        fill: #fff;
+      }
+
+      .tmapls-2, .tmapls-40, .tmapls-68 {
+        fill: #f0562b;
+      }
+
+      .tmapls-3 {
+        fill: #c6c6c6;
+      }
+
+      .tmapls-4 {
+        fill: #f2912d;
+      }
+
+      .tmapls-5 {
+        fill: #ed761e;
+      }
+
+      .tmapls-6 {
+        fill: #d63419;
+      }
+
+      .tmapls-54, .tmapls-55, .tmapls-61, .tmapls-7, .tmapls-77 {
+        fill: none;
+      }
+
+      .tmapls-7 {
+        stroke: #282d74;
+        stroke-width: 1.05px;
+      }
+
+      .tmapls-54, .tmapls-55, .tmapls-7, .tmapls-77 {
+        stroke-miterlimit: 10;
+      }
+
+      .tmapls-12, .tmapls-35, .tmapls-38, .tmapls-56, .tmapls-62, .tmapls-67, .tmapls-69, .tmapls-70, .tmapls-73, .tmapls-75, .tmapls-8 {
+        font-size: 12px;
+      }
+
+      .tmapls-12, .tmapls-35, .tmapls-45, .tmapls-62, .tmapls-67, .tmapls-8 {
+        font-family: "Fira Sans", serif;
+	font-weight: 400;
+      }
+
+      .tmapls-10, .tmapls-12, .tmapls-9 {
+        fill: #1d1d1b;
+      }
+
+      .tmapls-10, .tmapls-18 {
+        letter-spacing: -0.03em;
+      }
+
+      .tmapls-11, .tmapls-20, .tmapls-22, .tmapls-26, .tmapls-27, .tmapls-29, .tmapls-40, .tmapls-52, .tmapls-68, .tmapls-72, .tmapls-76 {
+        font-family: "Fira Sans", serif;
+	font-weight: 700;
+      }
+
+      .tmapls-11, .tmapls-20, .tmapls-22, .tmapls-26, .tmapls-27, .tmapls-29, .tmapls-41, .tmapls-68, .tmapls-72, .tmapls-76 {
+        font-weight: 700;
+      }
+
+      .tmapls-13 {
+        letter-spacing: -0.08em;
+      }
+
+      .tmapls-14 {
+        letter-spacing: -0.09em;
+      }
+
+      .tmapls-15, .tmapls-26 {
+        letter-spacing: 0em;
+      }
+
+      .tmapls-16, .tmapls-27 {
+        letter-spacing: -0.01em;
+      }
+
+      .tmapls-17 {
+        letter-spacing: -0.02em;
+      }
+
+      .tmapls-19 {
+        letter-spacing: -0.07em;
+      }
+
+      .tmapls-20 {
+        letter-spacing: 0em;
+      }
+
+      .tmapls-21 {
+        letter-spacing: -0.05em;
+      }
+
+      .tmapls-22, .tmapls-28 {
+        letter-spacing: -0.03em;
+      }
+
+      .tmapls-23 {
+        letter-spacing: -0.02em;
+      }
+
+      .tmapls-24 {
+        letter-spacing: -0.01em;
+      }
+
+      .tmapls-25 {
+        letter-spacing: 0em;
+      }
+
+      .tmapls-29 {
+        letter-spacing: 0em;
+      }
+
+      .tmapls-30 {
+        letter-spacing: -0.02em;
+      }
+
+      .tmapls-31 {
+        letter-spacing: -0.03em;
+      }
+
+      .tmapls-32 {
+        letter-spacing: -0.07em;
+      }
+
+      .tmapls-33 {
+        letter-spacing: -0.1em;
+      }
+
+      .tmapls-34 {
+        opacity: 0.5;
+      }
+
+      .tmapls-35, .tmapls-38, .tmapls-57, .tmapls-65, .tmapls-70, .tmapls-73 {
+        letter-spacing: 0.02em;
+      }
+
+      .tmapls-36, .tmapls-62, .tmapls-69 {
+        letter-spacing: 0.01em;
+      }
+
+      .tmapls-37 {
+        letter-spacing: 0.02em;
+      }
+
+      .tmapls-38, .tmapls-57, .tmapls-58, .tmapls-60, .tmapls-69, .tmapls-71, .tmapls-75 {
+        fill: #f2562b;
+      }
+
+      .tmapls-38, .tmapls-56, .tmapls-69, .tmapls-70, .tmapls-73, .tmapls-75 {
+        font-family: "Fira Sans", serif;
+	font-weight: 500;
+      }
+
+      .tmapls-39 {
+        letter-spacing: 0.01em;
+      }
+
+      .tmapls-40, .tmapls-52, .tmapls-68, .tmapls-72 {
+        font-size: 14px;
+      }
+
+      .tmapls-42 {
+        letter-spacing: 0em;
+      }
+
+      .tmapls-43 {
+        letter-spacing: -0.01em;
+      }
+
+      .tmapls-44 {
+        letter-spacing: 0em;
+      }
+
+      .tmapls-46 {
+        letter-spacing: 0em;
+      }
+
+      .tmapls-47 {
+        letter-spacing: -0.1em;
+      }
+
+      .tmapls-48 {
+        letter-spacing: -0.05em;
+      }
+
+      .tmapls-49 {
+        letter-spacing: -0.03em;
+      }
+
+      .tmapls-50 {
+        letter-spacing: -0.02em;
+      }
+
+      .tmapls-51 {
+        letter-spacing: -0.01em;
+      }
+
+      .tmapls-52, .tmapls-72, .tmapls-73 {
+        fill: #8f8f8f;
+      }
+
+      .tmapls-53 {
+        letter-spacing: -0.05em;
+      }
+
+      .tmapls-54, .tmapls-55, .tmapls-77 {
+        stroke: #c6c6c6;
+      }
+
+      .tmapls-54, .tmapls-55, .tmapls-61 {
+        stroke-width: 0.5px;
+      }
+
+      .tmapls-55 {
+        stroke-dasharray: 5.01 5.01;
+      }
+
+      .tmapls-58 {
+        letter-spacing: 0.01em;
+      }
+
+      .tmapls-59, .tmapls-60 {
+        font-family: "Fira Sans", serif;
+	font-weight: 300;
+      }
+
+      .tmapls-61 {
+        stroke: #f0562b;
+      }
+
+      .tmapls-63 {
+        letter-spacing: -0.04em;
+      }
+
+      .tmapls-64 {
+        letter-spacing: -0.05em;
+      }
+
+      .tmapls-66, .tmapls-67, .tmapls-71, .tmapls-75 {
+        letter-spacing: 0.02em;
+      }
+
+      .tmapls-74 {
+        fill: #e8694b;
+      }
+
+      .tmapls-76 {
+        font-size: 14.46px;
+        fill: #959595;
+      }
+
+      .tmapls-77 {
+        stroke-width: 0.63px;
+      }
+
+      .tmapls-78 {
+        fill: #cd5257;
+      }
+
+.tmaplab {
+	opacity: 1;
+}
+.tmaplab--Hide {
+	opacity: 0;
+}
+
+.tmapsq {
+	opacity: 1;
+}
+.tmapsq--Hide {
+	opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .gls-1, .gls-124, .gls-2, .gls-20, .gls-25, .gls-26, .gls-32, .gls-33, .gls-42, .gls-43, .gls-47, .gls-48, .gls-5, .gls-50, .gls-55, .gls-56, .gls-57, .gls-58, .gls-7, .gls-8, .gls-93 {
+        fill: none;
+      }
+
+      .gls-1, .gls-2, .gls-20, .gls-25, .gls-26, .gls-33, .gls-42, .gls-43, .gls-47, .gls-48, .gls-5, .gls-50, .gls-55, .gls-56, .gls-8, .gls-93 {
+        stroke: #c4c4c4;
+      }
+
+      .gls-1, .gls-124, .gls-2, .gls-20, .gls-25, .gls-26, .gls-32, .gls-33, .gls-42, .gls-43, .gls-47, .gls-48, .gls-50, .gls-55, .gls-56, .gls-57, .gls-58, .gls-61, .gls-62, .gls-63, .gls-64, .gls-65, .gls-66, .gls-67, .gls-68, .gls-69, .gls-70, .gls-71, .gls-72, .gls-8, .gls-93 {
+        stroke-miterlimit: 10;
+      }
+
+      .gls-1, .gls-61, .gls-62, .gls-63, .gls-64, .gls-65, .gls-66, .gls-67, .gls-68, .gls-69, .gls-70, .gls-71, .gls-72, .gls-73 {
+        stroke-width: 0.16px;
+      }
+
+      .gls-2, .gls-20, .gls-5 {
+        stroke-width: 0.31px;
+      }
+
+      .gls-3 {
+        opacity: 0.2;
+      }
+
+      .gls-4 {
+        fill: #c6c6c6;
+      }
+
+      .gls-5, .gls-7 {
+        stroke-linejoin: round;
+      }
+
+      .gls-5 {
+        opacity: 0.6;
+      }
+
+      .gls-6 {
+        font-size: 7.56px;
+        fill: #c4c4c4;
+        letter-spacing: 0.05em;
+      }
+
+      .gls-27, .gls-6 {
+        font-family: "Fira Sans", serif;
+	font-weight: 400;
+      }
+
+      .gls-124, .gls-57, .gls-58, .gls-7 {
+        stroke: #c6c6c6;
+      }
+
+      .gls-7 {
+        stroke-width: 1.5px;
+      }
+
+      .gls-25, .gls-26, .gls-33, .gls-42, .gls-43, .gls-47, .gls-48, .gls-50, .gls-55, .gls-56, .gls-8 {
+        stroke-width: 0.63px;
+      }
+
+      .gls-8 {
+        stroke-dasharray: 1.89;
+      }
+
+      .gls-12, .gls-18, .gls-9 {
+        font-size: 9px;
+      }
+
+      .gls-114, .gls-13, .gls-21, .gls-23, .gls-34, .gls-35, .gls-36, .gls-37, .gls-38, .gls-71, .gls-73, .gls-9 {
+        fill: #f0562b;
+      }
+
+      .gls-112, .gls-114, .gls-12, .gls-23, .gls-34, .gls-35, .gls-36, .gls-37, .gls-38, .gls-9 {
+        font-family: "Fira Sans", serif;
+	font-weight: 500;
+      }
+
+      .gls-9 {
+        letter-spacing: 0.04em;
+      }
+
+      .gls-10, .gls-75, .gls-80, .gls-90, .gls-95 {
+        fill: #1d1d1b;
+      }
+
+      .gls-10, .gls-107, .gls-15, .gls-18, .gls-75, .gls-80, .gls-90, .gls-95 {
+        font-family: "Fira Sans", serif;
+	font-weight: 300;
+      }
+
+      .gls-11 {
+        letter-spacing: 0.01em;
+      }
+
+      .gls-14 {
+        letter-spacing: -0.07em;
+      }
+
+      .gls-16 {
+        letter-spacing: -0.03em;
+      }
+
+      .gls-17 {
+        letter-spacing: -0.07em;
+      }
+
+      .gls-19 {
+        letter-spacing: 0em;
+      }
+
+      .gls-20 {
+        stroke-dasharray: 1.57;
+      }
+
+      .gls-21 {
+        letter-spacing: -0.01em;
+      }
+
+      .gls-22 {
+        letter-spacing: 0em;
+      }
+
+      .gls-23, .gls-95 {
+        font-size: 11px;
+      }
+
+      .gls-24 {
+        letter-spacing: -0.01em;
+      }
+
+      .gls-26 {
+        stroke-dasharray: 1.93 1.93;
+      }
+
+      .gls-112, .gls-114, .gls-27, .gls-75, .gls-80, .gls-90 {
+        font-size: 12px;
+      }
+
+      .gls-28 {
+        letter-spacing: -0.04em;
+      }
+
+      .gls-29 {
+        letter-spacing: -0.02em;
+      }
+
+      .gls-30 {
+        letter-spacing: -0.01em;
+      }
+
+      .gls-31 {
+        letter-spacing: -0.01em;
+      }
+
+      .gls-32 {
+        stroke: #2b317f;
+        stroke-width: 1.26px;
+      }
+
+      .gls-33 {
+        stroke-dasharray: 1.88 1.88;
+      }
+
+      .gls-34 {
+        letter-spacing: -0.08em;
+      }
+
+      .gls-36 {
+        letter-spacing: -0.01em;
+      }
+
+      .gls-37, .gls-39 {
+        letter-spacing: 0em;
+      }
+
+      .gls-38 {
+        letter-spacing: -0.08em;
+      }
+
+      .gls-40 {
+        letter-spacing: -0.02em;
+      }
+
+      .gls-41 {
+        letter-spacing: -0.01em;
+      }
+
+      .gls-42 {
+        stroke-dasharray: 1.84 1.84;
+      }
+
+      .gls-43 {
+        stroke-dasharray: 1.88 1.88;
+      }
+
+      .gls-44 {
+        letter-spacing: -0.02em;
+      }
+
+      .gls-45, .gls-80 {
+        letter-spacing: -0.01em;
+      }
+
+      .gls-46 {
+        letter-spacing: 0em;
+      }
+
+      .gls-47 {
+        stroke-dasharray: 1.88 1.88;
+      }
+
+      .gls-48 {
+        stroke-dasharray: 1.89 1.89;
+      }
+
+      .gls-49 {
+        letter-spacing: -0.05em;
+      }
+
+      .gls-50 {
+        stroke-dasharray: 1.81 1.81;
+      }
+
+      .gls-51 {
+        letter-spacing: -0.02em;
+      }
+
+      .gls-52 {
+        letter-spacing: 0em;
+      }
+
+      .gls-53 {
+        letter-spacing: -0.04em;
+      }
+
+      .gls-54 {
+        letter-spacing: -0.02em;
+      }
+
+      .gls-55 {
+        stroke-dasharray: 1.94 1.94;
+      }
+
+      .gls-56 {
+        stroke-dasharray: 1.96 1.96;
+      }
+
+      .gls-57, .gls-58 {
+        stroke-width: 0.5px;
+      }
+
+      .gls-58 {
+        stroke-dasharray: 4.98 4.98;
+      }
+
+      .gls-59 {
+        fill: #fff;
+      }
+
+      .gls-60, .gls-68 {
+        fill: #2b317f;
+      }
+
+      .gls-61, .gls-66 {
+        fill: #797cad;
+      }
+
+      .gls-61, .gls-62, .gls-63, .gls-64 {
+        stroke: #1d1d1b;
+      }
+
+      .gls-62, .gls-65 {
+        fill: #3d438a;
+      }
+
+      .gls-112, .gls-63 {
+        fill: #2a327c;
+      }
+
+      .gls-64, .gls-67 {
+        fill: #23254e;
+      }
+
+      .gls-65, .gls-66, .gls-67, .gls-68, .gls-69, .gls-70, .gls-71, .gls-72, .gls-73 {
+        stroke: #000;
+      }
+
+      .gls-69 {
+        fill: #f9bbaa;
+      }
+
+      .gls-70 {
+        fill: #f69a80;
+      }
+
+      .gls-72 {
+        fill: #b44120;
+      }
+
+      .gls-74 {
+        opacity: 0.7;
+      }
+
+      .gls-112, .gls-114, .gls-75, .gls-76 {
+        letter-spacing: 0.04em;
+      }
+
+      .gls-77 {
+        letter-spacing: 0.02em;
+      }
+
+      .gls-78, .gls-90 {
+        letter-spacing: 0.04em;
+      }
+
+      .gls-79 {
+        letter-spacing: 0.03em;
+      }
+
+      .gls-81 {
+        letter-spacing: 0.03em;
+      }
+
+      .gls-82 {
+        letter-spacing: 0.02em;
+      }
+
+      .gls-83 {
+        letter-spacing: 0.01em;
+      }
+
+      .gls-84 {
+        letter-spacing: 0.03em;
+      }
+
+      .gls-85 {
+        letter-spacing: 0.03em;
+      }
+
+      .gls-86 {
+        letter-spacing: 0.02em;
+      }
+
+      .gls-87 {
+        letter-spacing: -0.04em;
+      }
+
+      .gls-88 {
+        letter-spacing: 0.04em;
+      }
+
+      .gls-89 {
+        letter-spacing: 0.02em;
+      }
+
+      .gls-91 {
+        letter-spacing: 0.03em;
+      }
+
+      .gls-92 {
+        letter-spacing: 0.03em;
+      }
+
+      .gls-93 {
+        stroke-width: 0.25px;
+      }
+
+      .gls-94 {
+        letter-spacing: 0.02em;
+      }
+
+      .gls-96 {
+        letter-spacing: -0.03em;
+      }
+
+      .gls-97 {
+        letter-spacing: -0.03em;
+      }
+
+      .gls-98 {
+        letter-spacing: 0em;
+      }
+
+      .gls-99 {
+        letter-spacing: -0.01em;
+      }
+
+      .gls-100 {
+        letter-spacing: 0em;
+      }
+
+      .gls-101 {
+        letter-spacing: -0.01em;
+      }
+
+      .gls-102 {
+        letter-spacing: -0.02em;
+      }
+
+      .gls-103 {
+        letter-spacing: -0.01em;
+      }
+
+      .gls-104 {
+        letter-spacing: -0.02em;
+      }
+
+      .gls-105 {
+        letter-spacing: -0.01em;
+      }
+
+      .gls-106 {
+        letter-spacing: -0.04em;
+      }
+
+      .gls-107 {
+        font-size: 10px;
+      }
+
+      .gls-108 {
+        letter-spacing: -0.07em;
+      }
+
+      .gls-109 {
+        letter-spacing: 0em;
+      }
+
+      .gls-110 {
+        letter-spacing: -0.06em;
+      }
+
+      .gls-111 {
+        letter-spacing: -0.04em;
+      }
+
+      .gls-113 {
+        letter-spacing: 0.03em;
+      }
+
+      .gls-115 {
+        letter-spacing: -0.01em;
+      }
+
+      .gls-116 {
+        letter-spacing: -0.01em;
+      }
+
+      .gls-117 {
+        letter-spacing: -0.02em;
+      }
+
+      .gls-118 {
+        letter-spacing: -0.01em;
+      }
+
+      .gls-119 {
+        letter-spacing: -0.03em;
+      }
+
+      .gls-120 {
+        letter-spacing: -0.01em;
+      }
+
+      .gls-121 {
+        letter-spacing: -0.01em;
+      }
+
+      .gls-122 {
+        letter-spacing: 0em;
+      }
+
+      .gls-123 {
+        letter-spacing: 0em;
+      }
+
+      .gls-125 {
+        letter-spacing: 0.03em;
+      }
+.datumi {
+	opacity: 0;
+}
+.datumi--Show {
+	opacity: 1;
+}
+.krugovi {
+	opacity: 0.5;
+	cursor: pointer;
+}
+.krugovi--Show {
+	opacity: 1;
+}
+.minipop {
+	opacity: 0;
+}
+.minipop--Show {
+	opacity: 1;
+}
+
+
+      .redls-1, .redls-44 {
+        fill: #2b317f;
+      }
+
+      .redls-1, .redls-2, .redls-3 {
+        stroke: #000;
+      }
+
+      .redls-1, .redls-19, .redls-2, .redls-3, .redls-65, .redls-66 {
+        stroke-width: 0.5px;
+      }
+
+      .redls-1, .redls-2 {
+        opacity: 0.3;
+      }
+
+      .redls-2, .redls-28, .redls-3, .redls-43 {
+        fill: #f0562b;
+      }
+
+      .redls-3 {
+        opacity: 0.3;
+      }
+
+      .redls-12, .redls-15, .redls-4 {
+        font-size: 14px;
+      }
+
+      .redls-12, .redls-15, .redls-21, .redls-22, .redls-24, .redls-25, .redls-29, .redls-30, .redls-31, .redls-38, .redls-4 {
+        font-family: "Fira Sans", serif;
+	font-weight: 400;
+      }
+
+      .redls-16, .redls-21, .redls-30, .redls-31, .redls-4 {
+        letter-spacing: 0.04em;
+      }
+
+      .redls-5 {
+        letter-spacing: -0.05em;
+      }
+
+      .redls-12, .redls-6 {
+        letter-spacing: 0.04em;
+      }
+
+      .redls-19, .redls-20, .redls-27, .redls-36, .redls-42, .redls-65, .redls-66, .redls-7, .redls-8 {
+        fill: none;
+      }
+
+      .redls-7 {
+        stroke: #2b317f;
+      }
+
+      .redls-7, .redls-8 {
+        stroke-width: 2px;
+      }
+
+      .redls-27, .redls-8 {
+        stroke: #f0562b;
+      }
+
+      .redls-9 {
+        letter-spacing: 0.03em;
+      }
+
+      .redls-10 {
+        letter-spacing: 0.01em;
+      }
+
+      .redls-11 {
+        letter-spacing: 0.01em;
+      }
+
+      .redls-13 {
+        letter-spacing: 0.03em;
+      }
+
+      .redls-14 {
+        letter-spacing: -0.01em;
+      }
+
+      .redls-15, .redls-18 {
+        letter-spacing: 0.02em;
+      }
+
+      .redls-17 {
+        letter-spacing: 0.04em;
+      }
+
+      .redls-19, .redls-20 {
+        stroke: #ccc;
+      }
+
+      .redls-21, .redls-22, .redls-24, .redls-25 {
+        isolation: isolate;
+      }
+
+      .redls-21, .redls-22, .redls-24, .redls-25, .redls-29, .redls-30, .redls-31, .redls-38 {
+        font-size: 12px;
+      }
+
+      .redls-22, .redls-29, .redls-33, .redls-38 {
+        letter-spacing: 0.04em;
+      }
+
+      .redls-23 {
+        letter-spacing: -0.03em;
+      }
+
+      .redls-24, .redls-34 {
+        letter-spacing: 0.03em;
+      }
+
+      .redls-25 {
+        letter-spacing: 0.04em;
+      }
+
+      .redls-26 {
+        letter-spacing: 0.03em;
+      }
+
+      .redls-27 {
+        stroke-dasharray: 5;
+      }
+
+      .redls-31, .redls-38 {
+        fill: #999;
+      }
+
+      .redls-32 {
+        letter-spacing: 0.03em;
+      }
+
+      .redls-35 {
+        letter-spacing: 0.01em;
+      }
+
+      .redls-36, .redls-42, .redls-65, .redls-66 {
+        stroke: #c6c6c6;
+      }
+
+      .redls-36, .redls-65, .redls-66 {
+        stroke-miterlimit: 10;
+      }
+
+      .redls-37 {
+        fill: #c6c6c6;
+      }
+
+      .redls-39 {
+        letter-spacing: 0.03em;
+      }
+
+      .redls-40 {
+        letter-spacing: -0.01em;
+      }
+
+      .redls-41 {
+        letter-spacing: 0.01em;
+      }
+
+      .redls-43 {
+        opacity: 0.9;
+      }
+
+      .redls-45 {
+        font-size: 11px;
+        fill: #1d1d1b;
+        font-family: "Fira Sans", serif;
+	font-weight: 300;
+      }
+
+      .redls-46 {
+        letter-spacing: -0.03em;
+      }
+
+      .redls-47 {
+        letter-spacing: 0em;
+      }
+
+      .redls-48 {
+        letter-spacing: -0.03em;
+      }
+
+      .redls-49 {
+        letter-spacing: 0em;
+      }
+
+      .redls-50 {
+        letter-spacing: -0.01em;
+      }
+
+      .redls-51 {
+        letter-spacing: -0.01em;
+      }
+
+      .redls-52 {
+        letter-spacing: -0.02em;
+      }
+
+      .redls-53 {
+        letter-spacing: -0.01em;
+      }
+
+      .redls-54 {
+        letter-spacing: -0.02em;
+      }
+
+      .redls-55 {
+        letter-spacing: -0.01em;
+      }
+
+      .redls-56 {
+        letter-spacing: -0.03em;
+      }
+
+      .redls-57 {
+        letter-spacing: 0em;
+      }
+
+      .redls-58 {
+        letter-spacing: -0.01em;
+      }
+
+      .redls-59 {
+        letter-spacing: 0em;
+      }
+
+      .redls-60 {
+        letter-spacing: -0.03em;
+      }
+
+      .redls-61 {
+        letter-spacing: -0.01em;
+      }
+
+      .redls-62 {
+        letter-spacing: -0.01em;
+      }
+
+      .redls-63 {
+        letter-spacing: -0.01em;
+      }
+
+      .redls-64 {
+        letter-spacing: -0.02em;
+      }
+
+      .redls-66 {
+        stroke-dasharray: 5 5;
+      }
+
+
+.redwave--Show{
+	opacity: .9;
+}
+.redlab {
+	opacity: 0;
+}
+
+	.redlab--Show {
+	opacity: 1;
+}
+
+
+
+   .lals-1, .lals-11, .lals-2, .lals-27, .lals-28, .lals-29, .lals-3, .lals-30, .lals-31, .lals-32, .lals-33, .lals-34, .lals-35, .lals-36, .lals-37, .lals-38, .lals-39, .lals-40, .lals-45, .lals-6, .lals-60, .lals-61, .lals-62, .lals-67, .lals-68, .lals-69, .lals-72, .lals-8, .lals-9 {
+        fill: none;
+      }
+
+      .lals-1, .lals-2, .lals-3 {
+        stroke: #27326c;
+        stroke-linecap: round;
+      }
+
+      .lals-1, .lals-11, .lals-2, .lals-27, .lals-28, .lals-29, .lals-3, .lals-30, .lals-31, .lals-32, .lals-33, .lals-34, .lals-35, .lals-36, .lals-37, .lals-38, .lals-39, .lals-40, .lals-6, .lals-60, .lals-61, .lals-62, .lals-67, .lals-68, .lals-69, .lals-72, .lals-8, .lals-9 {
+        stroke-miterlimit: 10;
+      }
+
+      .lals-2 {
+        stroke-dasharray: 0 2.02;
+      }
+
+      .lals-3 {
+        stroke-dasharray: 0 2.05;
+      }
+
+      .lals-4 {
+        fill: #fcfcfc;
+        stroke: #1e2452;
+      }
+
+      .lals-5 {
+        font-size: 12px;
+        fill: #262626;
+      }
+
+      .lals-18, .lals-42, .lals-43, .lals-46, .lals-49, .lals-5, .lals-50, .lals-53, .lals-54, .lals-59, .lals-70 {
+        font-family: "Fira Sans", serif;
+	font-weight: 400;
+      }
+
+      .lals-11, .lals-13, .lals-45, .lals-6, .lals-60, .lals-61, .lals-62, .lals-67, .lals-68, .lals-69, .lals-72, .lals-8, .lals-9 {
+        stroke: #2b317f;
+      }
+
+      .lals-6 {
+        stroke-width: 3.24px;
+      }
+
+      .lals-7 {
+        letter-spacing: -0.01em;
+      }
+
+      .lals-35, .lals-8 {
+        stroke-width: 6.47px;
+      }
+
+      .lals-32, .lals-39, .lals-9 {
+        stroke-width: 1.08px;
+      }
+
+      .lals-10, .lals-63 {
+        fill: #2b317f;
+      }
+
+      .lals-11, .lals-36 {
+        stroke-width: 4.86px;
+      }
+
+      .lals-12 {
+        font-size: 9px;
+        letter-spacing: 0.04em;
+      }
+
+      .lals-12, .lals-64, .lals-65, .lals-66 {
+        fill: #25378b;
+      }
+
+      .lals-12, .lals-15, .lals-64, .lals-65, .lals-66 {
+        font-family: "Fira Sans", serif;
+	font-weight: 500;
+      }
+
+      .lals-13, .lals-15, .lals-44 {
+        fill: #f0562b;
+      }
+
+      .lals-13, .lals-14, .lals-45 {
+        stroke-width: 2px;
+      }
+
+      .lals-14, .lals-41 {
+        fill: #fff;
+      }
+
+      .lals-14, .lals-63 {
+        stroke: #f0562b;
+      }
+
+      .lals-14 {
+        stroke-dasharray: 2;
+      }
+
+      .lals-15 {
+        font-size: 14px;
+        letter-spacing: 0.04em;
+      }
+
+      .lals-16 {
+        letter-spacing: 0.03em;
+      }
+
+      .lals-17, .lals-18, .lals-19 {
+        letter-spacing: 0.04em;
+      }
+
+      .lals-19, .lals-20, .lals-21, .lals-22 {
+        font-family: "Fira Sans", serif;
+	font-weight: 300;
+      }
+
+      .lals-20 {
+        letter-spacing: 0.03em;
+      }
+
+      .lals-21, .lals-25 {
+        letter-spacing: 0.03em;
+      }
+
+      .lals-22 {
+        letter-spacing: 0em;
+      }
+
+      .lals-23 {
+        letter-spacing: 0.02em;
+      }
+
+      .lals-24 {
+        letter-spacing: 0.03em;
+      }
+
+      .lals-26 {
+        opacity: 0.3;
+      }
+
+      .lals-27, .lals-28, .lals-29, .lals-30, .lals-31, .lals-32, .lals-33, .lals-34 {
+        stroke: #c4c4c4;
+      }
+
+      .lals-27, .lals-38, .lals-61 {
+        stroke-width: 1.62px;
+      }
+
+      .lals-28, .lals-40, .lals-60 {
+        stroke-width: 0.54px;
+      }
+
+      .lals-29, .lals-67 {
+        stroke-width: 5.93px;
+      }
+
+      .lals-30, .lals-68 {
+        stroke-width: 3.78px;
+      }
+
+      .lals-31, .lals-69 {
+        stroke-width: 2.16px;
+      }
+
+      .lals-33, .lals-62 {
+        stroke-width: 2.7px;
+      }
+
+      .lals-34, .lals-37, .lals-72 {
+        stroke-width: 4.32px;
+      }
+
+      .lals-35, .lals-36, .lals-37, .lals-38, .lals-39, .lals-40 {
+        stroke: #a3a3a3;
+      }
+
+      .lals-42, .lals-43, .lals-46, .lals-49, .lals-50, .lals-53, .lals-54, .lals-59, .lals-64, .lals-65, .lals-66 {
+        font-size: 12.78px;
+      }
+
+      .lals-42, .lals-57, .lals-65 {
+        letter-spacing: 0.04em;
+      }
+
+      .lals-43, .lals-51, .lals-64 {
+        letter-spacing: 0.04em;
+      }
+
+      .lals-46, .lals-55 {
+        letter-spacing: -0.01em;
+      }
+
+      .lals-47, .lals-59, .lals-66 {
+        letter-spacing: 0.04em;
+      }
+
+      .lals-48, .lals-49 {
+        letter-spacing: 0.03em;
+      }
+
+      .lals-50 {
+        letter-spacing: -0.01em;
+      }
+
+      .lals-52 {
+        letter-spacing: -0.06em;
+      }
+
+      .lals-53, .lals-56 {
+        letter-spacing: 0.02em;
+      }
+
+      .lals-54 {
+        letter-spacing: -0.03em;
+      }
+
+      .lals-58 {
+        letter-spacing: 0.03em;
+      }
+
+      .lals-63 {
+        stroke-width: 3px;
+      }
+
+      .lals-70 {
+        isolation: isolate;
+        font-size: 13.66px;
+      }
+
+      .lals-71 {
+        letter-spacing: -0.01em;
+      }
+.apea {
+	display: none;
+}
+.apea--Show {
+	display: block;
+}
+.remo {
+	display: block;
+}
+.remo--Show {
+	display: none;
+}
+.nodesc {
+	display: none;
+}
+.nodesc--Show {
+	display: block;
+}
+.lastnod {
+	display: block;
+}
+.lastnod--Show {
+	opacity: 0.1;
+	cursor: pointer;
+}
+.lastseed {
+	display: none;
+}
+.lastseed--Show {
+	display: block;
+}
+.opetnesto {
+	margin-top: 5%;
+
+}
+.bubsvaba {
+	width: 70%;
+	margin: 0 15%;
+}
+
+	.st0{fill:none;}
+	.st1{fill:#283170;}
+	.st2{font-family: "Fira Sans", serif;
+		font-weight: 500;}
+	.st3{font-size:12px;}
+	.st4{fill:#262626;}
+	.st5{font-family: "Fira Sans", serif;
+		font-weight: 400;}
+	.st6{fill:none;stroke:#283170;stroke-miterlimit:10;}
+	.st7{opacity:0.3;}
+	.st8{fill:#29337D;}
+	.st9{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
+	.st10{fill:#FFFFFF;}
+	.st11{opacity:0.4;fill:#7A1713;}
+	.st12{opacity:0.4;fill:#F8EE7E;}
+	.st13{opacity:0.4;fill:#5D8CC9;}
+	.st14{opacity:0.4;fill:#8D3769;}
+	.st15{opacity:0.4;fill:#6D72A9;}
+	.st16{opacity:0.4;fill:#E08E15;}
+	.st17{opacity:0.4;fill:#674F9C;}
+	.st18{opacity:0.4;fill:#E4171A;}
+	.st19{opacity:0.4;fill:#252626;}
+	.st20{opacity:0.4;fill:#C45A9E;}
+	.st21{opacity:0.4;fill:#ECE328;}
+	.st22{opacity:0.4;fill:#D8D8D8;}
+	.st23{opacity:0.4;fill:#67C6E0;}
+	.st24{opacity:0.4;fill:#EE7117;}
+	.st25{opacity:0.4;fill:#B51918;}
+	.st26{opacity:0.4;fill:#D84A14;}
+	.st27{fill:#EA572F;}
+	.st28{fill:#020203;}
+	.st29{font-size:14px;}
+	.st30{fill:none;stroke:#29337D;stroke-width:4;stroke-miterlimit:10;}
+	.st31{opacity:0;fill:#F8EE7E;}
+	.st32{opacity:0;fill:#EE7117;}
+	.st33{opacity:0;fill:#E4171A;}
+	.st34{opacity:0;fill:#6D72A9;}
+	.st35{opacity:0;fill:#D8D8D8;}
+	.st36{opacity:0;fill:#67C6E0;}
+	.st37{opacity:0;fill:#7A1713;}
+	.st38{opacity:0;fill:#674F9C;}
+	.st39{opacity:0;fill:#C45A9E;}
+	.st40{opacity:0;fill:#5D8CC9;}
+	.st41{opacity:0;fill:#252626;}
+	.st42{opacity:0;fill:#E08E15;}
+	.st43{opacity:0;fill:#D84A14;}
+	.st44{opacity:0;fill:#ECE328;}
+	.st45{opacity:0;fill:#8D3769;}
+	.st46{opacity:0;fill:#B51918;}
+.bezz {
+	overflow: hidden;
+}
+.sveeee, .nistaaaa {
+	cursor: pointer;
+}
+.nistaaaa {
+	opacity: 0;
+}
+.sveeee--Hide {
+	opacity: 0;
+}
+.a--Show {
+	opacity: 1;
+}
+
+.ukupnost {
+	opacity: 1;
+
+}
+
+.ukupnost--Hide {
+	opacity: 0;
+}
+.podeoci:hover {
+	;
+}
+.podeoci {
+	opacity: 1;
+	cursor: pointer;
+}
+.podeoci--Hide {
+	opacity: 0;
+	cursor: pointer;
+}
+.pojslike {
+	opacity: 0;
+}
+.pojslike--Show {
+	opacity: 1;
+}
+.linkovi {
+	opacity: 0;
+}
+.linkovi--Show {
+	opacity: 1;
+}

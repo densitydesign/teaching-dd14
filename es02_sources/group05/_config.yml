@@ -1,0 +1,16 @@
+collections:
+  questions:
+    output: true
+    permalink: /:title
+
+defaults:
+  - scope:
+      path: ""
+      type: "questions"
+    values:
+      layout: "question"
+      is_question: true
+  - scope:
+      path: ""
+    values:
+      layout: "intro"
