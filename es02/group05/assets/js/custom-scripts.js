@@ -307,8 +307,8 @@ $(".all-sve rect").removeClass("butallhover");
 
 	$(".sveeee rect").addClass("sveeee--Hide");
 			 $(".sveeee line").addClass("sveeee--Hide");
-	
-	
+
+
 	$('.podeoci').on('click',function(){
 		$(".sveeee rect").removeClass("sveeee--Hide");
 			 $(".sveeee line").removeClass("sveeee--Hide");
@@ -325,7 +325,7 @@ if($(".linkovi:nth-child(" + index + ")").hasClass("clickedlink")) {
 $(".podeoci:nth-child(" + index + ") rect").removeClass("podeoci--Hide");
 	 $(".podeoci:nth-child(" + index + ") line").removeClass("podeoci--Hide");
 	$(".linkovi:nth-child(" + index + ")").removeClass("clickedlink");
-	
+
 	if($(".linkovi").hasClass("clickedlink")) {
 	} else
 	{
@@ -338,9 +338,9 @@ $(".podeoci:nth-child(" + index + ") rect").removeClass("podeoci--Hide");
 			 $(".podeoci line").removeClass("podeoci--Hide");
 			$(".ukupnost").removeClass("ukupnost--Hide");
 	}
-	
-	
-	
+
+
+
 } else {
 	$(".podeoci:nth-child(" + index + ") line").addClass("podeoci--Hide");
 	$(".podeoci:nth-child(" + index + ") rect").addClass("podeoci--Hide");
@@ -367,7 +367,7 @@ $(".sveeee rect").addClass("sveeee--Hide");
 
 
 })
-	$('.molimte').mouseover(function(){
+	$('.molimte').mouseover(function(event){
 
 		let index =$(event.currentTarget).index();
 
@@ -378,7 +378,7 @@ $(".sveeee rect").addClass("sveeee--Hide");
 
 	})
 
-	$('.molimte').mouseout(function(){
+	$('.molimte').mouseout(function(event){
 
 		let index =$(event.currentTarget).index();
 
