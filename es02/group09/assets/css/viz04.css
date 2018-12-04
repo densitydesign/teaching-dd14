@@ -1,0 +1,164 @@
+/* Hover toggle */
+.on {
+    opacity: 1 !important;
+    transition: opacity .35s cubic-bezier(.65, 0, .15, 1);
+    stroke: #0D3FFB;
+    stroke-width: 1.5px;
+    
+}
+
+.edge {
+    opacity: 0.90;
+    transition: opacity .35s cubic-bezier(.65, 0, .15, 1);
+}
+
+circle:hover {
+
+}
+
+
+/* Tooltip */
+
+#tooltip {
+    opacity: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 15px;
+    position: fixed;
+    z-index: 1000;
+    width: auto;
+    height: auto;
+
+    pointer-events: none;
+
+    border: solid 2px var(--color-main-2);
+    color: var(--color-main-2);
+    background-color: rgba(255, 255, 255, .95);
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    transition: opacity .15s linear;
+
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+#tooltip.summon {
+    opacity: 1;
+    transition: opacity .15s ease-in-out;
+}
+
+#tooltip > p {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* CSS */
+
+text {
+    pointer-events: none;
+}
+
+.st0 {
+    fill: none;
+    stroke: #C0C6DE;
+    stroke-width: 0.5;
+}
+
+.st1 {
+    fill: none;
+    stroke: #CCCCCC;
+    stroke-width: 0.5;
+}
+
+.st2 {
+    fill: none;
+    stroke: #607FF5;
+    stroke-width: 0.5;
+}
+
+.st3 {
+    fill: none;
+    stroke: #B4C0F0;
+    stroke-width: 0.5;
+}
+
+.st4 {
+    fill: none;
+    stroke: #D7D7D7;
+    stroke-width: 0.5;
+}
+
+.st5 {
+    fill: none;
+    stroke: #0D3FFB;
+    stroke-width: 0.5;
+}
+
+.color-orange {
+    fill: #F78028;
+}
+
+.color-grey {
+    fill: #CCCCCC;
+}
+
+.st9 {
+    fill: #B4C0F0;
+}
+
+.st10 {
+    fill: #E8E8E8;
+}
+
+.is-hidden {
+    display: none;
+}
+
+.inline {
+    display: inline;
+}
+
+.font-mono-regular {
+    font-family: 'Mono Regular';
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.font-mono-medium {
+    font-family: 'Mono Medium';
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.color-blue {
+    fill: #0033FF;
+}
+
+.color-violetto {
+    fill: #AAB6E4;
+}
+
+.st19 {
+    fill: none;
+    stroke: #F78028;
+    stroke-width: 1;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 4 4;
+}
+
+.st20 {
+    fill: none;
+}
+
+.center-text-path {
+    text-anchor: middle;
+}
+

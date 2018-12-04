@@ -72,7 +72,7 @@
             theme: "Hate speech",
             title: "Hate Shades",
             excerpt: "We tried to follow a possible path that a user could take in order to get information and form an opinion about hate speech, trying to map the controversial debate that the Hate Speech term generates: is it filtering or censorship?",
-            cover_website: "/cover/web-cover.jpg"
+            cover_website: "/assets/images/covers/cover@xl.jpeg"
         },
         {
             group: "group10",

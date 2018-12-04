@@ -1,0 +1,17 @@
+/* This is CSS code to make the example in question02 work, fell free to remove this when you start working on your project */
+
+.main-viz {
+    max-width: 100vw;
+    /* max-height: 95vh; */
+    margin: 32 auto;
+}
+
+.main-viz-n {
+    max-height: 100vh;
+}
+
+/* svg styles */
+
+svg {
+    margin: 32px 0px;
+}

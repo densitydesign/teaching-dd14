@@ -1,0 +1,305 @@
+/* COLORI */
+.arancio {
+    fill: #F78028;
+}
+
+.azzurro {
+    fill: #8FA5FF;
+}
+
+.blu {
+    fill: #0033FF;
+}
+
+.viola {
+    fill: #650499;
+}
+
+.grigio {
+    fill :#CCCCCC;
+}
+
+.rosso {
+    fill: #CE3B19;
+}
+
+
+/* ------------------------------------------- */
+/* -----------         FONT        ----------- */
+/* ------------------------------------------- */
+
+.font-size {
+    font-size: 10px;
+    cursor: default;
+}
+
+.font-size-2 {
+    font-size: 16px;
+    cursor: default;
+}
+
+.font-size-3 {
+    font-size: 14px;
+    transition: opacity .45s cubic-bezier(.65, 0, .15, 1);
+    cursor: default;
+}
+
+.testi-seed {
+    font-size: 15px;
+    transition: opacity .45s cubic-bezier(.65, 0, .15, 1);
+    cursor: pointer;
+}
+
+.testi-legenda {
+    font-size: 16px;
+    font-family: 'Mono Text';
+    fill :rgb(58, 58, 58);
+    cursor: default;
+}
+
+.testi-legenda-small {
+    font-size: 11px;
+    font-family: 'Mono Text';
+    fill :#CCCCCC;
+    cursor: default;
+}
+
+
+/* ------------------------------------------- */
+/* -----------       TESTI IN      ----------- */
+/* ------------------------------------------- */
+
+.testi-viola, .testi-azzurri, .testi-blu {
+    font-size: 14px;
+    transition: opacity .45s cubic-bezier(.65, 0, .15, 1);
+    font-family: 'Mono Text';
+    cursor: pointer;
+}
+
+.testi-viola {
+    fill: #650499;
+}
+
+.testi-blu {
+    fill: #0033FF;
+}
+
+.testi-azzurri {
+    fill: #8FA5FF;
+}
+
+.st17 {
+    font-family: 'Mono Text';
+}
+
+
+/* ------------------------------------------- */
+/* -----------        TESTI        ----------- */
+/* ------------------------------------------- */
+
+.text-ref-out{
+    opacity: 0;
+    transition: opacity .45s cubic-bezier(.65, 0, .15, 1);
+}
+
+.text-dest-out{
+    opacity: 0;
+    transition: opacity .45s cubic-bezier(.65, 0, .15, 1);
+}
+
+.text-on {
+    opacity: 1 !important;
+    transition: opacity .45s cubic-bezier(.65, 0, .15, 1);
+}
+
+
+/* ------------------------------------------- */
+/* -----------       CIRCLES       ----------- */
+/* ------------------------------------------- */
+
+
+.circles{
+    opacity: 1;
+    transition: opacity .45s cubic-bezier(.65, 0, .15, 1);
+}
+
+.circles.off {
+    opacity: .3;
+    transition: opacity .45s cubic-bezier(.65, 0, .15, 1);
+}
+
+
+.dest-circles {
+    fill: #0033FF;
+}
+
+.hate-circles {
+    fill: #F78028;
+    transition: opacity .45s cubic-bezier(.65, 0, .15, 1);
+}
+
+
+/* ------------------------------------------- */
+/* -----------        ARROWS       ----------- */
+/* ------------------------------------------- */
+
+.arrows, .arrows.off {
+    transition: opacity .6s cubic-bezier(.65, 0, .15, 1);
+}
+
+.arrows{
+    opacity: 1;
+}
+
+.arrows.off {
+    opacity: .3;
+}
+
+.arrows.stroke-on {
+    stroke-width: 1.5 !important;
+}
+
+.a-hatesites {
+    fill: none;
+    stroke: #F78028;
+    stroke-width: 0.35;
+}
+
+.a-dest, .a-dest-out {
+    fill: none;
+    stroke: #0033FF;
+    stroke-width: 0.35;
+}
+
+.a-ref, .a-ref-out {
+    fill: none;
+    stroke: #8FA5FF;
+    stroke-width: 0.35;
+}
+
+.a-ref-dest {
+    fill: none;
+    stroke: #650499;
+    stroke-width: 0.35;
+}
+
+
+/* ------------------------------------------- */
+/* -----------      HIGHLIGHT      ----------- */
+/* ------------------------------------------- */
+
+.hl-red {
+    fill: #CE3B19;
+    opacity: 0.75;
+    transition: opacity .45s cubic-bezier(.65, 0, .15, 1);
+}
+
+.toggle-on {
+    opacity: 0;
+    transition: opacity .45s cubic-bezier(.65, 0, .15, 1);
+}
+
+.box-on {
+    fill: #0033FF;
+    transition: opacity .45s cubic-bezier(.65, 0, .15, 1);
+}
+
+.toggle-box {
+    fill: #FFFFFF;
+    stroke: #0033FF;
+    stroke-width: 1.2577;
+    stroke-miterlimit: 10;
+}
+
+.b-toggle-box {
+    fill: #FFFFFF;
+    opacity: 0 !important;
+    transition: opacity .45s cubic-bezier(.65, 0, .15, 1);
+}
+
+.b-toggle-box-on {
+    opacity: 1 !important;
+    transition: opacity .45s cubic-bezier(.65, 0, .15, 1);
+}
+
+#toggle-button {
+    cursor: pointer;
+}
+
+/* la classe fade ha gli elementi a cui assegnare faded */
+.faded {
+    opacity: 0.2;
+    transition: opacity .45s cubic-bezier(.65, 0, .15, 1);
+}
+
+/* ------------------------------------------- */
+/* -----------         CSS         ----------- */
+/* ------------------------------------------- */
+
+.st0 {
+    fill: none;
+    stroke: #CCCCCC;
+    stroke-width: 0.5;
+    stroke-miterlimit: 10;
+}
+
+.st1 {
+    fill: none;
+    stroke: #CCCCCC;
+    stroke-width: 1;
+    stroke-miterlimit: 10;
+}
+
+.st3 {
+    font-family: 'Mono Text';
+}
+
+.st5 {
+    fill: #8FA5FF;
+}
+
+.st6 {
+    fill: #650499;
+}
+
+.st7 {
+    fill: #CCCCCC;
+}
+
+.st8 {
+    opacity: 0.8;
+}
+
+.st9 {
+    fill: #CE3B19;
+}
+
+.st10 {
+    fill: none;
+}
+
+.st11 {
+    enable-background: new;
+}
+
+.st12 {
+    letter-spacing: 6;
+}
+
+.st13 {
+    font-family: 'Mono Medium';
+}
+
+.st14 {
+    font-size: 14px;
+}
+
+
+
+.st19 {
+    /* ref-dest */
+}
+
+.st21 {
+/* destout */
+}
