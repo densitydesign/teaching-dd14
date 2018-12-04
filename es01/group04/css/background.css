@@ -1,0 +1,25 @@
+/* background */
+
+.background_dark {
+    background-color: #042e3a;
+}
+
+.background_red {
+    background-color: #f65959;
+}
+
+.background_light {
+    background-color: #f8f7ec;
+}
+
+.background_padding {
+    padding: 8% 10% 4% 10% ;
+}
+
+.background_padding_ridotto_top {
+    padding: 0% 10% 4% 10% ;
+}
+
+.background_padding_ridotto_bottom {
+    padding: 8% 10% 0% 10% ;
+}

@@ -1,0 +1,62 @@
+:root {
+    --timing: .5s;
+    --coefficent: 1.5;
+}
+
+/* ------- cursore ------ */
+.social-label {
+     cursor: url('assets/dot-32-hd-small.png') 20 20, auto;
+}
+
+#fb-text, #tw-text, #yt-text{
+    fill: white;
+}
+
+#fb-box, #tw-box, #yt-box {
+    fill: var(--c-2);
+    transition: fill, stroke calc(var(--timing))/var(--coefficent) cubic-bezier(.65, 0, .15, 1);
+}
+
+#fb-text.blue-text, #tw-text.blue-text, #yt-text.blue-text {
+    fill: var(--c-2);
+    stroke: var(--c-2);
+    transition: fill calc(var(--timing)/var(--coefficent)) cubic-bezier(.65, 0, .15, 1);
+}
+
+#fb-box.white-box, #tw-box.white-box, #yt-box.white-box {
+    fill: white;
+    transition: fill var(--timing) cubic-bezier(.65, 0, .15, 1);
+}
+
+.graph-section-fb, .graph-section-tw, .graph-section-yt {
+    opacity: 0;
+    transition: opacity calc(var(--timing)/var(--coefficent)) cubic-bezier(.65, 0, .15, 1);
+}
+
+.graph-section-fb.on, .graph-section-tw.on, .graph-section-yt.on {
+    opacity: 1;
+    transition: opacity calc(var(--timing)/var(--coefficent)) cubic-bezier(.65, 0, .15, 1);
+}
+
+/* ------ COLONNE DI SNAP.SVG ------ */
+
+.white-column {
+    
+}
+
+.red-column {
+    opacity:0.7;
+    fill:#CE3B19;
+}
+
+/* ------ SVG ------ */
+
+.labels{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+.social-label {fill: #FFFFFF;}
+.white-el{fill:#FFFFFF;}
+.percentages-font{font-family:'IBM Plex Mono'; font-size:20px;}
+.line-values{fill:none;stroke:#FFFFFF;stroke-width:0.5;stroke-miterlimit:10;}
+.useless-class{fill:none;}
+.red-numbers{fill:#CE3B19;}
+
+.st10-compare-dall-erba-alta{opacity:0.5;fill:#FFFFFF;}

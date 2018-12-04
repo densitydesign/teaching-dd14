@@ -1,0 +1,1983 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1287 744.3">
+    <defs>
+        <style>
+            .cls-1 {
+                fill: #006e60;
+            }
+
+            .cls-11,
+            .cls-14,
+            .cls-2,
+            .cls-3,
+            .cls-36,
+            .cls-5,
+            .cls-8,
+            .cls-9 {
+                fill: none;
+            }
+
+            .cls-2,
+            .cls-46 {
+                stroke: #6abfaa;
+            }
+
+            .cls-11,
+            .cls-12,
+            .cls-14,
+            .cls-2,
+            .cls-29,
+            .cls-3,
+            .cls-36,
+            .cls-46,
+            .cls-47,
+            .cls-48,
+            .cls-49,
+            .cls-5,
+            .cls-50,
+            .cls-51,
+            .cls-52,
+            .cls-53,
+            .cls-8,
+            .cls-9 {
+                stroke-miterlimit: 10;
+            }
+
+            .cls-11,
+            .cls-12,
+            .cls-14,
+            .cls-2,
+            .cls-3,
+            .cls-5,
+            .cls-8,
+            .cls-9 {
+                stroke-width: 0.5px;
+            }
+
+            .cls-3,
+            .cls-50 {
+                stroke: #88b2b5;
+            }
+
+            .cls-4 {
+                fill: #a3ca6d;
+            }
+
+            .cls-48,
+            .cls-5 {
+                stroke: #a3ca6d;
+            }
+
+            .cls-6 {
+                fill: #1d7867;
+            }
+
+            .cls-7 {
+                fill: #e30613;
+            }
+
+            .cls-8 {
+                stroke: #00895e;
+            }
+
+            .cls-47,
+            .cls-9 {
+                stroke: #006e60;
+            }
+
+            .cls-10 {
+                fill: #88b2b5;
+            }
+
+            .cls-11,
+            .cls-12,
+            .cls-53 {
+                stroke: red;
+            }
+
+            .cls-12,
+            .cls-82 {
+                fill: red;
+            }
+
+            .cls-13 {
+                fill: #6abfaa;
+            }
+
+            .cls-14,
+            .cls-49 {
+                stroke: #00a183;
+            }
+
+            .cls-15,
+            .cls-35,
+            .cls-54,
+            .cls-76 {
+                font-size: 9.4px;
+            }
+
+            .cls-15,
+            .cls-37 {
+                font-family: FiraSans-Light, Fira Sans;
+            }
+
+            .cls-16 {
+                letter-spacing: -0.01em;
+            }
+
+            .cls-17 {
+                letter-spacing: -0.01em;
+            }
+
+            .cls-18 {
+                letter-spacing: -0.01em;
+            }
+
+            .cls-19 {
+                letter-spacing: -0.02em;
+            }
+
+            .cls-20 {
+                letter-spacing: -0.02em;
+            }
+
+            .cls-21 {
+                letter-spacing: 0em;
+            }
+
+            .cls-22 {
+                letter-spacing: -0.01em;
+            }
+
+            .cls-23 {
+                letter-spacing: -0.03em;
+            }
+
+            .cls-24 {
+                letter-spacing: -0.01em;
+            }
+
+            .cls-25 {
+                letter-spacing: -0.02em;
+            }
+
+            .cls-26 {
+                letter-spacing: -0.03em;
+            }
+
+            .cls-27 {
+                letter-spacing: 0em;
+            }
+
+            .cls-28 {
+                letter-spacing: -0.04em;
+            }
+
+            .cls-29,
+            .cls-46,
+            .cls-47,
+            .cls-48,
+            .cls-49,
+            .cls-50,
+            .cls-51,
+            .cls-52,
+            .cls-53 {
+                fill: #fff;
+            }
+
+            .cls-29 {
+                stroke: #000;
+                stroke-width: 1.2px;
+            }
+
+            .cls-30,
+            .cls-33 {
+                font-size: 11.36px;
+            }
+
+            .cls-30,
+            .cls-33,
+            .cls-76 {
+                fill: #1d1d1b;
+            }
+
+            .cls-30 {
+                font-family: FiraSans-Regular, Fira Sans;
+            }
+
+            .cls-31 {
+                letter-spacing: -0.01em;
+            }
+
+            .cls-32 {
+                letter-spacing: -0.02em;
+            }
+
+            .cls-33,
+            .cls-35 {
+                font-family: FiraSans-Book, Fira Sans;
+            }
+
+            .cls-34 {
+                letter-spacing: -0.02em;
+            }
+
+            .cls-36,
+            .cls-52 {
+                stroke: #e30613;
+            }
+
+            .cls-37 {
+                font-size: 8.22px;
+            }
+
+            .cls-38 {
+                letter-spacing: -0.01em;
+            }
+
+            .cls-39 {
+                letter-spacing: -0.01em;
+            }
+
+            .cls-40 {
+                letter-spacing: -0.02em;
+            }
+
+            .cls-41 {
+                letter-spacing: -0.01em;
+            }
+
+            .cls-42 {
+                letter-spacing: 0em;
+            }
+
+            .cls-43 {
+                letter-spacing: -0.03em;
+            }
+
+            .cls-44 {
+                letter-spacing: 0em;
+            }
+
+            .cls-45 {
+                letter-spacing: -0.01em;
+            }
+
+            .cls-51 {
+                stroke: #1d7867;
+            }
+
+            .cls-54,
+            .cls-76 {
+                font-family: FiraSans-ExtraLight, Fira Sans;
+            }
+
+            .cls-55 {
+                letter-spacing: -0.02em;
+            }
+
+            .cls-56 {
+                letter-spacing: -0.01em;
+            }
+
+            .cls-57 {
+                letter-spacing: -0.04em;
+            }
+
+            .cls-58 {
+                letter-spacing: -0.04em;
+            }
+
+            .cls-59 {
+                letter-spacing: -0.04em;
+            }
+
+            .cls-60 {
+                letter-spacing: -0.08em;
+            }
+
+            .cls-61 {
+                letter-spacing: 0.01em;
+            }
+
+            .cls-62 {
+                letter-spacing: -0.02em;
+            }
+
+            .cls-63 {
+                letter-spacing: 0em;
+            }
+
+            .cls-64 {
+                letter-spacing: 0.03em;
+            }
+
+            .cls-65 {
+                letter-spacing: -0.03em;
+            }
+
+            .cls-66 {
+                letter-spacing: -0.01em;
+            }
+
+            .cls-67 {
+                letter-spacing: -0.03em;
+            }
+
+            .cls-68 {
+                letter-spacing: 0.01em;
+            }
+
+            .cls-69 {
+                letter-spacing: -0.02em;
+            }
+
+            .cls-70 {
+                letter-spacing: -0.04em;
+            }
+
+            .cls-71 {
+                letter-spacing: -0.05em;
+            }
+
+            .cls-72 {
+                letter-spacing: -0.08em;
+            }
+
+            .cls-73 {
+                letter-spacing: -0.02em;
+            }
+
+            .cls-74 {
+                letter-spacing: -0.03em;
+            }
+
+            .cls-75 {
+                letter-spacing: -0.12em;
+            }
+
+            .cls-77 {
+                letter-spacing: 0em;
+            }
+
+            .cls-78 {
+                letter-spacing: -0.02em;
+            }
+
+            .cls-79 {
+                letter-spacing: -0.02em;
+            }
+
+            .cls-80 {
+                letter-spacing: -0.02em;
+            }
+
+            .cls-81 {
+                letter-spacing: -0.12em;
+            }
+
+            .cls-83 {
+                letter-spacing: -0.08em;
+            }
+
+        </style>
+    </defs>
+    <title>1 - Visualization- Con livelli ok</title>
+    <g id="texts">
+        <path class="cls-1" d="M618.5,575.15A19.17,19.17,0,0,1,616,575l.09-.58c.21,0,21.39,2.85,39.07-20.15C691.9,506.5,794.87,307.06,836.92,208c16.23-38.23,29.61-50.73,29.75-50.85l.39.43c-.13.12-13.43,12.56-29.59,50.65C795.4,307.32,692.39,506.83,655.61,554.65,641.31,573.24,624.72,575.15,618.5,575.15Z" transform="translate(13 -25.01)" />
+        <path class="cls-2" d="M373.3,228.17c20.29,92.23,57.16,179.15,117.37,252.54,31.08,37.89,75.62,88,125.46,100.51" transform="translate(13 -25.01)" />
+        <path class="cls-2" d="M867,242.13c-23.85,94-64.73,182.48-129.6,255.34-31.3,35.15-73.8,78.5-121.43,89.89" transform="translate(13 -25.01)" />
+        <path class="cls-2" d="M373.33,270.42c23,84.16,59.84,163.32,117.23,229.68,31.6,36.55,76.12,82.75,125.55,93.41" transform="translate(13 -25.01)" />
+        <path class="cls-2" d="M866.88,383C804,473.13,721.39,559.85,616.31,599.49" transform="translate(13 -25.01)" />
+        <path class="cls-2" d="M866.87,453.28c-71,71.33-153.27,129.59-250.55,158.24" transform="translate(13 -25.01)" />
+        <path class="cls-2" d="M373.4,453.3C437.05,527.68,518.34,595.41,616,617.67" transform="translate(13 -25.01)" />
+        <path class="cls-2" d="M866.87,509.8c-72.81,60-156,103.43-250.55,114.29" transform="translate(13 -25.01)" />
+        <path class="cls-2" d="M373.41,538C449,582.85,529.28,615.11,616,630.24" transform="translate(13 -25.01)" />
+        <path class="cls-2" d="M373.41,551.88c76,42.61,156.23,72.18,242.61,84.52" transform="translate(13 -25.01)" />
+        <path class="cls-2" d="M866.87,594.13c-80.93,30.21-164.1,47-250.55,48.42" transform="translate(13 -25.01)" />
+        <path class="cls-2" d="M373.41,607.94Q493.88,633.5,616,648.71" transform="translate(13 -25.01)" />
+        <path class="cls-2" d="M373.41,693c75.81-41.54,158-57.11,242.91-38.13" transform="translate(13 -25.01)" />
+        <path class="cls-2" d="M866.87,721.16c-77.11-45-161.09-68.26-250.55-60.15" transform="translate(13 -25.01)" />
+        <path class="cls-2" d="M373.41,720.87c74.12-45.54,155.93-67.3,242.61-53.7" transform="translate(13 -25.01)" />
+        <path class="cls-3" d="M373.38,396.84c49.93-99.21,130.43-218.73,242.4-253.62" transform="translate(13 -25.01)" />
+        <path class="cls-2" d="M373.4,439.36C437,514.23,518.2,582.58,616,605.72" transform="translate(13 -25.01)" />
+        <path class="cls-4" d="M596.91,688.12a111.45,111.45,0,0,1-12.12-.65c-15.6-1.71-36.87-7.77-49.57-27C521,639.06,514.29,602,506.48,559.16c-5.73-31.46-11.66-64-21.31-95.29C435.3,302.25,373.75,117,373.13,115.12l.56-.19c.62,1.86,62.17,187.14,112,348.76,9.67,31.33,15.6,63.88,21.33,95.37,7.8,42.8,14.53,79.77,28.65,101.11,12.57,19,33.66,25,49.13,26.72a114.55,114.55,0,0,0,30.93-.89l.11.58A109.59,109.59,0,0,1,596.91,688.12Z" transform="translate(13 -25.01)" />
+        <path class="cls-4" d="M593.21,694.19a111.93,111.93,0,0,1-12.48-.67c-17.28-1.93-40.42-9.12-52.47-32.35-13.55-26.1-18.84-53.28-25.54-87.68-5.68-29.18-12.12-62.26-25.18-105-42.32-138.69-103.79-309.32-104.4-311l.55-.2c.61,1.71,62.09,172.35,104.41,311,13.07,42.83,19.52,75.92,25.2,105.12,6.69,34.36,12,61.49,25.48,87.52,11.94,23,34.87,30.12,52,32a120.43,120.43,0,0,0,34.73-1.37l.13.57A117.56,117.56,0,0,1,593.21,694.19Z" transform="translate(13 -25.01)" />
+        <path class="cls-4" d="M599.45,699.57c-14.93,0-38-2.88-59.44-17.35-17.68-11.9-37.45-38-58.77-77.61-17.05-31.65-35.12-72-53.72-119.78-31.66-81.43-54.17-157.47-54.39-158.23l.56-.17c.23.76,22.73,76.79,54.38,158.19,18.59,47.8,36.65,88.08,53.68,119.71,21.28,39.51,41,65.55,58.59,77.4,35.3,23.77,74.79,16.08,75.19,16l.12.58A92,92,0,0,1,599.45,699.57Z" transform="translate(13 -25.01)" />
+        <path class="cls-4" d="M602.85,704.9c-14.51,0-38-1.41-54.62-9.35-25-11.95-44.31-43.13-64.7-76.14-10.93-17.68-22.23-36-34.53-51.11-17.83-22-75.25-99.87-75.82-100.66l.47-.34c.58.78,58,78.68,75.81,100.63C461.78,583.1,473.09,601.4,484,619.1c20.34,32.94,39.56,64,64.46,75.92,25.47,12.15,67.1,8.9,67.51,8.87l0,.58C615.91,704.49,610.68,704.9,602.85,704.9Z" transform="translate(13 -25.01)" />
+        <path class="cls-5" d="M866.91,495.38c-29.47,64-69,123-125.32,166.43-34.36,26.5-80.14,53.09-125.31,48.72" transform="translate(13 -25.01)" />
+        <path class="cls-5" d="M373.4,566C433,639.67,517.06,710.25,616,716.6" transform="translate(13 -25.01)" />
+        <path class="cls-5" d="M373.41,650.74c74.19,46.19,155,73.39,242.91,72" transform="translate(13 -25.01)" />
+        <path class="cls-5" d="M373.41,764C451.86,734.9,532.48,722.33,616,728.83" transform="translate(13 -25.01)" />
+        <path class="cls-6" d="M615.93,747.61a164.58,164.58,0,0,1-48.85-30.88c-28.54-26.44-35.92-48.65-63.36-131.32-4.61-13.89-9.84-29.64-15.82-47.37-5.07-15-10.69-34.52-17.2-57.1-11.57-40.15-26-90.12-44.65-140.23-25.78-69.19-52.63-126.26-52.9-126.83l.53-.25c.27.57,27.13,57.66,52.92,126.88,18.68,50.12,33.09,100.1,44.67,140.27,6.5,22.57,12.13,42.07,17.19,57.07,6,17.73,11.2,33.48,15.82,47.38,27.4,82.55,34.77,104.73,63.2,131.06a163.8,163.8,0,0,0,48.65,30.77Z" transform="translate(13 -25.01)" />
+        <path class="cls-7" d="M616,753.78c-.14,0-13.85-2.55-31.43-12.37-16.22-9.06-39.15-26.37-56.29-57.35-21.24-38.4-42-106.85-63.89-179.32C450.27,458.18,435.7,410,420.14,367a1104.35,1104.35,0,0,0-47-110.86l.52-.26a1104.22,1104.22,0,0,1,47,110.92c15.56,43,30.13,91.17,44.23,137.74,21.93,72.44,42.64,140.86,63.85,179.2,17.06,30.86,39.89,48.09,56,57.12,17.5,9.78,31.13,12.29,31.27,12.32Z" transform="translate(13 -25.01)" />
+        <path class="cls-8" d="M373.4,594.2c61.37,76,143.49,147.42,242.63,165.54" transform="translate(13 -25.01)" />
+        <path class="cls-8" d="M866.87,734.93a1243.44,1243.44,0,0,1-251.28,30.9" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M373.41,509.75A2202.35,2202.35,0,0,1,616,457.61" transform="translate(13 -25.01)" />
+        <path class="cls-2" d="M867.1,129.18s-10.45,11-20.55,32.26C805.08,248.8,698.34,481,642.75,558,632.87,571.7,616,568.57,616,568.57" transform="translate(13 -25.01)" />
+        <path class="cls-3" d="M867.1,664.81S710,311.45,663.89,231.72c-16-27.62-47.57-33-47.57-33" transform="translate(13 -25.01)" />
+        <path class="cls-3" d="M866.92,396.91c-54.58-98.55-139-206-251.4-241.49" transform="translate(13 -25.01)" />
+        <path class="cls-3" d="M867.19,425C812.14,320.09,729.32,208.58,616,161.51" transform="translate(13 -25.01)" />
+        <path class="cls-3" d="M866.87,523.79s-107.54-276.85-218-343.56c-10.06-6.07-33-12.33-33-12.33" transform="translate(13 -25.01)" />
+        <path class="cls-3" d="M866.87,538S737.15,246.64,660.08,192.56c-27.13-19-44.45-18.49-44.45-18.49" transform="translate(13 -25.01)" />
+        <path class="cls-3" d="M866.87,552S758.16,288.69,662.43,201.89c-24-21.81-46.23-21.66-46.23-21.66" transform="translate(13 -25.01)" />
+        <path class="cls-3" d="M867,580.17S732,285.92,667.42,215.44c-28.45-31-51.1-29.07-51.1-29.07" transform="translate(13 -25.01)" />
+        <path class="cls-3" d="M867.14,607.88s-141.29-299-202.37-386.28c-19-27.23-48.57-29-48.57-29" transform="translate(13 -25.01)" />
+        <path class="cls-3" d="M867.1,749.38S706.47,321.3,657.21,236.83c-8.88-15.23-40.89-13.45-40.89-13.45" transform="translate(13 -25.01)" />
+        <path class="cls-3" d="M373.41,171.46A2243.84,2243.84,0,0,1,616,112.13" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M373.41,312.64c75.77,40.45,156.46,62.22,242.62,58.7" transform="translate(13 -25.01)" />
+        <path class="cls-10" d="M373.68,707.21l-.54-.23c.14-.33,14.33-33.1,28.63-82.25,4.72-16.22,9.83-34.06,15.23-52.94,28.51-99.56,64-223.45,89.52-275.69,6.73-13.75,29.54-49.52,53.55-66.26,27-18.81,55.23-18.49,55.52-18.48V212c-.28,0-28.37-.32-55.18,18.37-23.91,16.67-46.65,52.33-53.35,66-25.51,52.19-61,176.06-89.48,275.59-5.41,18.89-10.52,36.72-15.24,52.94C388,674.08,373.82,706.88,373.68,707.21Z" transform="translate(13 -25.01)" />
+        <path class="cls-10" d="M373.68,749.22l-.54-.23a1191.79,1191.79,0,0,0,41.55-118.86c10.42-35.57,21.57-76.18,32.36-115.46,20.92-76.16,40.68-148.09,55.13-184.83,1-2.5,2-5.11,3-7.81,9.79-25.49,23.21-60.39,53.27-86.45,23.31-20.21,57.23-18.25,57.57-18.23l0,.59c-.34,0-34-2-57.15,18.09-30,26-43.33,60.78-53.1,86.21-1,2.7-2.05,5.31-3,7.81-14.44,36.71-34.2,108.63-55.11,184.78-10.79,39.28-21.95,79.89-32.37,115.47A1193,1193,0,0,1,373.68,749.22Z" transform="translate(13 -25.01)" />
+        <path class="cls-3" d="M866.87,115Q742,103.89,616.62,100.1" transform="translate(13 -25.01)" />
+        <path class="cls-3" d="M866.87,255.93c-72.23-65.12-154.93-116-250.55-137.39" transform="translate(13 -25.01)" />
+        <path class="cls-3" d="M373.38,410.93C423.48,309.43,504,188.82,616.2,149.41" transform="translate(13 -25.01)" />
+        <path class="cls-10" d="M373.68,664.54l-.53-.25c.13-.28,13.72-28.2,25.49-71.14,4.53-16.55,9.39-35,14.54-54.45,20.69-78.36,44.14-167.18,64.57-206.28,24.19-46.29,44-81.06,78.93-107.06,19.37-14.42,58.91-19.83,59.31-19.88l.08.58c-.4.05-39.8,5.44-59,19.77-34.82,25.92-54.61,60.64-78.76,106.86-20.4,39-43.84,127.83-64.53,206.16-5.14,19.49-10,37.9-14.54,54.45C387.42,636.31,373.81,664.27,373.68,664.54Z" transform="translate(13 -25.01)" />
+        <path class="cls-11" d="M616.32,240.65c-.31-.06-31-4.37-64.21,7.44-28.19,10-57.91,36.37-66.8,50.83-24.31,39.51-57.2,156.55-81.21,242-2.27,8.1-4.46,15.91-6.56,23.33-11.88,42.06-23.74,72.16-23.85,72.46" transform="translate(13 -25.01)" />
+        <path class="cls-11" d="M373.41,354.67c72.5-52.09,153-87.4,242.62-94.34" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M373.37,87.07c28,58.06,64.69,111.44,116.31,151,34.49,26.44,80.77,52.44,126,46.81" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M373.37,101.16c28.07,58,64.81,111.29,116.52,150.7,34.58,26.35,81,52.17,126.18,46.25" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M373.41,340.63c76.8,36.08,157.52,52.25,242.18,43.36" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M373.41,382.9c79.66,21.58,160.18,30.57,242.62,26" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M373.41,425.18A1651.34,1651.34,0,0,1,616,421" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M373.41,481.56a2125.82,2125.82,0,0,1,242.18-35.09" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M373.41,523.85a2240.89,2240.89,0,0,1,242.18-59.47" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M373.41,622.49c74.46-55.82,154.48-101.62,242.18-133.18" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M373.41,678.84c68.85-71.6,148.19-131.39,242.18-165.47" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M866.9,73c-29.84,62.16-69.51,119.33-125.45,160.76C706.69,259.48,660.83,284.38,616,279" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M866.9,101.09c-30.76,61.61-72,118-130.3,156.15-34.17,22.37-78.49,42.39-120.32,34.11" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M866.89,143.4C817.16,223.27,721.66,322.26,616,303.64" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M616,309.79c101.78,28.57,199.86-61.62,250.88-138.21" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M616,316c100.27,31.92,199.29-54.71,250.88-130.28" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M615.57,322.11c98.84,35.3,199-47.61,251.32-122.35" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M866.88,227.94C813.74,301.38,712.84,379.06,616.3,340" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M866.87,270.13c-66.09,66.45-157.6,107.59-250.56,76" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M615.58,359.33c90.55,33.32,181.74,1.36,251.29-60.77" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M616,377.05c87.06,29.54,174.54,12.78,250.84-36.53" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M616,395.71c85.59,32.49,173.24,20.08,250.84-26.95" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M615.59,415.07a653,653,0,0,0,251.28-4" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M616,433.27a1091.47,1091.47,0,0,0,250.84,34.15" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M866.87,678.86C792.15,608.89,709.56,549.4,616,507.22" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M866.87,693C792.17,622.56,709.59,562.58,616,519.82" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M866.88,763.37C805.53,670.19,722.8,578.68,616,537.84" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M866.89,213.85C814.53,288.18,714.51,370,616.3,334.14" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M866.87,284.78C799.61,350,707.55,387,616,352.58" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M866.87,354.62C790.41,403.44,703,419.34,616.32,389.25" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M866.87,439.28c-84.61,11-168.12,6.74-251.28-12.18" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M866.87,481.57a1108.29,1108.29,0,0,1-251.28-42.14" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M866.87,566.78C786.44,526,703.12,493.24,616,469.81" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M866.87,622.24c-75.41-60.79-158.09-109.65-250.55-139.4" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M866.87,636.58C791.42,575.19,708.67,525.67,616,495.17" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M866.87,650.67c-75.15-63.6-157.73-115.73-250.55-149.34" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M866.87,707C792.3,634.34,709.76,571.8,616,526" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M373.4,199.4C430,270.57,518.71,340.86,616,328.26" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M373.41,368.75c78.6,27.4,159.06,39.21,242.18,33.4" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M373.41,495.66A2158.16,2158.16,0,0,1,616,451.45" transform="translate(13 -25.01)" />
+        <path class="cls-12" d="M373.41,509.76" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M373.41,580.22C451,537.62,531.53,502.44,616,476.09" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M373.41,734.92C441.2,653.5,520.8,579.68,616,531.52" transform="translate(13 -25.01)" />
+        <path class="cls-13" d="M612.19,556.76a50.4,50.4,0,0,1-16.65-3c-10.72-3.8-26.1-13.16-38.5-36.16-29.24-54.21-60.81-138.48-94.24-227.7q-6.29-16.79-12.67-33.78c-37.19-98.87-76.59-182.38-77-183.22l.53-.25c.39.84,39.8,84.37,77,183.27q6.39,17,12.67,33.78c33.42,89.2,65,173.45,94.21,227.62,12.31,22.84,27.55,32.12,38.17,35.88C607.22,557.3,615.89,556,616,556l.09.58A26.26,26.26,0,0,1,612.19,556.76Z" transform="translate(13 -25.01)" />
+        <path class="cls-13" d="M616.62,562.71h-.31l0-.59c.13,0,13.5.56,23.14-12.56C672,505.3,798.75,241.94,818.38,190.68c24.76-64.67,48-103.61,48.23-104l.51.31c-.24.38-23.45,39.28-48.2,103.9-19.63,51.27-146.48,314.73-179,359C631,562.15,618.73,562.71,616.62,562.71Z" transform="translate(13 -25.01)" />
+        <path class="cls-14" d="M373.41,129.16C450.31,92.68,530.78,71.41,616,69.26" transform="translate(13 -25.01)" />
+        <path class="cls-14" d="M373.41,185.51C441.92,124.31,522.89,80.13,616,75.39" transform="translate(13 -25.01)" />
+        <path class="cls-14" d="M373.4,241.84C428.54,164.51,514.43,83.11,616,81.5" transform="translate(13 -25.01)" />
+        <path class="cls-3" d="M373.41,143.27Q494.21,121.15,616,106" transform="translate(13 -25.01)" />
+        <path class="cls-3" d="M373.41,284.16c65.45-72.45,147-137,243.8-160.06" transform="translate(13 -25.01)" />
+        <path class="cls-3" d="M373.4,298.45c65.23-74.55,146.5-141.59,243.81-168.19" transform="translate(13 -25.01)" />
+        <path class="cls-3" d="M866.88,326.43C801.66,244.61,718.52,168.76,616.61,137" transform="translate(13 -25.01)" />
+        <path class="cls-9" d="M616,365.49c89,35.76,180.32,7.78,250.85-52.84" transform="translate(13 -25.01)" /><text class="cls-15" transform="translate(598.85 37.19)">Bo<tspan class="cls-16" x="10.98" y="0">t</tspan>
+            <tspan x="14.13" y="0">ani</tspan>
+            <tspan class="cls-17" x="27.19" y="0">ca</tspan>
+            <tspan x="36.45" y="0">l in</tspan>
+            <tspan class="cls-18" x="49.77" y="0">f</tspan>
+            <tspan x="52.69" y="0">os</tspan>
+        </text><text class="cls-15" transform="translate(601.61 68.65)">
+            <tspan class="cls-19">C</tspan>
+            <tspan x="4.98" y="0">onsumption</tspan>
+        </text><text class="cls-15" transform="translate(602.11 210.14)">
+            <tspan class="cls-20">C</tspan>
+            <tspan x="5" y="0">rime </tspan>
+            <tspan class="cls-19" x="26.71" y="0">E</tspan>
+            <tspan class="cls-21" x="31.34" y="0">v</tspan>
+            <tspan x="35.74" y="0">ents</tspan>
+        </text><text class="cls-15" transform="translate(584.5 230.14)">
+            <tspan class="cls-18">E</tspan>
+            <tspan class="cls-22" x="4.72" y="0">n</tspan>
+            <tspan x="10.12" y="0">vi</tspan>
+            <tspan class="cls-23" x="17.07" y="0">r</tspan>
+            <tspan x="20.3" y="0">onmen</tspan>
+            <tspan class="cls-16" x="49.69" y="0">t</tspan>
+            <tspan class="cls-18" x="52.84" y="0">a</tspan>
+            <tspan x="57.78" y="0">l i</tspan>
+            <tspan class="cls-24" x="65.61" y="0">s</tspan>
+            <tspan x="69.85" y="0">sues</tspan>
+        </text><text class="cls-15" transform="translate(604.47 249.46)">H<tspan class="cls-18" x="6.3" y="0">ea</tspan>
+            <tspan x="16.18" y="0">lth </tspan>
+            <tspan class="cls-25" x="30.16" y="0">f</tspan>
+            <tspan x="32.98" y="0">acts</tspan>
+        </text><text class="cls-15" transform="translate(617.6 526.05)">Other</text><text class="cls-15" transform="translate(590.58 655.27)">
+            <tspan class="cls-19">P</tspan>
+            <tspan class="cls-26" x="5.17" y="0">r</tspan>
+            <tspan x="8.39" y="0">oduction g</tspan>
+            <tspan class="cls-26" x="53.04" y="0">r</tspan>
+            <tspan class="cls-27" x="56.27" y="0">owth</tspan>
+        </text><text class="cls-15" transform="translate(617.9 717.32)">
+            <tspan class="cls-26">T</tspan>
+            <tspan class="cls-28" x="4.37" y="0">r</tspan>
+            <tspan x="7.55" y="0">ade</tspan>
+        </text>
+        <rect class="cls-29" x="329.01" y="1.94" width="59.82" height="28.26" /><text class="cls-30" transform="translate(341.18 20.73)">M<tspan class="cls-31" x="8.84" y="0">e</tspan>
+            <tspan x="14.93" y="0">xi</tspan>
+            <tspan class="cls-32" x="23.64" y="0">c</tspan>
+            <tspan x="28.84" y="0">o</tspan>
+        </text>
+        <rect class="cls-29" x="877.15" y="1.94" width="59.82" height="28.26" /><text class="cls-33" transform="translate(896.86 20.71)">U<tspan class="cls-34" x="7.5" y="0">S</tspan>
+            <tspan x="13.45" y="0">A</tspan>
+        </text><text class="cls-35" transform="translate(1157.59 7.93)">LEGEND</text>
+        <line class="cls-36" x1="1157.3" y1="19.11" x2="1191.36" y2="19.11" /><text class="cls-37" transform="translate(1195.48 19.83)">
+            <tspan class="cls-38">W</tspan>
+            <tspan x="6.58" y="0">ebsi</tspan>
+            <tspan class="cls-39" x="21.8" y="0">t</tspan>
+            <tspan x="24.5" y="0">es whose </tspan>
+            <tspan class="cls-40" x="60.77" y="0">c</tspan>
+            <tspan x="64.49" y="0">on</tspan>
+            <tspan class="cls-39" x="73.99" y="0">t</tspan>
+            <tspan x="76.69" y="0">ent </tspan>
+            <tspan x="0" y="9.87">is about some </tspan>
+            <tspan class="cls-41" x="54.29" y="9.87">a</tspan>
+            <tspan class="cls-42" x="58.58" y="9.87">v</tspan>
+            <tspan x="62.42" y="9.87">o</tspan>
+            <tspan class="cls-38" x="67.12" y="9.87">c</tspan>
+            <tspan x="70.89" y="9.87">ado </tspan>
+            <tspan class="cls-43" x="0" y="19.73">r</tspan>
+            <tspan x="2.82" y="19.73">e</tspan>
+            <tspan class="cls-44" x="7.23" y="19.73">l</tspan>
+            <tspan x="9.52" y="19.73">a</tspan>
+            <tspan class="cls-39" x="13.93" y="19.73">t</tspan>
+            <tspan x="16.63" y="19.73">ed i</tspan>
+            <tspan class="cls-45" x="30.36" y="19.73">s</tspan>
+            <tspan x="34.07" y="19.73">sues</tspan>
+        </text><text x="13" y="-25.01"></text>
+        <circle class="cls-46" cx="386.41" cy="47.79" r="2.29" />
+        <circle class="cls-47" cx="386.41" cy="61.88" r="2.29" />
+        <circle class="cls-47" cx="386.41" cy="75.98" r="2.29" />
+        <circle class="cls-48" cx="386.41" cy="90.07" r="2.29" />
+        <circle class="cls-49" cx="386.41" cy="104.17" r="2.29" />
+        <circle class="cls-50" cx="386.41" cy="118.26" r="2.29" />
+        <circle class="cls-48" cx="386.41" cy="132.36" r="2.29" />
+        <circle class="cls-50" cx="386.41" cy="146.45" r="2.29" />
+        <circle class="cls-49" cx="386.41" cy="160.55" r="2.29" />
+        <circle class="cls-47" cx="386.41" cy="174.65" r="2.29" />
+        <circle class="cls-51" cx="386.41" cy="188.74" r="2.29" />
+        <circle class="cls-46" cx="386.41" cy="202.84" r="2.29" />
+        <circle class="cls-49" cx="386.41" cy="216.93" r="2.29" />
+        <circle class="cls-52" cx="386.41" cy="231.03" r="2.29" />
+        <circle class="cls-46" cx="386.41" cy="245.12" r="2.29" />
+        <circle class="cls-50" cx="386.41" cy="259.22" r="2.29" />
+        <circle class="cls-48" cx="386.41" cy="273.51" r="2.29" />
+        <circle class="cls-47" cx="386.41" cy="287.6" r="2.29" />
+        <circle class="cls-48" cx="386.41" cy="301.5" r="2.29" />
+        <circle class="cls-47" cx="386.41" cy="315.6" r="2.29" />
+        <circle class="cls-53" cx="386.41" cy="329.7" r="2.29" />
+        <circle class="cls-47" cx="386.41" cy="343.79" r="2.29" />
+        <circle class="cls-47" cx="386.41" cy="357.89" r="2.29" />
+        <circle class="cls-50" cx="386.41" cy="371.98" r="2.29" />
+        <circle class="cls-50" cx="386.41" cy="386.08" r="2.29" />
+        <circle class="cls-47" cx="386.41" cy="400.17" r="2.29" />
+        <circle class="cls-46" cx="386.41" cy="414.27" r="2.29" />
+        <circle class="cls-46" cx="386.41" cy="428.36" r="2.29" />
+        <circle class="cls-48" cx="386.41" cy="442.46" r="2.29" />
+        <circle class="cls-47" cx="386.41" cy="456.55" r="2.29" />
+        <circle class="cls-47" cx="386.41" cy="470.65" r="2.29" />
+        <circle class="cls-47" cx="386.41" cy="484.74" r="2.29" />
+        <circle class="cls-47" cx="386.41" cy="498.84" r="2.29" />
+        <circle class="cls-46" cx="386.41" cy="512.94" r="2.29" />
+        <circle class="cls-46" cx="386.41" cy="527.03" r="2.29" />
+        <circle class="cls-48" cx="386.41" cy="541.13" r="2.29" />
+        <circle class="cls-47" cx="386.41" cy="555.22" r="2.29" />
+        <circle class="cls-51" cx="386.41" cy="569.32" r="2.29" />
+        <circle class="cls-46" cx="386.41" cy="582.92" r="2.29" />
+        <circle class="cls-47" cx="386.41" cy="597.51" r="2.29" />
+        <circle class="cls-53" cx="386.41" cy="611.6" r="2.29" />
+        <circle class="cls-48" cx="386.41" cy="625.7" r="2.29" />
+        <circle class="cls-50" cx="386.41" cy="639.4" r="2.29" />
+        <circle class="cls-47" cx="386.41" cy="653.89" r="2.29" />
+        <circle class="cls-46" cx="386.41" cy="667.99" r="2.29" />
+        <circle class="cls-50" cx="386.41" cy="682.08" r="2.29" />
+        <circle class="cls-46" cx="386.41" cy="696.18" r="2.29" />
+        <circle class="cls-47" cx="386.41" cy="709.98" r="2.29" />
+        <circle class="cls-50" cx="386.41" cy="724.37" r="2.29" />
+        <circle class="cls-48" cx="386.41" cy="738.46" r="2.29" />
+        <circle class="cls-47" cx="879.87" cy="47.73" r="2.29" />
+        <circle class="cls-46" cx="879.87" cy="61.82" r="2.29" />
+        <circle class="cls-47" cx="879.87" cy="75.92" r="2.29" />
+        <circle class="cls-50" cx="879.87" cy="90.01" r="2.29" />
+        <circle class="cls-46" cx="879.87" cy="104.11" r="2.29" />
+        <circle class="cls-47" cx="879.87" cy="118.2" r="2.29" />
+        <circle class="cls-47" cx="879.87" cy="132.3" r="2.29" />
+        <circle class="cls-47" cx="879.87" cy="146.4" r="2.29" />
+        <circle class="cls-47" cx="879.87" cy="160.49" r="2.29" />
+        <circle class="cls-47" cx="879.87" cy="174.59" r="2.29" />
+        <circle class="cls-47" cx="879.87" cy="188.68" r="2.29" />
+        <circle class="cls-47" cx="879.87" cy="202.78" r="2.29" />
+        <circle class="cls-46" cx="879.87" cy="216.87" r="2.29" />
+        <circle class="cls-50" cx="879.87" cy="230.97" r="2.29" />
+        <circle class="cls-47" cx="879.87" cy="245.06" r="2.29" />
+        <circle class="cls-47" cx="879.87" cy="259.16" r="2.29" />
+        <circle class="cls-47" cx="879.87" cy="273.45" r="2.29" />
+        <circle class="cls-47" cx="879.87" cy="287.54" r="2.29" />
+        <circle class="cls-50" cx="879.87" cy="301.44" r="2.29" />
+        <circle class="cls-47" cx="879.87" cy="315.54" r="2.29" />
+        <circle class="cls-47" cx="879.87" cy="329.64" r="2.29" />
+        <circle class="cls-47" cx="879.87" cy="343.73" r="2.29" />
+        <circle class="cls-46" cx="879.87" cy="357.83" r="2.29" />
+        <circle class="cls-50" cx="879.87" cy="371.92" r="2.29" />
+        <circle class="cls-47" cx="879.87" cy="386.02" r="2.29" />
+        <circle class="cls-50" cx="879.87" cy="400.11" r="2.29" />
+        <circle class="cls-47" cx="879.87" cy="414.21" r="2.29" />
+        <circle class="cls-46" cx="879.87" cy="428.3" r="2.29" />
+        <circle class="cls-47" cx="879.87" cy="442.4" r="2.29" />
+        <circle class="cls-47" cx="879.87" cy="456.49" r="2.29" />
+        <circle class="cls-48" cx="879.87" cy="470.59" r="2.29" />
+        <circle class="cls-46" cx="879.87" cy="484.68" r="2.29" />
+        <circle class="cls-50" cx="879.87" cy="498.78" r="2.29" />
+        <circle class="cls-50" cx="879.87" cy="512.88" r="2.29" />
+        <circle class="cls-50" cx="879.87" cy="526.97" r="2.29" />
+        <circle class="cls-47" cx="879.87" cy="541.07" r="2.29" />
+        <circle class="cls-50" cx="879.87" cy="555.16" r="2.29" />
+        <circle class="cls-46" cx="879.87" cy="569.26" r="2.29" />
+        <circle class="cls-50" cx="879.87" cy="582.86" r="2.29" />
+        <circle class="cls-47" cx="879.87" cy="597.45" r="2.29" />
+        <circle class="cls-47" cx="879.87" cy="611.54" r="2.29" />
+        <circle class="cls-47" cx="879.87" cy="625.64" r="2.29" />
+        <circle class="cls-50" cx="879.87" cy="639.34" r="2.29" />
+        <circle class="cls-47" cx="879.87" cy="653.83" r="2.29" />
+        <circle class="cls-47" cx="879.87" cy="667.93" r="2.29" />
+        <circle class="cls-47" cx="879.87" cy="682.02" r="2.29" />
+        <circle class="cls-46" cx="879.87" cy="696.12" r="2.29" />
+        <circle class="cls-51" cx="879.87" cy="709.92" r="2.29" />
+        <circle class="cls-50" cx="879.87" cy="724.31" r="2.29" />
+        <circle class="cls-47" cx="879.87" cy="738.4" r="2.29" />
+        <circle class="cls-51" cx="629.03" cy="740.81" r="1.78" />
+        <circle class="cls-51" cx="629.03" cy="734.65" r="1.78" />
+        <circle class="cls-52" cx="629.03" cy="728.48" r="1.78" />
+        <circle class="cls-51" cx="629.03" cy="722.32" r="1.78" />
+        <circle class="cls-48" cx="629.03" cy="703.83" r="1.78" />
+        <circle class="cls-48" cx="629.03" cy="697.66" r="1.78" />
+        <circle class="cls-48" cx="629.03" cy="691.5" r="1.78" />
+        <circle class="cls-48" cx="629.03" cy="685.33" r="1.78" />
+        <circle class="cls-48" cx="629.03" cy="679.17" r="1.78" />
+        <circle class="cls-48" cx="629.03" cy="673.01" r="1.78" />
+        <circle class="cls-48" cx="629.03" cy="666.84" r="1.78" />
+        <circle class="cls-48" cx="629.03" cy="660.68" r="1.78" />
+        <circle class="cls-46" cx="629.03" cy="642.19" r="1.78" />
+        <circle class="cls-46" cx="629.03" cy="636.02" r="1.78" />
+        <circle class="cls-46" cx="629.03" cy="629.86" r="1.78" />
+        <circle class="cls-46" cx="629.03" cy="623.69" r="1.78" />
+        <circle class="cls-46" cx="629.03" cy="617.53" r="1.78" />
+        <circle class="cls-46" cx="629.03" cy="611.36" r="1.78" />
+        <circle class="cls-46" cx="629.03" cy="605.2" r="1.78" />
+        <circle class="cls-46" cx="629.03" cy="599.04" r="1.78" />
+        <circle class="cls-46" cx="629.03" cy="592.87" r="1.78" />
+        <circle class="cls-46" cx="629.03" cy="586.71" r="1.78" />
+        <circle class="cls-46" cx="629.03" cy="580.54" r="1.78" />
+        <circle class="cls-46" cx="629.03" cy="574.38" r="1.78" />
+        <circle class="cls-46" cx="629.03" cy="568.22" r="1.78" />
+        <circle class="cls-46" cx="629.03" cy="562.05" r="1.78" />
+        <circle class="cls-46" cx="629.03" cy="555.89" r="1.78" />
+        <circle class="cls-46" cx="629.03" cy="549.72" r="1.78" />
+        <circle class="cls-46" cx="629.03" cy="543.56" r="1.78" />
+        <circle class="cls-46" cx="629.03" cy="537.39" r="1.78" />
+        <circle class="cls-46" cx="629.03" cy="531.23" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="512.74" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="506.57" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="500.41" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="494.25" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="488.08" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="481.92" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="475.75" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="469.59" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="463.42" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="457.26" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="451.1" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="444.93" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="438.77" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="432.6" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="426.44" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="420.28" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="414.11" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="407.95" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="401.78" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="395.62" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="389.46" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="383.29" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="377.13" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="370.96" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="364.8" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="358.63" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="352.47" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="346.31" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="340.14" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="333.98" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="327.81" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="321.65" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="315.49" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="309.32" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="303.16" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="296.99" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="290.83" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="284.66" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="278.5" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="272.34" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="266.17" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="260.01" r="1.78" />
+        <circle class="cls-47" cx="629.03" cy="253.84" r="1.78" />
+        <circle class="cls-53" cx="629.03" cy="235.35" r="1.78" />
+        <circle class="cls-53" cx="629.03" cy="215.68" r="1.78" />
+        <circle class="cls-50" cx="629.03" cy="198.37" r="1.78" />
+        <circle class="cls-50" cx="629.03" cy="192.2" r="1.78" />
+        <circle class="cls-50" cx="629.03" cy="186.04" r="1.78" />
+        <circle class="cls-50" cx="629.03" cy="179.87" r="1.78" />
+        <circle class="cls-50" cx="629.03" cy="173.71" r="1.78" />
+        <circle class="cls-50" cx="629.03" cy="167.55" r="1.78" />
+        <circle class="cls-50" cx="629.03" cy="161.38" r="1.78" />
+        <circle class="cls-50" cx="629.03" cy="155.22" r="1.78" />
+        <circle class="cls-50" cx="629.03" cy="149.05" r="1.78" />
+        <circle class="cls-50" cx="629.03" cy="142.89" r="1.78" />
+        <circle class="cls-50" cx="629.03" cy="136.73" r="1.78" />
+        <circle class="cls-50" cx="629.03" cy="130.56" r="1.78" />
+        <circle class="cls-50" cx="629.03" cy="124.4" r="1.78" />
+        <circle class="cls-50" cx="629.03" cy="118.23" r="1.78" />
+        <circle class="cls-50" cx="629.03" cy="112.07" r="1.78" />
+        <circle class="cls-50" cx="629.03" cy="105.9" r="1.78" />
+        <circle class="cls-50" cx="629.03" cy="99.74" r="1.78" />
+        <circle class="cls-50" cx="629.03" cy="93.58" r="1.78" />
+        <circle class="cls-50" cx="629.03" cy="87.41" r="1.78" />
+        <circle class="cls-50" cx="629.03" cy="81.25" r="1.78" />
+        <circle class="cls-50" cx="629.03" cy="75.08" r="1.78" />
+        <circle class="cls-49" cx="629.03" cy="56.59" r="1.78" />
+        <circle class="cls-49" cx="629.03" cy="50.43" r="1.78" />
+        <circle class="cls-49" cx="629.03" cy="44.26" r="1.78" /><text x="13" y="-25.01"></text></g>
+    <g id="titles"><text class="cls-54" transform="translate(883.28 51.01)">1. 12 P<tspan class="cls-18" x="24.56" y="0">r</tspan>
+            <tspan class="cls-55" x="27.94" y="0">o</tspan>
+            <tspan class="cls-56" x="33.08" y="0">v</tspan>
+            <tspan x="37.32" y="0">en Health Benefits of </tspan>
+            <tspan class="cls-57" x="128.21" y="0">A</tspan>
+            <tspan class="cls-56" x="133.12" y="0">v</tspan>
+            <tspan x="137.36" y="0">oca</tspan>
+            <tspan class="cls-18" x="152.09" y="0">d</tspan>
+            <tspan x="157.45" y="0">o</tspan>
+        </text><text class="cls-54" transform="translate(883.28 65.01)">2. All About <tspan class="cls-58" x="49.44" y="0">A</tspan>
+            <tspan class="cls-18" x="54.34" y="0">v</tspan>
+            <tspan x="58.59" y="0">oca</tspan>
+            <tspan class="cls-18" x="73.31" y="0">d</tspan>
+            <tspan x="78.68" y="0">os of </tspan>
+            <tspan class="cls-58" x="102" y="0">A</tspan>
+            <tspan class="cls-18" x="106.9" y="0">v</tspan>
+            <tspan x="111.15" y="0">oca</tspan>
+            <tspan class="cls-18" x="125.87" y="0">d</tspan>
+            <tspan x="131.24" y="0">o</tspan>
+        </text><text class="cls-54" transform="translate(883.28 79.01)">3. 12 health benefits of <tspan class="cls-18" x="96.72" y="0">av</tspan>
+            <tspan x="105.89" y="0">oca</tspan>
+            <tspan class="cls-18" x="120.62" y="0">d</tspan>
+            <tspan x="125.98" y="0">o</tspan>
+        </text><text class="cls-54" transform="translate(883.28 93.01)">4. 5 Simp<tspan class="cls-18" x="37.47" y="0">l</tspan>
+            <tspan x="40.02" y="0">e </tspan>
+            <tspan class="cls-59" x="47.71" y="0">W</tspan>
+            <tspan class="cls-18" x="54.9" y="0">a</tspan>
+            <tspan x="59.83" y="0">ys </tspan>
+            <tspan class="cls-18" x="71.16" y="0">t</tspan>
+            <tspan x="74.21" y="0">o Eat </tspan>
+            <tspan class="cls-58" x="97.76" y="0">A</tspan>
+            <tspan class="cls-18" x="102.67" y="0">v</tspan>
+            <tspan x="106.92" y="0">oca</tspan>
+            <tspan class="cls-18" x="121.64" y="0">d</tspan>
+            <tspan x="127.01" y="0">os</tspan>
+        </text><text class="cls-54" transform="translate(883.28 107.01)">5. <tspan class="cls-58" x="9.03" y="0">A</tspan>
+            <tspan class="cls-18" x="13.94" y="0">v</tspan>
+            <tspan x="18.18" y="0">oca</tspan>
+            <tspan class="cls-18" x="32.91" y="0">d</tspan>
+            <tspan x="38.27" y="0">o</tspan>
+        </text><text class="cls-54" transform="translate(883.28 121.01)">6. What&apos;s New and Beneficial About <tspan class="cls-58" x="149.4" y="0">A</tspan>
+            <tspan class="cls-18" x="154.31" y="0">v</tspan>
+            <tspan x="158.55" y="0">oca</tspan>
+            <tspan class="cls-18" x="173.28" y="0">d</tspan>
+            <tspan x="178.64" y="0">os</tspan>
+        </text><text class="cls-54" transform="translate(883.28 135.01)">
+            <tspan class="cls-60">7</tspan>
+            <tspan x="3.33" y="0">. Cali</tspan>
+            <tspan class="cls-18" x="23.12" y="0">f</tspan>
+            <tspan x="26" y="0">ornia </tspan>
+            <tspan class="cls-18" x="50.46" y="0">av</tspan>
+            <tspan x="59.63" y="0">oca</tspan>
+            <tspan class="cls-18" x="74.36" y="0">d</tspan>
+            <tspan x="79.72" y="0">os</tspan>
+        </text><text class="cls-54" transform="translate(883.28 149.01)">8. 19 P<tspan class="cls-18" x="26.15" y="0">r</tspan>
+            <tspan class="cls-55" x="29.53" y="0">o</tspan>
+            <tspan class="cls-56" x="34.67" y="0">v</tspan>
+            <tspan x="38.91" y="0">en Health Benefits Of </tspan>
+            <tspan class="cls-57" x="130.96" y="0">A</tspan>
+            <tspan class="cls-56" x="135.87" y="0">v</tspan>
+            <tspan x="140.12" y="0">oca</tspan>
+            <tspan class="cls-18" x="154.84" y="0">d</tspan>
+            <tspan x="160.21" y="0">o</tspan>
+        </text><text class="cls-54" transform="translate(883.28 163.01)">
+            <tspan class="cls-55">9</tspan>
+            <tspan x="4.65" y="0">. 15 Imp</tspan>
+            <tspan class="cls-18" x="36.18" y="0">r</tspan>
+            <tspan x="39.55" y="0">essi</tspan>
+            <tspan class="cls-56" x="55.77" y="0">v</tspan>
+            <tspan x="60.02" y="0">e Health Benefits of </tspan>
+            <tspan class="cls-57" x="145.42" y="0">A</tspan>
+            <tspan class="cls-56" x="150.33" y="0">v</tspan>
+            <tspan x="154.58" y="0">oca</tspan>
+            <tspan class="cls-18" x="169.3" y="0">d</tspan>
+            <tspan x="174.67" y="0">o</tspan>
+        </text><text class="cls-54" transform="translate(883.28 177.01)">10. Study will p<tspan class="cls-18" x="61.88" y="0">a</tspan>
+            <tspan x="66.8" y="0">y peop</tspan>
+            <tspan class="cls-18" x="94.96" y="0">l</tspan>
+            <tspan x="97.5" y="0">e </tspan>
+            <tspan class="cls-18" x="105.19" y="0">t</tspan>
+            <tspan x="108.23" y="0">o eat </tspan>
+            <tspan class="cls-56" x="132.07" y="0">av</tspan>
+            <tspan x="141.24" y="0">oca</tspan>
+            <tspan class="cls-18" x="155.97" y="0">d</tspan>
+            <tspan x="161.33" y="0">os </tspan>
+            <tspan class="cls-18" x="173.68" y="0">ev</tspan>
+            <tspan x="182.85" y="0">e</tspan>
+            <tspan class="cls-61" x="187.87" y="0">r</tspan>
+            <tspan x="191.43" y="0">y d</tspan>
+            <tspan class="cls-18" x="203.87" y="0">a</tspan>
+            <tspan x="208.8" y="0">y </tspan>
+            <tspan class="cls-18" x="215.78" y="0">f</tspan>
+            <tspan x="218.66" y="0">or 6 months</tspan>
+        </text><text class="cls-54" transform="translate(883.28 191.01)">11. <tspan class="cls-58" x="12.13" y="0">A</tspan>
+            <tspan class="cls-18" x="17.04" y="0">v</tspan>
+            <tspan x="21.28" y="0">oca</tspan>
+            <tspan class="cls-18" x="36.01" y="0">d</tspan>
+            <tspan x="41.38" y="0">os, </tspan>
+            <tspan class="cls-55" x="55.55" y="0">r</tspan>
+            <tspan class="cls-62" x="58.83" y="0">a</tspan>
+            <tspan class="cls-55" x="63.71" y="0">w</tspan>
+            <tspan x="70.03" y="0">, all </tspan>
+            <tspan class="cls-18" x="87.5" y="0">c</tspan>
+            <tspan x="91.78" y="0">omme</tspan>
+            <tspan class="cls-18" x="118.12" y="0">r</tspan>
+            <tspan x="121.49" y="0">cial varieties Nutrition </tspan>
+            <tspan class="cls-28" x="216.65" y="0">F</tspan>
+            <tspan x="220.81" y="0">acts &amp; Ca</tspan>
+            <tspan class="cls-18" x="260.1" y="0">l</tspan>
+            <tspan x="262.65" y="0">ories</tspan>
+        </text><text class="cls-54" transform="translate(883.28 205.01)">12. <tspan class="cls-58" x="12.76" y="0">A</tspan>
+            <tspan class="cls-18" x="17.67" y="0">v</tspan>
+            <tspan x="21.91" y="0">oca</tspan>
+            <tspan class="cls-18" x="36.64" y="0">d</tspan>
+            <tspan x="42" y="0">o Benefits: The </tspan>
+            <tspan class="cls-63" x="106.1" y="0">M</tspan>
+            <tspan x="113.31" y="0">ost Nutrition-</tspan>
+            <tspan class="cls-23" x="169.82" y="0">P</tspan>
+            <tspan x="174.86" y="0">ac</tspan>
+            <tspan class="cls-18" x="184.25" y="0">k</tspan>
+            <tspan x="188.67" y="0">ed </tspan>
+            <tspan class="cls-55" x="201.82" y="0">F</tspan>
+            <tspan x="206.11" y="0">ood on the Planet?</tspan>
+        </text><text class="cls-54" transform="translate(883.28 220.01)">13. <tspan class="cls-58" x="12.85" y="0">A</tspan>
+            <tspan class="cls-18" x="17.75" y="0">v</tspan>
+            <tspan x="22" y="0">oca</tspan>
+            <tspan class="cls-18" x="36.72" y="0">d</tspan>
+            <tspan x="42.09" y="0">os</tspan>
+        </text><text class="cls-54" transform="translate(883.28 248.01)">15. H<tspan class="cls-18" x="19.11" y="0">o</tspan>
+            <tspan x="24.35" y="0">w Much </tspan>
+            <tspan class="cls-58" x="58.73" y="0">A</tspan>
+            <tspan class="cls-18" x="63.64" y="0">v</tspan>
+            <tspan x="67.88" y="0">oca</tspan>
+            <tspan class="cls-18" x="82.61" y="0">d</tspan>
+            <tspan x="87.97" y="0">o Is Healt</tspan>
+            <tspan class="cls-18" x="127.68" y="0">h</tspan>
+            <tspan x="133.06" y="0">y </tspan>
+            <tspan class="cls-60" x="140.04" y="0">T</tspan>
+            <tspan x="143.87" y="0">o Eat In A </tspan>
+            <tspan class="cls-18" x="186.13" y="0">Da</tspan>
+            <tspan x="196.86" y="0">y?</tspan>
+        </text><text class="cls-54" transform="translate(883.28 234.01)">14. Is Sab<tspan class="cls-55" x="38.23" y="0">r</tspan>
+            <tspan x="41.51" y="0">a&apos;s </tspan>
+            <tspan class="cls-58" x="55.42" y="0">A</tspan>
+            <tspan class="cls-18" x="60.33" y="0">v</tspan>
+            <tspan x="64.57" y="0">oca</tspan>
+            <tspan class="cls-18" x="79.3" y="0">d</tspan>
+            <tspan x="84.67" y="0">o </tspan>
+            <tspan class="cls-60" x="92.66" y="0">T</tspan>
+            <tspan x="96.49" y="0">oast Kit </tspan>
+            <tspan class="cls-63" x="130.31" y="0">A</tspan>
+            <tspan x="135.54" y="0">ctually Use</tspan>
+            <tspan class="cls-64" x="181.23" y="0">f</tspan>
+            <tspan x="184.48" y="0">ul?</tspan>
+        </text><text class="cls-54" transform="translate(883.28 262.01)">16. <tspan class="cls-58" x="13.2" y="0">A</tspan>
+            <tspan class="cls-18" x="18.11" y="0">v</tspan>
+            <tspan x="22.36" y="0">oid </tspan>
+            <tspan class="cls-58" x="38.31" y="0">A</tspan>
+            <tspan class="cls-18" x="43.22" y="0">v</tspan>
+            <tspan x="47.46" y="0">oca</tspan>
+            <tspan class="cls-18" x="62.19" y="0">d</tspan>
+            <tspan x="67.55" y="0">os?</tspan>
+        </text><text class="cls-54" transform="translate(883.28 276.01)">1<tspan class="cls-60" x="3.82" y="0">7</tspan>
+            <tspan x="7.14" y="0">. What A</tspan>
+            <tspan class="cls-18" x="40.78" y="0">r</tspan>
+            <tspan x="44.16" y="0">e the Health Benefits of </tspan>
+            <tspan class="cls-58" x="145.87" y="0">A</tspan>
+            <tspan class="cls-18" x="150.77" y="0">v</tspan>
+            <tspan x="155.02" y="0">oca</tspan>
+            <tspan class="cls-18" x="169.75" y="0">do</tspan>
+            <tspan x="180.35" y="0">, and Can It Help </tspan>
+            <tspan class="cls-60" x="252.19" y="0">Y</tspan>
+            <tspan x="256.26" y="0">ou Lose </tspan>
+            <tspan class="cls-65" x="291.43" y="0">W</tspan>
+            <tspan x="298.71" y="0">eight?</tspan>
+        </text><text class="cls-54" transform="translate(883.28 291.01)">18. 15 Health Benefits of <tspan class="cls-58" x="102.06" y="0">A</tspan>
+            <tspan class="cls-18" x="106.97" y="0">v</tspan>
+            <tspan x="111.21" y="0">oca</tspan>
+            <tspan class="cls-18" x="125.94" y="0">d</tspan>
+            <tspan x="131.3" y="0">o + Si</tspan>
+            <tspan class="cls-18" x="154.13" y="0">d</tspan>
+            <tspan x="159.5" y="0">e Ef</tspan>
+            <tspan class="cls-18" x="174.89" y="0">f</tspan>
+            <tspan x="177.76" y="0">ects</tspan>
+        </text><text class="cls-54" transform="translate(883.28 305.01)">1<tspan class="cls-55" x="3.82" y="0">9</tspan>
+            <tspan x="8.47" y="0">. H</tspan>
+            <tspan class="cls-18" x="19.24" y="0">o</tspan>
+            <tspan x="24.47" y="0">w </tspan>
+            <tspan class="cls-60" x="33.64" y="0">T</tspan>
+            <tspan x="37.47" y="0">o P</tspan>
+            <tspan class="cls-18" x="50.78" y="0">r</tspan>
+            <tspan x="54.16" y="0">epa</tspan>
+            <tspan class="cls-18" x="69.6" y="0">r</tspan>
+            <tspan x="72.98" y="0">e An </tspan>
+            <tspan class="cls-58" x="94.09" y="0">A</tspan>
+            <tspan class="cls-18" x="99" y="0">v</tspan>
+            <tspan x="103.25" y="0">oca</tspan>
+            <tspan class="cls-56" x="117.97" y="0">d</tspan>
+            <tspan x="123.33" y="0">o</tspan>
+        </text><text class="cls-54" transform="translate(883.28 319.01)">20. If <tspan class="cls-60" x="22.33" y="0">Y</tspan>
+            <tspan x="26.39" y="0">ou Eat An </tspan>
+            <tspan class="cls-57" x="68.81" y="0">A</tspan>
+            <tspan class="cls-56" x="73.72" y="0">v</tspan>
+            <tspan x="77.97" y="0">oca</tspan>
+            <tspan class="cls-18" x="92.69" y="0">d</tspan>
+            <tspan x="98.06" y="0">o A </tspan>
+            <tspan class="cls-18" x="114" y="0">Da</tspan>
+            <tspan x="124.74" y="0">y </tspan>
+            <tspan class="cls-55" x="131.72" y="0">F</tspan>
+            <tspan x="136.01" y="0">or A month This Is What Happens </tspan>
+            <tspan class="cls-60" x="278.2" y="0">T</tspan>
+            <tspan x="282.02" y="0">o </tspan>
+            <tspan class="cls-60" x="290.02" y="0">Y</tspan>
+            <tspan x="294.09" y="0">our Body</tspan>
+        </text><text class="cls-54" transform="translate(883.28 333.01)">21. H<tspan class="cls-18" x="19.03" y="0">o</tspan>
+            <tspan x="24.26" y="0">w Ma</tspan>
+            <tspan class="cls-18" x="45.71" y="0">n</tspan>
+            <tspan x="51.09" y="0">y Ca</tspan>
+            <tspan class="cls-18" x="68.23" y="0">l</tspan>
+            <tspan x="70.78" y="0">ories A</tspan>
+            <tspan class="cls-56" x="99.39" y="0">r</tspan>
+            <tspan x="102.76" y="0">e </tspan>
+            <tspan class="cls-63" x="110.45" y="0">A</tspan>
+            <tspan x="115.68" y="0">ctually In An </tspan>
+            <tspan class="cls-57" x="170.09" y="0">A</tspan>
+            <tspan class="cls-56" x="175" y="0">v</tspan>
+            <tspan x="179.25" y="0">oca</tspan>
+            <tspan class="cls-18" x="193.97" y="0">d</tspan>
+            <tspan class="cls-55" x="199.34" y="0">o</tspan>
+            <tspan x="204.48" y="0">?</tspan>
+        </text><text class="cls-54" transform="translate(883.28 347.01)">22. L<tspan class="cls-55" x="17.77" y="0">o</tspan>
+            <tspan class="cls-18" x="22.91" y="0">v</tspan>
+            <tspan x="27.16" y="0">e </tspan>
+            <tspan class="cls-56" x="34.84" y="0">av</tspan>
+            <tspan x="44.01" y="0">oca</tspan>
+            <tspan class="cls-18" x="58.74" y="0">d</tspan>
+            <tspan x="64.1" y="0">os but </tspan>
+            <tspan class="cls-18" x="93.1" y="0">d</tspan>
+            <tspan x="98.47" y="0">on’t want </tspan>
+            <tspan class="cls-18" x="139.91" y="0">t</tspan>
+            <tspan x="142.96" y="0">o </tspan>
+            <tspan class="cls-62" x="150.95" y="0">g</tspan>
+            <tspan x="155.48" y="0">o b</tspan>
+            <tspan class="cls-18" x="168.89" y="0">r</tspan>
+            <tspan x="172.26" y="0">o</tspan>
+            <tspan class="cls-18" x="177.59" y="0">k</tspan>
+            <tspan x="182.01" y="0">e? </tspan>
+            <tspan class="cls-60" x="193.86" y="0">Y</tspan>
+            <tspan x="197.93" y="0">ou can </tspan>
+            <tspan class="cls-66" x="228.9" y="0">g</tspan>
+            <tspan x="233.43" y="0">et paid </tspan>
+            <tspan class="cls-18" x="265.31" y="0">t</tspan>
+            <tspan x="268.36" y="0">o eat them — </tspan>
+            <tspan class="cls-18" x="326.5" y="0">f</tspan>
+            <tspan x="329.37" y="0">or scien</tspan>
+            <tspan class="cls-18" x="362.56" y="0">c</tspan>
+            <tspan x="366.85" y="0">e</tspan>
+        </text><text class="cls-54" transform="translate(883.28 361.01)">23. <tspan class="cls-58" x="13.47" y="0">A</tspan>
+            <tspan class="cls-18" x="18.38" y="0">v</tspan>
+            <tspan x="22.63" y="0">oca</tspan>
+            <tspan class="cls-18" x="37.35" y="0">d</tspan>
+            <tspan x="42.72" y="0">o</tspan>
+        </text><text class="cls-54" transform="translate(883.28 375.01)">24. 7 <tspan class="cls-58" x="20.51" y="0">A</tspan>
+            <tspan class="cls-18" x="25.42" y="0">v</tspan>
+            <tspan x="29.67" y="0">oca</tspan>
+            <tspan class="cls-18" x="44.39" y="0">d</tspan>
+            <tspan x="49.76" y="0">o-Based </tspan>
+            <tspan class="cls-67" x="86.94" y="0">R</tspan>
+            <tspan x="92.19" y="0">ecipes </tspan>
+            <tspan class="cls-18" x="121.54" y="0">f</tspan>
+            <tspan x="124.41" y="0">or Ligh</tspan>
+            <tspan class="cls-18" x="152.9" y="0">t</tspan>
+            <tspan x="155.95" y="0">er </tspan>
+            <tspan class="cls-63" x="167.1" y="0">M</tspan>
+            <tspan x="174.31" y="0">eals That </tspan>
+            <tspan class="cls-23" x="214.89" y="0">W</tspan>
+            <tspan x="222.16" y="0">on&apos;t Le</tspan>
+            <tspan class="cls-18" x="250.04" y="0">av</tspan>
+            <tspan x="259.21" y="0">e </tspan>
+            <tspan class="cls-60" x="266.9" y="0">Y</tspan>
+            <tspan x="270.96" y="0">ou Sta</tspan>
+            <tspan class="cls-68" x="297.6" y="0">r</tspan>
+            <tspan x="301.16" y="0">ving</tspan>
+        </text><text class="cls-54" transform="translate(883.28 389.01)">25. W<tspan class="cls-18" x="21.03" y="0">h</tspan>
+            <tspan x="26.41" y="0">y </tspan>
+            <tspan class="cls-60" x="33.4" y="0">Y</tspan>
+            <tspan x="37.46" y="0">ou Shou</tspan>
+            <tspan class="cls-18" x="72.18" y="0">l</tspan>
+            <tspan x="74.72" y="0">d Eat </tspan>
+            <tspan class="cls-58" x="98.42" y="0">A</tspan>
+            <tspan class="cls-18" x="103.32" y="0">v</tspan>
+            <tspan x="107.57" y="0">oca</tspan>
+            <tspan class="cls-18" x="122.29" y="0">d</tspan>
+            <tspan x="127.66" y="0">o E</tspan>
+            <tspan class="cls-18" x="140.39" y="0">v</tspan>
+            <tspan x="144.64" y="0">e</tspan>
+            <tspan class="cls-61" x="149.66" y="0">r</tspan>
+            <tspan x="153.22" y="0">y Sing</tspan>
+            <tspan class="cls-18" x="177.89" y="0">l</tspan>
+            <tspan x="180.44" y="0">e </tspan>
+            <tspan class="cls-18" x="188.13" y="0">Da</tspan>
+            <tspan x="198.86" y="0">y</tspan>
+        </text><text class="cls-54" transform="translate(883.28 403.01)">26. <tspan class="cls-58" x="13.83" y="0">A</tspan>
+            <tspan class="cls-18" x="18.74" y="0">v</tspan>
+            <tspan x="22.98" y="0">oca</tspan>
+            <tspan class="cls-18" x="37.71" y="0">d</tspan>
+            <tspan x="43.08" y="0">o Boat Egg Ba</tspan>
+            <tspan class="cls-18" x="100.15" y="0">k</tspan>
+            <tspan x="104.57" y="0">e</tspan>
+        </text><text class="cls-54" transform="translate(883.28 418.01)">
+            <tspan class="cls-18">2</tspan>
+            <tspan class="cls-60" x="4.35" y="0">7</tspan>
+            <tspan x="7.68" y="0">. </tspan>
+            <tspan class="cls-58" x="12.18" y="0">A</tspan>
+            <tspan class="cls-18" x="17.08" y="0">v</tspan>
+            <tspan x="21.33" y="0">oca</tspan>
+            <tspan class="cls-18" x="36.05" y="0">d</tspan>
+            <tspan x="41.42" y="0">o – Super</tspan>
+            <tspan class="cls-55" x="81.35" y="0">F</tspan>
+            <tspan x="85.64" y="0">ood – O</tspan>
+            <tspan class="cls-18" x="118.48" y="0">v</tspan>
+            <tspan x="122.72" y="0">e</tspan>
+            <tspan class="cls-61" x="127.74" y="0">r</tspan>
+            <tspan x="131.3" y="0">view</tspan>
+        </text><text class="cls-54" transform="translate(883.28 431.01)">28. <tspan class="cls-58" x="13.95" y="0">A</tspan>
+            <tspan class="cls-18" x="18.86" y="0">v</tspan>
+            <tspan x="23.11" y="0">oca</tspan>
+            <tspan class="cls-18" x="37.83" y="0">d</tspan>
+            <tspan x="43.2" y="0">o</tspan>
+        </text><text class="cls-54" transform="translate(883.28 446.01)">2<tspan class="cls-55" x="4.44" y="0">9</tspan>
+            <tspan x="9.1" y="0">. 11 Fun </tspan>
+            <tspan class="cls-28" x="41.96" y="0">F</tspan>
+            <tspan x="46.11" y="0">acts About </tspan>
+            <tspan class="cls-58" x="92.93" y="0">A</tspan>
+            <tspan class="cls-18" x="97.83" y="0">v</tspan>
+            <tspan x="102.08" y="0">oca</tspan>
+            <tspan class="cls-18" x="116.8" y="0">d</tspan>
+            <tspan x="122.17" y="0">os</tspan>
+        </text><text class="cls-54" transform="translate(883.28 460.01)">30. A<tspan class="cls-18" x="19.45" y="0">r</tspan>
+            <tspan x="22.83" y="0">e </tspan>
+            <tspan class="cls-66" x="30.51" y="0">y</tspan>
+            <tspan x="34.68" y="0">ou eating </tspan>
+            <tspan class="cls-56" x="76.6" y="0">t</tspan>
+            <tspan x="79.65" y="0">oo much </tspan>
+            <tspan class="cls-18" x="118.93" y="0">av</tspan>
+            <tspan x="128.1" y="0">oca</tspan>
+            <tspan class="cls-18" x="142.82" y="0">d</tspan>
+            <tspan class="cls-55" x="148.19" y="0">o</tspan>
+            <tspan x="153.33" y="0">?</tspan>
+        </text><text class="cls-54" transform="translate(883.28 474.01)">31. Pri<tspan class="cls-18" x="24.13" y="0">c</tspan>
+            <tspan x="28.42" y="0">e Dispu</tspan>
+            <tspan class="cls-18" x="59.7" y="0">t</tspan>
+            <tspan x="62.74" y="0">e Halts Shipments of </tspan>
+            <tspan class="cls-18" x="152.57" y="0">C</tspan>
+            <tspan class="cls-69" x="157.61" y="0">o</tspan>
+            <tspan class="cls-18" x="162.75" y="0">v</tspan>
+            <tspan x="167" y="0">e</tspan>
+            <tspan class="cls-18" x="172.02" y="0">t</tspan>
+            <tspan x="175.06" y="0">ed </tspan>
+            <tspan class="cls-63" x="188.21" y="0">M</tspan>
+            <tspan class="cls-18" x="195.42" y="0">e</tspan>
+            <tspan x="200.34" y="0">xican </tspan>
+            <tspan class="cls-58" x="224.6" y="0">A</tspan>
+            <tspan class="cls-18" x="229.51" y="0">v</tspan>
+            <tspan x="233.75" y="0">oca</tspan>
+            <tspan class="cls-18" x="248.48" y="0">d</tspan>
+            <tspan x="253.84" y="0">os</tspan>
+        </text><text class="cls-54" transform="translate(883.28 488.01)">32. <tspan class="cls-58" x="13.47" y="0">A</tspan>
+            <tspan class="cls-18" x="18.38" y="0">v</tspan>
+            <tspan x="22.63" y="0">oca</tspan>
+            <tspan class="cls-18" x="37.35" y="0">d</tspan>
+            <tspan x="42.72" y="0">o</tspan>
+        </text><text class="cls-54" transform="translate(883.28 502.01)">33. ARE <tspan class="cls-70" x="31.73" y="0">A</tspan>
+            <tspan class="cls-66" x="36.59" y="0">V</tspan>
+            <tspan x="41.55" y="0">OCAD</tspan>
+            <tspan class="cls-63" x="64.37" y="0">O</tspan>
+            <tspan x="70.82" y="0">S VEGAN? A PHI</tspan>
+            <tspan class="cls-18" x="134.68" y="0">L</tspan>
+            <tspan class="cls-63" x="138.96" y="0">O</tspan>
+            <tspan x="145.41" y="0">SOPHICAL DE</tspan>
+            <tspan class="cls-69" x="199.24" y="0">B</tspan>
+            <tspan class="cls-71" x="204.64" y="0">A</tspan>
+            <tspan x="209.45" y="0">TE</tspan>
+        </text><text class="cls-54" transform="translate(883.28 516.01)">34. <tspan class="cls-70" x="13.85" y="0">A</tspan>
+            <tspan class="cls-66" x="18.71" y="0">V</tspan>
+            <tspan x="23.67" y="0">OCADO H</tspan>
+            <tspan class="cls-23" x="61.92" y="0">A</tspan>
+            <tspan x="66.92" y="0">CKS: 5 EXPE</tspan>
+            <tspan class="cls-18" x="113.32" y="0">R</tspan>
+            <tspan x="118.71" y="0">T TI</tspan>
+            <tspan class="cls-18" x="133.13" y="0">P</tspan>
+            <tspan x="138.36" y="0">S FOR BUYING, OPENING, AND </tspan>
+            <tspan class="cls-18" x="262.99" y="0">S</tspan>
+            <tspan class="cls-23" x="267.94" y="0">T</tspan>
+            <tspan x="272.23" y="0">ORING THE TRENDIE</tspan>
+            <tspan class="cls-18" x="354.12" y="0">S</tspan>
+            <tspan x="359.07" y="0">T FRUIT</tspan>
+        </text><text class="cls-54" transform="translate(883.28 530.01)">35. H<tspan class="cls-18" x="19.83" y="0">o</tspan>
+            <tspan x="25.06" y="0">w </tspan>
+            <tspan class="cls-18" x="34.23" y="0">t</tspan>
+            <tspan x="37.28" y="0">o </tspan>
+            <tspan class="cls-60" x="45.28" y="0">T</tspan>
+            <tspan x="49.1" y="0">ell If an </tspan>
+            <tspan class="cls-58" x="83.47" y="0">A</tspan>
+            <tspan class="cls-18" x="88.38" y="0">v</tspan>
+            <tspan x="92.63" y="0">oca</tspan>
+            <tspan class="cls-18" x="107.35" y="0">d</tspan>
+            <tspan x="112.72" y="0">o Is Ripe</tspan>
+        </text><text class="cls-54" transform="translate(883.28 544.01)">36. LLU p<tspan class="cls-18" x="36.84" y="0">r</tspan>
+            <tspan x="40.22" y="0">o</tspan>
+            <tspan class="cls-18" x="45.55" y="0">f</tspan>
+            <tspan x="48.42" y="0">essor s</tspan>
+            <tspan class="cls-18" x="77.96" y="0">a</tspan>
+            <tspan x="82.88" y="0">ys </tspan>
+            <tspan class="cls-56" x="94.21" y="0">av</tspan>
+            <tspan x="103.38" y="0">oca</tspan>
+            <tspan class="cls-18" x="118.11" y="0">d</tspan>
+            <tspan x="123.47" y="0">os m</tspan>
+            <tspan class="cls-18" x="143.82" y="0">a</tspan>
+            <tspan x="148.74" y="0">y not be the pits when it </tspan>
+            <tspan class="cls-18" x="253.26" y="0">c</tspan>
+            <tspan x="257.55" y="0">omes </tspan>
+            <tspan class="cls-18" x="282.91" y="0">t</tspan>
+            <tspan x="285.96" y="0">o </tspan>
+            <tspan class="cls-56" x="293.95" y="0">w</tspan>
+            <tspan x="300.36" y="0">eight </tspan>
+            <tspan class="cls-18" x="323.83" y="0">l</tspan>
+            <tspan x="326.38" y="0">oss</tspan>
+        </text><text class="cls-54" transform="translate(883.28 558.01)">
+            <tspan class="cls-18">3</tspan>
+            <tspan class="cls-60" x="4.44" y="0">7</tspan>
+            <tspan x="7.76" y="0">. H</tspan>
+            <tspan class="cls-18" x="18.53" y="0">o</tspan>
+            <tspan x="23.76" y="0">w </tspan>
+            <tspan class="cls-18" x="32.94" y="0">t</tspan>
+            <tspan x="35.98" y="0">o Cut an </tspan>
+            <tspan class="cls-58" x="73.52" y="0">A</tspan>
+            <tspan class="cls-18" x="78.43" y="0">v</tspan>
+            <tspan x="82.67" y="0">oca</tspan>
+            <tspan class="cls-18" x="97.4" y="0">do</tspan>
+            <tspan x="108" y="0">, H</tspan>
+            <tspan class="cls-56" x="118.77" y="0">o</tspan>
+            <tspan x="124" y="0">w </tspan>
+            <tspan class="cls-18" x="133.17" y="0">t</tspan>
+            <tspan x="136.22" y="0">o </tspan>
+            <tspan class="cls-72" x="144.22" y="0">T</tspan>
+            <tspan x="148.04" y="0">ell if an </tspan>
+            <tspan class="cls-58" x="182.31" y="0">A</tspan>
+            <tspan class="cls-18" x="187.22" y="0">v</tspan>
+            <tspan x="191.46" y="0">oca</tspan>
+            <tspan class="cls-56" x="206.19" y="0">d</tspan>
+            <tspan x="211.55" y="0">o is Ripe &amp; </tspan>
+            <tspan class="cls-63" x="259.74" y="0">M</tspan>
+            <tspan x="266.95" y="0">o</tspan>
+            <tspan class="cls-18" x="272.28" y="0">r</tspan>
+            <tspan x="275.65" y="0">e</tspan>
+        </text><text class="cls-54" transform="translate(883.28 572.01)">38. <tspan class="cls-58" x="14.04" y="0">A</tspan>
+            <tspan class="cls-18" x="18.94" y="0">v</tspan>
+            <tspan x="23.19" y="0">oca</tspan>
+            <tspan class="cls-18" x="37.92" y="0">d</tspan>
+            <tspan x="43.28" y="0">o</tspan>
+        </text><text class="cls-54" transform="translate(883.28 586.01)">3<tspan class="cls-55" x="4.53" y="0">9</tspan>
+            <tspan x="9.18" y="0">. </tspan>
+            <tspan class="cls-70" x="13.68" y="0">A</tspan>
+            <tspan class="cls-62" x="18.54" y="0">V</tspan>
+            <tspan x="23.5" y="0">OCADO </tspan>
+            <tspan class="cls-65" x="55.48" y="0">TO</tspan>
+            <tspan x="65.99" y="0">A</tspan>
+            <tspan class="cls-18" x="71.27" y="0">S</tspan>
+            <tspan x="76.22" y="0">T</tspan>
+        </text><text class="cls-54" transform="translate(883.28 600.01)">40. Get paid $300 <tspan class="cls-18" x="74.51" y="0">t</tspan>
+            <tspan x="77.56" y="0">o eat </tspan>
+            <tspan class="cls-18" x="101.4" y="0">av</tspan>
+            <tspan x="110.57" y="0">oca</tspan>
+            <tspan class="cls-56" x="125.29" y="0">d</tspan>
+            <tspan x="130.66" y="0">os </tspan>
+            <tspan class="cls-18" x="143.01" y="0">f</tspan>
+            <tspan x="145.88" y="0">or this </tspan>
+            <tspan class="cls-18" x="175.48" y="0">w</tspan>
+            <tspan x="181.89" y="0">eight </tspan>
+            <tspan class="cls-18" x="205.37" y="0">l</tspan>
+            <tspan x="207.91" y="0">oss study</tspan>
+        </text><text class="cls-54" transform="translate(883.28 614.01)">41. Hass <tspan class="cls-18" x="35.79" y="0">av</tspan>
+            <tspan x="44.96" y="0">oca</tspan>
+            <tspan class="cls-18" x="59.69" y="0">d</tspan>
+            <tspan x="65.05" y="0">o </tspan>
+            <tspan class="cls-56" x="73.05" y="0">c</tspan>
+            <tspan x="77.33" y="0">omposition and po</tspan>
+            <tspan class="cls-18" x="156.73" y="0">t</tspan>
+            <tspan x="159.77" y="0">ential health ef</tspan>
+            <tspan class="cls-18" x="223.66" y="0">f</tspan>
+            <tspan x="226.54" y="0">ects</tspan>
+        </text><text class="cls-54" transform="translate(883.28 629.01)">42. <tspan class="cls-73" x="13.77" y="0">R</tspan>
+            <tspan x="19.02" y="0">esea</tspan>
+            <tspan class="cls-18" x="38.42" y="0">r</tspan>
+            <tspan x="41.8" y="0">cher at Loma Linda Uni</tspan>
+            <tspan class="cls-18" x="138.59" y="0">v</tspan>
+            <tspan x="142.84" y="0">e</tspan>
+            <tspan class="cls-18" x="147.86" y="0">r</tspan>
+            <tspan x="151.23" y="0">sity will p</tspan>
+            <tspan class="cls-18" x="190.57" y="0">a</tspan>
+            <tspan x="195.49" y="0">y </tspan>
+            <tspan class="cls-66" x="202.47" y="0">y</tspan>
+            <tspan x="206.65" y="0">ou $300 </tspan>
+            <tspan class="cls-56" x="242.48" y="0">t</tspan>
+            <tspan x="245.52" y="0">o eat </tspan>
+            <tspan class="cls-18" x="269.36" y="0">av</tspan>
+            <tspan x="278.53" y="0">oca</tspan>
+            <tspan class="cls-18" x="293.25" y="0">d</tspan>
+            <tspan x="298.62" y="0">os</tspan>
+        </text><text class="cls-54" transform="translate(883.28 643.01)">
+            <tspan class="cls-18">4</tspan>
+            <tspan x="4.73" y="0">3. Smoky </tspan>
+            <tspan class="cls-58" x="43.62" y="0">A</tspan>
+            <tspan class="cls-18" x="48.53" y="0">v</tspan>
+            <tspan x="52.77" y="0">oca</tspan>
+            <tspan class="cls-18" x="67.5" y="0">d</tspan>
+            <tspan x="72.86" y="0">o: SUPERFOOD </tspan>
+            <tspan class="cls-69" x="135.41" y="0">S</tspan>
+            <tspan x="140.27" y="0">ALAD</tspan>
+        </text><text class="cls-54" transform="translate(883.28 657.01)">44. <tspan class="cls-58" x="14.14" y="0">A</tspan>
+            <tspan class="cls-18" x="19.05" y="0">v</tspan>
+            <tspan x="23.29" y="0">oca</tspan>
+            <tspan class="cls-18" x="38.02" y="0">d</tspan>
+            <tspan x="43.38" y="0">o Nutrition: SELECTION-</tspan>
+            <tspan class="cls-18" x="140.9" y="0">S</tspan>
+            <tspan class="cls-23" x="145.86" y="0">T</tspan>
+            <tspan x="150.15" y="0">OR</tspan>
+            <tspan class="cls-23" x="162.13" y="0">A</tspan>
+            <tspan x="167.13" y="0">GE</tspan>
+        </text><text class="cls-54" transform="translate(883.28 671.01)">45. In An <tspan class="cls-58" x="38.03" y="0">A</tspan>
+            <tspan class="cls-18" x="42.93" y="0">v</tspan>
+            <tspan x="47.18" y="0">oca</tspan>
+            <tspan class="cls-18" x="61.91" y="0">d</tspan>
+            <tspan x="67.27" y="0">o Rut? </tspan>
+            <tspan class="cls-60" x="96.16" y="0">T</tspan>
+            <tspan class="cls-61" x="99.98" y="0">r</tspan>
+            <tspan x="103.55" y="0">y These </tspan>
+            <tspan class="cls-72" x="137.64" y="0">T</tspan>
+            <tspan x="141.46" y="0">a</tspan>
+            <tspan class="cls-18" x="146.48" y="0">k</tspan>
+            <tspan x="150.9" y="0">es On E</tspan>
+            <tspan class="cls-56" x="182.31" y="0">v</tspan>
+            <tspan x="186.56" y="0">e</tspan>
+            <tspan class="cls-68" x="191.58" y="0">r</tspan>
+            <tspan class="cls-62" x="195.14" y="0">y</tspan>
+            <tspan x="199.31" y="0">one&apos;s </tspan>
+            <tspan class="cls-74" x="224.02" y="0">F</tspan>
+            <tspan class="cls-56" x="228.18" y="0">av</tspan>
+            <tspan x="237.35" y="0">ori</tspan>
+            <tspan class="cls-18" x="248.64" y="0">t</tspan>
+            <tspan x="251.69" y="0">e B</tspan>
+            <tspan class="cls-55" x="264.96" y="0">r</tspan>
+            <tspan x="268.24" y="0">ain </tspan>
+            <tspan class="cls-69" x="283.9" y="0">F</tspan>
+            <tspan x="288.19" y="0">ood</tspan>
+        </text><text class="cls-54" transform="translate(883.28 685.01)">46. Uni<tspan class="cls-18" x="28.27" y="0">v</tspan>
+            <tspan x="32.52" y="0">e</tspan>
+            <tspan class="cls-18" x="37.54" y="0">r</tspan>
+            <tspan x="40.91" y="0">sities a</tspan>
+            <tspan class="cls-18" x="70.46" y="0">r</tspan>
+            <tspan x="73.83" y="0">e of</tspan>
+            <tspan class="cls-56" x="89.81" y="0">f</tspan>
+            <tspan x="92.69" y="0">ering $300 each </tspan>
+            <tspan class="cls-18" x="161.45" y="0">t</tspan>
+            <tspan x="164.5" y="0">o 1,000 peop</tspan>
+            <tspan class="cls-18" x="217.4" y="0">l</tspan>
+            <tspan x="219.95" y="0">e willing </tspan>
+            <tspan class="cls-18" x="257.23" y="0">t</tspan>
+            <tspan x="260.28" y="0">o eat </tspan>
+            <tspan class="cls-18" x="284.12" y="0">av</tspan>
+            <tspan x="293.29" y="0">oca</tspan>
+            <tspan class="cls-56" x="308.01" y="0">d</tspan>
+            <tspan x="313.38" y="0">os </tspan>
+            <tspan class="cls-18" x="325.73" y="0">ev</tspan>
+            <tspan x="334.9" y="0">e</tspan>
+            <tspan class="cls-61" x="339.92" y="0">r</tspan>
+            <tspan x="343.48" y="0">y d</tspan>
+            <tspan class="cls-18" x="355.92" y="0">a</tspan>
+            <tspan x="360.84" y="0">y</tspan>
+        </text><text class="cls-54" transform="translate(883.28 699.01)">
+            <tspan class="cls-23">4</tspan>
+            <tspan class="cls-72" x="4.54" y="0">7</tspan>
+            <tspan x="7.87" y="0">. </tspan>
+            <tspan class="cls-58" x="12.37" y="0">A</tspan>
+            <tspan class="cls-18" x="17.27" y="0">v</tspan>
+            <tspan x="21.52" y="0">oca</tspan>
+            <tspan class="cls-18" x="36.24" y="0">d</tspan>
+            <tspan x="41.61" y="0">o</tspan>
+        </text><text class="cls-54" transform="translate(883.28 713.01)">48. <tspan class="cls-58" x="14.33" y="0">A</tspan>
+            <tspan class="cls-18" x="19.24" y="0">v</tspan>
+            <tspan x="23.48" y="0">oca</tspan>
+            <tspan class="cls-18" x="38.21" y="0">d</tspan>
+            <tspan x="43.57" y="0">os</tspan>
+        </text><text class="cls-54" transform="translate(883.28 727.01)">4<tspan class="cls-55" x="4.82" y="0">9</tspan>
+            <tspan x="9.47" y="0">. The Selling of the </tspan>
+            <tspan class="cls-58" x="89.65" y="0">A</tspan>
+            <tspan class="cls-18" x="94.55" y="0">v</tspan>
+            <tspan x="98.8" y="0">oca</tspan>
+            <tspan class="cls-18" x="113.52" y="0">d</tspan>
+            <tspan x="118.89" y="0">o</tspan>
+        </text><text class="cls-54" transform="translate(883.28 741.01)">50. H<tspan class="cls-18" x="20.44" y="0">o</tspan>
+            <tspan x="25.67" y="0">w </tspan>
+            <tspan class="cls-58" x="34.84" y="0">A</tspan>
+            <tspan class="cls-18" x="39.75" y="0">v</tspan>
+            <tspan x="44" y="0">oca</tspan>
+            <tspan class="cls-18" x="58.72" y="0">d</tspan>
+            <tspan x="64.09" y="0">os and Almonds can Help With </tspan>
+            <tspan class="cls-23" x="195.16" y="0">W</tspan>
+            <tspan x="202.43" y="0">eight Los</tspan>
+        </text><text class="cls-54" transform="translate(294.55 50.43)">
+            <tspan class="cls-20">A</tspan>
+            <tspan x="5.11" y="0">guaca</tspan>
+            <tspan class="cls-18" x="29.63" y="0">t</tspan>
+            <tspan class="cls-27" x="32.67" y="0">e - </tspan>
+            <tspan class="cls-18" x="46.79" y="0">C</tspan>
+            <tspan x="51.83" y="0">onabio </tspan>
+            <tspan class="cls-75" x="83.57" y="0">.</tspan>
+            <tspan x="84.27" y="0">1</tspan>
+        </text><text class="cls-54" transform="translate(94.14 65.43)">Expe<tspan class="cls-61" x="19.39" y="0">r</tspan>
+            <tspan class="cls-18" x="22.95" y="0">t</tspan>
+            <tspan x="25.99" y="0">os asegu</tspan>
+            <tspan class="cls-19" x="62.83" y="0">r</tspan>
+            <tspan x="66.11" y="0">an que el </tspan>
+            <tspan class="cls-18" x="108.13" y="0">c</tspan>
+            <tspan x="112.41" y="0">onsumir aguaca</tspan>
+            <tspan class="cls-18" x="179.17" y="0">t</tspan>
+            <tspan x="182.21" y="0">e es altamen</tspan>
+            <tspan class="cls-17" x="236.25" y="0">t</tspan>
+            <tspan x="239.29" y="0">e adicti</tspan>
+            <tspan class="cls-18" x="269.97" y="0">v</tspan>
+            <tspan x="274.22" y="0">o .2</tspan>
+        </text><text class="cls-54" transform="translate(92.74 79.43)">El aguaca<tspan class="cls-18" x="39.58" y="0">t</tspan>
+            <tspan x="42.62" y="0">e podría </tspan>
+            <tspan class="cls-17" x="80.16" y="0">c</tspan>
+            <tspan x="84.45" y="0">onsi</tspan>
+            <tspan class="cls-18" x="102.11" y="0">d</tspan>
+            <tspan x="107.47" y="0">e</tspan>
+            <tspan class="cls-19" x="112.49" y="0">r</tspan>
+            <tspan x="115.77" y="0">a</tspan>
+            <tspan class="cls-18" x="120.79" y="0">r</tspan>
+            <tspan x="124.16" y="0">se una </tspan>
+            <tspan class="cls-18" x="154.79" y="0">“</tspan>
+            <tspan x="158.07" y="0">d</tspan>
+            <tspan class="cls-17" x="163.53" y="0">r</tspan>
+            <tspan x="166.91" y="0">oga” </tspan>
+            <tspan class="cls-18" x="187.96" y="0">d</tspan>
+            <tspan x="193.33" y="0">e acue</tspan>
+            <tspan class="cls-18" x="220.86" y="0">rd</tspan>
+            <tspan x="229.6" y="0">o a estudios .3</tspan>
+        </text><text class="cls-76" transform="translate(145.45 93.43)">P<tspan class="cls-18" x="5.32" y="0">r</tspan>
+            <tspan x="8.69" y="0">odu</tspan>
+            <tspan class="cls-17" x="24.91" y="0">c</tspan>
+            <tspan x="29.2" y="0">ción </tspan>
+            <tspan class="cls-18" x="49.55" y="0">d</tspan>
+            <tspan x="54.91" y="0">e aguaca</tspan>
+            <tspan class="cls-18" x="92.14" y="0">t</tspan>
+            <tspan x="95.18" y="0">e en </tspan>
+            <tspan class="cls-63" x="116.03" y="0">M</tspan>
+            <tspan class="cls-17" x="123.24" y="0">é</tspan>
+            <tspan x="128.16" y="0">xi</tspan>
+            <tspan class="cls-18" x="134.88" y="0">c</tspan>
+            <tspan x="139.17" y="0">o tiene cif</tspan>
+            <tspan class="cls-19" x="180.83" y="0">r</tspan>
+            <tspan x="184.11" y="0">a his</tspan>
+            <tspan class="cls-18" x="204.13" y="0">t</tspan>
+            <tspan x="207.17" y="0">órica .4</tspan>
+        </text><text class="cls-54" transform="translate(238.02 107.43)">Los di<tspan class="cls-18" x="24.69" y="0">f</tspan>
+            <tspan x="27.56" y="0">e</tspan>
+            <tspan class="cls-17" x="32.58" y="0">r</tspan>
+            <tspan x="35.95" y="0">en</tspan>
+            <tspan class="cls-18" x="46.45" y="0">t</tspan>
+            <tspan x="49.49" y="0">es tipos </tspan>
+            <tspan class="cls-18" x="84.93" y="0">d</tspan>
+            <tspan x="90.29" y="0">e aguaca</tspan>
+            <tspan class="cls-17" x="127.52" y="0">t</tspan>
+            <tspan x="130.56" y="0">e .5</tspan>
+        </text><text class="cls-54" transform="translate(207.76 121.43)">
+            <tspan class="cls-18">C</tspan>
+            <tspan x="5.05" y="0">ómo madu</tspan>
+            <tspan class="cls-19" x="50.27" y="0">r</tspan>
+            <tspan x="53.55" y="0">ar más </tspan>
+            <tspan class="cls-19" x="84.74" y="0">r</tspan>
+            <tspan x="88.02" y="0">ápi</tspan>
+            <tspan class="cls-18" x="100.95" y="0">d</tspan>
+            <tspan x="106.31" y="0">o un aguaca</tspan>
+            <tspan class="cls-18" x="157.42" y="0">t</tspan>
+            <tspan x="160.47" y="0">e .6</tspan>
+        </text><text class="cls-54" transform="translate(280.07 135.43)">
+            <tspan class="cls-20">A</tspan>
+            <tspan x="5.11" y="0">guaca</tspan>
+            <tspan class="cls-17" x="29.63" y="0">t</tspan>
+            <tspan class="cls-77" x="32.67" y="0">e hass por ki</tspan>
+            <tspan class="cls-17" x="86.11" y="0">l</tspan>
+            <tspan x="88.66" y="0">o .7</tspan>
+        </text><text class="cls-54" transform="translate(164.03 149.43)">7 <tspan class="cls-18" x="6.75" y="0">f</tspan>
+            <tspan x="9.62" y="0">ormas </tspan>
+            <tspan class="cls-17" x="38.45" y="0">d</tspan>
+            <tspan x="43.82" y="0">e </tspan>
+            <tspan class="cls-18" x="51.5" y="0">c</tspan>
+            <tspan x="55.79" y="0">omer aguaca</tspan>
+            <tspan class="cls-18" x="109.8" y="0">t</tspan>
+            <tspan x="112.85" y="0">e al</tspan>
+            <tspan class="cls-17" x="128.19" y="0">r</tspan>
+            <tspan x="131.56" y="0">e</tspan>
+            <tspan class="cls-18" x="136.58" y="0">d</tspan>
+            <tspan x="141.95" y="0">e</tspan>
+            <tspan class="cls-18" x="146.97" y="0">d</tspan>
+            <tspan x="152.33" y="0">or </tspan>
+            <tspan class="cls-18" x="163.8" y="0">d</tspan>
+            <tspan class="cls-27" x="169.16" y="0">el mun</tspan>
+            <tspan class="cls-17" x="198.4" y="0">d</tspan>
+            <tspan x="203.76" y="0">o .8</tspan>
+        </text><text class="cls-54" transform="translate(170.31 163.43)">Manejo <tspan class="cls-18" x="33.27" y="0">d</tspan>
+            <tspan x="38.63" y="0">e la F</tspan>
+            <tspan class="cls-17" x="61.13" y="0">l</tspan>
+            <tspan x="63.67" y="0">o</tspan>
+            <tspan class="cls-55" x="69" y="0">r</tspan>
+            <tspan x="72.28" y="0">ación en el Culti</tspan>
+            <tspan class="cls-17" x="140" y="0">v</tspan>
+            <tspan x="144.24" y="0">o </tspan>
+            <tspan class="cls-18" x="152.24" y="0">d</tspan>
+            <tspan x="157.6" y="0">e </tspan>
+            <tspan class="cls-20" x="165.29" y="0">A</tspan>
+            <tspan x="170.4" y="0">guaca</tspan>
+            <tspan class="cls-18" x="194.92" y="0">t</tspan>
+            <tspan x="197.96" y="0">e .9</tspan>
+        </text><text class="cls-54" transform="translate(265.94 177.43)">Noticias sob<tspan class="cls-18" x="51.26" y="0">r</tspan>
+            <tspan x="54.63" y="0">e </tspan>
+            <tspan class="cls-78" x="62.32" y="0">A</tspan>
+            <tspan class="cls-77" x="67.43" y="0">guaca</tspan>
+            <tspan class="cls-18" x="91.95" y="0">t</tspan>
+            <tspan x="94.99" y="0">es </tspan>
+            <tspan class="cls-75" x="107.03" y="0">.</tspan>
+            <tspan x="107.74" y="0">10</tspan>
+        </text><text class="cls-54" transform="translate(131.68 191.43)">
+            <tspan class="cls-18">C</tspan>
+            <tspan x="5.05" y="0">o</tspan>
+            <tspan class="cls-17" x="10.37" y="0">l</tspan>
+            <tspan x="12.92" y="0">ombia da batalla a </tspan>
+            <tspan class="cls-63" x="94.23" y="0">M</tspan>
+            <tspan class="cls-18" x="101.44" y="0">é</tspan>
+            <tspan x="106.36" y="0">xi</tspan>
+            <tspan class="cls-18" x="113.08" y="0">c</tspan>
+            <tspan x="117.37" y="0">o en e</tspan>
+            <tspan class="cls-17" x="143.55" y="0">n</tspan>
+            <tspan x="148.93" y="0">víos </tspan>
+            <tspan class="cls-18" x="168.12" y="0">d</tspan>
+            <tspan x="173.49" y="0">e aguaca</tspan>
+            <tspan class="cls-18" x="210.71" y="0">t</tspan>
+            <tspan x="213.75" y="0">e a EU </tspan>
+            <tspan class="cls-75" x="242.62" y="0">.</tspan>
+            <tspan x="243.32" y="0">11</tspan>
+        </text><text class="cls-54" transform="translate(286.3 206.43)">
+            <tspan class="cls-20">A</tspan>
+            <tspan x="5.11" y="0">guaca</tspan>
+            <tspan class="cls-18" x="29.63" y="0">t</tspan>
+            <tspan class="cls-27" x="32.67" y="0">e | </tspan>
+            <tspan class="cls-55" x="46.86" y="0">S</tspan>
+            <tspan x="51.72" y="0">yn</tspan>
+            <tspan class="cls-79" x="61.51" y="0">g</tspan>
+            <tspan x="66.04" y="0">enta </tspan>
+            <tspan class="cls-75" x="87.36" y="0">.</tspan>
+            <tspan x="88.07" y="0">12</tspan>
+        </text><text class="cls-54" transform="translate(89.07 220.43)">La fascinan<tspan class="cls-18" x="47.26" y="0">t</tspan>
+            <tspan x="50.3" y="0">e his</tspan>
+            <tspan class="cls-17" x="70.32" y="0">t</tspan>
+            <tspan x="73.36" y="0">oria </tspan>
+            <tspan class="cls-18" x="92.34" y="0">d</tspan>
+            <tspan x="97.71" y="0">el aguaca</tspan>
+            <tspan class="cls-18" x="137.57" y="0">t</tspan>
+            <tspan x="140.62" y="0">e, una fruta que </tspan>
+            <tspan class="cls-17" x="209.95" y="0">d</tspan>
+            <tspan x="215.32" y="0">ebió </tspan>
+            <tspan class="cls-18" x="236.25" y="0">e</tspan>
+            <tspan x="241.17" y="0">xtingui</tspan>
+            <tspan class="cls-18" x="269.11" y="0">r</tspan>
+            <tspan x="272.48" y="0">se </tspan>
+            <tspan class="cls-75" x="284.52" y="0">.</tspan>
+            <tspan x="285.22" y="0">13</tspan>
+        </text><text class="cls-54" transform="translate(57.43 234.43)">
+            <tspan class="cls-58">V</tspan>
+            <tspan x="4.73" y="0">an 50 mil </tspan>
+            <tspan class="cls-18" x="46.03" y="0">t</tspan>
+            <tspan x="49.08" y="0">oneladas </tspan>
+            <tspan class="cls-18" x="90.06" y="0">d</tspan>
+            <tspan x="95.43" y="0">e aguaca</tspan>
+            <tspan class="cls-17" x="132.65" y="0">t</tspan>
+            <tspan x="135.69" y="0">e pe</tspan>
+            <tspan class="cls-18" x="153.81" y="0">r</tspan>
+            <tspan x="157.18" y="0">didas por </tspan>
+            <tspan class="cls-18" x="199.51" y="0">c</tspan>
+            <tspan x="203.8" y="0">onflic</tspan>
+            <tspan class="cls-17" x="226.96" y="0">t</tspan>
+            <tspan x="230.01" y="0">o ent</tspan>
+            <tspan class="cls-18" x="251.64" y="0">r</tspan>
+            <tspan x="255.01" y="0">e p</tspan>
+            <tspan class="cls-18" x="268.11" y="0">r</tspan>
+            <tspan x="271.48" y="0">oduc</tspan>
+            <tspan class="cls-18" x="292.08" y="0">t</tspan>
+            <tspan x="295.13" y="0">o</tspan>
+            <tspan class="cls-17" x="300.46" y="0">r</tspan>
+            <tspan x="303.83" y="0">es </tspan>
+            <tspan class="cls-75" x="315.87" y="0">.</tspan>
+            <tspan class="cls-7" x="316.57" y="0">14</tspan>
+        </text><text class="cls-54" transform="translate(293.85 248.43)">
+            <tspan class="cls-20">A</tspan>
+            <tspan x="5.11" y="0">guaca</tspan>
+            <tspan class="cls-18" x="29.63" y="0">t</tspan>
+            <tspan class="cls-27" x="32.67" y="0">e - Ecu</tspan>
+            <tspan class="cls-80" x="61.33" y="0">R</tspan>
+            <tspan class="cls-77" x="66.59" y="0">ed </tspan>
+            <tspan class="cls-81" x="79.73" y="0">.</tspan>
+            <tspan x="80.44" y="0">15</tspan>
+        </text><text class="cls-54" transform="translate(76.15 262.43)">
+            <tspan class="cls-18">C</tspan>
+            <tspan x="5.05" y="0">ómo gua</tspan>
+            <tspan class="cls-17" x="41.49" y="0">r</tspan>
+            <tspan x="44.86" y="0">dar </tspan>
+            <tspan class="cls-18" x="61.47" y="0">l</tspan>
+            <tspan x="64.02" y="0">os aguaca</tspan>
+            <tspan class="cls-18" x="105.9" y="0">t</tspan>
+            <tspan x="108.95" y="0">es y man</tspan>
+            <tspan class="cls-17" x="146.46" y="0">t</tspan>
+            <tspan x="149.5" y="0">ener</tspan>
+            <tspan class="cls-18" x="168.49" y="0">l</tspan>
+            <tspan x="171.03" y="0">os f</tspan>
+            <tspan class="cls-18" x="186.35" y="0">r</tspan>
+            <tspan x="189.72" y="0">es</tspan>
+            <tspan class="cls-18" x="199.09" y="0">c</tspan>
+            <tspan x="203.38" y="0">os - Sabo</tspan>
+            <tspan class="cls-17" x="242.96" y="0">r</tspan>
+            <tspan x="246.33" y="0">ea Uno H</tspan>
+            <tspan class="cls-18" x="284.86" y="0">o</tspan>
+            <tspan x="290.1" y="0">y </tspan>
+            <tspan class="cls-75" x="297.08" y="0">.</tspan>
+            <tspan x="297.79" y="0">16</tspan>
+        </text><text class="cls-54" transform="translate(150.76 276.43)">
+            <tspan class="cls-18">C</tspan>
+            <tspan x="5.05" y="0">ómo saber cuan</tspan>
+            <tspan class="cls-17" x="72.61" y="0">d</tspan>
+            <tspan x="77.97" y="0">o un aguaca</tspan>
+            <tspan class="cls-18" x="129.08" y="0">t</tspan>
+            <tspan x="132.13" y="0">e f</tspan>
+            <tspan class="cls-18" x="142.78" y="0">r</tspan>
+            <tspan x="146.16" y="0">es</tspan>
+            <tspan class="cls-17" x="155.53" y="0">c</tspan>
+            <tspan x="159.81" y="0">o está madu</tspan>
+            <tspan class="cls-18" x="211.91" y="0">r</tspan>
+            <tspan x="215.28" y="0">o </tspan>
+            <tspan class="cls-75" x="223.28" y="0">.</tspan>
+            <tspan x="223.98" y="0">17</tspan>
+        </text><text class="cls-54" transform="translate(271.55 290.43)">Beneficios <tspan class="cls-18" x="45.59" y="0">d</tspan>
+            <tspan x="50.96" y="0">el aguaca</tspan>
+            <tspan class="cls-17" x="90.82" y="0">t</tspan>
+            <tspan x="93.87" y="0">e </tspan>
+            <tspan class="cls-75" x="101.55" y="0">.</tspan>
+            <tspan x="102.26" y="0">18</tspan>
+        </text><text class="cls-54" transform="translate(131.29 304.43)">Bo<tspan class="cls-18" x="10.91" y="0">l</tspan>
+            <tspan x="13.46" y="0">etín mensual </tspan>
+            <tspan class="cls-17" x="70.86" y="0">d</tspan>
+            <tspan x="76.23" y="0">e </tspan>
+            <tspan class="cls-18" x="83.91" y="0">a</tspan>
+            <tspan x="88.84" y="0">van</tspan>
+            <tspan class="cls-18" x="103.68" y="0">c</tspan>
+            <tspan x="107.96" y="0">e </tspan>
+            <tspan class="cls-17" x="115.65" y="0">d</tspan>
+            <tspan x="121.01" y="0">e la p</tspan>
+            <tspan class="cls-18" x="144.44" y="0">r</tspan>
+            <tspan x="147.81" y="0">odu</tspan>
+            <tspan class="cls-18" x="164.03" y="0">c</tspan>
+            <tspan x="168.32" y="0">ción </tspan>
+            <tspan class="cls-18" x="188.67" y="0">d</tspan>
+            <tspan class="cls-27" x="194.04" y="0">e aguaca</tspan>
+            <tspan class="cls-18" x="231.26" y="0">t</tspan>
+            <tspan x="234.3" y="0">e </tspan>
+            <tspan class="cls-75" x="241.99" y="0">.</tspan>
+            <tspan x="242.69" y="0">19</tspan>
+        </text><text class="cls-54" transform="translate(168.76 318.43)">
+            <tspan class="cls-20">A</tspan>
+            <tspan x="5.11" y="0">guaca</tspan>
+            <tspan class="cls-17" x="29.63" y="0">t</tspan>
+            <tspan class="cls-77" x="32.67" y="0">e: p</tspan>
+            <tspan class="cls-18" x="47.6" y="0">r</tspan>
+            <tspan x="50.98" y="0">opieda</tspan>
+            <tspan class="cls-18" x="79.71" y="0">d</tspan>
+            <tspan x="85.08" y="0">es medicina</tspan>
+            <tspan class="cls-18" x="135.47" y="0">l</tspan>
+            <tspan x="138.01" y="0">es y beneficios .20</tspan>
+        </text><text class="cls-54" transform="translate(225.38 332.43)">
+            <tspan class="cls-20">A</tspan>
+            <tspan x="5.11" y="0">guaca</tspan>
+            <tspan class="cls-18" x="29.63" y="0">t</tspan>
+            <tspan class="cls-27" x="32.67" y="0">e, </tspan>
+            <tspan class="cls-18" x="42.19" y="0">c</tspan>
+            <tspan x="46.48" y="0">os</tspan>
+            <tspan class="cls-18" x="56.16" y="0">t</tspan>
+            <tspan x="59.2" y="0">oso disast</tspan>
+            <tspan class="cls-18" x="101.69" y="0">r</tspan>
+            <tspan x="105.07" y="0">e </tspan>
+            <tspan class="cls-17" x="112.75" y="0">f</tspan>
+            <tspan x="115.63" y="0">o</tspan>
+            <tspan class="cls-18" x="120.96" y="0">r</tspan>
+            <tspan x="124.33" y="0">estal .</tspan>
+            <tspan class="cls-82" x="149" y="0">21</tspan>
+        </text><text class="cls-54" transform="translate(276.63 346.43)">
+            <tspan class="cls-20">A</tspan>
+            <tspan x="5.11" y="0">guaca</tspan>
+            <tspan class="cls-17" x="29.63" y="0">t</tspan>
+            <tspan class="cls-77" x="32.67" y="0">e p</tspan>
+            <tspan class="cls-17" x="45.77" y="0">r</tspan>
+            <tspan x="49.15" y="0">opieda</tspan>
+            <tspan class="cls-18" x="77.88" y="0">d</tspan>
+            <tspan x="83.25" y="0">es .22</tspan>
+        </text><text class="cls-54" transform="translate(293.86 361.43)">
+            <tspan class="cls-20">A</tspan>
+            <tspan x="5.11" y="0">guaca</tspan>
+            <tspan class="cls-18" x="29.63" y="0">t</tspan>
+            <tspan class="cls-27" x="32.67" y="0">e A</tspan>
+            <tspan class="cls-17" x="45.64" y="0">r</tspan>
+            <tspan x="49.01" y="0">chi</tspan>
+            <tspan class="cls-18" x="61.37" y="0">v</tspan>
+            <tspan x="65.62" y="0">os .23</tspan>
+        </text><text class="cls-54" transform="translate(123.85 375.43)">
+            <tspan class="cls-80">R</tspan>
+            <tspan x="5.25" y="0">e</tspan>
+            <tspan class="cls-18" x="10.27" y="0">c</tspan>
+            <tspan x="14.56" y="0">etas: </tspan>
+            <tspan class="cls-17" x="36.58" y="0">A</tspan>
+            <tspan x="41.77" y="0">t</tspan>
+            <tspan class="cls-18" x="44.91" y="0">rév</tspan>
+            <tspan x="57.45" y="0">e</tspan>
+            <tspan class="cls-18" x="62.47" y="0">t</tspan>
+            <tspan x="65.52" y="0">e a p</tspan>
+            <tspan class="cls-18" x="86.3" y="0">r</tspan>
+            <tspan x="89.68" y="0">epa</tspan>
+            <tspan class="cls-19" x="105.12" y="0">r</tspan>
+            <tspan x="108.4" y="0">ar es</tspan>
+            <tspan class="cls-18" x="128.93" y="0">t</tspan>
+            <tspan x="131.97" y="0">e </tspan>
+            <tspan class="cls-18" x="139.66" y="0">‘</tspan>
+            <tspan x="141.58" y="0">cheeseca</tspan>
+            <tspan class="cls-17" x="180.24" y="0">k</tspan>
+            <tspan x="184.66" y="0">e’ </tspan>
+            <tspan class="cls-18" x="194.37" y="0">d</tspan>
+            <tspan x="199.73" y="0">e aguaca</tspan>
+            <tspan class="cls-18" x="236.95" y="0">t</tspan>
+            <tspan x="240" y="0">e .24</tspan>
+        </text><text class="cls-54" transform="translate(194.53 389.43)">En <tspan class="cls-63" x="12.88" y="0">M</tspan>
+            <tspan class="cls-18" x="20.09" y="0">é</tspan>
+            <tspan x="25.01" y="0">xi</tspan>
+            <tspan class="cls-17" x="31.73" y="0">co</tspan>
+            <tspan x="41.25" y="0">, el aguaca</tspan>
+            <tspan class="cls-18" x="85.62" y="0">t</tspan>
+            <tspan x="88.66" y="0">e sigue sien</tspan>
+            <tspan class="cls-17" x="138.33" y="0">d</tspan>
+            <tspan x="143.7" y="0">o el </tspan>
+            <tspan class="cls-18" x="162.02" y="0">re</tspan>
+            <tspan x="170.32" y="0">y .25</tspan>
+        </text><text class="cls-54" transform="translate(196.02 403.43)">Los Beneficios De La Semilla De <tspan class="cls-20" x="135.09" y="0">A</tspan>
+            <tspan x="140.2" y="0">guaca</tspan>
+            <tspan class="cls-18" x="164.72" y="0">t</tspan>
+            <tspan class="cls-27" x="167.76" y="0">e .26</tspan>
+        </text><text class="cls-54" transform="translate(223.64 417.43)">
+            <tspan class="cls-19">F</tspan>
+            <tspan x="4.29" y="0">estival </tspan>
+            <tspan class="cls-18" x="33.97" y="0">d</tspan>
+            <tspan x="39.34" y="0">el aguaca</tspan>
+            <tspan class="cls-18" x="79.2" y="0">t</tspan>
+            <tspan x="82.24" y="0">e en cali</tspan>
+            <tspan class="cls-17" x="117.63" y="0">f</tspan>
+            <tspan x="120.51" y="0">ornia .</tspan>
+            <tspan class="cls-18" x="146.8" y="0">2</tspan>
+            <tspan class="cls-83" x="151.15" y="0">7</tspan>
+            <tspan class="cls-81" x="154.48" y="0">.</tspan>
+            <tspan class="cls-77" x="155.18" y="0">1</tspan>
+        </text><text class="cls-54" transform="translate(330.99 431.43)">
+            <tspan class="cls-20">A</tspan>
+            <tspan x="5.11" y="0">guaca</tspan>
+            <tspan class="cls-17" x="29.63" y="0">t</tspan>
+            <tspan class="cls-77" x="32.67" y="0">e .28</tspan>
+        </text><text class="cls-54" transform="translate(331.16 445.43)">
+            <tspan class="cls-20">A</tspan>
+            <tspan x="5.11" y="0">guaca</tspan>
+            <tspan class="cls-17" x="29.63" y="0">t</tspan>
+            <tspan class="cls-77" x="32.67" y="0">e .29</tspan>
+        </text><text class="cls-54" transform="translate(113.98 459.43)">¿Cuán<tspan class="cls-18" x="25.23" y="0">t</tspan>
+            <tspan x="28.28" y="0">o aguaca</tspan>
+            <tspan class="cls-17" x="65.81" y="0">t</tspan>
+            <tspan x="68.85" y="0">e pue</tspan>
+            <tspan class="cls-18" x="92.4" y="0">d</tspan>
+            <tspan x="97.77" y="0">es </tspan>
+            <tspan class="cls-18" x="109.8" y="0">c</tspan>
+            <tspan x="114.09" y="0">omer al día y seguir sien</tspan>
+            <tspan class="cls-17" x="216.97" y="0">d</tspan>
+            <tspan x="222.34" y="0">o san</tspan>
+            <tspan class="cls-55" x="245.18" y="0">o</tspan>
+            <tspan x="250.32" y="0">? .30</tspan>
+        </text><text class="cls-54" transform="translate(243.42 473.43)">Los 12 beneficios <tspan class="cls-18" x="73.08" y="0">d</tspan>
+            <tspan x="78.44" y="0">el aguaca</tspan>
+            <tspan class="cls-17" x="118.31" y="0">t</tspan>
+            <tspan x="121.35" y="0">e .31</tspan>
+        </text><text class="cls-54" transform="translate(274.6 487.43)">Nutrición <tspan class="cls-18" x="41.18" y="0">d</tspan>
+            <tspan x="46.54" y="0">el </tspan>
+            <tspan class="cls-78" x="56.87" y="0">A</tspan>
+            <tspan class="cls-77" x="61.98" y="0">guaca</tspan>
+            <tspan class="cls-18" x="86.5" y="0">t</tspan>
+            <tspan x="89.54" y="0">e .32</tspan>
+        </text><text class="cls-54" transform="translate(71.95 502.43)">Los beneficios <tspan class="cls-18" x="62.15" y="0">d</tspan>
+            <tspan x="67.52" y="0">el aguaca</tspan>
+            <tspan class="cls-17" x="107.38" y="0">t</tspan>
+            <tspan x="110.42" y="0">e: la «g</tspan>
+            <tspan class="cls-55" x="140.09" y="0">r</tspan>
+            <tspan x="143.37" y="0">asa» que a</tspan>
+            <tspan class="cls-17" x="189.04" y="0">d</tspan>
+            <tspan x="194.4" y="0">elgaza y quita el hamb</tspan>
+            <tspan class="cls-18" x="288.74" y="0">r</tspan>
+            <tspan x="292.11" y="0">e .33</tspan>
+        </text><text class="cls-54" transform="translate(123.19 516.43)">
+            <tspan class="cls-83">T</tspan>
+            <tspan class="cls-19" x="3.82" y="0">r</tspan>
+            <tspan x="7.1" y="0">adu</tspan>
+            <tspan class="cls-18" x="23.01" y="0">c</tspan>
+            <tspan x="27.3" y="0">ción aguaca</tspan>
+            <tspan class="cls-17" x="77.19" y="0">t</tspan>
+            <tspan x="80.23" y="0">e a</tspan>
+            <tspan class="cls-18" x="92.94" y="0">l</tspan>
+            <tspan x="95.48" y="0">emán | Di</tspan>
+            <tspan class="cls-18" x="136.56" y="0">c</tspan>
+            <tspan x="140.85" y="0">cionario español-a</tspan>
+            <tspan class="cls-17" x="219.54" y="0">l</tspan>
+            <tspan x="222.09" y="0">emán .34 </tspan>
+        </text><text class="cls-54" transform="translate(190.03 530.43)">
+            <tspan class="cls-20">A</tspan>
+            <tspan x="5.11" y="0">guaca</tspan>
+            <tspan class="cls-18" x="29.63" y="0">t</tspan>
+            <tspan class="cls-27" x="32.67" y="0">e | </tspan>
+            <tspan class="cls-55" x="46.86" y="0">F</tspan>
+            <tspan x="51.16" y="0">o</tspan>
+            <tspan class="cls-18" x="56.49" y="0">t</tspan>
+            <tspan x="59.53" y="0">os y </tspan>
+            <tspan class="cls-23" x="78.86" y="0">V</tspan>
+            <tspan x="83.68" y="0">ec</tspan>
+            <tspan class="cls-18" x="93.08" y="0">t</tspan>
+            <tspan x="96.12" y="0">o</tspan>
+            <tspan class="cls-18" x="101.45" y="0">r</tspan>
+            <tspan x="104.82" y="0">es g</tspan>
+            <tspan class="cls-19" x="121.53" y="0">r</tspan>
+            <tspan x="124.81" y="0">atis - </tspan>
+            <tspan class="cls-19" x="148.91" y="0">F</tspan>
+            <tspan class="cls-18" x="153.21" y="0">r</tspan>
+            <tspan x="156.58" y="0">eepik .35</tspan>
+        </text><text class="cls-54" transform="translate(243.55 544.43)">Industrialización <tspan class="cls-18" x="71.88" y="0">d</tspan>
+            <tspan x="77.24" y="0">el aguaca</tspan>
+            <tspan class="cls-17" x="117.1" y="0">t</tspan>
+            <tspan x="120.15" y="0">e .36</tspan>
+        </text><text class="cls-54" transform="translate(166.72 558.43)">El aguaca<tspan class="cls-18" x="39.58" y="0">t</tspan>
+            <tspan x="42.62" y="0">e, un fru</tspan>
+            <tspan class="cls-17" x="77.59" y="0">t</tspan>
+            <tspan x="80.63" y="0">o m</tspan>
+            <tspan class="cls-18" x="96.63" y="0">e</tspan>
+            <tspan x="101.55" y="0">xicano ri</tspan>
+            <tspan class="cls-18" x="137.11" y="0">c</tspan>
+            <tspan x="141.39" y="0">o en vitaminas .</tspan>
+            <tspan class="cls-17" x="207.4" y="0">3</tspan>
+            <tspan x="211.83" y="0">7</tspan>
+        </text><text class="cls-54" transform="translate(58.36 572.43)">La <tspan class="cls-18" x="12.07" y="0">e</tspan>
+            <tspan x="16.99" y="0">xpo</tspan>
+            <tspan class="cls-61" x="31.95" y="0">r</tspan>
+            <tspan x="35.51" y="0">tación </tspan>
+            <tspan class="cls-18" x="64.02" y="0">d</tspan>
+            <tspan x="69.39" y="0">e aguaca</tspan>
+            <tspan class="cls-17" x="106.61" y="0">t</tspan>
+            <tspan x="109.65" y="0">e </tspan>
+            <tspan class="cls-66" x="117.34" y="0">g</tspan>
+            <tspan x="121.87" y="0">ene</tspan>
+            <tspan class="cls-19" x="137.38" y="0">r</tspan>
+            <tspan x="140.66" y="0">a 2 mil 500 mil</tspan>
+            <tspan class="cls-18" x="201.88" y="0">l</tspan>
+            <tspan x="204.43" y="0">ones </tspan>
+            <tspan class="cls-17" x="227.27" y="0">d</tspan>
+            <tspan x="232.64" y="0">e </tspan>
+            <tspan class="cls-18" x="240.32" y="0">d</tspan>
+            <tspan x="245.69" y="0">óla</tspan>
+            <tspan class="cls-18" x="258.68" y="0">r</tspan>
+            <tspan x="262.05" y="0">es a </tspan>
+            <tspan class="cls-63" x="281.77" y="0">M</tspan>
+            <tspan class="cls-18" x="288.98" y="0">é</tspan>
+            <tspan class="cls-27" x="293.91" y="0">xi</tspan>
+            <tspan class="cls-17" x="300.63" y="0">c</tspan>
+            <tspan x="304.91" y="0">o .38</tspan>
+        </text><text class="cls-54" transform="translate(244.08 586.43)">
+            <tspan class="cls-20">A</tspan>
+            <tspan x="5.11" y="0">guaca</tspan>
+            <tspan class="cls-18" x="29.63" y="0">t</tspan>
+            <tspan class="cls-27" x="32.67" y="0">e - English t</tspan>
+            <tspan class="cls-55" x="82.45" y="0">r</tspan>
+            <tspan x="85.73" y="0">anslation .39</tspan>
+        </text><text class="cls-54" transform="translate(292.25 600.43)">
+            <tspan class="cls-20">A</tspan>
+            <tspan x="5.11" y="0">guaca</tspan>
+            <tspan class="cls-17" x="29.63" y="0">t</tspan>
+            <tspan class="cls-77" x="32.67" y="0">e - E</tspan>
+            <tspan class="cls-55" x="51.52" y="0">x</tspan>
+            <tspan x="55.55" y="0">otica .40</tspan>
+        </text><text class="cls-54" transform="translate(14.51 614.43)">Ex<tspan class="cls-18" x="8.96" y="0">t</tspan>
+            <tspan x="12" y="0">o</tspan>
+            <tspan class="cls-17" x="17.33" y="0">r</tspan>
+            <tspan x="20.7" y="0">sión </tspan>
+            <tspan class="cls-18" x="41.03" y="0">d</tspan>
+            <tspan x="46.39" y="0">el crimen en Michoacán p</tspan>
+            <tspan class="cls-18" x="154.31" y="0">r</tspan>
+            <tspan class="cls-19" x="157.68" y="0">o</tspan>
+            <tspan class="cls-18" x="162.82" y="0">v</tspan>
+            <tspan x="167.07" y="0">o</tspan>
+            <tspan class="cls-17" x="172.4" y="0">c</tspan>
+            <tspan x="176.68" y="0">ó aumen</tspan>
+            <tspan class="cls-18" x="213.62" y="0">t</tspan>
+            <tspan x="216.66" y="0">o </tspan>
+            <tspan class="cls-18" x="224.66" y="0">d</tspan>
+            <tspan x="230.03" y="0">e p</tspan>
+            <tspan class="cls-18" x="243.13" y="0">r</tspan>
+            <tspan x="246.5" y="0">ecios </tspan>
+            <tspan class="cls-17" x="270.74" y="0">d</tspan>
+            <tspan x="276.11" y="0">e limón y aguaca</tspan>
+            <tspan class="cls-18" x="346.92" y="0">t</tspan>
+            <tspan x="349.97" y="0">e .</tspan>
+            <tspan class="cls-82" x="359.49" y="0">41</tspan>
+        </text><text class="cls-54" transform="translate(181.31 628.43)">Manejo <tspan class="cls-18" x="33.27" y="0">d</tspan>
+            <tspan x="38.63" y="0">el potasio en el aguaca</tspan>
+            <tspan class="cls-17" x="135.73" y="0">t</tspan>
+            <tspan x="138.77" y="0">e - In</tspan>
+            <tspan class="cls-18" x="160.97" y="0">f</tspan>
+            <tspan x="163.84" y="0">oag</tspan>
+            <tspan class="cls-18" x="178.86" y="0">r</tspan>
+            <tspan x="182.23" y="0">o .42</tspan>
+        </text><text class="cls-54" transform="translate(209.35 642.43)">¿El aguaca<tspan class="cls-18" x="43.74" y="0">t</tspan>
+            <tspan x="46.79" y="0">e en</tspan>
+            <tspan class="cls-79" x="64.97" y="0">g</tspan>
+            <tspan x="69.5" y="0">o</tspan>
+            <tspan class="cls-18" x="74.83" y="0">r</tspan>
+            <tspan x="78.2" y="0">da? mi</tspan>
+            <tspan class="cls-17" x="106.01" y="0">t</tspan>
+            <tspan x="109.05" y="0">o o </tspan>
+            <tspan class="cls-18" x="125.04" y="0">r</tspan>
+            <tspan x="128.42" y="0">ealidad .</tspan>
+            <tspan class="cls-18" x="164.03" y="0">4</tspan>
+            <tspan x="168.76" y="0">3</tspan>
+        </text><text class="cls-54" transform="translate(229.13 656.43)">Los aguaca<tspan class="cls-18" x="46.26" y="0">t</tspan>
+            <tspan x="49.31" y="0">es y la salud ca</tspan>
+            <tspan class="cls-17" x="113.62" y="0">r</tspan>
+            <tspan x="116.99" y="0">diaca .44 </tspan>
+        </text><text class="cls-54" transform="translate(182.13 670.43)">
+            <tspan class="cls-20">A</tspan>
+            <tspan x="5.11" y="0">guaca</tspan>
+            <tspan class="cls-17" x="29.63" y="0">t</tspan>
+            <tspan class="cls-77" x="32.67" y="0">e- His</tspan>
+            <tspan class="cls-17" x="57.24" y="0">t</tspan>
+            <tspan x="60.28" y="0">oria - </tspan>
+            <tspan class="cls-80" x="85.69" y="0">R</tspan>
+            <tspan x="90.94" y="0">egión </tspan>
+            <tspan class="cls-18" x="116.61" y="0">d</tspan>
+            <tspan x="121.97" y="0">e Mu</tspan>
+            <tspan class="cls-18" x="142.34" y="0">r</tspan>
+            <tspan x="145.72" y="0">cia Digital .45</tspan>
+        </text><text class="cls-54" transform="translate(183.61 684.43)">Boca<tspan class="cls-18" x="20.31" y="0">d</tspan>
+            <tspan x="25.67" y="0">os </tspan>
+            <tspan class="cls-17" x="38.02" y="0">d</tspan>
+            <tspan x="43.38" y="0">e aguaca</tspan>
+            <tspan class="cls-18" x="80.61" y="0">t</tspan>
+            <tspan x="83.65" y="0">e empaniza</tspan>
+            <tspan class="cls-18" x="131.7" y="0">d</tspan>
+            <tspan x="137.06" y="0">os al horno .46</tspan>
+        </text><text class="cls-54" transform="translate(240.19 698.43)">
+            <tspan class="cls-20">A</tspan>
+            <tspan x="5.11" y="0">guaca</tspan>
+            <tspan class="cls-18" x="29.63" y="0">t</tspan>
+            <tspan class="cls-27" x="32.67" y="0">e - </tspan>
+            <tspan class="cls-83" x="46.79" y="0">T</tspan>
+            <tspan class="cls-55" x="50.61" y="0">r</tspan>
+            <tspan x="53.89" y="0">adu</tspan>
+            <tspan class="cls-17" x="69.8" y="0">c</tspan>
+            <tspan x="74.08" y="0">ción al ing</tspan>
+            <tspan class="cls-18" x="117.41" y="0">l</tspan>
+            <tspan x="119.96" y="0">és .</tspan>
+            <tspan class="cls-26" x="133.83" y="0">4</tspan>
+            <tspan x="138.37" y="0">7</tspan>
+        </text><text class="cls-54" transform="translate(198.79 712.43)">12 beneficios <tspan class="cls-18" x="56.35" y="0">c</tspan>
+            <tspan x="60.64" y="0">omp</tspan>
+            <tspan class="cls-17" x="79.38" y="0">r</tspan>
+            <tspan x="82.75" y="0">oba</tspan>
+            <tspan class="cls-18" x="98.51" y="0">d</tspan>
+            <tspan x="103.87" y="0">os </tspan>
+            <tspan class="cls-18" x="116.22" y="0">d</tspan>
+            <tspan x="121.59" y="0">el aguaca</tspan>
+            <tspan class="cls-17" x="161.45" y="0">t</tspan>
+            <tspan x="164.49" y="0">e .48</tspan>
+        </text><text class="cls-54" transform="translate(159.38 726.43)">7 <tspan class="cls-18" x="6.75" y="0">f</tspan>
+            <tspan x="9.62" y="0">ormas </tspan>
+            <tspan class="cls-17" x="38.45" y="0">d</tspan>
+            <tspan x="43.82" y="0">e </tspan>
+            <tspan class="cls-18" x="51.5" y="0">c</tspan>
+            <tspan x="55.79" y="0">omer aguaca</tspan>
+            <tspan class="cls-18" x="109.8" y="0">t</tspan>
+            <tspan x="112.85" y="0">e al</tspan>
+            <tspan class="cls-17" x="128.19" y="0">r</tspan>
+            <tspan x="131.56" y="0">e</tspan>
+            <tspan class="cls-18" x="136.58" y="0">d</tspan>
+            <tspan x="141.95" y="0">e</tspan>
+            <tspan class="cls-18" x="146.97" y="0">d</tspan>
+            <tspan x="152.33" y="0">or </tspan>
+            <tspan class="cls-18" x="163.8" y="0">d</tspan>
+            <tspan class="cls-27" x="169.16" y="0">el mun</tspan>
+            <tspan class="cls-17" x="198.4" y="0">d</tspan>
+            <tspan x="203.76" y="0">o .49</tspan>
+        </text><text class="cls-54" transform="translate(232.68 740.43)">INIAP <tspan class="cls-18" x="24.76" y="0">e</tspan>
+            <tspan x="29.69" y="0">valúa culti</tspan>
+            <tspan class="cls-17" x="72.89" y="0">v</tspan>
+            <tspan x="77.14" y="0">o </tspan>
+            <tspan class="cls-18" x="85.14" y="0">d</tspan>
+            <tspan x="90.5" y="0">e aguaca</tspan>
+            <tspan class="cls-18" x="127.72" y="0">t</tspan>
+            <tspan x="130.77" y="0">e .50</tspan>
+        </text></g>
+</svg>

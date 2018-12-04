@@ -1,0 +1,122 @@
+/* datatrade-graph */
+
+.datatrade {
+    width: 98%;
+    margin: 0 auto;
+    padding-bottom:4%;   
+}
+
+@media (max-width: 800px) {
+.datatrade {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom:4%;
+}
+  }
+
+.datatrade0 {
+    fill: none;
+}
+
+.datatrade1 {
+    fill: #042E3A;
+}
+
+.datatrade2 {
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.datatrade3 {
+    font-size: 36px;
+}
+
+.datatrade4 {
+    fill: #F65959;
+}
+
+.datatrade5 {
+    font-size: 18px;
+}
+
+.datatrade6 {
+    font-size: 12px;
+}
+
+.datatrade7 {
+    font-size: 10px;
+}
+
+.datatrade8 {
+    fill: none;
+    stroke: #F65959;
+    stroke-width: 0.75;
+    stroke-miterlimit: 10;
+}
+
+.datatrade9 {
+    fill: #F65959;
+    stroke: #F65959;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+}
+
+.datatrade10 {
+    fill: none;
+    stroke: #F65959;
+    stroke-miterlimit: 10;
+}
+
+.datatrade11 {
+    clip-path: url(#datatrade_2_);
+}
+
+.datatrade12 {
+    fill: #F8F7EC;
+    stroke: #F65959;
+    stroke-miterlimit: 10;
+}
+
+.datatrade13 {
+    clip-path: url(#datatrade_4_);
+    fill: none;
+}
+
+.datatrade14 {
+    clip-path: url(#datatrade_6_);
+}
+
+.datatrade15 {
+    clip-path: url(#datatrade_8_);
+}
+
+.datatrade16 {
+    clip-path: url(#datatrade_10_);
+}
+
+.datatrade17 {
+    clip-path: url(#datatrade_12_);
+}
+
+.datatrade18 {
+    clip-path: url(#datatrade_14_);
+}
+
+.datatrade19 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+
+.datatrade20 {
+    clip-path: url(#datatrade_16_);
+}
+
+#gapwilling {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#gapwilling:hover {
+    opacity: 1;
+    transition: 0.5s;
+}

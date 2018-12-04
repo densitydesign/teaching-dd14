@@ -1,0 +1,22 @@
+collections:
+  phases:
+    output: true
+    permalink: /:name
+
+defaults:
+  - scope:
+      path: ""
+      type: "phases"
+    values:
+      layout: "phase"
+      is_phase: true
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      is_phase: false
+
+sass:
+    style: compressed
+
+exclude: ["es02_sources"]

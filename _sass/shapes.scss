@@ -1,0 +1,110 @@
+#phase01 path:nth-child(1) {
+    fill: #e8cd49;
+}
+
+#phase01 path:nth-child(2) {
+    fill: #eace5c;
+}
+
+#phase01 path:nth-child(3) {
+    fill: #ead373;
+}
+
+#phase01 path:nth-child(4) {
+    fill: #edda8c;
+}
+
+#phase01 path:nth-child(5) {
+    fill: #efe1a8;
+}
+
+#phase01 path:nth-child(2) {
+    -webkit-transform: translate(-1px, -2px);
+            transform: translate(-1px, -2px);
+}
+
+#phase01 path:nth-child(3) {
+    -webkit-transform: translate(-2px, -3px);
+            transform: translate(-2px, -3px);
+}
+
+#phase01 path:nth-child(4) {
+    -webkit-transform: translate(-2px, -4px);
+            transform: translate(-2px, -4px);
+}
+
+#phase01 path:nth-child(5) {
+    -webkit-transform: translate(-3px, -6px);
+            transform: translate(-3px, -6px);
+}
+
+#phase02 path:nth-child(1) {
+    fill: #36429f;
+}
+
+#phase02 path:nth-child(2) {
+    fill: #2e3f87;
+}
+
+#phase02 path:nth-child(3) {
+    fill: #283a75;
+}
+
+#phase02 path:nth-child(4) {
+    fill: #24366d;
+}
+
+#phase02 path:nth-child(5) {
+    fill: #1f305b;
+}
+
+#phase02 path:nth-child(2) {
+    -webkit-transform: translate(3px, 0);
+            transform: translate(3px, 0);
+}
+
+#phase02 path:nth-child(3) {
+    -webkit-transform: translate(4px, -1px);
+            transform: translate(4px, -1px);
+}
+
+#phase02 path:nth-child(4) {
+    -webkit-transform: translate(5px, -3px);
+            transform: translate(5px, -3px);
+}
+
+#phase02 path:nth-child(5) {
+    -webkit-transform: translate(4px, -3px);
+            transform: translate(4px, -3px);
+}
+
+#phase03 path:nth-child(1) {
+    fill: #27933b;
+}
+
+#phase03 path:nth-child(2) {
+    fill: #38a548;
+}
+
+#phase03 path:nth-child(3) {
+    fill: #56ba62;
+}
+
+#phase03 path:nth-child(4) {
+    fill: #77c97f;
+}
+
+#phase03 path:nth-child(2) {
+    -webkit-transform: translate(-2px, 1px);
+            transform: translate(-2px, 1px);
+}
+
+#phase03 path:nth-child(3) {
+    -webkit-transform: translate(-3px, 2px);
+            transform: translate(-3px, 2px);
+}
+
+#phase03 path:nth-child(4) {
+    -webkit-transform: translate(-4px, 2px);
+            transform: translate(-4px, 2px);
+}

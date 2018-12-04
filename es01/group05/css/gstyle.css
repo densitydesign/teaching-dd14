@@ -1,0 +1,183 @@
+      .cls-1, .cls-10, .cls-11, .cls-6, .cls-9 {
+        fill: #c6c6c6;
+      }
+
+      .cls-1, .cls-10, .cls-12, .cls-13, .cls-19, .cls-2, .cls-20, .cls-23, .cls-24, .cls-25, .cls-26, .cls-29, .cls-3, .cls-5, .cls-6, .cls-8, .cls-9 {
+        isolation: isolate;
+      }
+
+      .cls-2, .cls-20, .cls-29 {
+        fill: #ff7644;
+      }
+
+      .cls-3 {
+        font-size: 15.65px;
+      }
+
+      .cls-13, .cls-3 {
+        fill: #fff;
+        font-family: FiraSans-Medium, Fira Sans;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.01em;
+      }
+
+	
+      .cls-11, .cls-13, .cls-15, .cls-16, .cls-26, .cls-5, .cls-6, .cls-8 {
+        font-size: 15px;
+      }
+
+      .cls-10, .cls-11, .cls-16, .cls-19, .cls-20, .cls-24, .cls-26, .cls-5, .cls-6 {
+        font-family: FrankRuhlLibre-Regular, Frank Ruhl Libre;
+      }
+
+      .cls-7 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-23, .cls-8 {
+        fill: #ff1bad;
+        font-family: SolferinoText-Regular, SolferinoText Regular;
+      }
+
+      .cls-10, .cls-9 {
+        font-size: 30px;
+      }
+
+      .cls-9 {
+        font-family: SolferinoDisplay-Bold, SolferinoDisplay Bold;
+        font-weight: 700;
+      }
+
+      .cls-12, .cls-27, .cls-28, .cls-31, .cls-32, .cls-33, .cls-34, .cls-35, .cls-36, .cls-37 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-12 {
+        stroke: #c6c6c6;
+        stroke-width: 2px;
+      }
+
+      .cls-14 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-16 {
+        fill: #9b9b9b;
+      }
+
+      .cls-17 {
+        letter-spacing: 0em;
+      }
+
+      .cls-18 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-19, .cls-20, .cls-23 {
+        font-size: 14.67px;
+      }
+
+      .cls-21 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-22 {
+        letter-spacing: 0em;
+      }
+
+      .cls-24, .cls-25 {
+        font-size: 29.34px;
+      }
+
+      .cls-24, .cls-25, .cls-26 {
+        fill: #f2562b;
+      }
+
+      .cls-25 {
+        font-family: SolferinoDisplay-Regular, SolferinoDisplay Regular;
+      }
+
+      .cls-27, .cls-28, .cls-31, .cls-32, .cls-33, .cls-34, .cls-35, .cls-36, .cls-37 {
+        stroke: #efefef;
+      }
+
+      .cls-28 {
+        stroke-dasharray: 3.02 3.02;
+      }
+
+      .cls-29 {
+        font-size: 14px;
+        font-family: FiraSans-Regular, Fira Sans;
+      }
+
+      .cls-30 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-31 {
+        stroke-dasharray: 2.99 2.99;
+      }
+
+      .cls-32 {
+        stroke-dasharray: 2.98 2.98;
+      }
+
+      .cls-33 {
+        stroke-dasharray: 2.98 2.98;
+      }
+
+      .cls-34 {
+        stroke-dasharray: 3.02 3.02;
+      }
+
+      .cls-35 {
+        stroke-dasharray: 2.99 2.99;
+      }
+
+      .cls-36 {
+        stroke-dasharray: 2.99 2.99;
+      }
+
+      .cls-37 {
+        stroke-dasharray: 3.01 3.01;
+      }
+.cls-5 {
+	fill:#f7f4f3;
+}
+/*circle packaging styles*/
+
+	
+.drugs {
+    cursor: pointer;
+	opacity: .1;
+}
+
+.drugs:hover {
+    stroke: #000000;
+	opacity: 1;
+    
+}
+
+.drugs--Shown {
+    
+    opacity:1;
+    
+}
+.label {
+    opacity: 0;
+    
+    pointer-events: none;
+    
+}
+
+.label--Shown {
+    
+    opacity:1;
+    
+}
+svg {
+	max-width: 100%;
+}

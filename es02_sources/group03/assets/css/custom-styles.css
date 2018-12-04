@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Fira+Sans:200,300,300i,400,400i,500');
+body {
+  color:white;
+  background-color: black; }
+  html {
+    --font-display: 'Bree Serif', serif;
+
+  }
+
+.question__title {
+  font-family: var(--font-display);
+}
+
+.group-viz01 {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.group-viz01.faded {
+  opacity: 0.3;
+}
+
+.group-viz02 {
+  opacity: 1;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.group-viz02.faded {
+  opacity: 0.3;
+}
+
+.group-viz03 {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.group-viz03.faded {
+  opacity: 0;
+}
+.group-viz04 {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.group-viz04.faded {
+  opacity: 0.3;
+}
+
+.group-viz05 {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.group-viz05.faded {
+  opacity: 0;
+}
+.question__content h5 {
+  font-size: 0.9rem;
+}
+
+/*Q3 interactive patt*/
+.group-3Qmx {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.group-3Qmx.faded {
+  opacity: 0.5;
+}
+
+.group-3Qmxc {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.group-3Qmxc.faded {
+  opacity: 0;
+}
+
+.group-3Qusa {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.group-3Qusa.faded {
+  opacity: 0.5;
+}
+
+.group-3Qisac {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.group-3Qusac.faded {
+  opacity: 0;
+}
+
+.group-3Qc {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.group-3Qc.faded {
+  opacity: 0.5;
+}
+
+.group-3Qcc {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.group-3Qcc.faded {
+  opacity: 0;
+}
+
+/**/
+.c1 {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.c1.faded {
+  opacity: 0.7;
+}
+.n1 {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.n1.faded {
+  opacity: 0;
+}
+.c2 {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.c2.faded {
+  opacity: 0.7;
+}
+.n2 {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.n2.faded {
+  opacity: 0;
+}
+.c3 {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.c3.faded {
+  opacity: 0.7;
+}
+.n3 {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.n3.faded {
+  opacity: 0;
+}
+.c4 {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.c4.faded {
+  opacity: 0.7;
+}
+.n4 {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.n4.faded {
+  opacity: 0;
+}
+.c5 {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.c5.faded {
+  opacity: 0.7;
+}
+.n5 {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.n5.faded {
+  opacity: 0;
+}
+.c6 {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.c6.faded {
+  opacity: 0.7;
+}
+.n6 {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.n6.faded {
+  opacity: 0;
+}
+.c7 {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.c7.faded {
+  opacity: 0.7;
+}
+.n7 {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.n7.faded {
+  opacity: 0;
+}
+.c8 {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.c8.faded {
+  opacity: 0.7;
+}
+.n8 {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.n8.faded {
+  opacity: 0;
+}
+.c9 {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.c9.faded {
+  opacity: 0.7;
+}
+.n9 {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+.n9.faded {
+  opacity: 0;
+}
+
+#MEXICO_BUTTON_1_{
+  cursor: pointer;
+}
+#USA_BUTTON{
+  cursor: pointer;
+}
+#buttoncomparison{
+  cursor: pointer;
+}
+
+#buttonusa{
+  cursor: pointer;
+}
+
+#buttonmexico{
+  cursor: pointer;
+}
+.intro p {
+    font-size: 1.4rem;
+}
+
+a{
+  color: #8cc63f;
+}

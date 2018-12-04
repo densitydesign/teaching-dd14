@@ -1,0 +1,58 @@
+.cls-1,
+.cls-4 {
+    fill: #fff;
+}
+
+.cls-1 {
+    opacity: 0.2;
+}
+
+.cls-2 {
+    fill: #4e8913;
+}
+
+.cls-2,
+.cls-3 {
+    opacity: 0.59;
+}
+
+.cls-3 {
+    fill: #75a0c6;
+}
+
+.cls-4 {
+    font-size: 10.96px;
+    font-family: ArialMT, Arial;
+}
+
+.cls-5,
+.cls-6,
+.cls-7,
+.cls-8 {
+    fill: none;
+    stroke: #fff;
+}
+
+.cls-5 {
+    opacity: 0.82;
+}
+
+.cls-6,
+.cls-7,
+.cls-8 {
+    stroke-miterlimit: 10;
+}
+
+.cls-7,
+.cls-8 {
+    stroke-width: 2px;
+    fill-rule: evenodd;
+}
+
+.cls-7 {
+    opacity: 0.8;
+}
+
+.cls-8 {
+    opacity: 0.51;
+}
