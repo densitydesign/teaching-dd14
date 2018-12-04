@@ -1,3 +1,9 @@
+source              : ./es02/group01
+destination         : ./es02/group01/_site
+collections_dir     : ./es02/group01
+layouts_dir         : ./es02/group01/_layouts
+data_dir            : ./es02/group01/_data
+includes_dir        : ./es02/group01/_includes
 collections:
   questions:
     output: true
@@ -14,3 +20,6 @@ defaults:
       path: ""
     values:
       layout: "intro"
+
+sass:
+    sass_dir: ./es02/group01/_sass
