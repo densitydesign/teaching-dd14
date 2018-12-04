@@ -1,0 +1,161 @@
+/* responsability-graph */
+
+.responsability-graph {
+    width: 62%;
+    padding-top: 30px
+}
+
+@media (max-width: 800px) {
+.responsability-graph {
+    width: 100%;
+    margin: 0 auto;
+    padding-top:0;
+}
+  }
+
+.responsability0 {
+    fill: #F65959;
+    stroke: #042E3A;
+    stroke-width: 0.5;
+}
+
+.responsability1 {
+    fill: #042E3A;
+}
+
+.responsability2 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.responsability3 {
+    font-size: 12px;
+}
+
+.responsability4 {
+    fill: #F7C159;
+    stroke: #042E3A;
+    stroke-width: 0.5;
+}
+
+.responsability5 {
+    fill: #217187;
+    stroke: #042E3A;
+    stroke-width: 0.5;
+}
+
+.responsability6 {
+    enable-background: new;
+}
+
+.responsability7 {
+    fill: none;
+    stroke: #042E3A;
+    stroke-width: 0.5;
+}
+
+.responsability8 {
+    clip-path: url(#responsability_2_);
+}
+
+.responsability9 {
+    fill: none;
+    stroke: #F65959;
+    stroke-miterlimit: 10;
+}
+
+.responsability10 {
+    fill: none;
+    stroke: #F7C159;
+    stroke-miterlimit: 10;
+}
+
+.responsability11 {
+    fill: none;
+    stroke: #217187;
+    stroke-miterlimit: 10;
+}
+
+.responsability12 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+
+.responsability13 {
+    clip-path: url(#responsability_4_);
+}
+
+.responsability14 {
+    fill: none;
+}
+
+.responsability15 {
+    fill: #217187;
+}
+
+.responsability16 {
+    fill: #F65959;
+}
+
+.responsability17 {
+    clip-path: url(#responsability_6_);
+}
+
+.responsability18 {
+    fill: none;
+    stroke: #F65959;
+    stroke-width: 1.5;
+    stroke-miterlimit: 10;
+}
+
+.responsability19 {
+    fill: none;
+    stroke: #F7C159;
+    stroke-width: 1.5;
+    stroke-miterlimit: 10;
+}
+
+.responsability20 {
+    fill: none;
+    stroke: #217187;
+    stroke-width: 1.5;
+    stroke-miterlimit: 10;
+}
+
+.responsability21 {
+    fill: #F7C159;
+}
+
+.responsability22 {
+    fill: none;
+    stroke: #F8F7EC;
+    stroke-width: 245;
+    stroke-miterlimit: 10;
+
+}
+
+.responsability23 {
+    fill: none;
+    stroke: #F8F7EC;
+    stroke-width: 225;
+    stroke-miterlimit: 10;
+}
+
+.responsability24basso {
+    fill: none;
+    stroke: #F8F7EC;
+    stroke-width: 125;
+    stroke-miterlimit: 10;
+}
+
+.responsability24alto {
+    fill: none;
+    stroke: #F8F7EC;
+    stroke-width: 125;
+    stroke-miterlimit: 10;
+}
+
+.responsability25 {
+    fill: none;
+    stroke: #042E3A;
+    stroke-width: 1.5;
+}

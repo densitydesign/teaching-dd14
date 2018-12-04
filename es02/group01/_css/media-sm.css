@@ -1,0 +1,36 @@
+@media screen and (min-width: 576px) {
+  html {
+    --container-width: 540px; }
+  h1 {
+    font-size: 3.2rem; }
+  .index {
+    grid-template: "title" 30px "link" 60px "subtitle" 50px "index" 1fr/6rem 1fr 6rem; }
+  .index__list {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr); }
+  .index__item {
+    padding: 2rem 0 1rem; }
+  .cover__subtitle {
+    display: block; }
+  main.content {
+    margin: 9rem auto 5rem; }
+  .intro p {
+    font-size: 1.2rem; }
+  .question__heading {
+    grid-template-rows: 8rem 1.4rem 10rem; }
+  .pagination__next {
+    grid-column: 10 / 11; }
+  .question__title {
+    grid-column: 1 / 12;
+    font-size: 2.4rem; }
+  footer {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 3fr 2fr; }
+  .footer__image {
+    grid-row: 2; }
+  .footer__item {
+    grid-row: 1; }
+  .footer__item:nth-of-type(2),
+  .footer__item:nth-of-type(3) {
+    padding-top: 0;
+    grid-row: 1; } }

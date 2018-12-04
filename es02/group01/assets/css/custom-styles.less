@@ -1,0 +1,68 @@
+@import 'import/variables';
+@import 'import/seealsology';
+@import 'import/timeline';
+@import 'import/queries';
+@import 'import/news';
+
+@import 'import/speaker';
+
+@import 'import/reactions';
+
+@import 'import/reddit';
+
+
+@import 'import/glossary';
+
+@import 'import/meme';
+
+
+.intro {
+    column-count: 2;
+
+    p {
+        &:first-child {
+            margin-block-start: 0em;
+        }
+    }
+
+    @media @mobile {
+        column-count: 1;
+    }
+
+}
+
+#research {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+
+    svg {
+        max-width: 1080px;
+        width: 100%;
+        height: auto;
+
+        #links {
+
+            & > g {
+                cursor: pointer;
+                transition: opacity @ease;
+
+                &:hover {
+                    opacity: 0.4;
+                }
+
+            }
+        }
+
+    }
+
+}
+
+
+.pagination__link {
+    text-transform: uppercase;
+
+}

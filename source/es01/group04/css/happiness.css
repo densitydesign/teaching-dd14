@@ -1,0 +1,93 @@
+/* happiness-graph */
+
+.happiness {
+    width: 65%;
+    margin: 0 auto;
+    padding: 1% 0 2% 0;
+}
+
+@media (max-width: 800px) {
+.happiness {
+    width: 100%;
+    margin: 0 auto;
+}
+  }
+
+.happiness0 {
+    clip-path: url(#happiness_2_);
+}
+
+.happiness1 {
+    fill: none;
+    stroke: #F65959;
+    stroke-width: 1.5;
+    stroke-miterlimit: 10;
+}
+
+.happiness2 {
+    fill: none;
+    stroke: #F7C159;
+    stroke-width: 1.5;
+    stroke-miterlimit: 10;
+}
+
+.happiness3 {
+    fill: none;
+    stroke: #217187;
+    stroke-width: 1.5;
+    stroke-miterlimit: 10;
+}
+
+.happiness4 {
+    fill: none;
+    stroke: #042E3A;
+    stroke-width: 1.5;
+}
+
+.happiness5 {
+    clip-path: url(#happiness_4_);
+}
+
+.happiness6 {
+    fill: #217187;
+    stroke: #042E3A;
+    stroke-width: 1.5;
+    stroke-miterlimit: 10;
+}
+
+.happiness7 {
+    fill: #F7C159;
+    stroke: #042E3A;
+    stroke-width: 1.5;
+    stroke-miterlimit: 10;
+}
+
+.happiness8 {
+    fill: #F65959;
+    stroke: #042E3A;
+    stroke-width: 1.5;
+}
+
+.happiness9 {
+    fill: #042E3A;
+}
+
+.happiness10 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.happiness11 {
+    font-size: 12px;
+}
+
+.happiness12 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+
+.happiness13 {
+    fill: none;
+    stroke: #042E3A;
+    stroke-width: 1.5;
+    stroke-miterlimit: 10;
+}

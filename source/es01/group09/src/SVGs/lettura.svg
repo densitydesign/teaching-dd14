@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 960 1530" style="enable-background:new 0 0 960 1530;" xml:space="preserve">
+<style type="text/css">
+	.lettura-resources-0 {fill:none;}
+	.lettura-resources-1{fill:none;stroke:#222221;stroke-width:0.3;stroke-linejoin:round;}
+	.lettura-resources-2{fill:none;stroke:#222221;stroke-width:0.3;stroke-dasharray:2,2;}
+	.lettura-blueborder-rectangle{fill:#FFFFFF;stroke-width:1;stroke:#0033FF;stroke-miterlimit:10;}
+	.lettura-blue-line{fill:none;stroke:#0033FF;stroke-width:3;stroke-miterlimit:10;}
+	.lettura-font-blue{fill:#0033FF;}
+	.lettura-font-family{font-family:'IBM Plex Mono';}
+	.lettura-font-size-16{font-size:16px;}
+	.lettura-font-size-14{font-size:13px;}
+	.lettura-purple-path-1{fill:#9F5BB9;}
+	.lettura-yellow-path-1{fill:#FFD357;}
+	.lettura-orange-path-1{fill:#F27663;}
+	/* .st13{fill:none;stroke:#6BAD85;stroke-width:15.1926;stroke-opacity:0.4;} */
+	.lettura-blue-line-2{fill:none;stroke:#0033FF;stroke-width:0.2;}
+	.lettura-blue-line-3{fill:none;stroke:#0033FF;stroke-miterlimit:10;}
+	.lettura-purple-analyzer{fill:#FFFFFF;stroke:#650599;stroke-width:0.8372;stroke-miterlimit:10;}
+	.lettura-purple-analyzer-1{opacity:0.15;fill:#650599;}
+	.lettura-purple-analyzer-2{opacity:0.2;fill:url(#SVGID_1_);}
+	.lettura-orange-analyzer{fill:#FFFFFF;stroke:#CE3B19;stroke-width:0.9367;stroke-miterlimit:10;}
+	.lettura-orange-analyzer-1{opacity:0.15;fill:#CE3B19;}
+	.lettura-orange-analyzer-2{opacity:0.2;fill:url(#SVGID_2_);}
+	.lettura-yellow-analyzer{fill:#FFFFFF;stroke:#F2C004;stroke-width:0.9255;stroke-miterlimit:10;}
+	.lettura-yellow-analyzer-1{opacity:0.15;fill:#F2C004;}
+	.lettura-yellow-analyzer-2{opacity:0.2;fill:url(#SVGID_3_);}
+	.lettura-purple-text{fill:#650499;}
+	.lettura-black-text{fill:#020201;}
+	.lettura-orange-text{fill:#CE3B19;}
+	.lettura-yellow-text{fill:#F2C004;}
+	.lettura-st-39{fill:none;stroke:#7769A9;stroke-width:1.1757;}
+	.lettura-st-40{opacity:0.5;fill:#650499;}
+	.lettura-st-41{opacity:0.5;fill:#CE3B19;}
+	.lettura-st-42{opacity:0.5;fill:#F2C004;}
+	.lettura-st-43{opacity:0.4;}
+	.lettura-st-44{fill:#650599;}
+	.lettura-st-45{fill:none;stroke:#698BBF;stroke-width:49.1264;}
+	.lettura-st-46{fill:none;stroke:#7769A8;stroke-width:1.1757;}
+	.lettura-st-47{opacity:0.1;fill:#0033FF;}
+	.lettura-st-48{opacity:0.15;fill:url(#SVGID_4_);}
+	.lettura-st-49{fill:none;stroke:#0033FF;stroke-width:1.1772;stroke-miterlimit:10;}
+	.lettura-st-50{fill:none;stroke:#0033FF;stroke-width:4;stroke-miterlimit:10;}
+	.lettura-st-51{fill:#FFFFFF;stroke:#0033FF;stroke-width:0.9936;stroke-miterlimit:10;}
+	.lettura-st-52{opacity:0.85;}
+
+	<!-- #T0, #T1, #T2, #T3, #T4, #T5, #T6, #T7 {
+		opacity: 0;
+	}
+	.lettura-show {
+		opacity: 1;
+	} -->
+</style>
+<pattern  x="-1840.4" y="-879.3" width="72" height="72" patternUnits="userSpaceOnUse" id="Linee_diagonali" viewBox="79.6 -148.6 72 72" style="overflow:visible;">
+	<g>
+		<rect x="79.6" y="-148.6" class="lettura-resources-0" width="72" height="72"/>
+		<g>
+			<line class="lettura-resources-1" x1="144.1" y1="-66.1" x2="162.1" y2="-84.1"/>
+			<line class="lettura-resources-1" x1="144.1" y1="-60.1" x2="168.1" y2="-84.1"/>
+			<line class="lettura-resources-1" x1="144.1" y1="-54.1" x2="174.1" y2="-84.1"/>
+			<line class="lettura-resources-1" x1="144.1" y1="-48.1" x2="180.1" y2="-84.1"/>
+			<line class="lettura-resources-1" x1="144.1" y1="-42.1" x2="186.1" y2="-84.1"/>
+			<line class="lettura-resources-1" x1="144.1" y1="-36.1" x2="192.1" y2="-84.1"/>
+			<line class="lettura-resources-1" x1="144.1" y1="-30.1" x2="198.1" y2="-84.1"/>
+			<line class="lettura-resources-1" x1="144.1" y1="-24.1" x2="204.1" y2="-84.1"/>
+			<line class="lettura-resources-1" x1="144.1" y1="-18.1" x2="210.1" y2="-84.1"/>
+			<line class="lettura-resources-1" x1="144.1" y1="-12.1" x2="216.1" y2="-84.1"/>
+			<line class="lettura-resources-1" x1="144.1" y1="-6.1" x2="222.1" y2="-84.1"/>
+			<line class="lettura-resources-1" x1="144.1" y1="-0.1" x2="228.1" y2="-84.1"/>
+			<line class="lettura-resources-1" x1="150.1" y1="-0.1" x2="228.1" y2="-78.1"/>
+		</g>
+		<g>
+			<line class="lettura-resources-1" x1="72.1" y1="-66.1" x2="90.1" y2="-84.1"/>
+			<line class="lettura-resources-1" x1="72.1" y1="-60.1" x2="96.1" y2="-84.1"/>
+			<line class="lettura-resources-1" x1="72.1" y1="-54.1" x2="102.1" y2="-84.1"/>
+			<line class="lettura-resources-1" x1="72.1" y1="-48.1" x2="108.1" y2="-84.1"/>
+			<line class="lettura-resources-1" x1="72.1" y1="-42.1" x2="114.1" y2="-84.1"/>
+			<line class="lettura-resources-1" x1="72.1" y1="-36.1" x2="120.1" y2="-84.1"/>
+			<line class="lettura-resources-1" x1="72.1" y1="-30.1" x2="126.1" y2="-84.1"/>
+			<line class="lettura-resources-1" x1="72.1" y1="-24.1" x2="132.1" y2="-84.1"/>
+			<line class="lettura-resources-1" x1="72.1" y1="-18.1" x2="138.1" y2="-84.1"/>
+			<line class="lettura-resources-1" x1="72.1" y1="-12.1" x2="144.1" y2="-84.1"/>
+			<line class="lettura-resources-1" x1="72.1" y1="-6.1" x2="150.1" y2="-84.1"/>
+			<line class="lettura-resources-1" x1="72.1" y1="-0.1" x2="156.1" y2="-84.1"/>
+			<line class="lettura-resources-1" x1="78.1" y1="-0.1" x2="156.1" y2="-78.1"/>
+		</g>
+		<g>
+			<line class="lettura-resources-1" x1="0.1" y1="-0.1" x2="84.1" y2="-84.1"/>
+			<line class="lettura-resources-1" x1="6.1" y1="-0.1" x2="84.1" y2="-78.1"/>
+		</g>
+		<g>
+			<line class="lettura-resources-1" x1="144.1" y1="-138.1" x2="162.1" y2="-156.1"/>
+			<line class="lettura-resources-1" x1="144.1" y1="-132.1" x2="168.1" y2="-156.1"/>
+			<line class="lettura-resources-1" x1="144.1" y1="-126.1" x2="174.1" y2="-156.1"/>
+			<line class="lettura-resources-1" x1="144.1" y1="-120.1" x2="180.1" y2="-156.1"/>
+			<line class="lettura-resources-1" x1="144.1" y1="-114.1" x2="186.1" y2="-156.1"/>
+			<line class="lettura-resources-1" x1="144.1" y1="-108.1" x2="192.1" y2="-156.1"/>
+			<line class="lettura-resources-1" x1="144.1" y1="-102.1" x2="198.1" y2="-156.1"/>
+			<line class="lettura-resources-1" x1="144.1" y1="-96.1" x2="204.1" y2="-156.1"/>
+			<line class="lettura-resources-1" x1="144.1" y1="-90.1" x2="210.1" y2="-156.1"/>
+			<line class="lettura-resources-1" x1="144.1" y1="-84.1" x2="216.1" y2="-156.1"/>
+			<line class="lettura-resources-1" x1="144.1" y1="-78.1" x2="222.1" y2="-156.1"/>
+			<line class="lettura-resources-1" x1="144.1" y1="-72.1" x2="228.1" y2="-156.1"/>
+			<line class="lettura-resources-1" x1="150.1" y1="-72.1" x2="228.1" y2="-150.1"/>
+		</g>
+		<g>
+			<line class="lettura-resources-1" x1="72.1" y1="-138.1" x2="90.1" y2="-156.1"/>
+			<line class="lettura-resources-1" x1="72.1" y1="-132.1" x2="96.1" y2="-156.1"/>
+			<line class="lettura-resources-1" x1="72.1" y1="-126.1" x2="102.1" y2="-156.1"/>
+			<line class="lettura-resources-1" x1="72.1" y1="-120.1" x2="108.1" y2="-156.1"/>
+			<line class="lettura-resources-1" x1="72.1" y1="-114.1" x2="114.1" y2="-156.1"/>
+			<line class="lettura-resources-1" x1="72.1" y1="-108.1" x2="120.1" y2="-156.1"/>
+			<line class="lettura-resources-1" x1="72.1" y1="-102.1" x2="126.1" y2="-156.1"/>
+			<line class="lettura-resources-1" x1="72.1" y1="-96.1" x2="132.1" y2="-156.1"/>
+			<line class="lettura-resources-1" x1="72.1" y1="-90.1" x2="138.1" y2="-156.1"/>
+			<line class="lettura-resources-1" x1="72.1" y1="-84.1" x2="144.1" y2="-156.1"/>
+			<line class="lettura-resources-1" x1="72.1" y1="-78.1" x2="150.1" y2="-156.1"/>
+			<line class="lettura-resources-1" x1="72.1" y1="-72.1" x2="156.1" y2="-156.1"/>
+			<line class="lettura-resources-1" x1="78.1" y1="-72.1" x2="156.1" y2="-150.1"/>
+			<line class="lettura-resources-1" x1="84.1" y1="-72.1" x2="156.1" y2="-144.1"/>
+			<line class="lettura-resources-1" x1="90.1" y1="-72.1" x2="156.1" y2="-138.1"/>
+			<line class="lettura-resources-1" x1="96.1" y1="-72.1" x2="156.1" y2="-132.1"/>
+			<line class="lettura-resources-1" x1="102.1" y1="-72.1" x2="156.1" y2="-126.1"/>
+			<line class="lettura-resources-1" x1="108.1" y1="-72.1" x2="156.1" y2="-120.1"/>
+			<line class="lettura-resources-1" x1="114.1" y1="-72.1" x2="156.1" y2="-114.1"/>
+			<line class="lettura-resources-1" x1="120.1" y1="-72.1" x2="156.1" y2="-108.1"/>
+			<line class="lettura-resources-1" x1="126.1" y1="-72.1" x2="156.1" y2="-102.1"/>
+			<line class="lettura-resources-1" x1="132.1" y1="-72.1" x2="156.1" y2="-96.1"/>
+			<line class="lettura-resources-1" x1="138.1" y1="-72.1" x2="156.1" y2="-90.1"/>
+			<line class="lettura-resources-1" x1="144.1" y1="-72.1" x2="156.1" y2="-84.1"/>
+		</g>
+		<g>
+			<line class="lettura-resources-1" x1="0.1" y1="-72.1" x2="84.1" y2="-156.1"/>
+			<line class="lettura-resources-1" x1="6.1" y1="-72.1" x2="84.1" y2="-150.1"/>
+			<line class="lettura-resources-1" x1="12.1" y1="-72.1" x2="84.1" y2="-144.1"/>
+			<line class="lettura-resources-1" x1="18.1" y1="-72.1" x2="84.1" y2="-138.1"/>
+			<line class="lettura-resources-1" x1="24.1" y1="-72.1" x2="84.1" y2="-132.1"/>
+			<line class="lettura-resources-1" x1="30.1" y1="-72.1" x2="84.1" y2="-126.1"/>
+			<line class="lettura-resources-1" x1="36.1" y1="-72.1" x2="84.1" y2="-120.1"/>
+			<line class="lettura-resources-1" x1="42.1" y1="-72.1" x2="84.1" y2="-114.1"/>
+			<line class="lettura-resources-1" x1="48.1" y1="-72.1" x2="84.1" y2="-108.1"/>
+			<line class="lettura-resources-1" x1="54.1" y1="-72.1" x2="84.1" y2="-102.1"/>
+			<line class="lettura-resources-1" x1="60.1" y1="-72.1" x2="84.1" y2="-96.1"/>
+			<line class="lettura-resources-1" x1="66.1" y1="-72.1" x2="84.1" y2="-90.1"/>
+			<line class="lettura-resources-1" x1="72.1" y1="-72.1" x2="84.1" y2="-84.1"/>
+		</g>
+		<g>
+			<line class="lettura-resources-1" x1="144.1" y1="-144.1" x2="228.1" y2="-228.1"/>
+			<line class="lettura-resources-1" x1="150.1" y1="-144.1" x2="228.1" y2="-222.1"/>
+		</g>
+		<g>
+			<line class="lettura-resources-1" x1="72.1" y1="-144.1" x2="156.1" y2="-228.1"/>
+			<line class="lettura-resources-1" x1="78.1" y1="-144.1" x2="156.1" y2="-222.1"/>
+			<line class="lettura-resources-1" x1="84.1" y1="-144.1" x2="156.1" y2="-216.1"/>
+			<line class="lettura-resources-1" x1="90.1" y1="-144.1" x2="156.1" y2="-210.1"/>
+			<line class="lettura-resources-1" x1="96.1" y1="-144.1" x2="156.1" y2="-204.1"/>
+			<line class="lettura-resources-1" x1="102.1" y1="-144.1" x2="156.1" y2="-198.1"/>
+			<line class="lettura-resources-1" x1="108.1" y1="-144.1" x2="156.1" y2="-192.1"/>
+			<line class="lettura-resources-1" x1="114.1" y1="-144.1" x2="156.1" y2="-186.1"/>
+			<line class="lettura-resources-1" x1="120.1" y1="-144.1" x2="156.1" y2="-180.1"/>
+			<line class="lettura-resources-1" x1="126.1" y1="-144.1" x2="156.1" y2="-174.1"/>
+			<line class="lettura-resources-1" x1="132.1" y1="-144.1" x2="156.1" y2="-168.1"/>
+			<line class="lettura-resources-1" x1="138.1" y1="-144.1" x2="156.1" y2="-162.1"/>
+			<line class="lettura-resources-1" x1="144.1" y1="-144.1" x2="156.1" y2="-156.1"/>
+		</g>
+		<g>
+			<line class="lettura-resources-1" x1="0.1" y1="-144.1" x2="84.1" y2="-228.1"/>
+			<line class="lettura-resources-1" x1="6.1" y1="-144.1" x2="84.1" y2="-222.1"/>
+			<line class="lettura-resources-1" x1="12.1" y1="-144.1" x2="84.1" y2="-216.1"/>
+			<line class="lettura-resources-1" x1="18.1" y1="-144.1" x2="84.1" y2="-210.1"/>
+			<line class="lettura-resources-1" x1="24.1" y1="-144.1" x2="84.1" y2="-204.1"/>
+			<line class="lettura-resources-1" x1="30.1" y1="-144.1" x2="84.1" y2="-198.1"/>
+			<line class="lettura-resources-1" x1="36.1" y1="-144.1" x2="84.1" y2="-192.1"/>
+			<line class="lettura-resources-1" x1="42.1" y1="-144.1" x2="84.1" y2="-186.1"/>
+			<line class="lettura-resources-1" x1="48.1" y1="-144.1" x2="84.1" y2="-180.1"/>
+			<line class="lettura-resources-1" x1="54.1" y1="-144.1" x2="84.1" y2="-174.1"/>
+			<line class="lettura-resources-1" x1="60.1" y1="-144.1" x2="84.1" y2="-168.1"/>
+			<line class="lettura-resources-1" x1="66.1" y1="-144.1" x2="84.1" y2="-162.1"/>
+			<line class="lettura-resources-1" x1="72.1" y1="-144.1" x2="84.1" y2="-156.1"/>
+		</g>
+	</g>
+</pattern>
+<pattern  x="-1840.4" y="-879.3" width="72" height="72" patternUnits="userSpaceOnUse" id="USGS_19_Terra_inondata" viewBox="73 -72 72 72" style="overflow:visible;">
+	<g>
+		<rect x="73" y="-72" class="lettura-resources-0" width="72" height="72"/>
+		<g>
+			<line class="lettura-resources-2" x1="144" y1="-1" x2="217.4" y2="-1"/>
+			<line class="lettura-resources-2" x1="144" y1="-5" x2="217.4" y2="-5"/>
+			<line class="lettura-resources-2" x1="144" y1="-9" x2="217.4" y2="-9"/>
+			<line class="lettura-resources-2" x1="144" y1="-13" x2="217.4" y2="-13"/>
+			<line class="lettura-resources-2" x1="144" y1="-17" x2="217.4" y2="-17"/>
+			<line class="lettura-resources-2" x1="144" y1="-21" x2="217.4" y2="-21"/>
+			<line class="lettura-resources-2" x1="144" y1="-25" x2="217.4" y2="-25"/>
+			<line class="lettura-resources-2" x1="144" y1="-29" x2="217.4" y2="-29"/>
+			<line class="lettura-resources-2" x1="144" y1="-33" x2="217.4" y2="-33"/>
+			<line class="lettura-resources-2" x1="144" y1="-37" x2="217.4" y2="-37"/>
+			<line class="lettura-resources-2" x1="144" y1="-41" x2="217.4" y2="-41"/>
+			<line class="lettura-resources-2" x1="144" y1="-45" x2="217.4" y2="-45"/>
+			<line class="lettura-resources-2" x1="144" y1="-49" x2="217.4" y2="-49"/>
+			<line class="lettura-resources-2" x1="144" y1="-53" x2="217.4" y2="-53"/>
+			<line class="lettura-resources-2" x1="144" y1="-57" x2="217.4" y2="-57"/>
+			<line class="lettura-resources-2" x1="144" y1="-61" x2="217.4" y2="-61"/>
+			<line class="lettura-resources-2" x1="144" y1="-65" x2="217.4" y2="-65"/>
+			<line class="lettura-resources-2" x1="144" y1="-69" x2="217.4" y2="-69"/>
+		</g>
+		<g>
+			<line class="lettura-resources-2" x1="72" y1="-1" x2="145.4" y2="-1"/>
+			<line class="lettura-resources-2" x1="72" y1="-5" x2="145.4" y2="-5"/>
+			<line class="lettura-resources-2" x1="72" y1="-9" x2="145.4" y2="-9"/>
+			<line class="lettura-resources-2" x1="72" y1="-13" x2="145.4" y2="-13"/>
+			<line class="lettura-resources-2" x1="72" y1="-17" x2="145.4" y2="-17"/>
+			<line class="lettura-resources-2" x1="72" y1="-21" x2="145.4" y2="-21"/>
+			<line class="lettura-resources-2" x1="72" y1="-25" x2="145.4" y2="-25"/>
+			<line class="lettura-resources-2" x1="72" y1="-29" x2="145.4" y2="-29"/>
+			<line class="lettura-resources-2" x1="72" y1="-33" x2="145.4" y2="-33"/>
+			<line class="lettura-resources-2" x1="72" y1="-37" x2="145.4" y2="-37"/>
+			<line class="lettura-resources-2" x1="72" y1="-41" x2="145.4" y2="-41"/>
+			<line class="lettura-resources-2" x1="72" y1="-45" x2="145.4" y2="-45"/>
+			<line class="lettura-resources-2" x1="72" y1="-49" x2="145.4" y2="-49"/>
+			<line class="lettura-resources-2" x1="72" y1="-53" x2="145.4" y2="-53"/>
+			<line class="lettura-resources-2" x1="72" y1="-57" x2="145.4" y2="-57"/>
+			<line class="lettura-resources-2" x1="72" y1="-61" x2="145.4" y2="-61"/>
+			<line class="lettura-resources-2" x1="72" y1="-65" x2="145.4" y2="-65"/>
+			<line class="lettura-resources-2" x1="72" y1="-69" x2="145.4" y2="-69"/>
+			<line class="lettura-resources-2" x1="74" y1="-3" x2="147.5" y2="-3"/>
+			<line class="lettura-resources-2" x1="74" y1="-7" x2="147.5" y2="-7"/>
+			<line class="lettura-resources-2" x1="74" y1="-11" x2="147.5" y2="-11"/>
+			<line class="lettura-resources-2" x1="74" y1="-15" x2="147.5" y2="-15"/>
+			<line class="lettura-resources-2" x1="74" y1="-19" x2="147.5" y2="-19"/>
+			<line class="lettura-resources-2" x1="74" y1="-23" x2="147.5" y2="-23"/>
+			<line class="lettura-resources-2" x1="74" y1="-27" x2="147.5" y2="-27"/>
+			<line class="lettura-resources-2" x1="74" y1="-31" x2="147.5" y2="-31"/>
+			<line class="lettura-resources-2" x1="74" y1="-35" x2="147.5" y2="-35"/>
+			<line class="lettura-resources-2" x1="74" y1="-39" x2="147.5" y2="-39"/>
+			<line class="lettura-resources-2" x1="74" y1="-43" x2="147.5" y2="-43"/>
+			<line class="lettura-resources-2" x1="74" y1="-47" x2="147.5" y2="-47"/>
+			<line class="lettura-resources-2" x1="74" y1="-51" x2="147.5" y2="-51"/>
+			<line class="lettura-resources-2" x1="74" y1="-55" x2="147.5" y2="-55"/>
+			<line class="lettura-resources-2" x1="74" y1="-59" x2="147.5" y2="-59"/>
+			<line class="lettura-resources-2" x1="74" y1="-63" x2="147.5" y2="-63"/>
+			<line class="lettura-resources-2" x1="74" y1="-67" x2="147.5" y2="-67"/>
+			<line class="lettura-resources-2" x1="74" y1="-71" x2="147.5" y2="-71"/>
+		</g>
+		<g>
+			<line class="lettura-resources-2" x1="0" y1="-1" x2="73.4" y2="-1"/>
+			<line class="lettura-resources-2" x1="0" y1="-5" x2="73.4" y2="-5"/>
+			<line class="lettura-resources-2" x1="0" y1="-9" x2="73.4" y2="-9"/>
+			<line class="lettura-resources-2" x1="0" y1="-13" x2="73.4" y2="-13"/>
+			<line class="lettura-resources-2" x1="0" y1="-17" x2="73.4" y2="-17"/>
+			<line class="lettura-resources-2" x1="0" y1="-21" x2="73.4" y2="-21"/>
+			<line class="lettura-resources-2" x1="0" y1="-25" x2="73.4" y2="-25"/>
+			<line class="lettura-resources-2" x1="0" y1="-29" x2="73.4" y2="-29"/>
+			<line class="lettura-resources-2" x1="0" y1="-33" x2="73.4" y2="-33"/>
+			<line class="lettura-resources-2" x1="0" y1="-37" x2="73.4" y2="-37"/>
+			<line class="lettura-resources-2" x1="0" y1="-41" x2="73.4" y2="-41"/>
+			<line class="lettura-resources-2" x1="0" y1="-45" x2="73.4" y2="-45"/>
+			<line class="lettura-resources-2" x1="0" y1="-49" x2="73.4" y2="-49"/>
+			<line class="lettura-resources-2" x1="0" y1="-53" x2="73.4" y2="-53"/>
+			<line class="lettura-resources-2" x1="0" y1="-57" x2="73.4" y2="-57"/>
+			<line class="lettura-resources-2" x1="0" y1="-61" x2="73.4" y2="-61"/>
+			<line class="lettura-resources-2" x1="0" y1="-65" x2="73.4" y2="-65"/>
+			<line class="lettura-resources-2" x1="0" y1="-69" x2="73.4" y2="-69"/>
+			<line class="lettura-resources-2" x1="2" y1="-3" x2="75.5" y2="-3"/>
+			<line class="lettura-resources-2" x1="2" y1="-7" x2="75.5" y2="-7"/>
+			<line class="lettura-resources-2" x1="2" y1="-11" x2="75.5" y2="-11"/>
+			<line class="lettura-resources-2" x1="2" y1="-15" x2="75.5" y2="-15"/>
+			<line class="lettura-resources-2" x1="2" y1="-19" x2="75.5" y2="-19"/>
+			<line class="lettura-resources-2" x1="2" y1="-23" x2="75.5" y2="-23"/>
+			<line class="lettura-resources-2" x1="2" y1="-27" x2="75.5" y2="-27"/>
+			<line class="lettura-resources-2" x1="2" y1="-31" x2="75.5" y2="-31"/>
+			<line class="lettura-resources-2" x1="2" y1="-35" x2="75.5" y2="-35"/>
+			<line class="lettura-resources-2" x1="2" y1="-39" x2="75.5" y2="-39"/>
+			<line class="lettura-resources-2" x1="2" y1="-43" x2="75.5" y2="-43"/>
+			<line class="lettura-resources-2" x1="2" y1="-47" x2="75.5" y2="-47"/>
+			<line class="lettura-resources-2" x1="2" y1="-51" x2="75.5" y2="-51"/>
+			<line class="lettura-resources-2" x1="2" y1="-55" x2="75.5" y2="-55"/>
+			<line class="lettura-resources-2" x1="2" y1="-59" x2="75.5" y2="-59"/>
+			<line class="lettura-resources-2" x1="2" y1="-63" x2="75.5" y2="-63"/>
+			<line class="lettura-resources-2" x1="2" y1="-67" x2="75.5" y2="-67"/>
+			<line class="lettura-resources-2" x1="2" y1="-71" x2="75.5" y2="-71"/>
+		</g>
+	</g>
+</pattern>
+<g id="T0">
+	<g>
+		
+			<rect x="542.6" y="-31.4" transform="matrix(-2.738272e-11 1 -1 -2.738272e-11 700.8151 -514.3553)" class="lettura-blueborder-rectangle" width="130" height="249.3"/>
+		<line class="lettura-blue-line" x1="482.4" y1="160.2" x2="732.7" y2="160.2"/>
+		<line class="lettura-blue-line" x1="482.4" y1="26.3" x2="732.7" y2="26.3"/>
+	</g>
+	<text transform="matrix(1 0 0 1 583.591 61.7505)"><tspan x="0" y="0" class="lettura-font-blue lettura-font-family lettura-font-size-16">2.982</tspan><tspan x="-26.4" y="22.7" class="lettura-font-blue lettura-font-family lettura-font-size-14">Total amount</tspan><tspan x="-43.2" y="39.5" class="lettura-font-blue lettura-font-family lettura-font-size-14">of notifications</tspan><tspan x="-39" y="56.3" class="lettura-font-blue lettura-font-family lettura-font-size-14">to </tspan><tspan x="-13.8" y="56.3" class="lettura-font-blue lettura-font-family lettura-font-size-14">IT companies</tspan><tspan x="-13.8" y="73.1" class="lettura-font-blue lettura-font-family lettura-font-size-14">in Europe</tspan></text>
+</g>
+<g id="T1">
+	<g>
+		<path class="lettura-resources-0" d="M585.1,251.4"/>
+	</g>
+	<g>
+		<path class="lettura-purple-path-1" d="M600.7,283.7v-122H482.5v8c0,3.9-3.2,7.1-7.1,7.1l-117.1,0c-6.3,0-11.3,5.1-11.3,11.3v122.9h118.2v-9
+			c0-3.9,3.2-7.1,7.1-7.1l117.1,0C595.6,295.1,600.7,290,600.7,283.7z"/>
+	</g>
+	<g>
+		<path class="lettura-yellow-path-1" d="M865.8,311.2v-70.4c0-6.3-5.1-11.3-11.3-11.3H739.8c-3.9,0-7.1-3.2-7.1-7.1v-60.6h-65.5v121.9
+			c0,6.3,5.1,11.3,11.3,11.3h114.6c3.9,0,7.1,3.2,7.1,7.1v9.1H865.8z"/>
+	</g>
+	<g>
+		<rect x="600.8" y="161.8" class="lettura-orange-path-1" width="66.5" height="149.4"/>
+	</g>
+	<line class="lettura-blue-line" x1="346.9" y1="312.7" x2="465.2" y2="312.7"/>
+	<line class="lettura-blue-line" x1="600.7" y1="312.7" x2="667.1" y2="312.7"/>
+	<line class="lettura-blue-line" x1="800.2" y1="312.7" x2="865.7" y2="312.7"/>
+	<g>
+		<path class="lettura-resources-0" d="M599.9,239.8"/>
+	</g>
+	<!-- <path class="st13" d="M592.9,248"/> -->
+	
+		<rect x="778" y="287.2" transform="matrix(-1.040796e-10 1 -1 -1.040796e-10 1202.7024 -463.2699)" class="lettura-blueborder-rectangle" width="110" height="165"/>
+	<g>
+		<text transform="matrix(1 0 0 1 818.5876 346.4756)"><tspan x="0" y="0" class="lettura-font-blue lettura-font-family lettura-font-size-16">780</tspan><tspan x="-36" y="22.7" class="lettura-font-blue lettura-font-family lettura-font-size-14">Total amount</tspan><tspan x="-52.8" y="39.5" class="lettura-font-blue lettura-font-family lettura-font-size-14">of notifications</tspan><tspan x="-27.6" y="56.3" class="lettura-font-blue lettura-font-family lettura-font-size-14">to </tspan><tspan x="-2.4" y="56.3" class="lettura-font-blue lettura-font-family lettura-font-size-14">YouTube</tspan></text>
+	</g>
+	
+		<rect x="571.4" y="287.2" transform="matrix(-1.026407e-10 1 -1 -1.026407e-10 996.0771 -256.6446)" class="lettura-blueborder-rectangle" width="110" height="165"/>
+	<g>
+		<text transform="matrix(1 0 0 1 611.9624 346.4751)"><tspan x="0" y="0" class="lettura-font-blue lettura-font-family lettura-font-size-16">794</tspan><tspan x="-36" y="22.7" class="lettura-font-blue lettura-font-family lettura-font-size-14">Total amount</tspan><tspan x="-52.8" y="39.5" class="lettura-font-blue lettura-font-family lettura-font-size-14">of notifications</tspan><tspan x="-27.6" y="56.3" class="lettura-font-blue lettura-font-family lettura-font-size-14">to </tspan><tspan x="-2.4" y="56.3" class="lettura-font-blue lettura-font-family lettura-font-size-14">Twitter</tspan></text>
+	</g>
+	
+		<rect x="347.4" y="287.2" transform="matrix(-5.789343e-11 1 -1 -5.789343e-11 772.0684 -32.6356)" class="lettura-blueborder-rectangle" width="110" height="165"/>
+	<g>
+		<text transform="matrix(1 0 0 1 378.3524 346.4754)"><tspan x="0" y="0" class="lettura-font-blue lettura-font-family lettura-font-size-16">1.408</tspan><tspan x="-26.4" y="22.7" class="lettura-font-blue lettura-font-family lettura-font-size-14">Total amount</tspan><tspan x="-43.2" y="39.5" class="lettura-font-blue lettura-font-family lettura-font-size-14">of notifications</tspan><tspan x="-22.2" y="56.3" class="lettura-font-blue lettura-font-family lettura-font-size-14">to </tspan><tspan x="3" y="56.3" class="lettura-font-blue lettura-font-family lettura-font-size-14">Facebook</tspan></text>
+	</g>
+	<line class="lettura-blue-line" x1="346.9" y1="426.7" x2="465.2" y2="426.7"/>
+	<line class="lettura-blue-line" x1="600.7" y1="426.7" x2="667.1" y2="426.7"/>
+	<line class="lettura-blue-line" x1="800.2" y1="426.7" x2="865.7" y2="426.7"/>
+</g>
+<g id="T2">
+	<line class="lettura-blue-line-2" x1="114.7" y1="428.3" x2="865.7" y2="428.3"/>
+	<line class="lettura-blue-line-2" x1="114.7" y1="936.4" x2="114.7" y2="428.3"/>
+	<line class="lettura-blue-line-2" x1="115.1" y1="598.2" x2="865.7" y2="598.2"/>
+	<line class="lettura-blue-line-2" x1="115.1" y1="768.3" x2="865.7" y2="768.3"/>
+	<line class="lettura-blue-line-2" x1="115.1" y1="1108.5" x2="865.7" y2="1108.5"/>
+	<line class="lettura-blue-line-2" x1="121.7" y1="940.3" x2="109.6" y2="933.4"/>
+	<line class="lettura-blue-line-2" x1="121.7" y1="945.9" x2="109.6" y2="939.1"/>
+	<line class="lettura-blue-line-2" x1="114.6" y1="941.9" x2="114.6" y2="1108.5"/>
+	<g>
+		<text transform="matrix(1 0 0 1 85.9995 432.4642)" class="lettura-font-blue lettura-font-family lettura-font-size-14">0</text>
+	</g>
+	<circle class="lettura-font-blue" cx="114.7" cy="428.3" r="1.1"/>
+	<circle class="lettura-font-blue" cx="114.7" cy="598.2" r="1.1"/>
+	<circle class="lettura-font-blue" cx="114.7" cy="768.3" r="1.1"/>
+	<circle class="lettura-font-blue" cx="114.7" cy="1108.5" r="1.1"/>
+	<g>
+		
+			<rect x="174.9" y="287.2" transform="matrix(-1.421816e-10 1 -1 -1.421816e-10 566.9364 172.4964)" class="lettura-blueborder-rectangle" width="44.7" height="165"/>
+		<text transform="matrix(1 0 0 1 127.0218 366.3706)" class=""><tspan x="0" y="0" class="lettura-font-blue lettura-font-family lettura-font-size-14">TIME OF ASSESSMENT</tspan><tspan x="0" y="15.6" class="lettura-font-blue lettura-font-family lettura-font-size-14">OF NOTIFICATIONS</tspan></text>
+		<g>
+			<g>
+				<polyline class="lettura-blue-line-3" points="114.3,369.7 90.2,369.7 90.2,394 				"/>
+				<g>
+					<polygon class="lettura-font-blue" points="96.6,393.1 90.2,397.1 83.8,393.1 83.8,393 96.6,393 					"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 69.1273 602.9139)" class="lettura-font-blue lettura-font-family lettura-font-size-14">24h</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 69.1276 772.874)" class="lettura-font-blue lettura-font-family lettura-font-size-14">48h</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 44.2048 1110.8734)" class="lettura-font-blue lettura-font-family lettura-font-size-14">≤ 168h</text>
+	</g>
+</g>
+<g id="T3">
+	<polygon class="lettura-purple-analyzer" points="182.4,545.9 286.2,545.9 286.2,763 297.6,763 297.6,1108.4 299.7,1108.4 299.7,1108.7 182.4,1108.7 	
+		"/>
+	<polygon class="lettura-purple-analyzer-1" points="182.4,545.9 286.2,545.9 286.2,763 297.6,763 297.6,1108.4 299.7,1108.4 299.7,1108.7 182.4,1108.7 	
+		"/>
+	
+		<pattern  id="SVGID_1_" xlink:href="#USGS_19_Terra_inondata" patternTransform="matrix(-4.489700e-11 1 1 4.489700e-11 1050.541 -1037.3043)">
+	</pattern>
+	<polygon class="lettura-purple-analyzer-2" points="182.4,545.9 286.2,545.9 286.2,763 297.6,763 297.6,1108.4 299.7,1108.4 299.7,1108.7 182.4,1108.7 	
+		"/>
+	<polygon class="lettura-orange-analyzer" points="489.2,572 541.8,572 541.8,765.3 548.8,765.3 548.8,1106.1 554.8,1106.1 554.8,1111.3 489.2,1111.3 	
+		"/>
+	<polygon class="lettura-orange-analyzer-1" points="489.2,572 541.8,572 541.8,765.3 548.8,765.3 548.8,1106.1 554.8,1106.1 554.8,1111.3 489.2,1111.3 	
+		"/>
+	
+		<pattern  id="SVGID_2_" xlink:href="#USGS_19_Terra_inondata" patternTransform="matrix(-4.489700e-11 1 1 4.489700e-11 1050.541 -1037.3043)">
+	</pattern>
+	<polygon class="lettura-orange-analyzer-2" points="489.2,572 541.8,572 541.8,765.3 548.8,765.3 548.8,1106.1 554.8,1106.1 554.8,1111.3 489.2,1111.3 	
+		"/>
+	<polygon class="lettura-yellow-analyzer" points="691.8,578.2 732.2,578.2 732.2,765.3 739.2,765.3 739.2,1100.5 756.3,1100.5 756.3,1117 691.8,1117 	
+		"/>
+	<polygon class="lettura-yellow-analyzer-1" points="691.8,578.2 732.2,578.2 732.2,765.3 739.2,765.3 739.2,1100.5 756.3,1100.5 756.3,1117 691.8,1117 	
+		"/>
+	
+		<pattern  id="SVGID_3_" xlink:href="#USGS_19_Terra_inondata" patternTransform="matrix(-3.508200e-11 0.7814 1 4.489700e-11 1103.818 -2153.7966)">
+	</pattern>
+	<polygon class="lettura-yellow-analyzer-2" points="691.8,578.2 732.2,578.2 732.2,765.3 739.2,765.3 739.2,1100.5 756.3,1100.5 756.3,1117 691.8,1117 	
+		"/>
+	<g>
+		
+			<rect x="209.6" y="803.7" transform="matrix(-5.135644e-11 1 -1 -5.135644e-11 1083.3405 604.0797)" class="lettura-blueborder-rectangle" width="60" height="80"/>
+		<g>
+			<g>
+				<line class="lettura-blue-line-3" x1="239.5" y1="873.5" x2="239.5" y2="898.7"/>
+				<g>
+					<polygon class="lettura-font-blue" points="246,897.7 239.6,901.8 233.1,897.7 233.1,897.7 246,897.7 					"/>
+				</g>
+			</g>
+		</g>
+		<text transform="matrix(1 0 0 1 208.4311 832.8476)" class=""><tspan x="0" y="0" class="lettura-font-blue lettura-font-family lettura-font-size-14">FACEBOOK</tspan><tspan x="0" y="15.6" class="lettura-font-blue lettura-font-family lettura-font-size-14">REACTION</tspan><tspan x="11.7" y="31.2" class="lettura-font-blue lettura-font-family lettura-font-size-14">SPEED</tspan></text>
+	</g>
+	<g>
+		
+			<rect x="489" y="803.7" transform="matrix(-5.135644e-11 1 -1 -5.135644e-11 1362.7472 324.6729)" class="lettura-blueborder-rectangle" width="60" height="80"/>
+		<text transform="matrix(1 0 0 1 491.7371 832.8476)" class=""><tspan x="0" y="0" class="lettura-font-blue lettura-font-family lettura-font-size-14">TWITTER</tspan><tspan x="-3.9" y="15.6" class="lettura-font-blue lettura-font-family lettura-font-size-14">REACTION</tspan><tspan x="7.8" y="31.2" class="lettura-font-blue lettura-font-family lettura-font-size-14">SPEED</tspan></text>
+		<g>
+			<g>
+				<line class="lettura-blue-line-3" x1="519" y1="873.4" x2="519" y2="898.6"/>
+				<g>
+					<polygon class="lettura-font-blue" points="525.5,897.7 519,901.7 512.6,897.7 512.6,897.6 525.5,897.6 					"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		
+			<rect x="685.4" y="803.7" transform="matrix(-5.114416e-11 1 -1 -5.114416e-11 1559.1525 128.2677)" class="lettura-blueborder-rectangle" width="60" height="80"/>
+		<text transform="matrix(1 0 0 1 688.1426 832.5638)" class=""><tspan x="0" y="0" class="lettura-font-blue lettura-font-family lettura-font-size-14">YOUTUBE</tspan><tspan x="-3.9" y="15.6" class="lettura-font-blue lettura-font-family lettura-font-size-14">REACTION</tspan><tspan x="7.8" y="31.2" class="lettura-font-blue lettura-font-family lettura-font-size-14">SPEED</tspan></text>
+		<g>
+			<g>
+				<line class="lettura-blue-line-3" x1="715.4" y1="873.9" x2="715.4" y2="899.1"/>
+				<g>
+					<polygon class="lettura-font-blue" points="721.9,898.2 715.4,902.3 709,898.2 709,898.1 721.9,898.1 					"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="T4">
+	<text transform="matrix(1 0 0 1 293.6514 533.4162)" class="lettura-purple-text lettura-font-family lettura-font-size-14">1.257</text>
+	<text transform="matrix(1 0 0 1 294.9389 516.7571)" class="lettura-black-text lettura-font-family lettura-font-size-14">(89%)</text>
+	<text transform="matrix(1 0 0 1 555.884 559.3883)" class="lettura-orange-text lettura-font-family lettura-font-size-14">637</text>
+	<text transform="matrix(1 0 0 1 548.3223 542.6558)" class="lettura-black-text lettura-font-family lettura-font-size-14">(80%)</text>
+	<text transform="matrix(1 0 0 1 756.4573 565.6675)" class="lettura-yellow-text lettura-font-family lettura-font-size-14">489</text>
+	<text transform="matrix(1 0 0 1 748.6412 548.7513)" class="lettura-black-text lettura-font-family lettura-font-size-14">(63%)</text>
+	<g>
+		<path class="lettura-purple-path-1" d="M452.5,639.7V428.4H346.9v109.9c0,3.9-3.2,7.1-7.1,7.1h-53.2V651h154.5C447.4,651,452.5,645.9,452.5,639.7z"
+			/>
+	</g>
+	<g>
+		<path class="lettura-orange-path-1" d="M654.2,613.7V428.5h-53.5v136c0,3.9-3.2,7.1-7.1,7.1h-51.3V625h100.6C649.1,625,654.2,619.9,654.2,613.7z"/>
+	</g>
+	<g>
+		<path class="lettura-yellow-path-1" d="M841.3,607.4v-179h-41.1v142.2c0,3.9-3.2,7.1-7.1,7.1h-60.5v41.1H830C836.2,618.8,841.3,613.7,841.3,607.4z"
+			/>
+	</g>
+</g>
+<g id="T5">
+	<text transform="matrix(1 0 0 1 408.6518 750.5066)" class="lettura-purple-text lettura-font-family lettura-font-size-14">137</text>
+	<text transform="matrix(1 0 0 1 801.8389 752.8133)" class="lettura-yellow-text lettura-font-family lettura-font-size-14">83</text>
+	<text transform="matrix(1 0 0 1 614.0507 752.8915)" class="lettura-orange-text lettura-font-family lettura-font-size-14">83</text>
+	<text transform="matrix(1 0 0 1 602.7266 736.1851)" class="lettura-black-text lettura-font-family lettura-font-size-14">(11%)</text>
+	<text transform="matrix(1 0 0 1 401.2174 733.8008)" class="lettura-black-text lettura-font-family lettura-font-size-14">(10%)</text>
+	<g>
+		<path class="lettura-yellow-path-1" d="M848.3,760.5V428.4h-7v329.4c0,3.9-3.2,7.1-7.1,7.1h-94.6v7h97.3C843.2,771.8,848.3,766.8,848.3,760.5z"/>
+	</g>
+	<g>
+		<path class="lettura-purple-path-1" d="M464,762.8V428.5h-11.5v327.1c0,3.9-3.2,7.1-7.1,7.1H298v11.5h154.6C458.9,774.1,464,769,464,762.8z"/>
+	</g>
+	<g>
+		<path class="lettura-orange-path-1" d="M661.1,760.5v-332h-7v329.3c0,3.9-3.2,7.1-7.1,7.1h-97.8v7h100.5C656,771.8,661.1,766.8,661.1,760.5z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 789.9091 736.1848)" class="lettura-black-text lettura-font-family lettura-font-size-14">(10%)</text>
+</g>
+<g id="T6">
+	<text transform="matrix(1 0 0 1 429.1488 1095.8116)" class="lettura-purple-text lettura-font-family lettura-font-size-14">14</text>
+	<text transform="matrix(1 0 0 1 804.1353 1087.9182)" class="lettura-yellow-text lettura-font-family lettura-font-size-14">208</text>
+	<text transform="matrix(1 0 0 1 621.8114 1093.5959)" class="lettura-orange-text lettura-font-family lettura-font-size-14">75</text>
+	<text transform="matrix(1 0 0 1 609.7483 1077.1733)" class="lettura-black-text lettura-font-family lettura-font-size-14">(10%)</text>
+	<text transform="matrix(1 0 0 1 796.8583 1071.4956)" class="lettura-black-text lettura-font-family lettura-font-size-14">(27%)</text>
+	<text transform="matrix(1 0 0 1 421.2517 1079.3899)" class="lettura-black-text lettura-font-family lettura-font-size-14">(1%)</text>
+	<g>
+		<path class="lettura-yellow-path-1" d="M865.7,1106.1V428.4h-17.5v664.5c0,3.9-3.2,7.1-7.1,7.1h-84.8v17.5h98
+			C860.6,1117.5,865.7,1112.4,865.7,1106.1z"/>
+	</g>
+	<g>
+		<path class="lettura-purple-path-1" d="M462.3,1109.1c1.6,0,2.8-1.3,2.8-2.8V428.4H464v677.4c0,1.2-1,2.1-2.1,2.1H300.1v1.2H462.3z"/>
+	</g>
+	<g>
+		<path class="lettura-orange-path-1" d="M667.1,1100.5v-672H661v670.2c0,3.9-3.2,7.1-7.1,7.1h-98.7v6.1h100.5
+			C662.1,1111.8,667.1,1106.7,667.1,1100.5z"/>
+	</g>
+</g>
+<g id="T7">
+	<path class="lettura-st-39" d="M499,1123.7"/>
+	<path class="lettura-st-39" d="M499,1241.6"/>
+	<text transform="matrix(1 0 0 1 316.9037 1195.6436)" class="lettura-st-40 lettura-font-family lettura-font-size-14">284</text>
+	<text transform="matrix(1 0 0 1 572.8713 1152.7927)" class="lettura-st-41 lettura-font-family lettura-font-size-14">431</text>
+	<text transform="matrix(1 0 0 1 773.7423 1254.7004)" class="lettura-st-42 lettura-font-family lettura-font-size-14">195</text>
+	<text transform="matrix(1 0 0 1 309.1853 1179.0955)" class="lettura-black-text lettura-font-family lettura-font-size-14">(20%)</text>
+	<text transform="matrix(1 0 0 1 564.3141 1136.7385)" class="lettura-black-text lettura-font-family lettura-font-size-14">(54%)</text>
+	<text transform="matrix(1 0 0 1 765.7959 1238.0829)" class="lettura-black-text lettura-font-family lettura-font-size-14">(25%)</text>
+	<g class="lettura-st-43">
+		<path class="lettura-st-44" d="M680.1,1387.4v-168.3c0-6.3-5.1-11.3-11.3-11.3H307.2c-3.9,0-7.1-3.2-7.1-7.1v-91.5h-23.8v111.1
+			c0,6.3,5.1,11.3,11.3,11.3h361.5c3.9,0,7.1,3.2,7.1,7.1v148.7H680.1z"/>
+	</g>
+	<g class="lettura-st-43">
+		<path class="lettura-yellow-text" d="M756.8,1255.3v-137.8h-16.4v121.4c0,6.3-5.1,11.3-11.3,11.3h-1.4c-6.3,0-11.3,5.1-11.3,11.3v125.9h16.4
+			v-113.7c0-3.9,3.2-7.1,7.1-7.1h5.6C751.7,1266.6,756.8,1261.5,756.8,1255.3z"/>
+	</g>
+	<g class="lettura-st-43">
+		<path class="lettura-orange-text" d="M716.3,1387.4v-211.2c0-6.3-5.1-11.3-11.3-11.3H562.4c-3.9,0-7.1-3.2-7.1-7.1v-46h-36.2v77.9
+			c0,6.3,5.1,11.3,11.3,11.3H673c3.9,0,7.1,3.2,7.1,7.1v179.3H716.3z"/>
+	</g>
+	<path class="lettura-st-45" d="M631.4,1428"/>
+	<g>
+		<path class="lettura-st-46" d="M527.6,1130.7"/>
+	</g>
+	<path class="lettura-st-46" d="M527.6,906.6"/>
+	<g>
+		
+			<rect x="638.4" y="1408.1" transform="matrix(-3.237784e-11 1 -1 -3.237784e-11 2139.438 752.6731)" class="lettura-st-47" width="110" height="76"/>
+		
+			<pattern  id="SVGID_4_" xlink:href="#Linee_diagonali" patternTransform="matrix(-4.489700e-11 1.3859 1.0068 6.264400e-11 1130.9247 970.5566)">
+		</pattern>
+		<polygon class="lettura-st-48" points="731.4,1501.1 731.4,1391.1 655.4,1391.1 655.4,1501.1 		"/>
+		<line class="lettura-st-49" x1="731.9" y1="1501.1" x2="731.9" y2="1391.1"/>
+		<line class="lettura-st-50" x1="656" y1="1389.5" x2="732.4" y2="1389.5"/>
+		<line class="lettura-st-50" x1="656" y1="1502.6" x2="732.4" y2="1502.6"/>
+	</g>
+	<g>
+		
+			<rect x="805.1" y="1378.6" transform="matrix(-7.984031e-11 1 -1 -7.984031e-11 2283.6624 608.4711)" class="lettura-st-51" width="65" height="135"/>
+		<g>
+			<text transform="matrix(1 0 0 1 786.8981 1435.2045)"><tspan x="0" y="0" class="lettura-font-blue lettura-font-family lettura-font-size-14">TOTAL AMOUNT </tspan><tspan x="-3.9" y="15.6" class="lettura-font-blue lettura-font-family lettura-font-size-14">OF NOT-REMOVED</tspan><tspan x="0" y="31.2" class="lettura-font-blue lettura-font-family lettura-font-size-14">NOTIFICATIONS</tspan></text>
+		</g>
+		<g>
+			<g>
+				<line class="lettura-blue-line-3" x1="769.6" y1="1446.1" x2="745.3" y2="1446.1"/>
+				<g>
+					<polygon class="lettura-font-blue" points="746.2,1452.5 742.2,1446.1 746.2,1439.6 746.3,1439.6 746.3,1452.5 					"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 680.0129 1460.9164)" class="lettura-font-blue lettura-font-family lettura-font-size-16">910</text>
+		</g>
+		<text transform="matrix(1 0 0 1 672.9225 1438.7982)" class="lettura-font-blue lettura-font-family lettura-font-size-14">(31%)</text>
+	</g>
+	<text transform="matrix(1 0 0 1 129.2731 1314.1896)" class="lettura-purple-text lettura-font-family lettura-font-size-14">1.124</text>
+	<text transform="matrix(1 0 0 1 129.9947 1297.7666)" class="lettura-black-text lettura-font-family lettura-font-size-14">(80%)</text>
+	<g class="lettura-st-52">
+		<path class="lettura-st-44" d="M576.4,1387.5v-144.4c0-6.3-5.1-11.3-11.3-11.3H287.7c-6.3,0-11.3-5.1-11.3-11.3v-111.3h-94.4v205.6
+			c0,6.3,5.1,11.3,11.3,11.3h281.7c3.9,0,7.1,3.2,7.1,7.1v54.3H576.4z"/>
+	</g>
+	<g>
+		<line class="lettura-blue-line" x1="482.1" y1="1389" x2="656" y2="1389"/>
+		<line class="lettura-blue-line" x1="482.1" y1="1503.2" x2="656" y2="1503.2"/>
+		
+			<rect x="514" y="1359.7" transform="matrix(-3.236185e-11 1 -1 -3.236185e-11 2015.0829 877.0284)" class="lettura-st-49" width="110" height="172.7"/>
+	</g>
+	<g>
+		
+			<rect x="344.7" y="1378.6" transform="matrix(-8.000729e-11 1 -1 -8.000729e-11 1823.275 1068.8585)" class="lettura-st-51" width="65" height="135"/>
+		<g>
+			<text transform="matrix(1 0 0 1 326.5096 1435.204)"><tspan x="0" y="0" class="lettura-font-blue lettura-font-family lettura-font-size-14">TOTAL AMOUNT </tspan><tspan x="11.7" y="15.6" class="lettura-font-blue lettura-font-family lettura-font-size-14">OF REMOVED</tspan><tspan x="0" y="31.2" class="lettura-font-blue lettura-font-family lettura-font-size-14">NOTIFICATIONS</tspan></text>
+		</g>
+		<g>
+			<g>
+				<line class="lettura-blue-line-3" x1="445" y1="1446.2" x2="469.3" y2="1446.2"/>
+				<g>
+					<polygon class="lettura-font-blue" points="468.4,1439.8 472.5,1446.2 468.4,1452.7 468.3,1452.7 468.3,1439.8 					"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<text transform="matrix(1 0 0 1 544.6142 1460.8861)" class="lettura-font-blue lettura-font-family lettura-font-size-16">2.072</text>
+		</g>
+		<text transform="matrix(1 0 0 1 548.0138 1438.8292)" class="lettura-font-blue lettura-font-family lettura-font-size-14">(69%)</text>
+	</g>
+	<text transform="matrix(1 0 0 1 444.5022 1195.6436)" class="lettura-orange-text lettura-font-family lettura-font-size-14">363</text>
+	<text transform="matrix(1 0 0 1 437.5487 1179.0959)" class="lettura-black-text lettura-font-family lettura-font-size-14">(46%)</text>
+	<g class="lettura-st-52">
+		<path class="lettura-orange-text" d="M606.9,1387.5v-175c0-6.3-5.1-11.3-11.3-11.3h-65.1c-6.3,0-11.3-5.1-11.3-11.3v-78h-30.5v108.5
+			c0,6.3,5.1,11.3,11.3,11.3h65.1c6.3,0,11.3,5.1,11.3,11.3v144.5H606.9z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 647.3305 1152.793)" class="lettura-yellow-text lettura-font-family lettura-font-size-14">585</text>
+	<text transform="matrix(1 0 0 1 640.0801 1136.4839)" class="lettura-black-text lettura-font-family lettura-font-size-14">(75%)</text>
+	<g class="lettura-st-52">
+		<path class="lettura-yellow-text" d="M740.5,1238.9v-121.4h-49.1v76.5c0,3.9-3.2,7.1-7.1,7.1h-66.1c-6.3,0-11.3,5.1-11.3,11.3v175H656v-130.1
+			c0-3.9,3.2-7.1,7.1-7.1h66.1C735.4,1250.2,740.5,1245.1,740.5,1238.9z"/>
+	</g>
+</g>
+</svg>

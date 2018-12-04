@@ -1,0 +1,409 @@
+<div id="speaker">
+
+    <div class="orientation">
+
+    </div>
+
+    <div class="popup">
+        <span></span>
+        <div>PLAY VIDEO</div>
+    </div>
+
+    <div class="header">
+        <div class="container">
+
+            <div class="header__title">
+                <h1>YOUTUBE POPULARITY</h1>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="reactions">
+        <div class="like-title">
+            LIKES
+        </div>
+        <div class="like">
+
+        </div>
+        <div class="dislike">
+
+        </div>
+        <div class="dislike-title">
+            DISLIKES
+        </div>
+    </div>
+
+    <div id="speaker-viz">
+
+    </div>
+
+</div>
+
+
+
+<div id="speaker3">
+
+    <div class="header">
+        <div class="container">
+
+            <h1>THEMES OF THE MOST INFLUENT ACTORS' SPEECHES</h1>
+
+            <img src="./assets/images/protocols/howto-05.svg">
+
+
+        </div>
+
+    </div>
+
+
+    <div class="speaker3-viz">
+
+        <div class="counter"></div>
+
+        <div class="small">
+            <div class="author"><img src="./assets/js/viz/data/speaker/second/emma.svg"></div>
+            <div class="author"><img src="./assets/js/viz/data/speaker/second/oprah.svg"></div>
+            <div class="author"><img src="./assets/js/viz/data/speaker/second/michelle.svg"></div>
+        </div>
+
+        <div class="videos">
+            <div id="playerEmma"></div>
+            <div id="playerOprah"></div>
+            <div id="playerMichelle"></div>
+        </div>
+
+
+        <div class="svg">
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+</div>
+
+<!--
+<div id="speaker2">
+    <div class="header">
+        <div class="container">
+
+            <div class="header__title">
+                <h1>THEMES OF THE MOST INFLUENT ACTORS' SPEECHES</h1>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="speaker2-viz">
+
+        <div class="row tick">
+            <div class="row_actor">
+                <h1>SPEAKER</h1>
+            </div>
+            <div class="row_video" data-actor="Emma Watson">
+                <h1>MOST VIEWED VIDEO</h1>
+            </div>
+            <div class="row_topic">
+                <h1>TOPICS AND LENGTH OF SPEECH</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="row_actor">
+
+                <img src="./assets/js/viz/data/speaker/second/emma.svg">
+
+            </div>
+            <div class="row_video" data-actor="Emma Watson">
+                <div id="playerEmma"></div>
+
+            </div>
+            <div class="row_topic">
+                <div id="emma">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="row_actor">
+                <img src="./assets/js/viz/data/speaker/second/oprah.svg">
+            </div>
+            <div class="row_video" data-actor="Oprah Winfrey">
+                <div id="playerOprah"></div>
+
+
+            </div>
+            <div class="row_topic">
+                <div id="oprah">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="row_actor">
+                <img src="./assets/js/viz/data/speaker/second/michelle.svg">
+            </div>
+            <div class="row_video" data-actor="Michelle Obama">
+                <div id="playerMichelle"></div>
+
+            </div>
+            <div class="row_topic">
+                <div id="michelle">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+-->
+
+<script src="https://www.youtube.com/iframe_api"></script>
+<script>
+    var playerEmma;
+    var playerOprah;
+    var playerMichelle;
+
+    function onYouTubeIframeAPIReady() {
+        playerEmma = new YT.Player('playerEmma', {
+            videoId: 'p-iFl4qhBsE',
+
+            events: {
+                onReady: initialize
+            }
+        });
+
+        playerOprah = new YT.Player('playerOprah', {
+            videoId: 'fN5HV79_8B8',
+
+            events: {
+                onReady: initialize
+            }
+        });
+
+        playerMichelle = new YT.Player('playerMichelle', {
+            videoId: 'SJ45VLgbe_E',
+            events: {
+                onReady: initialize
+            }
+        });
+
+    }
+
+    function initialize() {
+
+        console.log("carica");
+        // Update the controls on load
+        updateTimerDisplay();
+
+        // Clear any old interval.
+        clearInterval(time_update_interval);
+
+        // Start interval to update elapsed time display and
+        // the elapsed part of the progress bar every second.
+        var time_update_interval = setInterval(function() {
+            updateTimerDisplay();
+        }, 1000)
+
+    }
+
+    function updateTimerDisplay() {
+        // Update current time text display.
+        var time = formatTime(playerEmma.getCurrentTime());
+        var time2 = formatTime(playerOprah.getCurrentTime());
+        var time3 = formatTime(playerMichelle.getCurrentTime());
+
+        if (time > 0) {
+
+            $('#emma > g').addClass("hide");
+        }
+
+        if (time > 0 && time < 150) {
+            $('#emma > g:nth-child(1)').addClass('active');
+
+        } else if (time > 150 && time < 190) {
+            $('#emma > g').removeClass('active');
+            $('#emma > g:nth-child(2)').addClass('active');
+
+        } else if (time > 192 && time < 215) {
+            $('#emma > g').removeClass('active');
+            $('#emma > g:nth-child(3)').addClass('active');
+
+        } else if (time > 216 && time < 283) {
+
+            $('#emma > g').removeClass('active');
+            $('#emma > g:nth-child(4)').addClass('active');
+        } else if (time > 284 && time < 327) {
+
+            $('#emma > g').removeClass('active');
+            $('#emma > g:nth-child(5)').addClass('active');
+
+        } else if (time > 328 && time < 355) {
+            $('#emma > g').removeClass('active');
+            $('#emma > g:nth-child(6)').addClass('active');
+
+
+        } else if (time > 356 && time < 420) {
+
+            $('#emma > g').removeClass('active');
+            $('#emma > g:nth-child(7)').addClass('active');
+
+        } else if (time > 421 && time < 481) {
+            $('#emma > g').removeClass('active');
+            $('#emma > g:nth-child(8)').addClass('active');
+
+        } else if (time > 482 && time < 634) {
+            $('#emma  > g').removeClass('active');
+            $('#emma  > g:nth-child(9)').addClass('active');
+
+        } else if (time > 635 && time < 790) {
+            $('#emma  > g').removeClass('active');
+            $('#emma  > g:nth-child(10)').addClass('active');
+            // $('#duration').text(formatTime(playerEmma.getDuration()));   
+        } else {
+            $('#emma  > g').removeClass('active');
+            $('#emma  > g').removeClass("hide");
+        }
+
+
+        // —————
+
+        // OPRAH
+
+
+        if (time2 > 0) {
+
+            $('#oprah > g').addClass("hide");
+        };
+
+        if (time2 > 0 && time2 < 156) {
+            $('#oprah > g:nth-child(1)').addClass('active');
+        } else if (time2 > 156 && time2 < 191) {
+            $('#oprah > g').removeClass('active');
+            $('#oprah > g:nth-child(2)').addClass('active');
+
+        } else if (time2 > 192 && time2 < 321) {
+            $('#oprah > g').removeClass('active');
+            $('#oprah > g:nth-child(3)').addClass('active');
+
+        } else if (time2 > 322 && time2 < 390) {
+            $('#oprah > g').removeClass('active');
+            $('#oprah > g:nth-child(4)').addClass('active');
+
+        } else if (time2 > 391 && time2 < 464) {
+            $('#oprah > g').removeClass('active');
+            $('#oprah > g:nth-child(5)').addClass('active');
+
+        } else if (time2 > 465 && time2 < 490) {
+            $('#oprah > g').removeClass('active');
+            $('#oprah > g:nth-child(6)').addClass('active');
+
+        } else if (time2 > 491 && time2 < 553) {
+            $('#oprah > g').removeClass('active');
+            $('#oprah > g:nth-child(7)').addClass('active');
+        } else {
+
+            $('#oprah > g').removeClass('active');
+            $('#oprah > g').removeClass("hide");
+
+        }
+
+        // —————
+
+        // MICHELLE
+
+        if (time3 > 0) {
+
+            $('#michelle > g').addClass("hide");
+        };
+
+
+        if (time3 > 0 && time3 < 158) {
+            $('#michelle > g:nth-child(1)').addClass('active');
+
+
+        } else if (time3 > 159 && time3 < 227) {
+
+
+            $('#michelle > g').removeClass('active');
+            $('#michelle > g:nth-child(2)').addClass('active');
+        } else if (time3 > 228 && time3 < 306) {
+
+            $('#michelle > g').removeClass('active');
+            $('#michelle > g:nth-child(3)').addClass('active');
+
+        } else if (time3 > 307 && time3 < 460) {
+
+            $('#michelle > g').removeClass('active');
+            $('#michelle > g:nth-child(4)').addClass('active');
+
+        } else if (time3 > 461 && time3 < 675) {
+
+            $('#michelle > g').removeClass('active');
+            $('#michelle > g:nth-child(5)').addClass('active');
+
+        } else if (time3 > 676 && time3 < 808) {
+
+            $('#michelle > g').removeClass('active');
+            $('#michelle > g:nth-child(6)').addClass('active');
+
+        } else if (time3 > 809 && time3 < 1105) {
+
+            $('#michelle > g').removeClass('active');
+            $('#michelle > g:nth-child(7)').addClass('active');
+
+        } else if (time3 > 1106 && time3 < 1188) {
+
+            $('#michelle > g').removeClass('active');
+            $('#michelle > g:nth-child(8)').addClass('active');
+
+        } else if (time3 > 1189 && time3 < 1238) {
+
+            $('#michelle > g').removeClass('active');
+            $('#michelle > g:nth-child(9)').addClass('active');
+        } else if (time3 > 1239 && time3 < 1458) {
+
+            $('#michelle > g').removeClass('active');
+            $('#michelle > g:nth-child(10)').addClass('active');
+
+        } else if (time3 > 1459 && time3 < 1600) {
+
+
+
+
+            $('#michelle > g').removeClass('active');
+            $('#michelle > g:nth-child(11)').addClass('active');
+
+
+        } else {
+            $('#michelle > g').removeClass('active');
+            $('#michelle > g').removeClass("hide");
+
+
+        }
+    }
+
+    function formatTime(time) {
+        time = Math.round(time);
+
+
+
+        var minutes = Math.floor(time / 60),
+            seconds = time;
+
+        seconds = seconds < 10 ? seconds : seconds;
+
+        return seconds;
+    }
+
+</script>

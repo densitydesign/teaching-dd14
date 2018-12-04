@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<!-- Header of the question -->
+<header class="container">
+    <div class="question__heading">
+        <a href="{% assign prev-number = page.number | minus: 1 %}{{ '/question0' | append: prev-number | relative_url }}" class="pagination pagination__prev{% if page.number == 1 %} pagination--hidden{% endif %}"><span class="pagination__arrow">&larr;</span><span class="pagination__link">prev</span></a>
+        <a href="{% assign next-number = page.number | plus: 1 %}{{ '/question0' | append: next-number | relative_url }}" class="pagination pagination__next{% assign questions-number = site.questions | size %}{% if page.number == questions-number %} pagination--hidden{% endif %}"><span class="pagination__link">next</span><span class="pagination__arrow">&rarr;</span></a>
+        <h4 class="question__subtitle">research question {{page.number}}</h4>
+        <h2 class="question__title">{{ page.title }}</h2>
+        <div class="btn--burger" role="button" tabindex="0" aria-pressed="false">
+            <div class="btn--burger__line"></div>
+            <div class="btn--burger__line"></div>
+            <div class="btn--burger__line"></div>
+        </div>
+        <div class="btn--close" role="button" tabindex="0" aria-pressed="false">
+            <div class="btn--close__line"></div>
+        </div>
+    </div>
+</header>
+
+<!-- Main visualization -->
+<main class="question__visualization">
+    {% include_relative {{ page.number | prepend: "visualizations/visualization0" | append: ".html" }} %}
+    <!-- codice per inserire l'immagine, da pensare come renderlo generale -->
+</main>
+
+<article class="container question__article">
+    <!-- Side scrolling menu -->
+    <div class="question__sidebar">
+        <a class="question__link" href="#description"><span>Description</span></a>
+        <a class="question__link" href="#protocol"><span>Protocol</span></a>
+        <a class="question__link" href="#data"><span>Data</span></a>
+    </div>
+    <!-- Question content -->
+    <div class="question__content">
+        {{ content }}
+    </div>
+</article>

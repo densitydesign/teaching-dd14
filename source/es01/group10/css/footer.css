@@ -1,0 +1,248 @@
+.spostainsu {
+    margin-top: -150px;
+}
+.object{
+  outline-width:0px;
+  vertical-align:top;  
+  display: block;
+}
+.row1{
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    display: block;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+.costifirst {
+    width: 300px;
+    float: left;
+    height: 100%;
+    position: relative;
+    margin-left: 30%;
+}
+.costisecond {
+    width: 300px;
+    float: right;
+    height: 100%;
+    position: relative;
+    margin-right: 22%;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+.centra {
+    margin: auto;
+    width: 20%;
+}
+
+.spazio1 {
+    width: auto;
+    height: 50px;
+}
+.centra {
+    margin: auto;
+    width: 20%;
+}
+.visible-lg, .visible-md, .visible-sm, .visible-xs {
+    display: none!important;
+}
+.activated {
+    border: solid 2px #EFEEE1;
+    background-color: #EFEEE1;
+    border-radius: 3px;
+    color: #363638;
+}
+
+.pulsante1 {
+    margin:auto;
+    left:45%;
+    position: relative;
+    width: 200px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px Avenir;
+    color: #2e3192;
+    padding: 10px 20px;
+    border: solid 2px #363638;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: solid 2px #2e3192;
+    transition-property: border;
+    transition-duration: 0.1s;
+}
+.pulsante2 {
+    margin:auto;
+    left:33%;
+    position:absolute;
+    width: 160px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px Avenir;
+    color: #2e3192;
+    padding: 10px 20px;
+    border: solid 2px #363638;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: solid 2px #2e3192;
+    transition-property: border;
+    transition-duration: 0.1s;
+    position: fixed;
+	top: 0px;
+	z-index:9999;
+}
+.pulsante3 {
+    margin:auto;
+    left:45%;
+    position:absolute;
+    width: 160px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px Avenir;
+    color: #2e3192;
+    padding: 10px 20px;
+    border: solid 2px #363638;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: solid 2px #2e3192;
+    transition-property: border;
+    transition-duration: 0.1s;
+    position: fixed;
+	top: 0px;
+	z-index:9999;
+}
+.pulsante4 {
+    margin:auto;
+    right:33%;
+    position:absolute;
+    width: 160px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px Avenir;
+    color: #2e3192;
+    padding: 10px 20px;
+    border: solid 2px #363638;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    border: solid 2px #2e3192;
+    transition-property: border;
+    transition-duration: 0.1s;
+    position: fixed;
+	top: 0px;
+	z-index:9999;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button, select {
+    text-transform: none;
+}
+button {
+    overflow: visible;
+}
+
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+.section_3_wallpaper___wallpaper___2mwTE {
+    background: url(/assets/background/pattern01.png),url(/assets/what-is-data-science/static/images/pattern/01.png) no-repeat 99999px,url(/assets/what-is-data-science/static/images/pattern/02.png) no-repeat 99999px,url(/assets/what-is-data-science/static/images/pattern/03.png) no-repeat 99999px,url(/assets/what-is-data-science/static/images/pattern/04.png) no-repeat 99999px,url(/assets/what-is-data-science/static/images/pattern/05.png) no-repeat 99999px,url(/assets/what-is-data-science/static/images/pattern/06.png) no-repeat 99999px,url(/assets/what-is-data-science/static/images/pattern/07.png) no-repeat 99999px,url(/assets/what-is-data-science/static/images/pattern/08.png) no-repeat 99999px;
+    background-attachment: fixed;
+    background-size: 400px;
+    background-color: #ffffff;
+    color: #131313;
+    font-family: Comfortaa Bold,serif;
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 30px;
+    line-height: 1.875rem;
+    overflow-x: hidden;
+}
+
+.section_3_wallpaper___wallpaper___2mwTE {
+    padding: 15% 2rem 8rem;
+}
+
+
+.body_background___background___1XPPp {
+    background-color: #fff;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section_body___container___3F6GH {
+    margin: 0 auto;
+    padding: 32px 0;
+    padding: 2rem 0;
+}
+
+
+p:first-child, p:first-of-type {
+    margin-top: 0;
+}
+
+p {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 25px;
+    margin-top: 1.5625rem;
+    max-width: 714px;
+    padding: 0 32px;
+}
+
+
+footer {
+    background-color: #2e3192;
+    color: #ffffff;
+    font-family: "Times";
+}
+.container-fluid pt-4 pb-5{
+    background-color: #2e3192;
+}
+.logo-dd {
+    width: 45%;
+}
+
+.logo-polimi {
+    width: 85%;
+}
+
+footer h6 {
+  color: #1ABC9C;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
