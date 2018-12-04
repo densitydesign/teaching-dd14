@@ -1,0 +1,78 @@
+text {
+    opacity: 0;
+    pointer-events: none
+}
+
+text.is-active {
+    opacity: 1
+}
+
+
+
+svg #color-genre {
+    opacity: 0;
+    pointer-events: none
+}
+
+text.is-active {
+    opacity: 1
+}
+
+.image-question09 {
+    display: none;
+}
+
+.image-question09.shown {
+    display: block;
+}
+
+.pulsante1 {
+    width: 80px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px Avenir;
+    color: #ec6f59;
+    padding: 5px 8px;
+    border: solid 1px #ffffff;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: solid 2px #ec6f59;
+    transition-property: border;
+    transition-duration: 0.05s;
+}
+
+.wrap {
+    margin-left: 100px;
+}
+
+
+#square rect:hover {
+    fill: #fbff45;
+    transition: 0.05s;
+}
+
+#layer1 circle:hover {
+    fill: #fbff45;
+    transition: 0.05s;
+}
+
+#layer2 circle:hover {
+    fill: #fbff45;
+    transition: 0.05s;
+}
+
+#layer3 circle:hover {
+    fill: #fbff45;
+    transition: 0.05s;
+}
+
+#layer4 circle:hover {
+    fill: #fbff45;
+    transition: 0.05s;
+}
+
+#layer5 circle:hover {
+    fill: #fbff45;
+    transition: 0.05s;
+}

@@ -1,0 +1,7 @@
+---
+title: Malaysian Chinese citizens in cyberworld
+cover: /assets/images/covers/Homepage.gif
+members: Chen Wen, Chung Wui Kang, Huang Yuping, Qian yujie, Yang Shiqi
+description: Short description of the document for the meta tags (limit to 150 characters, longer will be cut by search engines)
+---
+Malaysia is a multi-ethnic country, mainly composed of Malays,Chinese and Indians. The Chinese represent the second largest ethnic group following the ethnic Malay majority. Although the descendants of the earliest Chinese migrants who arrived from the 15th to 17th centuries have experienced different levels of acculturation and/or assimilation has greatly convoluted their self-identification, but they still have formed a distinct subethnic community in the local area which makes them a special ethnic group. However, this is a popular topic in Malaysia but not hotly discussed worldwide, so this project basically studies it in a general perspective. We want to understand when people refer to Malaysian Chinese in different language fields in the cyber world, what are they talking about? What is the difference in different websites? What are the most interesting topics? In which fields they are being discussed more? Who are talking about them?

@@ -80,7 +80,7 @@
             theme: "Migration",
             title: "Malaysian Chinese citizens in the cyberworld",
             excerpt: "We want to understand when people refer to Malaysian Chinese in different language fields in the cyber world, what are they talking about? What are the most interesting topics? In which fields they are being discussed more? Who is talking about them?",
-            cover_website: "/cover/web-cover.jpg"
+            cover_website: "/assets/images/covers/Homepage.gif"
         }
     ]
 }
