@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 250 300" style="enable-background:new 0 0 250 300;" xml:space="preserve">
+<style type="text/css">
+	.st0{enable-background:new    ;}
+	.st1{fill:#666666;}
+	.st2{font-family:'IBMPlexSansCond-SemiBold';}
+	.st3{font-size:16px;}
+	.st4{fill:#A8BAA9;}
+	.st5{fill:#DDD492;}
+	.st6{fill:#2B5681;}
+	.st7{fill:#89703F;}
+	.st8{fill:#508AB5;}
+	.st9{opacity:0.5;}
+	.st10{opacity:0.5;fill:#BFB369;}
+	.st11{fill:#AFD7EF;}
+	.st12{fill:#BFB369;}
+	.st13{fill:none;stroke:#B3B3B3;stroke-width:0.5;stroke-miterlimit:10;}
+	.st14{fill:none;stroke:#666666;stroke-width:0.5;stroke-miterlimit:10;}
+	.st15{fill:none;}
+	.st16{font-family:'IBMPlexSans';}
+	.st17{font-size:9.0724px;}
+</style>
+<g id="labels">
+	<text transform="matrix(1 0 0 1 23.1948 18.9277)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">Word Recurrence </tspan><tspan x="0" y="19.2" class="st1 st2 st3">per Website Category</tspan></text>
+</g>
+<g id="barcharts">
+	<g>
+		<path class="st7" d="M26.9,94.9v22h-2.5v-22H26.9 M28.9,92.9h-6.5v26h6.5V92.9L28.9,92.9z"/>
+	</g>
+	<g class="st9">
+		<rect x="22.4" y="92.9" class="st7" width="6.5" height="26"/>
+	</g>
+</g>
+<g id="scale">
+	<polygon class="st1" points="192,278.9 189.5,283.3 194.6,283.3 	"/>
+	<polygon class="st1" points="22.3,279.1 19.8,283.5 24.8,283.5 	"/>
+	<polygon class="st1" points="64.7,279.1 62.2,283.5 67.3,283.5 	"/>
+	<rect x="173.7" y="288.9" class="st15" width="36.7" height="7.2"/>
+	<text transform="matrix(1 0 0 1 183.8818 295.5865)" class="st1 st16 st17">100</text>
+	<rect x="4" y="288.9" class="st15" width="36.7" height="7.2"/>
+	<text transform="matrix(1 0 0 1 19.658 295.5865)" class="st1 st16 st17">0</text>
+	<polygon class="st1" points="107.2,278.9 104.6,283.3 109.7,283.3 	"/>
+	<polygon class="st1" points="149.6,278.9 147.1,283.3 152.1,283.3 	"/>
+	<line class="st13" x1="64.7" y1="279.1" x2="64.7" y2="63.9"/>
+	<line class="st14" x1="192" y1="279.1" x2="192" y2="63.9"/>
+	<line class="st13" x1="107.2" y1="279.1" x2="107.2" y2="63.9"/>
+	<line class="st14" x1="22.3" y1="279.1" x2="22.3" y2="63.9"/>
+	<rect x="88.8" y="288.9" class="st15" width="36.7" height="7.2"/>
+	<text transform="matrix(1 0 0 1 101.7336 295.5865)" class="st1 st16 st17">50</text>
+	<rect x="131.3" y="288.9" class="st15" width="36.7" height="7.2"/>
+	<text transform="matrix(1 0 0 1 144.1689 295.5865)" class="st1 st16 st17">75</text>
+	<rect x="46.4" y="288.9" class="st15" width="36.7" height="7.2"/>
+	<text transform="matrix(1 0 0 1 59.2925 295.5865)" class="st1 st16 st17">25</text>
+	<line class="st13" x1="149.6" y1="279.1" x2="149.6" y2="63.9"/>
+</g>
+</svg>

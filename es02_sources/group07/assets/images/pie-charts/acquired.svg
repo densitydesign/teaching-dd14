@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 202 202">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #a8baa9;
+      }
+
+      .cls-2, .cls-3 {
+        opacity: 0.5;
+      }
+
+      .cls-3 {
+        fill: #2b5681;
+      }
+
+      .cls-4, .cls-5 {
+        fill: none;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-4 {
+        stroke: #a8baa9;
+      }
+
+      .cls-5 {
+        stroke: #2b5681;
+      }
+    </style>
+  </defs>
+  <title>Risorsa 6</title>
+  <g id="Livello_2" data-name="Livello 2">
+    <g id="pie_charts">
+      <g>
+        <circle class="cls-1" cx="101" cy="101" r="100"/>
+        <g>
+          <path class="cls-2" d="M101,201A100,100,0,0,1,101,1V201Z"/>
+          <path class="cls-3" d="M101,1a100,100,0,0,1,0,200V1Z"/>
+          <path class="cls-4" d="M101,201A100,100,0,0,1,101,1V201Z"/>
+          <path class="cls-5" d="M101,1a100,100,0,0,1,0,200V1Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

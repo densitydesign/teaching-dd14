@@ -1,0 +1,21 @@
+<nav>
+    <div class="nav__background"></div>
+    <div class="nav__background"></div>
+    <div class="nav__container">
+        {% for question in site.questions %}
+        <img class="nav__background-image" src="{{ question.cover | relative_url }}" alt="Preview visualization of research question">
+        {% endfor %}
+        <div class="index">
+            <h3 class="display index__heading index__title">{{ site.pages[0].title }}</h3>
+            <p class="index__heading index__link"><a href="{{ site.pages[0].url | relative_url }}">Introduction</a></p>
+            <h4 class="index__heading index__subtitle">research questions</h4>
+            <ul class="index__list">
+                {% for question in site.questions %}
+                <li class="index__item">
+                    <a href="{{ question.url | relative_url }}"> {{ question.title }} </a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,352 @@
+/* This is CSS code to make the example in question02 work, fell free to remove this when you start working on your project */
+
+/* variables */
+html {
+    --color-n_america: #BF6969;
+    --color-eurasia: #BFBF69;
+    --color-s_america: #69BF69;
+    --color-papunesia: #69BFBF;
+    --color-australia: #6969BF;
+    --color-africa: #BF69BF;
+}
+
+/* languages container */
+.languages {
+    display: grid;
+    grid-template-columns: repeat(12, calc(100% / 12));
+    grid-template-rows: 1fr;
+    padding-top: 96px;
+}
+
+
+.languages_wordcount {
+    display: grid;
+    grid-template-columns: repeat(12, calc(100% / 12));
+    grid-template-rows: 1fr;
+    height: 110vh;
+    position: relative;
+    width: 100%;
+}
+
+.languages_wordcount_legend {
+    grid-column: 2/4;
+    height: 110vh;
+    position: relative;
+    width: 100%;
+}
+
+
+.legend {
+    grid-column: 3 / 8;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.visualization {
+    grid-column: 3 / 11;
+}
+
+.map {
+    grid-column: 2 / 12;
+    font-size: 0;
+}
+
+.map_images {
+    grid-column: 2 / 11;
+}
+
+.treemap {
+  grid-column: 2 / 10;
+}
+
+.sidebar {
+  grid-column: 10 / 12;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  height: 100%;
+  position: relative;
+}
+
+#container_wordcount_braz {
+  z-index: 40;
+  grid-column: 4 / 12;
+  margin-top: 0px;
+  width: 100%;
+  background-color: white;
+}
+
+
+#container_wordcount_eng {
+  z-index: 50;
+  grid-column: 4 / 12;
+  position: absolute;
+  width: 100%;
+  background-color: white;
+}
+/* legend styles */
+
+.tricky {
+  grid-column: 2/12;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  font-size: 0;
+}
+
+.tricky-2 {
+  grid-column: 2/10;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  margin-bottom: 5vh;
+  margin-left: 1.9vw;
+  background-color: white;
+  transform-origin: top left;
+  transform: scale(1);
+  transition: all 0.1s ease-in-out;
+}
+
+
+.line {
+  border: 2px solid black;
+}
+
+.scaled {
+  transform-origin: top left;
+  transform: scale(0.5); /* Equal to scaleX(0.7) scaleY(0.7) */
+  transition: all 0.4s ease-in-out;
+}
+
+.scaled-2 {
+  transform-origin: top left;
+  transform: scale(0.7); /* Equal to scaleX(0.7) scaleY(0.7) */
+  transition: all 0.4s ease-in-out;
+}
+
+.switch_container {
+    grid-column: 11/12;
+    height: 20vh;
+    position: sticky;
+    top: 5vh;
+    padding-left: 2vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: right;
+}
+
+.switch_container_wordcount {
+    grid-column: 3/4;
+    height: 20vh;
+    position: sticky;
+    top: 0;
+    padding-left: 1vw;
+    padding-top: 8vh;
+    text-align: left;
+}
+
+.side_legend {
+  grid-column: 2/4;
+  position: sticky;
+  top: 0;
+  height: 70vh;
+}
+
+.visualisation_2 {
+  grid-column: 5/12;
+}
+
+.legend__list {
+    list-style: none;
+    padding: 0;
+}
+
+#treemap_switches {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 2vw;
+    width: 10vw;
+}
+
+#titolo {
+  text-align: left;
+  align-self: flex-end;
+  font-size: 1.4rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  line-height: 1.5rem;
+  font-weight: 100;
+}
+
+#corpo {
+  font-size: 0.8rem;
+}
+
+#source {
+  font-size: 0.7rem;
+  color: #777777;
+}
+
+#source span {
+  font-size: 0.5rem;
+  letter-spacing: 0.08rem;
+  text-transform: uppercase;
+}
+
+
+/* switch styles */
+
+
+.switch {
+    font-size: 0.8rem;
+    display: block;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    -webkit-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+}
+
+.switch span {
+    position: relative;
+    left: 0;
+    -webkit-transition: left 0.5s ease;
+    transition: left 0.5s ease;
+}
+
+.switch span::before,
+.question__content h5 a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 103%;
+    height: 2px;
+    background-color: #F74848;
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+.switch span::after {
+    content: "";
+    position: absolute;
+    left: -1.5rem;
+    top: 50%;
+    width: 1rem;
+    height: 2px;
+    background-color: #F74848;
+    border-radius: 1px;
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+.switch:hover {
+    cursor: pointer;
+}
+
+.switch:hover span::before,
+.question__content h5 a:hover::before {
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.rosso {
+  color: #F74848;
+}
+
+.fb-link text:hover {
+  fill: #f74848;
+}
+
+/* svg styles */
+
+.img_viz {
+    opacity: 0;
+}
+
+.word_viz {
+    opacity: 0;
+}
+
+.is-hidden {
+  opacity: 0;
+}
+
+.is-away {
+  display: none;
+}
+
+.is-nearly-hidden {
+  opacity: 0;
+}
+
+.is-visible {
+    opacity: 1;
+}
+
+.hoverable.is-out-focus {
+    opacity: 0.1;
+}
+
+.is-out-focus {
+    opacity: 0.1;
+}
+
+.protocol-schemes {
+  opacity: 0;
+}
+
+.treemap_group:hover {
+  cursor: pointer;
+}
+
+.treemap-scritta:hover {
+  cursor: pointer;
+}
+
+
+/* bibba styles */
+
+#cream-pie {
+  z-index: 99;
+  position: absolute;
+  width: 180px;
+  top: 340px;
+  left: 0px;
+  background-color: white;
+
+}
+
+
+#apple-pie {
+  position: absolute;
+  display: inline-block;
+  z-index: 99;
+  top: 0;
+  width: auto;
+  opacity: 0;
+  background-color: white;
+  padding: 7px;
+  border: 1px solid black;
+}

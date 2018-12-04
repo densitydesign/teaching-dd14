@@ -56,7 +56,7 @@
             theme: "Climate change",
             title: "The Amazon's Damnation",
             excerpt: "The Belo Monte dam complex in Brazil has flared up local and international opposition since its inception in the mid Seventies, and still remains highly contested after almost fourty years. Is a country’s prosperity worth the environmental toll caused by the impacts of mega-dams?",
-            cover_website: "/cover/web-cover.jpg"
+            cover_website: "/assets/images/covers/cover@xl.jpeg"
         },
         {
             group: "group08",
