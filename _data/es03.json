@@ -1,6 +1,6 @@
 {
     title: "Visualization for advocacy",
-    description: "In the Final Synthesis Design Studio, students learn to use information visualization to observe, understand, shape and communicate complex phenomena.\n\nIn the third and last part of the course, students repurpose their research for public engagement and use visualisation as a tool to take a stand on a controversial issue. The output is a design tactic that is meant to expose an issue, provoke a dialogue, [construct a public](https://www.mitpressjournals.org/doi/pdf/10.1162/desi.2009.25.1.48){: .description__link}{: target='_blank'} around it.",
+    description: "In the Final Synthesis Design Studio, students learn to use information visualization to observe, understand, shape and communicate complex phenomena.\n\nIn the third and last part of the course, students repurpose their research for public engagement and use visualisation as a tool to take a stand on a controversial issue. The output is a design tactic that is meant to expose an issue, provoke a dialogue, [construct a public](https://www.mitpressjournals.org/doi/pdf/10.1162/desi.2009.25.1.48){: .description__link}{: target='_blank'}{: rel='noopener'} around it.",
     projects: [
         {
             group: "group01",
