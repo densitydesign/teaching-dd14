@@ -8,7 +8,7 @@
             theme: "Hate speech",
             title: "Do we still need Feminism?",
             excerpt: "Anyone has an opinion over what feminism is and do anything using the name of it. Today being a feminist is a choice, anyone can call themselves a feminist, and can do rallies or give opinions or demand in the name of feminism. But what is feminism? What is the debate growing around it?",
-            cover_website: "/assets/images/covers/cover.gif"
+            cover_website: "/assets/images/covers/cover-small.gif"
         },
         {
             group: "group02",
@@ -16,7 +16,7 @@
             theme: "Datafication",
             title: "Exploring Data Center Energy",
             excerpt: "Can public accurately, objectively and comprehensively understand the current status of the rapidly developing data industry? We try to represent the whole picture of the data center panorama in the virtual world.",
-            cover_website: "/assets/images/covers/cover.jpg"
+            cover_website: "/assets/images/covers/cover-small.jpg"
         },
         {
             group: "group03",
@@ -24,7 +24,7 @@
             theme: "Food economics",
             title: "The Dark Side of Avocado",
             excerpt: "The dark side of avocado is something usually hidden in the weaves of big flows of trade. How much do we know about the impact that intensive farming has both on soil and local producers?",
-            cover_website: "/assets/images/covers/cover-01.gif"
+            cover_website: "/assets/images/covers/cover-01-small.gif"
         },
         {
             group: "group04",
@@ -32,7 +32,7 @@
             theme: "Datafication",
             title: "SCS_ Breathing scores?",
             excerpt: "In this new digital era, every people’s action contributes to the creation of big data. Three major actors plays within the exchange of data to have services in return: people, companies and governments. Will they be able to work together to build a world based on data trading?",
-            cover_website: "/assets/images/covers/cover.gif"
+            cover_website: "/assets/images/covers/cover-small.gif"
         },
         {
             group: "group05",
@@ -40,7 +40,7 @@
             theme: "Addiction",
             title: "Prescribe me an A+",
             excerpt: "The misuse of stimulants is a growing problem on campus. Some students feel like everyone they know is using study drugs. The focus of this research is the perception of these drugs by the major groups, which are public newspapers, students, Universities and the advertising world.",
-            cover_website: "/assets/images/covers/coverbg.png"
+            cover_website: "/assets/images/covers/coverbg-small.jpg"
         },
         {
             group: "group06",
@@ -48,7 +48,7 @@
             theme: "Addiction",
             title: "Opiate of the masses",
             excerpt: "It’s called ‘opioid epidemic’ but how much people are actually aware of it and its dangerousness? Affecting the U.S population for about 20 years now, the problem is getting more and more attention, not only by governmental agencies or health institutions but also by people.",
-            cover_website: "/assets/images/covers/covernew.gif"
+            cover_website: "/assets/images/covers/covernew-small.gif"
         },
         {
             group: "group07",
@@ -56,7 +56,7 @@
             theme: "Climate change",
             title: "The Amazon's Damnation",
             excerpt: "The Belo Monte dam complex in Brazil has flared up local and international opposition since its inception in the mid Seventies, and still remains highly contested after almost fourty years. Is a country’s prosperity worth the environmental toll caused by the impacts of mega-dams?",
-            cover_website: "/assets/images/covers/cover@xl.jpeg"
+            cover_website: "/assets/images/covers/cover@xl-small.jpg"
         },
         {
             group: "group08",
@@ -64,7 +64,7 @@
             theme: "Migration",
             title: "Feet on the stars, eyes on the ground",
             excerpt: "Within many contemporary controversial debates, we wanted to focus our attention on the growing interest about the future of human space exploration. Nowadays, we can observe how serious and intricates disputes, such as Climate Change, take into account the possibility for human mass migration to other planets.",
-            cover_website: "/assets/images/covers/cover@xl.jpeg"
+            cover_website: "/assets/images/covers/cover@xl-small.jpg"
         },
         {
             group: "group09",
@@ -72,7 +72,7 @@
             theme: "Hate speech",
             title: "Hate Shades",
             excerpt: "We tried to follow a possible path that a user could take in order to get information and form an opinion about hate speech, trying to map the controversial debate that the Hate Speech term generates: is it filtering or censorship?",
-            cover_website: "/assets/images/covers/cover@xl.jpeg"
+            cover_website: "/assets/images/covers/cover.jpg"
         },
         {
             group: "group10",
@@ -80,7 +80,7 @@
             theme: "Migration",
             title: "Malaysian Chinese citizens in the cyberworld",
             excerpt: "We want to understand when people refer to Malaysian Chinese in different language fields in the cyber world, what are they talking about? What are the most interesting topics? In which fields they are being discussed more? Who is talking about them?",
-            cover_website: "/assets/images/covers/Homepage.gif"
+            cover_website: "/assets/images/covers/Homepage-small.gif"
         }
     ]
 }
