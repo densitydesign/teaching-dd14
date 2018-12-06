@@ -1,12 +1,12 @@
 <!-- Add the HTML code for your visualization here -->
-<head>
-	<script src='/assets/js/jquery-1.8.3.min.js'></script>
-	<script src='/assets/js/jquery.elevatezoom.js'></script>
-	<script src='/assets/js/jquery.elevateZoom-3.0.8.min.js'></script>
-</head>
+
+<script src="{{ '/assets/js/jquery-1.8.3.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/jquery.elevatezoom.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/jquery.elevateZoom-3.0.8.min.js' | relative_url }}"></script>
+
  <div class="languages">
     <div class="map_images">
-      <img class="zoom" id="google_images" src="./assets/images/GoogleImages/bifras/google_images_eng.png" data-zoom-image="./assets/images/GoogleImages/bifras/google_images_eng_large.png">
+      <img class="zoom" id="google_images" src="{{ '/assets/images/GoogleImages/bifras/google_images_eng.png' | relative_url }}" data-zoom-image="{{ '/assets/images/GoogleImages/bifras/google_images_eng_large.png' | relative_url }}">
   </div>
 	<div class="switch_container">
     <ls class="switch rosso" id="eng_img_switch">
