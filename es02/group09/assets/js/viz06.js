@@ -142,7 +142,7 @@ loadJSON();
 
 function loadJSON() {
 
-    var file = "/assets/about.json";
+    var file = "./assets/about.json";
     var xobj = new XMLHttpRequest();
     xobj.overrideMimeType("application/json");
     xobj.open('GET', file, true); // Replace 'my_data' with the path to your file
@@ -189,7 +189,7 @@ function storeJSONData(jsonObject) {
 
 function injectComment(content, target) {
     // console.log(content);
-    target.innerHTML = content.name + '<br>' + 
-    (content.clusters.length == 1 ? 'Cluster: ' : 'Clusters: ') + content.clusters + '<br><br>' + 
+    target.innerHTML = content.name + '<br>' +
+    (content.clusters.length == 1 ? 'Cluster: ' : 'Clusters: ') + content.clusters + '<br><br>' +
     content.body;
 }

@@ -4,7 +4,7 @@ cover: /assets/images/covers/viz04.jpg
 number: 4
 ---
 
-### Description 
+### Description
 
 From the visualization we can observe that the Wikipedia pages which directly link Hate Speech to Hate Crime with one degree of separation are: [“Freedom of thought”](https://en.wikipedia.org/wiki/Freedom_of_thought){:target="_blank"}, [“Thoughtcrime”](https://en.wikipedia.org/wiki/Thoughtcrime){:target="_blank"}, [“Hate mail”](https://en.wikipedia.org/wiki/Hate_mail){:target="_blank"} and [“Gay bashing”](https://en.wikipedia.org/wiki/Gay_bashing){:target="_blank"}. Trying to collect these results by their overall topic we defined which are the main and recurring macro-categories in the map, that can be described as the main themes that characterize the correlation between Hate Speech and Hate Crime: “Racial Discrimination”, “Racist organizations”, “Racial based violence”, “LGBT Discrimination”, “Violence”, “Discrimination”, “Hate Speech vs. Free Speech”, “Historical” and “Political”.
 
@@ -15,11 +15,11 @@ When the mouse passes over the circles the corresponding name of the page appear
 
 
 ### Protocol
-<img src="{{ '/assets/images/protocols/protocol-04.png' | relative_path }}">
+<img src="{{ '/assets/images/protocols/protocol-04.png' | relative_url }}">
 
-At first we wanted to analyze what were the topics involved in the definition of Hate Speech (it was our former research question), so the first half of the protocol describes the processes used to achieve this result. But then, going deeper with the analysis and the development of the other protocols, we identified a more specific research question concerning the correlation between Hate Speech and Hate Crime. 
+At first we wanted to analyze what were the topics involved in the definition of Hate Speech (it was our former research question), so the first half of the protocol describes the processes used to achieve this result. But then, going deeper with the analysis and the development of the other protocols, we identified a more specific research question concerning the correlation between Hate Speech and Hate Crime.
 
-Therefore, in order to analyze the common areas between these topics, we selected the two main Wikipedia pages of the poles (i.e. [Hate Speech](https://en.wikipedia.org/wiki/Hate_speech){:target="_blank"} and [Hate Crime](https://en.wikipedia.org/wiki/Hate_crime){:target="_blank"}), then we linked them in the [Seealsology tool](http://tools.medialab.sciences-po.fr/seealsology/){:target="_blank"} and made the analysis at level 2. Afterwards, we implemented the data we obtained from Seealsology by manually adding to every element of the table (i.e. all the Wikipedia pages resulting from the “See Also” connections) the number of the total views per page from 07/01/2015 to 11/17/2018, obtained with the [Pageviews Analysis tool](https://tools.wmflabs.org/admin/tool/pageviews){:target="_blank"} by [Wikimedia Tool Forge](https://tools.wmflabs.org/admin/){:target="_blank"}. 
+Therefore, in order to analyze the common areas between these topics, we selected the two main Wikipedia pages of the poles (i.e. [Hate Speech](https://en.wikipedia.org/wiki/Hate_speech){:target="_blank"} and [Hate Crime](https://en.wikipedia.org/wiki/Hate_crime){:target="_blank"}), then we linked them in the [Seealsology tool](http://tools.medialab.sciences-po.fr/seealsology/){:target="_blank"} and made the analysis at level 2. Afterwards, we implemented the data we obtained from Seealsology by manually adding to every element of the table (i.e. all the Wikipedia pages resulting from the “See Also” connections) the number of the total views per page from 07/01/2015 to 11/17/2018, obtained with the [Pageviews Analysis tool](https://tools.wmflabs.org/admin/tool/pageviews){:target="_blank"} by [Wikimedia Tool Forge](https://tools.wmflabs.org/admin/){:target="_blank"}.
 
 We imported the results in Gephi, where, after setting the nodes dimension by the page visualizations, we created the main poles (by blocking the nodes of Hate Speech and Hate Crime) and the separation degrees using the Ego Network filter and the Intersection Operator. Afterwards, we used the Force Atlas 2 layout to position the remaining nodes. Finally we exported the map and adjusted it with Illustrator, where we manually categorized the topics and refined the results.
 
@@ -27,4 +27,4 @@ We imported the results in Gephi, where, after setting the nodes dimension by th
 ### Data
 ##### Data Source: [Seealsology](http://tools.medialab.sciences-po.fr/seealsology/){:target="_blank"}, [Wikimedia Tool Forge-Pageviews Analysis](https://tools.wmflabs.org/admin/tool/pageviews){:target="_blank"}
 ##### Timestamp: 11/17/2018
-##### [View Data (59 KB)](/assets/datasets/2.3.xlsx)
+##### [View Data (59 KB)]({{ '/assets/datasets/2.3.xlsx' | relative_url }})

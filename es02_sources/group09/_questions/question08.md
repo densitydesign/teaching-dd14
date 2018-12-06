@@ -10,7 +10,7 @@ From this visualization it’s clear that “Hate Sites” link and connect to e
 
 If we consider the traffic share of the referral sites that are still opened—as we have seen in the previous protocol—it is possible to identify with the use of [SimilarWeb](https://www.similarweb.com/){:target="_blank"} tool the leading referring ones and the leading destination ones. By connecting these sites with the hate ones, we have tried to identify a Hate Echo Chamber through which the user can observe the connections between them.
 
-The graph displays the Hate Echo Chamber by positioning the 33 Hate Sites defined by RationalWiki in a circular composition, while the referral and destination ones align themselves around them. If they assume an external position in the map it means they only have one connection with the Hate Site related to them. Instead, if they are placed in the central area of the graph, it means they have a higher number of connections. 
+The graph displays the Hate Echo Chamber by positioning the 33 Hate Sites defined by RationalWiki in a circular composition, while the referral and destination ones align themselves around them. If they assume an external position in the map it means they only have one connection with the Hate Site related to them. Instead, if they are placed in the central area of the graph, it means they have a higher number of connections.
 
 The nodes’ size depends on the number of connections that each site has with the others, therefore on the relevance in the Hate Echo Chamber.
 The color defines the category: the RationalWiki Hate Sites are orange, the referring ones are lilac, the destination ones are blue and the ones that are both referral and destination are purple. The edges are colored with the same method and the arrows are used to enhance the direction of it.
@@ -19,7 +19,7 @@ Moreover, we have designed a toggle to highlight the most relevant sites in the 
 
 
 ### Protocol
-<img src="{{ '/assets/images/protocols/protocol-08.png' | relative_path }}">
+<img src="{{ '/assets/images/protocols/protocol-08.png' | relative_url }}">
 
 We started our analysis from the data of protocols 3.1 and 3.3.
 We searched for the referral sites and the destination sites with [SimilarWeb](https://www.similarweb.com/){:target="_blank"} for each [RationalWiki](https://rationalwiki.org/wiki/Category:Internet_hate_sites){:target="_blank"} “Hate Site” and we collected the results in an Excel file.
@@ -32,4 +32,4 @@ We used the Circular Layout plug-in to position the “hatred” nodes in a circ
 ### Data
 ##### Data Source: [RationalWiki](https://rationalwiki.org/wiki/Category:Internet_hate_sites){:target="_blank"}, [SimilarWeb](https://www.similarweb.com/){:target="_blank"}
 ##### Timestamp: 11/19/2018
-##### [View Data (33 KB)](/assets/datasets/3.4.xlsx)
+##### [View Data (33 KB)]({{ '/assets/datasets/3.4.xlsx' | relative_url }})

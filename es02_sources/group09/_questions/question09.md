@@ -4,7 +4,7 @@ cover: /assets/images/covers/viz09.jpg
 number: 9
 ---
 
-### Description 
+### Description
 
 The visualization shows the lack of a shared viewpoint on Hate speech among this sample group, since the users partecipating to the discussions have very different opinions on the subject; this suggests that the debate is intense and far from agreement. As we discovered from protocol 1, the sources that users find on the web tend to promote strongly polarized opinions—against or pro hate speech and not neutral—so we expected to find the same situation in this sample. But against our expectations, in the two discussions analysed the situation is more “balanced”, meaning that there are a lot of comments that explore different nuances of the controversy.
 
@@ -16,12 +16,12 @@ Each opinion has a different color grading in order to help reading the graph an
 
 The idea to use discussions on [Kialo](https://kialo.com){:target="_blank"} as a sample came after having analyzed how people form an opinion through online sources. Since Kialo is a social network designed specifically to engage users in organized discussions, we decided to analyze two specific conversations about Hate Speech that took place on the platform, [“Should hate speech be illegal?”](https://www.kialo.com/should-hate-speech-be-illegal-6148/6148.0=6148.1){:target="_blank"} and [“Should hate speech be legally protected?”](https://www.kialo.com/should-hate-speech-be-legally-protected-10134/10134.0=10134.1/=10134.1){:target="_blank"} that had respectively 105 and 513 comments.
 
-The second visualization clarifies the reason why we chose Kialo for our analysis in the first place: the discussion has a climax at the second nesting level and then the comments gradually decrease, so the lively debate takes place in the very first part of the whole post dedicated to the controversy. But the most important thing that we noticed is that the majority of the comments were classified as “analytical” and that corresponded with the moderated style that Kialo wants to promote in the discussions. This classification was made with the help of the [IBM Tone Analyzer](https://www.ibm.com/watson/services/tone-analyzer/){:target="_blank"}, an API that clusterized the comments in seven categories—“joy”, “confident”, “anger”, “sadness”, “tentative”, “analytical” and “fear”—due to the different tones used throughout the two discussions. The nesting level of the comments corresponds to the distance from the query that generated the discussion, so the level “0” coincides with the very first comments. 
+The second visualization clarifies the reason why we chose Kialo for our analysis in the first place: the discussion has a climax at the second nesting level and then the comments gradually decrease, so the lively debate takes place in the very first part of the whole post dedicated to the controversy. But the most important thing that we noticed is that the majority of the comments were classified as “analytical” and that corresponded with the moderated style that Kialo wants to promote in the discussions. This classification was made with the help of the [IBM Tone Analyzer](https://www.ibm.com/watson/services/tone-analyzer/){:target="_blank"}, an API that clusterized the comments in seven categories—“joy”, “confident”, “anger”, “sadness”, “tentative”, “analytical” and “fear”—due to the different tones used throughout the two discussions. The nesting level of the comments corresponds to the distance from the query that generated the discussion, so the level “0” coincides with the very first comments.
 
 ![Secondary visualization]({{ '/assets/images/secondary-viz-kialo.svg' | relative_url }})
 
 ### Protocol
-<img src="{{ '/assets/images/protocols/protocol-09.png' | relative_path }}">
+<img src="{{ '/assets/images/protocols/protocol-09.png' | relative_url }}">
 
 We queried “Hate Speech” on Kialo, which gave back fourteen results: we then selected the two first results—“Should hate speech be illegal?” and “Should hate speech be legally protected?”—since they were more specific for our research interests.
 
@@ -33,5 +33,5 @@ From the same Excel file we manually clustered the 618 comments of the two conve
 ### Data
 ##### Data Source: [Kialo](https://kialo.com){:target="_blank"}, [Custom Python script](https://github.com/drivinward/Kialo-Parser){:target="_blank"}, [IBM Tone Analyzer](https://www.ibm.com/watson/services/tone-analyzer/){:target="_blank"}
 ##### Timestamp: 11/19/2018
-##### [View Data (258 KB)](/assets/datasets/4.xlsx)
-##### [View python script (258 KB)](/assets/kialo_parser.py)
+##### [View Data (258 KB)]({{ '/assets/datasets/4.xlsx' | relative_url }})
+##### [View python script (258 KB)]({{ '/assets/kialo_parser.py' | relative_url }})
