@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <link href="./assets/css/protocol6.css" rel="stylesheet">
-    <link href="./assets/css/zoom.css" rel="stylesheet">
+    <link href="{{ '/assets/css/protocol6.css' | relative_url }}" rel="stylesheet">
+    <link href="{{ '/assets/css/zoom.css' | relative_url }}" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
     </script>
-    <script src='./assets/js/protocol6.js'></script>
-    <script src='./assets/js/jquery-1.8.3.min.js'></script>
-    <script src='./assets/js/jquery.elevatezoom.js'></script>
+    <script src="{{ '/assets/js/protocol6.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/jquery-1.8.3.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/jquery.elevatezoom.js' | relative_url }}"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
 
@@ -27,7 +27,7 @@
 
 
         <div class="legendavideo">
-            
+
             <!-- legenda video -->
             <svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1024 31" style="enable-background:new 0 0 1024 31;" xml:space="preserve">
                 <style type="text/css">
@@ -145,22 +145,22 @@
 
         <div class="button">
             <div class="buttonrows">
-                <p id="testo0" class="testo0 buttontext" onclick="testo0()">All approaches</p>
-                <p id="testo1" class="testo1 buttontext" onclick="testo1()">Against</p>
-                <p id="testo2" class="testo2 buttontext" onclick="testo2()">Ironic</p>
-                <p id="testo3" class="testo3 buttontext" onclick="testo3()">Concerned</p>
-                <p id="testo4" class="testo4 buttontext" onclick="testo4()">Uncertain</p>
-                <p id="testo5" class="testo5 buttontext" onclick="testo5()">Neutral</p>
-                <p id="testo6" class="testo6 buttontext" onclick="testo6()">In favor</p>
+                <p id="testo0" class="testo0 buttontext">All approaches</p>
+                <p id="testo1" class="testo1 buttontext">Against</p>
+                <p id="testo2" class="testo2 buttontext">Ironic</p>
+                <p id="testo3" class="testo3 buttontext">Concerned</p>
+                <p id="testo4" class="testo4 buttontext">Uncertain</p>
+                <p id="testo5" class="testo5 buttontext">Neutral</p>
+                <p id="testo6" class="testo6 buttontext">In favor</p>
             </div>
         </div>
 
 
-        <iframe class="zoom-frame frame1" src="zoom1.html"></iframe>
-        <iframe class="zoom-frame frame2" src="zoom2.html"></iframe>
-        <iframe class="zoom-frame frame3" src="zoom3.html"></iframe>
-        <iframe class="zoom-frame frame4" src="zoom4.html"></iframe>
-        <iframe class="zoom-frame frame5" src="zoom5.html"></iframe>
-        <iframe class="zoom-frame frame6" src="zoom6.html"></iframe>
-        <iframe class="zoom-frame frame7" src="zoom7.html"></iframe>
+        <iframe class="zoom-frame frame1" src="{{ 'zoom1.html' | relative.url }}"></iframe>
+        <iframe class="zoom-frame frame2" src="{{ 'zoom2.html' | relative.url }}"></iframe>
+        <iframe class="zoom-frame frame3" src="{{ 'zoom3.html' | relative.url }}"></iframe>
+        <iframe class="zoom-frame frame4" src="{{ 'zoom4.html' | relative.url }}"></iframe>
+        <iframe class="zoom-frame frame5" src="{{ 'zoom5.html' | relative.url }}"></iframe>
+        <iframe class="zoom-frame frame6" src="{{ 'zoom6.html' | relative.url }}"></iframe>
+        <iframe class="zoom-frame frame7" src="{{ 'zoom7.html' | relative.url }}"></iframe>
     </div>

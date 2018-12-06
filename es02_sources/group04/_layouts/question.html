@@ -1,11 +1,30 @@
 ---
 layout: default
 ---
+{% capture the_collection %}{{page.collection}}{% endcapture %}
+{% if page.collection %}
+    {% assign  document = site[the_collection]  %}
+{% endif %}
+{% for links in document  %}
+    {% if links.title == page.title %}
+        {% unless forloop.first %}
+            {% assign prevurl = prev.url %}
+            {% assign prevtitle = prev.nav %}
+        {% endunless %}
+        {% unless forloop.last %}
+            {% assign next = document[forloop.index] %}
+            {% assign nexturl = next.url %}
+            {% assign nexttitle = next.nav %}
+        {% endunless %}
+    {% endif %}
+    {% assign prev = links %}
+{% endfor %}
+
 <!-- Header of the question -->
 <header class="container">
     <div class="question__heading">
-        <a href="{% assign prev-number = page.number | minus: 1 %}{{ '/question0' | append: prev-number | relative_url }}" class="pagination pagination__prev{% if page.number == 1 %} pagination--hidden{% endif %}"><span class="pagination__arrow">&larr;</span><span class="pagination__link">prev</span></a>
-        <a href="{% assign next-number = page.number | plus: 1 %}{{ '/question0' | append: next-number | relative_url }}" class="pagination pagination__next{% assign questions-number = site.questions | size %}{% if page.number == questions-number %} pagination--hidden{% endif %}"><span class="pagination__link">next</span><span class="pagination__arrow">&rarr;</span></a>
+        {% if prevurl %}<a href="{{prevurl | relative_url }}" class="pagination pagination__prev"><span class="pagination__arrow">&larr;</span><span class="pagination__link">prev</span></a>{% endif %}
+        {% if nexturl %}<a href="{{nexturl | relative_url }}" class="pagination pagination__next"><span class="pagination__link">next</span><span class="pagination__arrow">&rarr;</span></a>{% endif %}
         <h4 class="question__subtitle">research question</h4>
         <h2 class="question__title">{{ page.title }}</h2>
         <div class="btn--burger" role="button" tabindex="0" aria-pressed="false">
