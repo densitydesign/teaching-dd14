@@ -26,5 +26,5 @@ After cleaning data,we retained nearly 7,000 comments and maked sentiment analys
 ### Data
 ##### Data Source: [Youtube](https://www.youtube.com/)
 ##### Timestamp: 19/10/2018
-##### [View Data (147Kb)](./assets/dataset/data06.json)
+##### [View Data (147Kb)]({{ '/assets/dataset/data06.json' | relative_url }})
 This dataset was consisted of emotions, video IDs and comments. We use specific algorithm to output a new JSON file, expressing clearer hierarchy of the dataset.

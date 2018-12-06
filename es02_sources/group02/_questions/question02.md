@@ -22,5 +22,5 @@ We got some keywords and their frequency. At the same time, the searched text an
 ### Data
 ##### Data Source: [Google , ](http://google.com)[Baidu](http://baidu.com)
 ##### Timestamp: 02/11/2018
-##### [View Data (44Kb)](./assets/dataset/data02.xlsx)
+##### [View Data (44Kb)]({{ '/assets/dataset/data02.xlsx' | relative_url }})
 Our dataset was consisted of a table containing both Chinese and English search results, including the frequency of keywords, the type of website and content.

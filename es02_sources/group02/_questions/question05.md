@@ -17,5 +17,5 @@ Firstly,we search for "Data Center Energy" in Google News (set to US Regional an
 ### Data
 ##### Data Source: [Google News , ](https://news.google.com)[Baidu News](https://news.baidu.com/)
 ##### Timestamp: GOOGLE NEWS (2008~2018),BAIDU NEWS(ALL)
-##### [View Data (27Kb)](./assets/dataset/data05.xlsx)
+##### [View Data (27Kb)]({{ '/assets/dataset/data05.xlsx' | relative_url }})
 This dataset is made up of 200 news collected from Google News and Baidu News respectively.The manual variables contain that News order,Publishers,News Object,News Topic,Attitude etc.
