@@ -15,7 +15,7 @@ The 40 best ranked Universities and the Top 40 ranked Universities for the study
 
 
 ### Data
-##### Data Source: [Guidelines from each university's website on this list](/assets/data/Protocol_7/Protocol_7.xlsx)
+##### Data Source: [Guidelines from each university's website on this list]({{ '/assets/data/Protocol_7/Protocol_7.xlsx' | relative_url }})
 ##### Timestamp: Nov 2018
-##### [View Data (60Kb)](/assets/data/Protocol_7/)
+##### [View Data (60Kb)]({{ '/assets/data/Protocol_7/' | relative_url }})
 To understand how colleges react to the study drugs phenomenon. It was analyzed the group of the first 40 universities for study drugs popularity in USA and the best 40 universities in USA according to niche.com. Inside the website of each university were analyzed the different health and wellness services offered by colleges, studying how specific they refer to study drugs and if the service provide internal or external materials. The dataset contains the links to website of university services responsible for prevention.

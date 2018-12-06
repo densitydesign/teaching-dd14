@@ -19,5 +19,5 @@ The second stage of the research is dedicated to find out the drug that is more 
 ### Data
 ##### Data Source: [Google](https://www.google.com/)
 ##### Timestamp: Nov 2018
-##### [View Data (50Kb)](/assets/data/Protocol_2/)
+##### [View Data (50Kb)]({{ '/assets/data/Protocol_2/' | relative_url }})
 The starting points for the creation of this dataset are five queries: “Smart Drugs”, “Study Drugs”, “Adderall”, ”Modafinil” and “Ritalin”. The first two are related to the more common terms used referred to Nootropics, the last three are related to the most used drugs inside the campuses.  Through the reading and the categorization of the first fifty results for every query was created the dataset, that contains one sheet for every query, in which is showed for every result his ranking number, the link, his source, the type of actor and if it refers to students or not.

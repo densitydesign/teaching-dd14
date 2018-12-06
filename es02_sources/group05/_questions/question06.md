@@ -16,6 +16,6 @@ This protocol started with choose of two macro groups: Students and Stimulants. 
 ### Data
 ##### Data Source: [Reddit](https://www.reddit.com/)
 ##### Timestamp: Jan 2011-Nov 2018
-##### [View Data (60Kb)](/assets/data/Protocol_6/)
+##### [View Data (60Kb)]({{ '/assets/data/Protocol_6/' | relative_url }})
 Trying to find the communities closer to students and drugs on Reddit, firstly it were done a research on the platform to find those subreddit, that at the end were six. Thanks to a script wrote using a library to work with Reddit API was possible to filter more all of the posts inside the subreddits to find those were talking about Adderall and were containing different key words referred to academic world. From the Phyton Script were taken titles, dates, links, scores, number of comments of the posts, that after were manually categorized to find different groups of topic.
 In particular for this visualization dates were divided to have a different group of posts for every month, without looking at the day and the year.

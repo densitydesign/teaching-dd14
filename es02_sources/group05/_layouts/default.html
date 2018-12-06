@@ -9,8 +9,8 @@
     <!-- Meta tags for social networks -->
     <meta property="og:title" content="{{ page.title }}">
     <meta property="og:description" content="{{ site.pages[0].description }}">
-    <meta property="og:image" content="{{ page.cover | absolute_url }}">
-    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{{ page.cover | absolute_url | prepend: 'https://densitydesign.github.io' }}">
+    <meta property="og:url" content="{{ page.url | absolute_url | prepend: 'https://densitydesign.github.io' }}">
     <meta name="twitter:card" content="summary_large_image">
 
    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700" rel="stylesheet">

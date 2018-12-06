@@ -16,5 +16,5 @@ The first part of the data gathering started from Google Images, Google Search a
 ### Data
 ##### Data Source: [Google Images](https://images.google.com/), [Pinterest](https://pinterest.com/)
 ##### Timestamp: 1922-2018
-##### [View Data (27mb)](/assets/data/Protocol_9/)
+##### [View Data (27mb)]({{ '/assets/data/Protocol_9/' | relative_url }})
 Images found on Google images and Pinterest were manually categorized by type of drug, year, target and theme to create the dataset. In particular, for this protocol are highlighted the connections between different themes inside the ads (almost everyone has more than one theme).

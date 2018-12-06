@@ -17,5 +17,5 @@ In order to understand the causes that lead a student to use a brain enhancer li
 ### Data
 ##### Data Source: [Articles from the following Newspapers](https://en.wikipedia.org/wiki/List_of_newspapers_in_the_United_States#Top_10_newspapers_by_circulation/)
 ##### Timestamp: Jan 2012-Nov 2018
-##### [View Data (500Kb)](/assets/data/Protocol_4/)
+##### [View Data (500Kb)]({{ '/assets/data/Protocol_4/' | relative_url }})
 Creating a “vocabulary” of words (referred to the most common causes found in the first phase of the project), all the articles of the previous protocol were read to understand to which reasons they are referring talking about adderall in academic world. The spreadsheet contains all the articles related to students and for every one of these shows the reasons to which the authors referred. Other two sheets show the amount of causes and articles for each newspaper.
