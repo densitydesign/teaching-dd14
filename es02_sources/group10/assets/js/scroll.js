@@ -49,9 +49,7 @@ function handleStepExit(intersection) {
 }
 function hnShowNewsPic(num){
 	for(i=1;i<7;i++){
-		document.getElementById("hn_news_pic"+i).src = "assets/images/movie/Homepage.png";
+		document.getElementById("hn_news_pic"+i).src = "./assets/images/movie/Homepage.png";
 	}
-	document.getElementById("hn_news_pic"+num).src = "assets/images/movie/1.png";
+	document.getElementById("hn_news_pic"+num).src = "./assets/images/movie/1.png";
 }
-
-

@@ -35,5 +35,5 @@ $('#layer1').click(function () {
 })
 
 $("circle").hover(function () {
-    $("circle").toogleClass("changeColorClass")
+    $("circle").toggleClass("changeColorClass")
 })
