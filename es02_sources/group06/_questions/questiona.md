@@ -17,5 +17,5 @@ The keywords chosen are in a range from more general terminologies to specific n
 ### Data
 ##### Data Source: Wikipedia(http://densitydesign.org/)
 ##### Timestamp: November 2018
-##### [View Data (8Kb)](http:/assets/images/dataset/protocol1-wikipedia.csv)
+##### [View Data (8Kb)]({{ '/assets/images/dataset/protocol1-wikipedia.csv' | relative_url }})
 This dataset is organized in four columns and created to be read by gephi. It contains the list of links between topic and their see-also connections with a column that explains the importance of connection between them.

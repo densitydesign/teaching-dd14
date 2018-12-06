@@ -14,3 +14,5 @@ defaults:
       path: ""
     values:
       layout: "intro"
+
+baseurl: "/teaching-dd14/es02/group06"

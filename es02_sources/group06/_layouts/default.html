@@ -9,8 +9,8 @@
     <!-- Meta tags for social networks -->
     <meta property="og:title" content="{{ page.title }}">
     <meta property="og:description" content="{{ site.pages[0].description }}">
-    <meta property="og:image" content="{{ page.cover | absolute_url }}">
-    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{{ page.cover | absolute_url | prepend: 'https://densitydesign.github.io' }}">
+    <meta property="og:url" content="{{ page.url | absolute_url | prepend: 'https://densitydesign.github.io' }}">
     <meta name="twitter:card" content="summary_large_image">
 
     <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Chivo:400,700" rel="stylesheet">
@@ -28,7 +28,7 @@
 
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/custom-styles.css' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/magnify.css' | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnify/2.3.2/css/magnify.min.css">
 </head>
 
 <body>
@@ -43,16 +43,8 @@
     {% endif %}
     <script src="{{ '/assets/js/main.js' | relative_url }}" charset="utf-8"></script>
     <script src="{{ '/assets/js/custom-scripts.js' | relative_url }}" charset="utf-8"></script>
-    <script src="{{ '/assets/js/jquery.magnify.js' | relative_url }}" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnify/2.3.2/js/jquery.magnify.min.js" charset="utf-8"></script>
 
-
-    
-    
-    
-    
-    
-    
-    
 </body>
 
 
