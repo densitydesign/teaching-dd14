@@ -9,12 +9,12 @@ The network show the related topics between human migration and the queries we f
 
 ### Protocol
 
-<img class="protocolli" src="/assets/images/protocols/protocol-1.png"/>
+<img class="protocolli" src="{{ '/assets/images/protocols/protocol-1.png' | relative_url }}"/>
 
-To deliver this protocol, the Seealsology tool has been set with a 2 distance value, considering human migration, space exploration & space colonization as seeds. 
+To deliver this protocol, the Seealsology tool has been set with a 2 distance value, considering human migration, space exploration & space colonization as seeds.
 The output provided a network fitting 1360 nodes & 1877 edges. Then, the model has been .gefx exported and opened in Gephi to produce a meaningful network.
-The Force Atlas 2 layout mode has been selected to provide the most suitable output. 
-In the Data Laboratory section within’ the same tool, an “On Topic” column has been filled up, in order to identify connections that are pertinent with our starting point. 
+The Force Atlas 2 layout mode has been selected to provide the most suitable output.
+In the Data Laboratory section within’ the same tool, an “On Topic” column has been filled up, in order to identify connections that are pertinent with our starting point.
 
 ### Data
 ##### Data Source: [Wikipedia + Seealsology](http://wikipedia.org/)
