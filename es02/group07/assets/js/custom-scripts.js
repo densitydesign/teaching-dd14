@@ -79,12 +79,12 @@ $(document).ready(function() {
 
     /* Switch Immagini*/
     $("#eng_img_switch").on('click', function(event){
-        $("#google_images").attr("src","./assets/images/GoogleImages/bifras/google_images_eng.png");
-        $('.zoomLens').attr('style','background-position: -0.37503px -4810.74px; float: left; border: 1px solid rgb(136, 136, 136); width: 250px; height: 250px; background-repeat: no-repeat; position: absolute; border-radius: 126px; background-image: url("./assets/images/GoogleImages/bifras/google_images_eng_large.png"); left: -107px; top: 600px; display: none;');
+        $("#google_images").attr("src","/assets/images/GoogleImages/bifras/google_images_eng.png");
+        $('.zoomLens').attr('style','background-position: -0.37503px -4810.74px; float: left; border: 1px solid rgb(136, 136, 136); width: 250px; height: 250px; background-repeat: no-repeat; position: absolute; border-radius: 126px; background-image: url("/assets/images/GoogleImages/bifras/google_images_eng_large.png"); left: -107px; top: 600px; display: none;');
     })
     $("#braz_img_switch").on('click', function(event){
-        $("#google_images").attr("src","./assets/images/GoogleImages/bifras/google_images_braz.png");
-        $('.zoomLens').attr('style','background-position: -0.37503px -4810.74px; float: left; border: 1px solid rgb(136, 136, 136); width: 250px; height: 250px; background-repeat: no-repeat; position: absolute; border-radius: 126px; background-image: url("./assets/images/GoogleImages/bifras/google_images_braz_large.png"); left: -107px; top: 600px; display: none;');
+        $("#google_images").attr("src","/assets/images/GoogleImages/bifras/google_images_braz.png");
+        $('.zoomLens').attr('style','background-position: -0.37503px -4810.74px; float: left; border: 1px solid rgb(136, 136, 136); width: 250px; height: 250px; background-repeat: no-repeat; position: absolute; border-radius: 126px; background-image: url("/assets/images/GoogleImages/bifras/google_images_braz_large.png"); left: -107px; top: 600px; display: none;');
     })
 
 
@@ -122,7 +122,7 @@ $(document).ready(function() {
     /* eng */
     $(".chiama-cream").on('mouseenter', function() {
         id_piechart = $(this).parent().attr('id');
-        $("#porta-cream-pie").attr("src", "./assets/svg/barcharts_ENG/" + id_piechart + ".svg");
+        $("#porta-cream-pie").attr("src", "/assets/svg/barcharts_ENG/" + id_piechart + ".svg");
     });
     $(".chiama-cream").on('mouseenter', function(e) {
         $("#cream-pie").removeClass("is-away");
@@ -134,7 +134,7 @@ $(document).ready(function() {
     /* braz */
     $(".chiama-cream-brazi").on('mouseenter', function() {
         id_piechart = $(this).parent().attr('id');
-        $("#porta-cream-pie").attr("src", "./assets/svg/barcharts_BRA/" + id_piechart + ".svg");
+        $("#porta-cream-pie").attr("src", "/assets/svg/barcharts_BRA/" + id_piechart + ".svg");
     });
     $(".chiama-cream-brazi").on('mouseenter', function(e) {
         $("#cream-pie").removeClass("is-away");
@@ -142,7 +142,7 @@ $(document).ready(function() {
 
         $("#cream-pie").addClass("is-away");
     });
-
+    
 
     /* mostra labels nella wordcloud */
 
@@ -165,7 +165,7 @@ $(document).ready(function() {
     var inbassopx;
     var inbasso;
     var inbassonum;
-
+    
     $(".show_pie").on('mouseenter', function(e) {
         inbassopx = $("#apple-pie").css("height");
         inbasso = inbassopx.replace('px', '');

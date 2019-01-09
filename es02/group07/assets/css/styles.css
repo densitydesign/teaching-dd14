@@ -1,4 +1,4 @@
-html { --color-main: #000000; --color-dark: #000000; --color-light: #fbfef9; --font-display: 'IBMPlexSans', sans-serif; --font-text: 'IBMPlexSans', sans-serif; }
+html { --color-main: #000000; --color-dark: #000000; --color-light: #fbfef9; --font-display: 'IBM Plex Sans', sans-serif; --font-text: 'IBM Plex Sans', sans-serif; }
 
 .display { font-family: var(--font-display); }
 
