@@ -1,14 +1,8 @@
 /* This is CSS code to make the example in question02 work, fell free to remove this when you start working on your project */
 
 /* variables */
-html {
-    --color-n_america: #BF6969;
-    --color-eurasia: #BFBF69;
-    --color-s_america: #69BF69;
-    --color-papunesia: #69BFBF;
-    --color-australia: #6969BF;
-    --color-africa: #BF69BF;
-}
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,500,500i,600,600i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:400,400i,500,500i,600,600i,700,700i');
 
 /* languages container */
 .languages {
