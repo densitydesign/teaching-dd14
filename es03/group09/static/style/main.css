@@ -239,3 +239,40 @@ div.module.hidden {
     width: 100%;
     background-color: white;
 }
+
+#wall {
+    height: 0px;
+    width: 0px;
+    visibility: hidden;
+}
+
+@media (max-width: 640px), (max-height: 480px) {
+    html, body {
+        pointer-events: none;
+    }
+    #wall {
+        visibility: visible;
+        position: relative;
+
+        width: calc(100% - var(--sp) * 2);
+        height: calc(100% - var(--sp) * 2);
+
+        z-index: 500;
+        background-color: var(--c-bg);
+
+        padding: var(--sp);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+        #wall > p {
+            max-width: 380px;
+
+            font-size: .9rem;
+            line-height: 1.75;
+            text-align: center;
+
+            align-self: center;
+        }
+}

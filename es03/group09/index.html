@@ -1,17 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html   xmlns="http://www.w3.org/1999/xhtml" 
+        xmlns:fb="http://ogp.me/ns/fb#">
 
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>RegulHate – A New Take On Online Content Regulation</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:image" content="static/images/www-cover.png" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/images/favicon-16x16.png">
+    <link rel="manifest" href="/static/images/site.webmanifest">
+    <link rel="mask-icon" href="/static/images/safari-pinned-tab.svg" color="#18181a">
+    <link rel="shortcut icon" href="/static/images/favicon.ico">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="msapplication-config" content="/static/images/browserconfig.xml">
+    <meta name="theme-color" content="#18181a">
+
     <link rel="stylesheet" type="text/css" media="screen" href="static/style/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="static/style/index.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="static/style/home-curves.css" />
 </head>
 
 <body ontouchstart="">
+    <div id="wall">
+        <p>:(</p>
+        <p>This website has been designed to be enjoyed on&nbsp;desktop&nbsp;devices or tablets.</p>
+        <p>Please check back from your laptop, tablet or personal&nbsp;computer!</p>
+    </div>
     <div id="menu">
         <ul>
             <li><a href="#">Home</a></li>
@@ -44,22 +62,23 @@
                     </div>
                 </div>
                 <a href="#">
-                    <div class="module show" id="continue">
+                    <div class="module" id="continue">
                         Skip
                     </div>
                 </a>
             </div>
         </div>
     </div>
+
+    <script src="static/js/menu.js"></script>
+    <script src="static/lib/typeit.min.js"></script>
+    
+    <script src="static/lib/d3.js"></script>
+    <script src="static/lib/anime.min.js"></script>
+    
+    <script src="static/js/home.js"></script>
+    <script src="static/js/home-curves.js"></script>
+
 </body>
-
-<script src="static/js/menu.js"></script>
-<script src="static/lib/typeit.min.js"></script>
-
-<script src="static/lib/d3.js"></script>
-<script src="static/lib/anime.min.js"></script>
-
-<script src="static/js/home.js"></script>
-<script src="static/js/home-curves.js"></script>
 
 </html>
