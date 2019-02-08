@@ -157,17 +157,11 @@
     padding: var(--sp) calc(var(--sp) * 1.75);
     margin: 0;
 
-    opacity: 0;
-    visibility: hidden;
     /* border: 0.5px solid rgba(255, 255, 255, 0.8); */
     color: var(--t-cl);
     background-color: transparent;
 
     cursor: pointer;
-}
-#wrapper > #content > a > #continue.show {
-    opacity: 1;
-    visibility: visible;
 }
 #wrapper > #content > a > div#continue:hover {
     background-color: var(--c-el-h);
