@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>RegulHate – A New Take On Online Content Regulation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="static/style/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="static/style/index.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="static/style/home-curves.css" />
+</head>
+
+<body ontouchstart="">
+    <div id="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="results-selection.html">Results</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+    <div id="wrapper">
+        <div id="header">
+            <div id="session-title">RegulHate</div>
+            <div id="header-btns">
+                <div id="hamburger">
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                </div>
+            </div>
+        </div>
+        <div id="home-curves"></div>
+            <div id="content">
+                <div id="hero">
+                    <div id="hero-text" class="show"></div>
+                    <div id="hero-categories">
+                        <ul>
+                            <li js-data="1" onmouseover="animateLines(this)"><a href="session.html?category=1">Race</a></li>
+                            <li js-data="2" onmouseover="animateLines(this)"><a href="session.html?category=2">Gender</a></li>
+                            <li js-data="3" onmouseover="animateLines(this)"><a href="session.html?category=3">Disability</a></li>
+                            <li js-data="4" onmouseover="animateLines(this)"><a href="session.html?category=4">Religion</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="#">
+                    <div class="module show" id="continue">
+                        Skip
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="static/js/menu.js"></script>
+<script src="static/lib/typeit.min.js"></script>
+
+<script src="static/lib/d3.js"></script>
+<script src="static/lib/anime.min.js"></script>
+
+<script src="static/js/home.js"></script>
+<script src="static/js/home-curves.js"></script>
+
+</html>

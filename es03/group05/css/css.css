@@ -1,0 +1,1251 @@
+		::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #f0582a;
+}
+		.btnscroll {
+			position: absolute;
+			top: 200%;
+			height: 100vh;
+			width: 100%;
+		}
+		.btnscroll-fixed {
+			position: fixed;
+			top: 0;
+		}
+		button:focus {outline:0;}
+		a:focus {outline: 0;}
+		body {
+			margin: 0;
+			padding: 0;
+			height: 800vh;
+			user-select: none;
+			overflow-x: hidden;
+			scroll-behavior: smooth;
+				
+	}
+		svg text {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+		div{
+			margin: 0;
+		}
+		img{
+    user-drag: none; 
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+		 
+        #right_panel {
+    position: absolute;
+			top: 0;
+    width: 99.8%;
+    padding-left: 0px;
+    height: 100vh;
+    right: 0;
+
+			opacity: 1;
+			background: url("")  no-repeat  center center fixed;
+			background-size: cover;
+		background-color: rgba(255, 244, 220, 1);
+}
+
+#resize {
+ 	background-color: #f0582a;
+    position: absolute;
+	top: 0;
+    left: 0;
+    width: 4px;
+        height: 100vh;
+    cursor: w-resize;
+	overflow-y: visible;
+	z-index: 37;
+}
+		.d1 {
+			position: relative;
+			top: 48%;
+			left: -550%;
+			width: 50px;
+		}
+		.d2{
+			position: relative;
+			top: 41.7%;
+			left: -680%;
+			width: 60px;
+			opacity: .5;
+		}
+		#back {
+			margin: 0;
+			position: absolute;
+			top: 0;
+			left: 0%;
+			width: 100%;
+			height: 100vh;
+			overflow: hidden;
+			
+			background: url("")  no-repeat  center center fixed;
+			background-color: #fff4de;
+				background-size: cover;
+		}
+		.btn {
+			width: 20%;
+			margin-top: 3%;
+			position: absolute;
+			font-family: 'Fira Sans';
+			font-size: 120%;
+			padding: 1% 0;
+			background-color: #fff4de;
+			border: 1px solid black;
+			cursor: pointer;
+		}
+		.active1 {
+			
+		
+			 background-image: linear-gradient(to right, #fff4de 50%,  #f0582a 50%);
+			background-size: 200% 100%;
+			
+			  animation-name: button-slide;
+			 animation-duration: .3s;
+			animation-fill-mode: forwards; 
+		}
+		.active2 {
+			background-image: linear-gradient(to right, #fff4de 50%,  #f0582a 50%);
+			background-size: 200% 100%;
+			border: none;
+			  animation-name: button-slide;
+			 animation-duration: .3s;
+			animation-fill-mode: forwards; 
+		}
+		
+		
+		
+		@keyframes button-slide {
+  0%   { background-position: 0;
+			height: auto;}
+  100% { background-position: -100%;
+	  color: white;
+			height: auto;}
+}
+		#but1 {
+			left: 20%;
+		}
+		#but2 {
+			left: 40%;
+		}
+		#but3 {
+			left: 60%;
+		}
+		@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+	 animation-duration: .5s;
+}
+		@keyframes pulse_animation {
+    0% { transform: scale(1); }
+    30% { transform: scale(1.18); }
+    40% { transform: scale(1.28); }
+    50% { transform: scale(1); }
+    60% { transform: scale(1); }
+    70% { transform: scale(1.18); }
+    80% { transform: scale(1.28); }
+    100% { transform: scale(1); }
+}
+				@keyframes pulse_animation2 {
+    0% { transform: scale(1);
+					opacity: .5;}
+    30% { transform: scale(1.30);opacity: .5;}
+    40% { transform: scale(1.48); opacity: .5;}
+    50% { transform: scale(1);opacity: 0;
+					}
+    60% { transform: scale(1.);opacity: .5; }
+    70% { transform: scale(1.30); opacity: .5;}
+    80% { transform: scale(1.48); opacity: .5;}
+    100% {transform: scale(1);
+					opacity: 0;}
+}
+		.d1 {
+    animation-name: pulse_animation;
+    animation-duration: 5000ms;
+    transform-origin:50% 50%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+ .d2 {
+    animation-name: pulse_animation2;
+    animation-duration: 5000ms;
+    transform-origin:50% 50%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+		
+		  .advwhite-1 {
+        fill: #f0582a;
+      }
+
+      .advwhite-2 {
+        font-size: 29.89px;
+        fill: #fff;
+        font-family: 'Frank Ruhl Libre';
+		  font-weight: 400;
+      }
+
+      .advwhite-22, .advwhite-3 {
+        fill: none;
+      }
+
+      .advwhite-3, .advwhite-8 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .advwhite-14, .advwhite-4 {
+        font-size: 18px;
+      }
+
+      .advwhite-4, .advwhite-9 {
+       font-family: 'Fira Sans';
+      }
+
+      .advwhite-5 {
+        letter-spacing: 0em;
+      }
+
+      .advwhite-6 {
+        letter-spacing: -0.01em;
+      }
+
+      .advwhite-7 {
+        letter-spacing: 0.01em;
+      }
+
+      .advwhite-8 {
+        fill: #fff5df;
+      }
+
+      .advwhite-9 {
+        font-size: 24px;
+      }
+
+      .advwhite-10 {
+        letter-spacing: 0em;
+      }
+
+      .advwhite-11 {
+        letter-spacing: -0.01em;
+      }
+
+      .advwhite-12 {
+        letter-spacing: 0em;
+      }
+
+      .advwhite-13 {
+        letter-spacing: 0.01em;
+      }
+
+      .advwhite-14 {
+        font-family: 'Frank Ruhl Libre';
+		  font-weight: 300;
+      }
+
+      .advwhite-15 {
+        letter-spacing: -0.04em;
+      }
+
+      .advwhite-16 {
+        letter-spacing: -0.01em;
+      }
+
+      .advwhite-17 {
+        letter-spacing: -0.03em;
+      }
+
+      .advwhite-18 {
+        letter-spacing: -0.02em;
+      }
+
+      .advwhite-19 {
+        letter-spacing: -0.02em;
+      }
+
+      .advwhite-20 {
+        letter-spacing: -0.07em;
+      }
+
+      .advwhite-21 {
+        letter-spacing: -0.07em;
+      }
+
+      .advwhite-22 {
+        stroke: #f0582a;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+		.position1 {
+			position: absolute;
+			top: 76.4%;
+			left: 3.3%;
+			width: 28.3%;
+		}
+		.position12 {
+			position: absolute;
+			top: 78.35%;
+			left: 3.3%;
+			width: 27.7%;
+			display: none;
+		}
+		.click1, .hover1,.click12, .hover12  {
+			display: none;
+		}
+		.close1,.toggle1,.close12,.toggle12 {
+			cursor: pointer;
+		}
+		
+		      .advblack-1, .advblack-9 {
+        fill: #3d3da6;
+      }
+
+      .advblack-2 {
+        font-size: 29.89px;
+         font-family: 'Frank Ruhl Libre';
+		  font-weight: 400;
+      }
+
+      .advblack-14, .advblack-2, .advblack-4 {
+        fill: #fff;
+      }
+
+      .advblack-21, .advblack-3 {
+        fill: none;
+      }
+
+      .advblack-3, .advblack-8 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .advblack-14, .advblack-4 {
+        font-size: 18px;
+      }
+
+      .advblack-4, .advblack-9 {
+         font-family: 'Fira Sans';
+		
+      }
+
+      .advblack-5 {
+        letter-spacing: 0em;
+      }
+
+      .advblack-6 {
+        letter-spacing: -0.01em;
+      }
+
+      .advblack-7 {
+        letter-spacing: 0.01em;
+      }
+
+      .advblack-9 {
+        font-size: 24px;
+      }
+
+      .advblack-10 {
+        letter-spacing: 0em;
+      }
+
+      .advblack-11 {
+        letter-spacing: -0.01em;
+      }
+
+      .advblack-12 {
+        letter-spacing: 0em;
+      }
+
+      .advblack-13 {
+        letter-spacing: 0.01em;
+      }
+
+      .advblack-14 {
+         font-family: 'Frank Ruhl Libre';
+		  font-weight: 300;
+      }
+
+      .advblack-15 {
+        letter-spacing: -0.03em;
+      }
+
+      .advblack-16 {
+        letter-spacing: -0.04em;
+      }
+
+      .advblack-17 {
+        letter-spacing: -0.01em;
+      }
+
+      .advblack-18 {
+        letter-spacing: -0.02em;
+      }
+
+      .advblack-19 {
+        letter-spacing: -0.02em;
+      }
+
+      .advblack-20 {
+        letter-spacing: -0.07em;
+      }
+
+      .advblack-21 {
+        stroke: #3d3da6;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+		
+		
+		.uls-1, .uls-2, .uls-3 {
+        fill: none;
+        stroke: #000;
+			stroke-width: 2px;
+        stroke-linejoin: round;
+      }
+	.als-1, .als-2, .als-3 {
+        fill: none;
+        stroke: #000;
+		stroke-width: 2px;
+        stroke-linejoin: round;
+      }
+			.nls-1, .nls-2, .nls-3 {
+        fill: none;
+        stroke: #000;
+				stroke-width: 2px;
+        stroke-linejoin: round;
+      }
+    
+		
+		.menuicon {
+			width: 7%;
+			padding-right: 5%;
+		}
+		.menuicon2 {
+			width: 6.5%;
+			padding-right: 5%;
+		}
+		.menuicon3 {
+			width: 6.5%;
+			padding-right: 5%;
+		}
+		.btn a {
+			color: inherit;
+		}
+		
+		
+		.cl-effect-5 a {
+	overflow: hidden;
+	padding: 0 4px;
+	height: 1em;
+}
+
+.cl-effect-5 a span {
+	position: relative;
+	display: inline-block;
+	-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.cl-effect-5 a span::before {
+	position: absolute;
+	top: 100%;
+	content: attr(data-hover);
+	font-weight: 500;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.cl-effect-5 a:hover span,
+.cl-effect-5 a:focus span {
+	-webkit-transform: translateY(-100%);
+	-moz-transform: translateY(-100%);
+	transform: translateY(-100%);
+}
+		nav{
+			overflow: hidden;
+		}
+		
+  .uniwhite-1 {
+        fill: #f0582a;
+      }
+
+      .uniwhite-2 {
+        font-size: 29.89px;
+        fill: #fff;
+       font-family: 'Frank Ruhl Libre';
+		  font-weight: 400;
+      }
+
+      .uniwhite-18, .uniwhite-3 {
+        fill: none;
+      }
+
+      .uniwhite-3, .uniwhite-7 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .uniwhite-10, .uniwhite-4 {
+        font-size: 18px;
+      }
+
+      .uniwhite-4, .uniwhite-8 {
+       font-family: 'Fira Sans';
+      }
+
+      .uniwhite-5 {
+        letter-spacing: -0.01em;
+      }
+
+      .uniwhite-6 {
+        letter-spacing: -0.01em;
+      }
+
+      .uniwhite-7 {
+        fill: #fff5df;
+      }
+
+      .uniwhite-8 {
+        font-size: 24px;
+      }
+
+      .uniwhite-9 {
+        letter-spacing: -0.01em;
+      }
+
+      .uniwhite-10 {
+        font-family: 'Frank Ruhl Libre';
+		  font-weight: 300;
+      }
+
+      .uniwhite-11 {
+        letter-spacing: -0.02em;
+      }
+
+      .uniwhite-12 {
+        letter-spacing: -0.02em;
+      }
+
+      .uniwhite-13 {
+        letter-spacing: 0em;
+      }
+
+      .uniwhite-14 {
+        letter-spacing: -0.04em;
+      }
+
+      .uniwhite-15 {
+        letter-spacing: -0.04em;
+      }
+
+      .uniwhite-16 {
+        letter-spacing: -0.07em;
+      }
+
+      .uniwhite-17 {
+        letter-spacing: 0.02em;
+      }
+
+      .uniwhite-18 {
+        stroke: #f0582a;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+		.position2 {
+			position: absolute;
+			top: 74%;
+			left: 68.3%;
+			width: 28.2%;
+		}	
+		.position22 {
+			position: absolute;
+			top: 71.9%;
+			left: 68.3%;
+			width: 28.2%;
+			display: none;
+		}	
+		.close2, .toggle2, .close22, .toggle22 {
+			cursor: pointer;
+		}
+		.click2, .hover2, .click22, .hover22 {
+			display: none;
+		}
+		
+		
+		      .uniblack-1, .uniblack-8 {
+        fill: #3d3da6;
+      }
+
+      .uniblack-2 {
+        font-size: 29.89px;
+        font-family: 'Frank Ruhl Libre';
+		  font-weight: 400;
+      }
+
+      .uniblack-11, .uniblack-2, .uniblack-4 {
+        fill: #fff;
+      }
+
+      .uniblack-22, .uniblack-3 {
+        fill: none;
+      }
+
+      .uniblack-3, .uniblack-7 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .uniblack-11, .uniblack-4 {
+        font-size: 18px;
+      }
+
+      .uniblack-4, .uniblack-8 {
+        font-family: 'Fira Sans';
+		
+      }
+
+      .uniblack-5 {
+        letter-spacing: -0.01em;
+      }
+
+      .uniblack-6 {
+        letter-spacing: -0.01em;
+      }
+
+      .uniblack-8 {
+        font-size: 24px;
+      }
+
+      .uniblack-9 {
+        letter-spacing: 0.01em;
+      }
+
+      .uniblack-10 {
+        letter-spacing: -0.01em;
+      }
+
+      .uniblack-11 {
+        font-family: 'Frank Ruhl Libre';
+		  font-weight: 300;
+      }
+
+      .uniblack-12 {
+        letter-spacing: -0.02em;
+      }
+
+      .uniblack-13 {
+        letter-spacing: -0.02em;
+      }
+
+      .uniblack-14 {
+        letter-spacing: -0.04em;
+      }
+
+      .uniblack-15 {
+        letter-spacing: -0.06em;
+      }
+
+      .uniblack-16 {
+        letter-spacing: -0.07em;
+      }
+
+      .uniblack-17 {
+        letter-spacing: -0.04em;
+      }
+
+      .uniblack-18 {
+        letter-spacing: -0.03em;
+      }
+
+      .uniblack-19 {
+        letter-spacing: 0.03em;
+      }
+
+      .uniblack-20 {
+        letter-spacing: 0em;
+      }
+
+      .uniblack-21 {
+        letter-spacing: -0.07em;
+      }
+
+      .uniblack-22 {
+        stroke: #3d3da6;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+		
+		      .newwhite-1 {
+        fill: #f0582a;
+      }
+
+      .newwhite-2 {
+        font-size: 29.89px;
+        fill: #fff;
+          font-family: 'Frank Ruhl Libre';
+		  font-weight: 400;
+      }
+
+      .newwhite-16, .newwhite-3 {
+        fill: none;
+      }
+
+      .newwhite-3, .newwhite-6 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .newwhite-4, .newwhite-9 {
+        font-size: 18px;
+      }
+
+      .newwhite-4, .newwhite-7 {
+           font-family: 'Fira Sans';
+		  
+      }
+
+      .newwhite-5 {
+        letter-spacing: -0.01em;
+      }
+
+      .newwhite-6 {
+        fill: #fff5df;
+      }
+
+      .newwhite-7 {
+        font-size: 24px;
+      }
+
+      .newwhite-8 {
+        letter-spacing: -0.01em;
+      }
+
+      .newwhite-9 {
+           font-family: 'Frank Ruhl Libre';
+		  font-weight: 300;
+      }
+
+      .newwhite-10 {
+        letter-spacing: -0.02em;
+      }
+
+      .newwhite-11 {
+        letter-spacing: -0.03em;
+      }
+
+      .newwhite-12 {
+        letter-spacing: -0.01em;
+      }
+
+      .newwhite-13 {
+        letter-spacing: -0.02em;
+      }
+
+      .newwhite-14 {
+        letter-spacing: -0.07em;
+      }
+
+      .newwhite-15 {
+        letter-spacing: -0.04em;
+      }
+
+      .newwhite-16 {
+        stroke: #f0582a;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+		
+		.extrasuni, .extrasadv, .extrasnew {
+			height: 100vh;
+		}
+		.position3 {
+			position: absolute;
+			top: 76.4%;
+			left: 3.3%;
+			width: 30.2%;
+		}
+		.position32 {
+			position: absolute;
+			top: 78.35%;
+			left: 3.3%;
+			width: 28.3%;
+			display: none;
+		}
+		
+		.click3, .click32, .hover3, .hover32 {
+			display: none;
+		}
+		.close3, .close32, .toggle3, .toggle32 {
+			cursor: pointer;
+		}
+		
+	      .newblack-1, .newblack-7 {
+        fill: #3d3da6;
+      }
+
+      .newblack-2 {
+        font-size: 29.89px;
+       font-family: 'Frank Ruhl Libre';
+		  font-weight: 400;
+      }
+
+      .newblack-2, .newblack-4, .newblack-9 {
+        fill: #fff;
+      }
+
+      .newblack-18, .newblack-3 {
+        fill: none;
+      }
+
+      .newblack-3, .newblack-6 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .newblack-4, .newblack-9 {
+        font-size: 18px;
+      }
+
+      .newblack-4, .newblack-7 {
+        font-family: 'Fira Sans';
+		  
+      }
+
+      .newblack-5 {
+        letter-spacing: -0.01em;
+      }
+
+      .newblack-7 {
+        font-size: 24px;
+      }
+
+      .newblack-8 {
+        letter-spacing: -0.01em;
+      }
+
+      .newblack-9 {
+       font-family: 'Frank Ruhl Libre';
+		  font-weight: 300;
+      }
+
+      .newblack-10 {
+        letter-spacing: -0.03em;
+      }
+
+      .newblack-11 {
+        letter-spacing: -0.02em;
+      }
+
+      .newblack-12 {
+        letter-spacing: -0.01em;
+      }
+
+      .newblack-13 {
+        letter-spacing: -0.02em;
+      }
+
+      .newblack-14 {
+        letter-spacing: 0em;
+      }
+
+      .newblack-15 {
+        letter-spacing: -0.04em;
+      }
+
+      .newblack-16 {
+        letter-spacing: -0.03em;
+      }
+
+      .newblack-17 {
+        letter-spacing: -0.09em;
+      }
+
+      .newblack-18 {
+        stroke: #3d3da6;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+	
+		.scaleup {
+			transform: scale(1.2, 1.2); /* Equal to scaleX(2) scaleY(0.5) */
+  			transform-origin: 0% 100%;
+			
+			
+		}
+		.scaleuptxt {
+			transform: scale(1.2, 1.2); /* Equal to scaleX(2) scaleY(0.5) */
+  			transform-origin: -19% -460%;
+			
+			
+		}
+		.scaleup2 {
+			transform: scale(1.2, 1.2); /* Equal to scaleX(2) scaleY(0.5) */
+  			transform-origin: 100% 100%;
+			
+			
+		}
+		.scaleuptxt2 {
+			transform: scale(1.2, 1.2); /* Equal to scaleX(2) scaleY(0.5) */
+  			transform-origin: -470% -465%;
+			
+			
+		}
+		
+		.scaleback {
+			transform: scale(1.0);
+		}
+		.bug {
+			position: absolute;
+			top: 21.8%;
+			left: -.5%;
+			width: 25%;
+			display: none;
+		}
+		.bug2 {
+			position: absolute;
+			top: 15.2%;
+			left: 70%;
+			width: 25%;
+			display: none;
+		}
+		.bug3 {
+			position: absolute;
+			top: 15.2%;
+			left: 3.6%;
+			width: 25%;
+			display: none;
+		}
+		
+			.Show {
+			display: block;
+		}
+		.Hide {
+			display: none;
+		}
+		video {
+			width: 100%;
+			height: 100vh;
+			
+		}
+		
+		.intro1 {
+			height: 100vh;
+			width: 100%;
+			position: absolute;
+			background-color: #fef5e0;
+			
+		}
+		.intro2 {
+			height: 100vh;
+			width: 100%;
+			position: absolute;
+			top: 100%;
+			background-color: #fef5e0;
+		}
+		.pic1 {
+			width: 100%;
+			position: absolute;
+			top: 0%;
+		}
+		.pic2 {
+			width: 100%;
+			position: absolute;
+			top: 0%;
+		}
+		.pic3 {
+			width: 100%;
+			position: absolute;
+			top: 0%;
+		}
+		.gif1 {
+			position: absolute;
+			top: 30%;
+			left: 70%;
+			width: 25%;
+		}
+		.gif2 {
+			position: absolute;
+			top: 30%;
+			left: 70%;
+			width: 25%;
+			opacity: 0;
+		}
+		.input1 {
+			position: absolute;
+			top: 400%;
+			height: 100vh;
+			width: 100%;
+			background-color: #fef5e0;
+			text-align: center;
+			
+		}
+		.input2 {
+			position: absolute;
+			top: 500%;
+			height: 100vh;
+			width: 100%;
+			background: url(../assets/gpa.png) no-repeat center center fixed;
+			background-size: cover;
+		}
+		#myvideo2 {
+			display: none;
+			position: absolute;
+			height: auto;
+			width: 100%;
+			top: 0%;
+			margin: 0;
+			padding: 0;
+		}
+		.input1 h1 {
+			font-family: 'Fira Sans';
+			font-weight: 400;
+			font-size: 300%;
+			padding-top: 15%;
+		}
+
+
+/*** STYLES ***/
+.search {
+  display: inline-block;
+  position: relative;
+  height: 55px;
+  width: 65px;
+  box-sizing: border-box;
+  margin: 10px 8px 7px 0px;
+  padding: 7px 9px 0px 9px;
+  border: 3px solid #f0582a;
+	background-color: white;
+  transition: all 200ms ease;
+  cursor: text;
+}
+.search:after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 20px;
+  right: -5px;
+  top: 21px;
+  background: ;
+  border-radius: 3px;
+  transform: rotate(-45deg);
+  transition: all 200ms ease;
+}
+.search.active,
+.search:hover {
+  width: 40%;
+  margin-right: 0px;
+}
+.search.active:after,
+.search:hover:after {
+  height: 0px;
+}
+.search input {
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  font-family: 'Fira Sans';
+	text-align: center;
+	padding: 0 0 0 0;
+  font-size: 200%;
+  color: darkgray;
+  background: transparent;
+  outline-width: 0px;
+}
+		#butlast {
+				position: absolute;
+			top: 47.5%;
+			left: 40%;	
+		}
+		#butlast a {
+			padding: 0;
+			
+		}
+		.ikona {
+			position: absolute;
+			width: 3%;
+			top: 41.3%;
+			left: 48.2%;
+			user-select: none;
+		}
+		
+		#result {
+			position: absolute;
+			top: 37%;
+			left: 48%;
+			color: white;
+			font-family: 'Fira Sans';
+			font-size: 250%;
+		}
+		.end1 {
+			width: 100%;
+			padding: 0;
+			margin: 0;
+			height: 100vh;
+			position: absolute;
+			top: 600%;
+			background: url("../assets/bgend.png")  no-repeat  center center fixed;
+			background-size: cover;
+			text-align: center;
+		}
+		.end2 {
+			width: 100%;
+			height: 100vh;
+			position: absolute;
+			top: 700%;
+			background: url("../assets/bgend.png")  no-repeat  center center fixed;
+			background-size: cover;
+		}
+		.krajk {
+			margin-top: 15%;
+			width: 40%;
+		}
+		.endls-1 {
+        fill: none;
+        stroke: #3d3da6;
+        stroke-miterlimit: 10;
+        stroke-width: 33px;
+      }
+
+      .endls-2 {
+        font-size: 27px;
+        font-family: 'Frank Ruhl Libre';
+		  font-weight: 400;
+      }
+
+      .endls-10, .endls-19, .endls-2 {
+        fill: #fff;
+      }
+
+      .endls-3 {
+        letter-spacing: -0.04em;
+      }
+
+      .endls-4 {
+        letter-spacing: -0.01em;
+      }
+
+      .endls-5 {
+        letter-spacing: -0.03em;
+      }
+
+      .endls-6 {
+        letter-spacing: -0.07em;
+      }
+
+      .endls-7 {
+        letter-spacing: -0.02em;
+      }
+
+      .endls-8 {
+        letter-spacing: -0.01em;
+      }
+
+      .endls-9 {
+        letter-spacing: -0.07em;
+      }
+
+      .endls-11 {
+        letter-spacing: -0.04em;
+      }
+
+      .endls-12 {
+        letter-spacing: -0.03em;
+      }
+
+      .endls-13 {
+        letter-spacing: -0.04em;
+      }
+
+      .endls-14 {
+        letter-spacing: -0.02em;
+      }
+
+      .endls-15 {
+        letter-spacing: 0.03em;
+      }
+
+      .endls-16 {
+        font-size: 76px;
+        fill: #f0582a;
+		   font-family: 'Fira Sans';
+		  font-weight: 700;
+        
+        font-style: italic;
+      }
+
+      .endls-16, .endls-19 {
+        font-weight: 700;
+      }
+
+      .endls-17 {
+        letter-spacing: -0.01em;
+      }
+
+      .endls-18 {
+        letter-spacing: -0.02em;
+      }
+
+      .endls-19 {
+        font-size: 18px;
+        font-family: 'Fira Sans';
+		  font-weight: 700;
+      }
+		.lastimg {
+			width: 90%;
+			height: 90vh;
+			margin: 0 5% 0 5%;
+			padding: 2% 0;
+		}
+		.speclast {
+			transform: translate(18%, 99%);
+		}
+		.speclast:hover {
+			cursor: pointer;
+		}
+		.links:hover {
+			cursor: pointer;
+			fill: #f0582a;
+		}

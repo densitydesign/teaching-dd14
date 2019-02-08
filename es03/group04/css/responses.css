@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700');
+
+html {
+    font-family: 'Roboto Mono', monospace;
+    overflow: hidden;
+    background-image: url("square.jpg");
+    background-size: cover;
+}
+
+iframe {
+    font-family: 'Roboto Mono', monospace;
+    width: 1031px;
+    height: 78%;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: block;
+    border: 2px solid #042e3a;
+    z-index: 30;
+    position: sticky;
+    position: -webkit-sticky;
+    background-color: #F8F7EC;
+    overflow-x: hidden;
+}

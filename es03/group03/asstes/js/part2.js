@@ -1,0 +1,255 @@
+//part1_interaction_click
+$("#tablet_btn").click(function(event){
+  $("#tablet").addClass('visible');
+
+})
+$("#closed").click(function(event){
+  $("#tablet").removeClass('visible');
+
+})
+//part2_interaction_click
+
+$("#exporterbtn").click(function(event){
+  $("#export_text").css("fill","#FFFFFF");
+  $("#Exp_button").css("fill","#000000");
+  $("#import_text").css('fill','#000000');
+  $("#Imp_button").css('fill','none','stroke','#3C3C3B');
+  if($('#import_pic').css("display") == 'none'){
+    $("#export_pic").show();
+  }
+  else{
+    $("#import_pic").hide();
+    $("#export_pic").show();
+  }
+})
+$("#importerbtn").click(function(event){
+  $("#import_text").css("fill","#FFFFFF");
+  $("#Imp_button").css("fill","#000000");
+  $("#export_text").css('fill','#000000');
+  $("#Exp_button").css('fill','none','stroke','#3C3C3B');
+  if($('#export_pic').css("display") == 'none'){
+    $("#import_pic").show();
+  }
+  else{
+    $("#export_pic").hide();
+    $("#import_pic").show();
+  }
+})
+//part3_interaction_click
+$("#avocado_btn").mouseenter(function(event){
+  $("#water_avocado").addClass("show");
+  //$('#boardtext').hide();
+})
+$("#avocado_btn").mouseleave(function(event){
+  $("#water_avocado").removeClass("show");
+  //$('#boardtext').show();
+})
+$("#tomato_btn").mouseenter(function(event){
+  $("#water_tomato").addClass("show");
+  //$('#boardtext').hide();
+})
+$("#tomato_btn").mouseleave(function(event){
+  $("#water_tomato").removeClass("show");
+  //$('#boardtext').show();
+})
+$("#orange_btn").mouseenter(function(event){
+  $("#water_orange").addClass("show");
+  //$('#boardtext').hide();
+})
+$("#orange_btn").mouseleave(function(event){
+  $("#water_orange").removeClass("show");
+  //$('#boardtext').show();
+})
+//part4_interaction_click
+$('#btn1').click(function(event){
+  $('#tre1').hide();
+  $(this).hide();
+})
+$('#btn2').click(function(event){
+  $('#tre2').hide();
+  $(this).hide();
+})
+$('#btn3').click(function(event){
+  $('#tre3').hide();
+  $(this).hide();
+})
+$('#btn4').click(function(event){
+  $('#tre4').hide();
+  $(this).hide();
+})
+$('#btn5').click(function(event){
+  $('#tre5').hide();
+  $(this).hide();
+})
+$('#btn6').click(function(event){
+  $('#tre6').hide();
+  $(this).hide();
+})
+$('#btn7').click(function(event){
+  $('#tre7').hide();
+  $(this).hide();
+})
+$('#btn8').click(function(event){
+  $('#tre8').hide();
+  $(this).hide();
+})
+$('#btn9').click(function(event){
+  $('#tre9').hide();
+  $(this).hide();
+})
+$('#btn10').click(function(event){
+  $('#tre10').hide();
+  $(this).hide();
+})
+$('#btn11').click(function(event){
+  $('#tre11').hide();
+  $(this).hide();
+})
+$('#btn12').click(function(event){
+  $('#tre12').hide();
+  $(this).hide();
+})
+//part5_interaction_mouseenter
+//card
+$("#pic1").mouseenter(function(event){
+  $("#pic1_h").addClass("show");
+  $(this).addClass('hide');
+})
+$("#pic1").mouseleave(function(event){
+  $("#pic1_h").removeClass("show");
+  $(this).removeClass('hide');
+})
+
+$("#pic2").mouseenter(function(event){
+  $("#pic2_h").addClass("show");
+  $(this).addClass('hide');
+})
+$("#pic2").mouseleave(function(event){
+  $("#pic2_h").removeClass("show");
+  $(this).removeClass('hide');
+})
+
+$("#pic3").mouseenter(function(event){
+  $("#pic3_h").addClass("show");
+  $(this).addClass('hide');
+})
+$("#pic3").mouseleave(function(event){
+  $("#pic3_h").removeClass("show");
+  $(this).removeClass('hide');
+})
+
+$("#pic4").mouseenter(function(event){
+  $("#pic4_h").addClass("show");
+  $(this).addClass('hide');
+})
+$("#pic4").mouseleave(function(event){
+  $("#pic4_h").removeClass("show");
+  $(this).removeClass('hide');
+})
+
+$("#pic5").mouseenter(function(event){
+  $("#pic5_h").addClass("show");
+  $(this).addClass('hide');
+})
+$("#pic5").mouseleave(function(event){
+  $("#pic5_h").removeClass("show");
+  $(this).removeClass('hide');
+})
+$("#a4").mouseenter(function(event){
+  $("#pic2").hide();
+  $("#pic3").hide();
+  $("#pic4").hide();
+  $("#pic5").hide();
+})
+$("#a4").mouseleave(function(event){
+  $("#pic2").show();
+  $("#pic3").show();
+  $("#pic4").show();
+  $("#pic5").show();
+})
+
+$('#pic1').click(function(event){
+  if($('#pic2').css('display') == 'none'&& $('#pic3').css('display') == 'none'&& $('#pic4').css('display') == 'none'&& $('#pic5').css('display') == 'none'){
+    $("#pic2").show();
+    $("#pic3").show();
+    $("#pic4").show();
+    $("#pic5").show();
+  }
+  else{
+    $("#pic2").hide();
+    $("#pic3").hide();
+    $("#pic4").hide();
+    $("#pic5").hide();
+  }
+})
+$('#pic2').click(function(event){
+  if($('#pic3').css('display') == 'none'&& $('#pic4').css('display') == 'none'&& $('#pic5').css('display') == 'none'){
+    $("#pic3").show();
+    $("#pic4").show();
+    $("#pic5").show();
+  }
+  else{
+    $("#pic3").hide();
+    $("#pic4").hide();
+    $("#pic5").hide();
+  }
+})
+$('#pic3').click(function(event){
+  if($('#pic4').css('display') == 'none'&& $('#pic5').css('display') == 'none'){
+    $("#pic4").show();
+    $("#pic5").show();
+  }
+  else{
+    $("#pic4").hide();
+    $("#pic5").hide();
+  }
+})
+$('#pic4').click(function(event){
+  if($('#pic5').css('display') == 'none'){
+    $("#pic5").show();
+  }
+  else{
+    $("#pic5").hide();
+  }
+})
+//part7_interaction
+$("#label_fairtrade").click(function(event){
+  if($("#equal-exchange").css("display") == 'none'){
+    $("#fairtrade").show();
+  }
+  else{
+    $("#equal-exchange").hide();
+    $("#fairtrade").show();
+  }
+})
+
+$("#label_equal").click(function(event){
+  if($("#fairtrade").css("display") == 'none'){
+    $("#equal-exchange").show();
+  }
+  else{
+    $("#fairtrade").hide();
+    $("#equal-exchange").show();
+  }
+})
+//close window
+$("#x").click(function(event){
+  if($("#fairtrade").css("display") != 'none'){
+    $("#fairtrade").hide();
+  }
+  else if($("#equal-exchange").css("display") != 'none'){
+    $("#equal-exchange").hide();
+}
+})
+
+//part8
+$('#gobacktom').hide();
+$("#btn_goback").mouseenter(function(event){
+  $('#gobacktom').show();
+})
+$("#btn_goback").mouseleave(function(event){
+  $('#gobacktom').hide();
+})
+$("#btn_goback").click(function(event){
+window.location.href="index.html";
+})

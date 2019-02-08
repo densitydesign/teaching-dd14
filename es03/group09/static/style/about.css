@@ -1,0 +1,93 @@
+#wrapper > #header {
+    /*
+        override default style 
+        to make menu btn visible on about page
+    */
+    min-height: var(--hh) !important;
+}
+
+#content {
+    width: 100%;
+    max-height: 100%;
+
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-row: auto;
+    grid-auto-flow: row;
+    grid-gap: var(--sp);
+}
+
+#content > .about-grid {
+    /* background-color: var(--c-el); */
+    padding: var(--sp);
+    font-family: var(--f-ml);
+}
+
+#content > .about-grid#about-desc > p {
+    line-height: 1.42rem;
+}
+
+#content > .about-grid#about-names {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#content > .about-grid#about-names > ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: calc(var(--sp) * 2);
+}
+#content > .about-grid#about-names > ul li:first-child {
+    font-family: var(--f-b);
+    text-transform: uppercase;
+    font-size: .8em;
+    margin-bottom: var(--sp);
+}
+#content > .about-grid#about-names > ul li:not(:first-child) {
+    font-family: var(--f-ml);
+    margin-bottom: calc(var(--sp) / 4);
+}
+
+#content > .about-grid#about-logos {
+    display: flex;
+    flex-direction: column;
+}
+
+#content > .about-grid#about-logos > * {
+    max-width: 100px;
+    margin: 0 auto;
+
+    padding: calc(var(--sp) * 2);
+}
+
+@media (max-width: 1080px) {
+    html, body, #wrapper {
+        overflow: visible;
+    }
+    #content {
+        width: 100%;
+        max-height: 100%;
+    
+        display: grid;
+        grid-template-rows: 3fr 1fr 1fr;
+        grid-row: auto;
+        grid-auto-flow: column;
+        grid-gap: var(--sp);
+    }
+    #content > .about-grid#about-names {
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: calc(var(--sp) * 2);
+    }
+    #content > .about-grid#about-names > ul {
+        margin-bottom: calc(var(--sp) * 2);
+    }    
+    #content > .about-grid#about-logos {
+        flex-direction: row;
+    }
+    #content > .about-grid#about-logos > * {
+        margin: 0;
+        height: 100%;
+        width: 100%;
+    }
+}

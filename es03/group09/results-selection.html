@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>RegulHate – Result Categories</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="static/style/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="static/style/results-selection.css" />
+
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-firestore.js"></script>
+
+    <script>
+        var config = {
+            apiKey: "AIzaSyBtgxTHNCdaV73K01M83YaJ8DK45U9VJfA",
+            authDomain: "ph03-56c1f.firebaseapp.com",
+            databaseURL: "https://ph03-56c1f.firebaseio.com",
+            projectId: "ph03-56c1f",
+            storageBucket: "ph03-56c1f.appspot.com",
+            messagingSenderId: "209808074135"
+        };
+        var fb = firebase.initializeApp(config);
+        var db = firebase.firestore();
+        db.settings({timestampsInSnapshots: true});
+    </script>
+</head>
+
+<body ontouchstart="">
+    <div id="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Results</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+    <div id="wrapper">
+        <div id="header">
+            <div id="session-title">Results by category</div>
+            <div id="header-btns">
+                <div id="hamburger">
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <a href="result.html?category=1">
+                <div class="module" id="Race" js-color="003aff">
+                    <span>Race</span>
+                    <div id="race-svg" class="svg-container"></div>
+                </div>
+            </a>
+            <a href="result.html?category=2">
+                <div class="module" id="Gender" js-color="f3c605">
+                    <span>Gender</span>
+                    <div id="gender-svg" class="svg-container"></div>
+                </div>
+            </a>
+            <a href="result.html?category=3">
+                <div class="module" id="Disability" js-color="56efb6">
+                    <span>Disability</span>
+                    <div id="disability-svg" class="svg-container"></div>
+                </div>
+            </a>
+            <a href="result.html?category=4">
+                <div class="module" id="Religion" js-color="fa8b2e">
+                    <span>Religion</span>
+                    <div id="religion-svg" class="svg-container"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <script src="static/js/menu.js"></script>
+
+    <script src="static/lib/d3.js"></script>
+    <script src="static/lib/anime.min.js"></script>
+
+    <script src="static/js/backend.js"></script>
+    <script src="static/js/results-selection.js"></script>
+
+    <script>
+        var els = document.querySelectorAll("#content > a > div.module");
+
+        els.forEach((el) => {
+            el.onmouseover = () => {
+                var color = el.getAttribute("js-color");
+                el.style.backgroundColor = '#' + color;
+                if (el.id != 'Race') {
+                    el.style.color = 'var(--c-tx)';
+                } else return;
+            }
+            el.onmouseout = () => {
+                el.style.backgroundColor = 'var(--c-el)'
+                el.style.color = 'var(--t-cl)';
+            }
+        })
+    </script>
+</body>
+
+</html>

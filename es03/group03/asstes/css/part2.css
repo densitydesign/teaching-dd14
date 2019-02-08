@@ -1,0 +1,143 @@
+.st0{
+  fill:none;
+}
+.title{
+    fill:#3F3E32;
+    font-family:'Bree Serif', serif;
+    src : url("https://fonts.googleapis.com/css?family=Bree+Serif");
+    font-size:45.4003px;
+  }
+.text{
+      font-family:'Fira Sans', sans-serif;
+      src : url("https://fonts.googleapis.com/css?family=Fira+Sans:300");
+      font-size:13.6201px;
+    }
+.st4{
+  fill:none;
+  stroke:#3C3C3B;
+  stroke-width:3.7834;
+  stroke-miterlimit:10;
+}
+.p3_btn{
+  fill:#000000;
+  opacity:0;
+}
+.p3_btn:hover{
+  fill:#000000;
+  opacity:0.5;
+}
+.btn{
+  opacity:0;
+  cursor: pointer;
+}
+.btn:hover{
+  opacity:0.4;
+}
+.Tble{
+  opacity:0;
+}
+.Tble.visible{
+  opacity:1;
+}
+
+.imex_text{
+    fill:#202020;
+    font-family:'Fira Sans', sans-serif;
+    src : url("https://fonts.googleapis.com/css?family=Fira+Sans" ) ;
+    font-size:11px;
+}
+
+.st20{fill:#FFFFFF;}
+.closebtn{
+  opacity:0;
+  cursor: pointer;
+}
+/*p2_interation*/
+.btext{
+  fill:#3F3E32;
+  font-family:'Bree Serif', serif;
+  src : url("https://fonts.googleapis.com/css?family=Bree+Serif");
+	font-size:39.0px;
+
+}
+#Imp_button{
+  fill:none;
+  stroke:#3C3C3B;
+}
+#Exp_button{
+  fill:#000000;
+  stroke:#000000;
+}
+#export_text{
+  fill:#FFFFFF;
+}
+.btn_p2{
+  cursor: pointer;
+}
+.btn_p2:hover{
+  opacity:0.5;
+}
+
+
+/*p2_pic*/
+
+#import_pic{
+  display:none;
+}
+/*p3_pic*/
+.water_pic{
+  opacity:0;
+}
+.water_pic.show{
+  opacity:1;
+}
+
+/*p4*/
+.p4_ph{
+  opacity:0;
+  cursor:pointer;
+}
+.p4_ph.show{
+  opacity:1;
+}
+.p4_pic{
+  opacity:1;
+  cursor:pointer;
+}
+.p4_pic.hide{
+  opacity:0;
+}
+/*p7*/
+.btn_x{
+  opacity:0;
+  cursor: pointer;
+}
+.p7_pic{
+  display:none;
+}
+
+.btn_8{
+  fill: #000000;
+}
+
+.backclick{
+  fill:#FFFFFF;
+  font-family:'Fira Sans', sans-serif;
+  src : url("https://fonts.googleapis.com/css?family=Fira+Sans:300");
+  font-size:11px;
+  cursor: pointer;
+}
+
+
+
+/*super_link*/
+.text-button{
+    fill:#3C3C3B;
+    font-size:12px;
+    font-family:'Bree Serif', serif;
+    src : url("https://fonts.googleapis.com/css?family=Bree+Serif");}
+
+*{
+    padding:0;
+    margin:0;
+}
