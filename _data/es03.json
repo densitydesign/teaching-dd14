@@ -74,7 +74,7 @@
             theme: "Hate speech",
             title: "RegulHate",
             excerpt: "Hate Speech cannot be easily defined, but by agreement it expresses loathing and intolerance. The consequences can range from mere bullying to actual violent events. IT Companies are trying to regulate Hate Speech in different ways. This is hard because it's a controversial phenomenon as it lies in a complex nexus with free speech.",
-            cover_website: "/cover/web-cover.jpg"
+            cover_website: "/static/images/web-cover.gif"
         },
         {
             group: "group10",
