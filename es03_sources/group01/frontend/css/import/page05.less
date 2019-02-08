@@ -1,0 +1,135 @@
+//.slide {
+//
+//    &__viz {
+//
+//        svg {
+//            width: 100%;
+//            height: auto;
+//            display: block;
+//
+//            & > g {
+//                opacity: 0;
+//                transition: opacity @ease;
+//
+//
+//                &.is-active {
+//                    opacity: 1;
+//                }
+//            }
+//
+//        }
+//
+//        background: #f0f0f0;
+//    }
+//
+//    &__control {
+//        display: flex;
+//        align-content: center;
+//        align-items: center;
+//        justify-content: center;
+//
+//        &_dot {
+//            width: 8px;
+//            height: 8px;
+//            border-radius: 4px;
+//            background: #F0F0F0;
+//            margin: 20px 5px;
+//            cursor: pointer;
+//            transition: background @ease;
+//
+//            &:hover {
+//                background-color: @black;
+//            }
+//
+//            &.is-active {
+//                background: @black;
+//            }
+//
+//        }
+//
+//
+//    }
+//
+//}
+
+
+.urbino {
+    position: relative;
+
+    svg {
+        display: block;
+    }
+
+    &-popup {
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        color: @black;
+        border-top: 2px solid @black;
+        font-family: @title;
+        font-size: 18px;
+        line-height: 28px;
+        max-width: 400px;
+        padding: 10px 0;
+        opacity: 0;
+        transition: opacity @ease;
+
+        @media @mobile {
+            display: none;
+        }
+
+        &.is-visible {
+            opacity: 1;
+        }
+
+        &-mobile {
+            @media @mobile {
+                display: none;
+                background: @color4;
+                color: @black;
+                padding: 25px;
+                font-size: 12px;
+                font-family: @title;
+                text-transform: uppercase;
+
+
+            }
+        }
+
+    }
+
+
+
+    circle {
+        animation: blink infinite 1s;
+        transition: fill @ease;
+        mix-blend-mode: multiply;
+
+        &:nth-child(1n) {
+            animation-delay: 0.1s
+        }
+
+        &:nth-child(2n) {
+            animation-delay: 0.2s
+        }
+
+        &:nth-child(3n) {
+            animation-delay: 0.3s
+        }
+
+        &:nth-child(4n) {
+            animation-delay: 0.4s
+        }
+
+        &:nth-child(5n) {
+            animation-delay: 0.5s
+        }
+
+        &:hover,
+        &.is-active {
+            animation: none;
+            fill: @color4;
+        }
+
+    }
+}

@@ -1,0 +1,125 @@
+.bandersnatch {
+    padding: 25px 2rem 50px 2rem;
+
+    @media @mobile {
+        padding: 50px 0px 0px 0px;
+    }
+
+    .question {
+        padding: 50px 0;
+        background: @black;
+        color: @white;
+        text-align: center;
+        display: none;
+        box-sizing: border-box;
+        transition: background @ease;
+
+        &_image {
+            img {
+                max-height: 200px;
+                width: auto;
+                max-width: 100%;
+            }
+        }
+
+
+        &.gold-digger {
+
+            animation: 0.3s blink2 infinite alternate;
+
+        }
+
+
+        .module {
+            padding: 0 2rem;
+        }
+
+        &.is-visible {
+            opacity: 1;
+            display: block;
+        }
+
+        &.yes,
+        &.no {
+
+            .question_text,
+            .question_button {
+                opacity: 0;
+            }
+        }
+
+        &.yes {
+            background: @color3;
+        }
+
+        &.no {
+            background: #E94F34;
+        }
+
+        &_text {
+            font-size: 32px;
+            line-height: 48px;
+            transition: opacity @ease;
+
+            @media @mobile {
+                font-size: 24px;
+                line-height: 30px;
+            }
+
+            b {
+                text-transform: uppercase;
+                font-family: @title;
+            }
+
+
+        }
+
+        &_button {
+            padding: 25px 0 0 0;
+            display: flex;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            transition: opacity @ease;
+
+            & > div {
+                cursor: pointer;
+                padding: 20px 50px;
+                margin: 0 15px;
+                border-radius: 100px;
+                border: 2px solid @white;
+                font-family: @title;
+                transition: opacity @ease, background @ease, color @ease;
+
+                &:hover {
+                    background: @white;
+                    color: @black;
+
+                }
+
+            }
+
+        }
+
+    }
+
+
+}
+
+@keyframes blink2 {
+    0% {
+        background: @black;
+    }
+
+    50% {
+        background: @black;
+    }
+
+    51% {
+        background: #fbcc25;
+    }
+
+    100% {
+        background: #fbcc25;
+    }
+}

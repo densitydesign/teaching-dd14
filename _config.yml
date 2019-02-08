@@ -19,4 +19,4 @@ defaults:
 sass:
     style: compressed
 
-exclude: ["es02_sources"]
+exclude: ["es02_sources",""es03_sources""]

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+
+<!--<![endif]-->
+
+<head>
+    {% include head.html %}
+
+</head>
+
+<body>
+
+
+
+    <section class="method">
+
+        <div class="module">
+
+            <a href="https://densitydesign.github.io/teaching-dd14/es03">
+                <div class="method_back">
+                    &larr; Back to the project
+                </div>
+            </a>
+
+            <div class="method_title">
+                <h1>the Anti·Feminist Manifesto Experiment</h1>
+
+
+            </div>
+
+        </div>
+
+        <div class="method_content">
+            <!--<p class="g-signin2" data-onsuccess="queryReports"></p>-->
+            {{content}}
+        </div>
+
+
+        <div class="method_footer">
+            <div class="module">
+                <div class="logos">
+                    <img src="{{'frontend/img/footer/logo-01.png' | relative_url }}" />
+                    <img src="{{'frontend/img/footer/logo-02.png' | relative_url }}" />
+                </div>
+
+                <div class="credits">
+
+                    <div class="credits_students">
+                        <h1>A project by</h1>
+                        <p>Giuliano Mozzillo<br>Jacopo Perico<br>Noemi Schiavi<br>Amarildo Shelna<br>Daniele Zanetti<br>Shan Zhu<br>Alice Ziantoni</p>
+                    </div>
+
+                    <div class="credits_teachers">
+                        <h1>Faculty</h1>
+                        <p>Paolo Ciuccarelli<br>Stefano Mandato<br>Michele Mauri<br>Simone Vantini<br>Salvatore Zingale </p>
+                    </div>
+
+                    <div class="credits_assistants">
+                        <h1>Teaching Assistants</h1>
+                        Ángeles Briones<br>Gabriele Colombo<br>Jacopo Di Iorio<br>Tommaso Elli<br>Beatrice Gobbo<br>Ginevra Terenghi
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Load the JavaScript API client and Sign-in library. -->
+    <script src="https://apis.google.com/js/client:platform.js"></script>
+
+    {% include footer.html %}
+
+    <script src="{{ 'frontend/js/method.js' | relative_url }}"></script>
+    <script src="{{ 'frontend/js/source.js' | relative_url }}"></script>
+    <script src="{{ 'frontend/js/treemap.js' | relative_url }}"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
