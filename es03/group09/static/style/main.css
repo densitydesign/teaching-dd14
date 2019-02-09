@@ -244,15 +244,19 @@ div.module.hidden {
     height: 0px;
     width: 0px;
     visibility: hidden;
+    position: absolute;
 }
 
 @media (max-width: 640px), (max-height: 480px) {
     html, body {
         pointer-events: none;
     }
+    #wrapper {
+        visibility: hidden;
+    }
     #wall {
         visibility: visible;
-        position: relative;
+        position: absolute;
 
         width: calc(100% - var(--sp) * 2);
         height: calc(100% - var(--sp) * 2);
@@ -266,13 +270,13 @@ div.module.hidden {
         flex-direction: column;
         justify-content: center;
     }
-        #wall > p {
-            max-width: 380px;
+    #wall > p {
+        max-width: 380px;
 
-            font-size: .9rem;
-            line-height: 1.75;
-            text-align: center;
+        font-size: .9rem;
+        line-height: 1.75;
+        text-align: center;
 
-            align-self: center;
-        }
+        align-self: center;
+    }
 }
