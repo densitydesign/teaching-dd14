@@ -253,3 +253,9 @@ $("#btn_goback").mouseleave(function(event){
 $("#btn_goback").click(function(event){
 window.location.href="index.html";
 })
+$("#phase1").click(function(event){
+window.location.href="https://densitydesign.github.io/teaching-dd14/es01/group03/";
+})
+$("#phase2").click(function(event){
+window.location.href="https://densitydesign.github.io/teaching-dd14/es02/group03/";
+})
