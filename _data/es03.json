@@ -14,9 +14,9 @@
             group: "group02",
             members: "Bao Yifang, Cao Jiaxing, Chen Yi, Li Shangshu, Niu Yijiang, Tang Yaqiao, Wang Ning",
             theme: "Datafication",
-            title: "Project missing",
-            excerpt: "Description missing",
-            cover_website: "/cover/web-cover.jpg"
+            title: "Schrödinger's Data Box",
+            excerpt: "Now Data centers meet a variety of online needs of people living, working and entertainment. With the exponential expansion of the volume of data produced by human activities, as the physical carrier for data processing, exchange and storage, data center has become an increasingly important part of IT sectors.",
+            cover_website: "/assets/web-cover.jpg"
         },
         {
             group: "group03",
