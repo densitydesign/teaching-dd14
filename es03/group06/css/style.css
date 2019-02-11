@@ -1161,6 +1161,13 @@ a:hover .about {
   background-position: center;
   background-repeat: no-repeat;*/
 }
+
+.about-footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
 .marginefooter{
   margin-top: 15px;
 }
