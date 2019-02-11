@@ -1,0 +1,583 @@
+body {
+  background-color:black;
+  margin:0;
+  overflow:hidden;
+  font-family:AktivGroteskRegular;
+  user-select: none;
+}
+
+#mars {
+  position: absolute;
+  width:500px;
+  height:500px;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  z-index:1;
+  margin:auto;
+  transition: 1000ms ease-in-out;
+}
+
+#moon {
+  position: absolute;
+  width:280px;
+  height:280px;
+  top:60%;
+  left:25%;
+  bottom:40%;
+  right:75%;
+  margin:auto;
+  z-index:11;
+  transition: 1000ms ease-in-out;
+}
+#europa {
+  position: absolute;
+  width:200px;
+  height:200px;
+  top:35%;
+  left:27%;
+  bottom:65%;
+  right:75%;
+  margin:auto;
+  z-index:-11;
+  transition: 1000ms ease-in-out;
+}
+
+#trappist {
+  position: absolute;
+  width:300px;
+  height:300px;
+  top:50%;
+  left:60%;
+  bottom:50%;
+  right:40%;
+  margin:auto;
+  z-index:-6;
+  transition: 1000ms ease-in-out;
+}
+
+.earth{
+  position: absolute;
+  width:30px;
+  height:30px;
+  left:6%;
+  bottom:0;
+  top:0;
+  margin:auto;
+  z-index:-998;
+}
+.here-earth{
+  position: absolute;
+  width:150px;
+  height:48px;
+  transform:scale(0.8);
+  left:6.5%;
+  bottom:0;
+  top:0;
+  opacity:1;
+  margin:auto;
+  z-index:-998;
+}
+.here-mars{
+  position: absolute;
+  width:48px;
+  height:150px;
+  transform:scale(0.8);
+  transform:translateY(-575%);
+  left:5.5%;
+  bottom:0;
+  top:0;
+  opacity:0;
+  margin:auto;
+  z-index:-998;
+}
+.here-moon{
+  position: absolute;
+  width:48px;
+  height:150px;
+  transform:scale(0.8);
+  transform:translateY(-575%);
+  left:5.5%;
+  bottom:0;
+  opacity:0;
+  top:0;
+  margin:auto;
+  z-index:-998;
+}
+
+.pline {
+  width:0px;
+  height:5px;
+  background:white;
+  transition: 1000ms ease-in-out;
+}
+.pname {
+  width:400px;
+  height:40px;
+  color:white;
+  font-size:21pt;
+  letter-spacing: 15px;
+}
+
+.pdesc-mars {
+  width:400px;
+  height:50px;
+  position:absolute;
+  top:0;
+  left:35%;
+  bottom:0;
+  right:0;
+  margin:auto;
+  transition: 1000ms ease-in-out;
+  opacity:0;
+  z-index:2;
+  pointer-events:none;
+}
+.pdesc-moon {
+  width:400px;
+  height:50px;
+  position:absolute;
+  top:50%;
+  left:30%;
+  bottom:50%;
+  right:70%;
+  margin:auto;
+  transition: 1000ms ease-in-out;
+  z-index:99;
+  opacity:0;
+  pointer-events:none;
+}
+.pdesc-europa {
+  width:400px;
+  height:50px;
+  position:absolute;
+  top:30%;
+  left:2%;
+  bottom:70%;
+  right:95%;
+  margin:auto;
+  transition: 1000ms ease-in-out;
+  z-index:12;
+  opacity:0;
+  pointer-events:none;
+}
+
+#soonEur{
+  position:absolute;
+  font-family:AktivGroteskRegular;
+  font-size:16pt;
+  top:260px;
+  left:50px;
+  color:white;
+}
+#soonTrapp{
+  position:absolute;
+  font-family:AktivGroteskRegular;
+  font-size:16pt;
+  top:260px;
+  left:20px;
+  color:white;
+}
+
+.pdesc-trappist {
+  width:400px;
+  height:50px;
+  position:absolute;
+  top:40%;
+  left:65%;
+  bottom:60%;
+  right:35%;
+  margin:auto;
+  z-index:6;
+  transition: 1000ms ease-in-out;
+  opacity:0;
+  pointer-events:none;
+}
+
+.rotation  {
+    transform: rotate(25deg);
+    transition: 1000ms ease-in-out;
+}
+
+.btnGoThere{
+  width:200px;
+  float:right;
+  margin-right:90px;
+  top:220px;
+  right:0;
+  position:absolute;
+  z-index:999;
+  /* pointer-events: all; */
+}
+
+#goEuropa{
+  top:290px;
+  right:0;
+}
+#goTrappist{
+  top:290px;
+  right:0;
+}
+
+#goMars{
+  z-index:999;
+  pointer-events: all;
+}
+
+.slideptitle {
+  opacity:1;
+  transform: translateX(100px);
+  transition: 1000ms ease-in-out;
+  pointer-events: all;
+}
+
+.extendline {
+  width:300px;
+  height:5px;
+  transition: 1000ms ease-in-out;
+}
+
+
+#infoS1{
+  position:absolute;
+  bottom:8%;
+  right:20.5%;
+  margin:auto;
+  color:white;
+  text-align:center;
+  font-family:AktivGroteskBold;
+  font-size: 12pt;
+}
+.descpar {
+  transform:translateX(50px);
+  margin-top:20px;
+  width:325px;
+  height:180px;
+  color:white;
+  position:absolute;
+  z-index:999;
+}
+
+#descTrapp{
+  transform:translateX(20px);
+}
+#descMars{
+  transform:translateX(150px);
+}
+
+#descMoon{
+  transform:translateX(150px);
+}
+
+#altimetro {
+  z-index:-999;
+  pointer-events:none;
+}
+#altimetro2 {
+  transform:translateY(-200%);
+  z-index:-999;
+  pointer-events:none;
+}
+
+#earthbottom{
+  position:absolute;
+  z-index:999;
+  user-select: all;
+  bottom:85px;
+  left:135px;
+  width:55px;
+  height:55px;
+  display:none;
+}
+
+.btn-conf{
+  position:absolute;
+  width:154px;
+  height:52px;
+  transform:scale(0.7);
+  top:65%;
+  right:6%;
+  display:none;
+
+}
+
+.confirm-mars{
+  display:none;
+}
+.confirm-moon{
+  display:none;
+}
+
+.planetselection {
+  position:absolute;
+  top:0;
+  width:100%;
+  height:100%;
+  opacity:1;
+  transform:translateY(-5%);
+  transition: 1200ms ease-in-out;
+}
+
+.bottombar {
+  width:100%;
+  height:200px;
+  z-index:800;
+  position:absolute;
+  bottom:0;
+  pointer-events: none;
+}
+
+.slideup{
+  transform:translateY(100%);
+  opacity:1;
+  transition: 1200ms ease-in-out;
+}
+.slidedown{
+  transform:translateY(0%);
+  opacity:1;
+  transition: 1200ms ease-in-out;
+}
+.slideside{
+  transform:translateX(-100%);
+  opacity:1;
+  transition: 1200ms ease-in-out;
+}
+
+.slideupplanet{
+  transform:translateY(-190%);
+  opacity:1;
+  filter:blur(5px);
+  transition: 2000ms ease-in-out;
+}
+
+
+
+.slideupplanetMoon{
+  transform:translate(280px,-360%);
+  opacity:1;
+  filter:blur(5px);
+  transition: 2000ms ease-in-out;
+}
+
+.cardMars{
+  width:1069px;
+  height:615px;
+  opacity:0;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:20%;
+  margin:auto;
+  z-index:2;
+  pointer-events: none;
+  transition: 1200ms ease-in-out;
+}
+
+.cardMoon{
+  width:1069px;
+  height:615px;
+  opacity:0;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:20%;
+  margin:auto;
+  z-index:2;
+  pointer-events: none;
+  transition: 1200ms ease-in-out;
+}
+
+.fadein{
+  transform:scale(1);
+  opacity:1;
+  transition: 1200ms ease-in-out;
+}
+.fadeout2{
+  transform:scale(0);
+  opacity:0;
+  transition: 1200ms ease-in-out;
+}
+
+#info_1{
+opacity:1;
+}
+#info_2{
+opacity:0.4;
+}
+#info_3{
+  opacity:0.4;
+}
+
+#plus{
+  position: absolute;
+  opacity:1;
+  pointer-events: all;
+  transform:rotate(0deg);
+  transition: 500ms ease-in-out;
+}
+
+#plus2{
+  position: absolute;
+  opacity:1;
+  pointer-events: all;
+  transform:rotate(0deg);
+  transition: 500ms ease-in-out;
+}
+
+#L2{
+  pointer-events: all;
+}
+
+.hide{
+  display:none;
+}
+.show{
+  display:show;
+}
+.opacity0{
+  opacity:0;
+  transition: 300ms ease-in-out;
+}
+.opacity1{
+  opacity:1 !important;
+  transition: 1200ms ease-in-out;
+}
+
+.hab-div{
+  position:relative;
+  width:1920px;
+  height:670px;
+  opacity:0;
+  z-index:900;
+  transition: 1200ms ease-in-out;
+  pointer-events: none;
+}
+
+.hab-orb{
+  position:absolute;
+  top:100px;
+  left:160px;
+  width:500px;
+  height:500px;
+  z-index:-999;
+  pointer-events:none;
+
+}
+.hab-plan{
+  position:absolute;
+  top:100px;
+  left:160px;
+  width:500px;
+  height:500px;
+  z-index:401;
+  transform:rotate(90deg);
+  pointer-events:none;
+}
+.hab-CHZ{
+  position:absolute;
+  top:100px;
+  left:160px;
+  width:500px;
+  height:500px;
+  z-index:401;
+  transform:scale(0.95);
+  pointer-events:none;
+  transition: 900ms ease-in-out;
+}
+
+.hab-txt1{
+  position:absolute;
+  top:100px;
+  left:160px;
+  width:500px;
+  height:500px;
+  z-index:405;
+  pointer-events:none;
+}
+.hab-txt2{
+  position:absolute;
+  top:100px;
+  left:160px;
+  width:500px;
+  height:500px;
+  z-index:406;
+  pointer-events:none;
+}
+
+#sunSVG{
+  position:absolute;
+  top:100px;
+  left:160px;
+  width:500px;
+  height:500px;
+  z-index:99;
+  opacity:0;
+  transform:scale(0.46);
+  transition: 1200ms ease-in-out;
+  display:none;
+}
+
+/*
+.cliccami{
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+}
+*/
+
+#hab-title{
+  font-family:AktivGroteskBold;
+  font-size:17pt;
+  z-index:799;
+  position:absolute;
+  left:680px;
+  top:15%;
+  width:100px;
+  line-height:18pt;
+  height:300px;
+  color:white;
+  text-align:right;
+  float:right;
+}
+#hab-par{
+  font-family:AktivGroteskRegular;
+  font-size:9pt;
+  z-index:799;
+  position:absolute;
+  left:42%;
+  top:15%;
+  width:550px;
+  line-height:18pt;
+  color:white;
+  text-align:left;
+}
+
+.scaleSun{
+  transform:scale(1.1) !important;
+}
+
+.scaleCHZ{
+  transform:scale(1.36) !important;
+}
+
+@font-face {
+  font-family: "AktivGroteskRegular";
+  src: url(../font/AktivGrotesk-Regular.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AktivGroteskBold";
+  src: url(../font/AktivGrotesk-Bold.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AktivGroteskLightItalic";
+  src: url(../font/AktivGrotesk-LightItalic.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

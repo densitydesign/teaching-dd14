@@ -1,0 +1,313 @@
+#section3{  background-image: linear-gradient(#65509c,#ed6c71);}
+#section2{  background-image: linear-gradient(#170523,#65509c);}
+#section1{  background-image: linear-gradient(#180624,#170523);}
+#section0{  background-image: linear-gradient(#0f0f0f,#180624);}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    font-family:'AktivGroteskBold';
+
+}
+
+p{
+    color: white;
+}
+
+.colonne{
+    margin-top: -90px;
+    column-count: 2;
+}
+
+.bottoncino{
+    padding: 10px 20px;
+    border: 3px solid white;
+    text-decoration: none;
+    color: white;
+}
+
+.bottoncino:hover{
+    color: white;
+    text-decoration: underline;
+
+}
+
+.bottoncino-grande{
+    padding: 10px 150px;
+    border: 3px solid white;
+    text-decoration: none;
+    color: white;
+}
+
+.bottoncino-grande:hover{
+    color: white;
+    text-decoration: underline;
+
+}
+
+
+img.terra{
+    position: absolute;
+    max-width: 300px;
+    margin: 0 auto;
+}
+img.terra2{
+    position: absolute;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.row{
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.columns{
+    float: left;
+}
+
+.terradiv{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: visible;
+}
+@keyframes gira {
+    0% {transform: rotate(0deg)}
+    100% {transform: rotate(360deg)}
+}
+
+
+.scritte {
+    position: absolute;
+    top: 50%; left: 50%;
+    max-width: 750px; width: 750px;
+    height: 750px;
+    margin-left: -375px;
+    margin-top: -375px;
+    animation: gira 50s linear infinite;
+}
+
+@keyframes gira-1 {
+    0% {transform: rotate(360deg)}
+    100% {transform: rotate(0deg)}
+}
+
+.scritta-1{
+    position: absolute;
+    top: 50%; left: 50%;
+    max-width: 750px; width: 750px;
+    height: 750px;
+    margin-left: -375px;
+    margin-top: -375px;
+    animation: gira-1 40s linear infinite;
+}
+
+.testoterra{
+    position: relative;
+    max-width: 300px;
+    /*margin: -150px -150px !important; */
+
+}
+
+.h2hometitles{
+    color: white;
+    margin: 1.5em, auto;
+    padding-top: 2em;
+    padding-bottom: .5em;
+    font-weight: bold;
+    font-size: 24pt;
+}
+
+.hometitles{
+    color: white;
+    margin: 2em 0;
+    font-weight: bolder;
+    font-size: 4.5em;
+}
+
+
+
+.hometext{
+    padding:0px 0px 0 0;;
+    margin: 0px 0px 0 0 ;
+    color: white;
+
+}
+
+p.hometext{
+
+    font-weight: bold;
+    font-size: 18pt;
+    line-height: 36pt;
+}
+.centra{
+    text-align: center;
+    margin: 0 auto;
+    height: 100px;
+}
+.centratop{
+    position: absolute;
+    top:0; 
+    margin: auto;
+    left: 50%;
+    transform: translate( -50%, 0);
+}
+
+
+
+.centrabottom{
+    position: absolute;
+    bottom:30px; 
+    margin: auto;
+    left: 50%;
+    transform: translate( -50%, 0);
+}
+
+.lineabassa{
+    padding-bottom: 2%;
+    border-bottom: 3px solid white;
+}
+
+.mediPlayer{
+    transform: scale(0.25) translateX(500px)translateY(-20px);
+}
+
+
+
+img.audioimg{
+    height: 150px; 
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+img.audioimg1{
+    height: 150px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+
+.wrapper {
+    position: absolute;
+    bottom: 130px;
+    overflow: hidden;
+    background-color: #ed6c71;
+    height: 100px;
+}
+
+.ticketswrapper{
+    position: relative;
+    top: 0px; left: 0;
+    overflow:hidden;
+    background-color: black;
+    height: 190px;
+    margin: 20px 0 0 0;
+    padding: 0px;
+}
+
+
+.sliding-background {
+    background: url("/img/homepage/finalflash.png") repeat-x;
+    height:190px;
+    width: 5076px;
+    animation: slide 20s linear infinite;
+}
+
+.sliding-ticket {
+    background: url("/img/MainSelection/ticketr1.png") repeat-x;
+    height:190px;
+    width: 5076px;
+    animation: slide1 20s linear infinite;
+}
+
+.sliding-ticket1 {
+    background: url("/img/MainSelection/ticketr2.png") repeat-x;
+    height:190px;
+    width: 5076px;
+    animation: slide1 20s linear infinite;
+    animation-direction: reverse;
+}
+
+@keyframes slide{
+    0%{
+        transform: translate3d(0, -50px, 0);
+    }
+    100%{
+        transform: translate3d(-1692px, -50px, 0);
+    }
+}
+
+@keyframes slide1{
+    0%{
+        transform: translate3d(0, 0px, 0);
+    }
+    100%{
+        transform: translate3d(-1692px, 0px, 0);
+    }
+}
+
+
+.swipeup{
+
+    animation: swipeup  1s linear infinite;
+    animation-direction: alternate;
+
+
+}
+
+@keyframes swipeup{
+    0%{
+        transform: scale(0.7)translate3d(0, 20px, 0);
+    }
+    100%{
+        transform: scale(0.7)translate3d(0, -20px, 0);
+    }
+}
+
+
+.scheda{
+    height: 100%;
+    width: 100%;
+    position: absolute; top:0%; left: 0%;
+    z-index: 99;
+    transform: translateX(-100%);
+/*    background: url(/img/homepage/3.1_TreemapDEF.png);*/
+    transition: 1000ms ease-in-out;
+}
+
+.lamiaslide{
+    transform: translateX(0%) !important; 
+}
+
+.blockpage{
+    
+    overflow: hidden;
+}
+
+.scompari{
+    visibility: hidden;
+}
+
+.uscita{
+    width: 100px;
+    height: 100px;
+    position: absolute; top: 10px; left: 10px;
+/*    background-color: red;*/
+}
+
+@font-face{
+    font-family: 'AktivGroteskBold' Fallback, sans-serif;
+    src: url(../font\AktivGrotesk-Bold.woff) format("woff");
+}
+@font-face{
+    font-family: 'AktivGroteskRegular' Fallback, sans-serif;
+    src: url(../font\AktivGrotesk-Regular.woff) format("woff");
+}
+@font-face{
+    font-family: 'AktivGroteskItalic' Fallback, sans-serif;
+    src: url(../font\AktivGrotesk-LightItalic.woff) format("woff");
+}

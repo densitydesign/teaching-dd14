@@ -1,0 +1,399 @@
+@charset "UTF-8";
+
+/* +inizio+ type*/
+
+@font-face {
+	font-family: 'Aktiv Grotesk';
+	src: url(../font/AktivGrotesk-Regular.woff)format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aktiv Grotesk';
+    src: url('../font/AktivGrotesk-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Aktiv Grotesk';
+    src: url('../font/AktivGrotesk-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+h1 {
+	font-size: 22px;
+	margin-bottom: 5px;
+}
+p {
+	margin-bottom: 0;
+	font-size: 14px;
+	line-height: 1.5em;
+}
+.regular {
+	font-family: 'Aktiv Grotesk';
+	font-weight: normal;
+	font-style: normal;
+	color: #ccc;
+}
+.italic {
+	font-family: 'Aktiv Grotesk';
+	font-weight: 300;
+	font-style: italic;
+	color: #ccc;
+}
+.bold {
+	font-family: 'Aktiv Grotesk';
+	font-weight: bold;
+    font-style: normal;
+	color: #ccc;
+}
+
+/* +fine+ type*/
+
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body , html {
+	overflow: hidden;
+}
+
+/*SELEZIONE COMPAGNIA*/
+
+#companies_section {
+	position: absolute;
+	width: 1440px;
+	height: 505px;
+	margin: 0 15px;
+	padding: 100px 0 50px;
+	left: 0;
+}
+#NAVBAR {
+	position: absolute;
+	bottom: 0;
+	z-index: 999999;
+}
+#spaceX {
+	overflow: hidden;
+	height: 500px;
+	max-width: 450px;
+	background-image: url(../img/salse/SpaceX_Intro.jpg);
+	background-repeat: no-repeat;
+	background-size: 750px 500px;
+}
+#blueOrigin {
+	overflow: hidden;
+	height: 500px;
+	max-width: 450px;
+	background-image: url(../img/salse/BlueOrigin_Intro.jpg);
+	background-repeat: no-repeat;
+	background-size: 889px 500px;
+}
+.opacity {
+	position: relative;
+	width: 450px;
+	height: 500px;
+	background-color: rgba(0,0,0,0.2)
+}
+#X_button {
+	position: relative;
+	margin: 0 auto;
+	width: 250px;
+	line-height: 500px;
+	cursor: pointer;
+}
+#O_button {
+	position: relative;
+	margin: 0 auto;
+	width: 250px;
+	line-height: 500px;
+	cursor: pointer;
+}
+#video_1 {
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 50px;
+	width: 960px;
+	height: 540px;
+	z-index: 999;
+}
+#video_2 {
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 50px;
+	width: 960px;
+	height: 540px;
+	z-index: 999;
+}
+#confirm {
+	display: none;
+	position: absolute;
+	bottom: -80px;
+	right: 160px;
+	width: 120px;
+	cursor: pointer;
+}
+.slideshow {
+	padding: 0;
+	width: 960px;
+	height: 540px;
+}
+
+#Xslide1 {
+	position: absolute;
+	float: left;
+	width: 960px;
+	height: 540px;
+}
+.Xslide {
+	position: absolute;
+	float: left;
+	left: 960px;
+	width: 960px;
+	height: 540px;
+	background-image: url(../img/salse/SpaceX_blur.jpg);
+	background-position: center;
+	background-size: 960px auto;
+}
+#Oslide1 {
+	position: absolute;
+	float: left;
+	width: 960px;
+	height: 540px;
+}
+.Oslide {
+	position: absolute;
+	float: left;
+	left: 960px;
+	width: 960px;
+	height: 540px;
+	background-image: url(../img/salse/BlueOrigin_blur.jpg);
+	background-position: center;
+	background-size: 960px auto;
+}
+
+
+
+/*SELEZIONE HABITAT LUNA*/
+
+#habitats_section {
+	position: absolute;
+	width: 1440px;
+	height: 505px;
+	margin: 0 15px;
+	padding: 100px 0px 50px;
+	left: 0;
+}
+#dyob {
+	overflow: hidden;
+	height: 500px;
+	max-width: 450px;
+	background-image: url(../img/salse/DYOB_Intro.png);
+	background-repeat: no-repeat;
+}
+#multidome {
+	overflow: hidden;
+	height: 500px;
+	max-width: 450px;
+	background-image: url(../img/salse/MULTIDOME_Intro.png);
+	background-repeat: no-repeat;
+}
+#D_button {
+	position: relative;
+	margin: 0 auto;
+	width: 250px;
+	line-height: 500px;
+	cursor: pointer;
+}
+#M_button {
+	position: relative;
+	margin: 0 auto;
+	width: 250px;
+	line-height: 500px;
+	cursor: pointer;
+}
+#video_3 {
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 50px;
+	width: 960px;
+	height: 540px;
+	z-index: 999;
+}
+#video_4 {
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 50px;
+	width: 960px;
+	height: 540px;
+	z-index: 999;
+}
+#confirm2 {
+	display: none;
+	position: absolute;
+	bottom: -80px;
+	right: 160px;
+	width: 120px;
+	cursor: pointer;
+}
+#Dslide1 {
+	position: absolute;
+	float: left;
+	width: 960px;
+	height: 540px;
+	background-image: url(../img/salse/DYOB_blur.png);
+	background-position: center;
+	background-size: 960px auto;
+}
+.Dslide {
+	position: absolute;
+	float: left;
+	left: 960px;
+	width: 960px;
+	height: 540px;
+	background-image: url(../img/salse/DYOB_blur.png);
+	background-position: center;
+	background-size: 960px auto;
+}
+#Mslide1 {
+	position: absolute;
+	float: left;
+	width: 960px;
+	height: 540px;
+	background-image: url(../img/salse/MULTIDOME_blur.png);
+	background-position: center;
+	background-size: 960px auto;
+}
+.Mslide {
+	position: absolute;
+	float: left;
+	left: 960px;
+	width: 960px;
+	height: 540px;
+	background-image: url(../img/salse/MULTIDOME_blur.png);
+	background-position: center;
+	background-size: 960px auto;
+}
+
+/*SELEZIONE HABITAT MARTE*/
+
+#marsha {
+	overflow: hidden;
+	height: 500px;
+	max-width: 450px;
+	background-image: url(../img/salse/MARSHA_Intro.png);
+	background-repeat: no-repeat;
+}
+#khanyates {
+	overflow: hidden;
+	height: 500px;
+	max-width: 450px;
+	background-image: url(../img/salse/KHANYATES_Intro.png);
+	background-repeat: no-repeat;
+}
+#mar_button {
+	position: relative;
+	margin: 0 auto;
+	width: 250px;
+	line-height: 500px;
+	cursor: pointer;
+}
+#kha_button {
+	position: relative;
+	margin: 0 auto;
+	width: 250px;
+	line-height: 500px;
+	cursor: pointer;
+}
+#video_5 {
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 50px;
+	width: 960px;
+	height: 540px;
+	z-index: 999;
+}
+#video_6 {
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 50px;
+	width: 960px;
+	height: 540px;
+	z-index: 999;
+}
+#confirm2 {
+	display: none;
+	position: absolute;
+	bottom: -80px;
+	right: 160px;
+	width: 120px;
+	cursor: pointer;
+}
+#marslide1 {
+	position: absolute;
+	float: left;
+	width: 960px;
+	height: 540px;
+	background-image: url(../img/salse/MARSHA_blur.png);
+	background-position: center;
+	background-size: 960px auto;
+}
+.marslide {
+	position: absolute;
+	float: left;
+	left: 960px;
+	width: 960px;
+	height: 540px;
+	background-image: url(../img/salse/MARSHA_blur.png);
+	background-position: center;
+	background-size: 960px auto;
+}
+#khaslide1 {
+	position: absolute;
+	float: left;
+	width: 960px;
+	height: 540px;
+	background-image: url(../img/salse/KHANYATES_blur.png);
+	background-position: center;
+	background-size: 960px auto;
+}
+.khaslide {
+	position: absolute;
+	float: left;
+	left: 960px;
+	width: 960px;
+	height: 540px;
+	background-image: url(../img/salse/KHANYATES_blur.png);
+	background-position: center;
+	background-size: 960px auto;
+}
+
+/*TERMINI E CONDIZIONI*/
+
+#TeC_section {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	padding: 0;
+	top: 0;
+	left: 0;
+}
+#confirm3 {
+	position: absolute;
+	bottom: 45%; right: 600px;
+	width: 120px;
+	cursor: pointer;
+	z-index: 99999999;
+}
+

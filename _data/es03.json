@@ -66,7 +66,7 @@
             theme: "Migration",
             title: "Leaving×Living",
             excerpt: "This webpage aims to explore the current scenario, where collaborations between private companies and national agencies are turning space operations into an unprecedented scientific and economic model. Will this new space game might be able to push humans further than ever?",
-            cover_website: "/cover/web-cover.jpg"
+            cover_website: "/img/web-cover.jpg"
         },
         {
             group: "group09",
