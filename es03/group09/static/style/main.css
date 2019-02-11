@@ -172,7 +172,7 @@ div.module.hidden {
     align-items: center;
     justify-content: space-between;
     margin-bottom: var(--sp);
-
+    min-height: var(--hh);
     z-index: 300;
 }
 
