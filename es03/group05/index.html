@@ -8,7 +8,23 @@
 	<link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:300,400" rel="stylesheet">
 	<link href="css/css.css" rel="stylesheet">
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+		  <style>
+#loader {
+  position: absolute;
+	text-align: center;
+  left: 0%;
+  top: 0%;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+	padding-top: 5%;
+  
+ background-color: white;
+}
+	  </style>
 	<script>
+	
+		
         $(function() {
           $.scrollify({
             section : ".deo",
@@ -18,8 +34,9 @@
       </script>
 
     </head>
-<body>
-	<div id="fullpage">
+<body >
+	
+	<div id="fullpage" >
 	<div class="intro1 deo">
 		<video muted autoplay oncanplay="$(this)[0].play()" id="myvideo">
   <source src="assets/iv.mp4" type="video/mp4" />
@@ -31,6 +48,7 @@
 	<img src="assets/pic1.png" class="pic1">
 		<img src="assets/pic2.png" class="pic2">
 		<img src="assets/pic3.png" class="pic3">
+		<a href="about.html" class="about">ABOUT</a>
 	
 	</div>
 	<div class=" btnscroll deo">
@@ -224,6 +242,7 @@
 		<div class="input1 deo">
 			<h1 class="q1">Wanna take a pill?
 			</h1>
+		<h4 class="specialx">hover on the icon</h4>
 						
 	  <label class="search" for="inpt_search">
 			<input id="inpt_search" type="text" value=""/>
@@ -470,13 +489,111 @@
     <text class="endls-19 links" transform="translate(1616.3 916.27)">READ <tspan class="endls-8" x="47.18" y="0">M</tspan><tspan x="61.27" y="0">ORE</tspan></text>
   </g>
 </svg>
-		
+		<footer class="">
+    <div class="ff">
+      <div class="frow">
+ <div class="fimage2">
+          <a href="http://densitydesign.org/" target="_blank"><img class="logo-dd" src="assets/dd-logo.svg"></a>
+        </div>
+      
+
+        <div class="fimage">
+          <a href="http://polimi.it/" target="_blank"><img class="logo-polimi" src="assets/polimi-logo.svg"></a>
+        </div>
+               <div class="ftext">
+          <h3 class="font-weight-bold">A project by</h3>
+          <ul>
+			  <li>
+            Davide Armani 
+			</li>
+		  <li>
+            Matteo Banal
+			</li>
+      <li>
+      Kacper Bierylo
+	  </li>
+      <li>
+      Gabriele Wiedenmann
+	  </li>
+      <li>
+      Luka Zelenovic
+	  </li>
+      <li>
+      Ulkar Zeynalli
+	  </li>
+          </ul>
+        </div>
+        <div class="ftext">
+          <h3 class="font-weight-bold">Faculty</h3>
+          <ul>
+            <li>Paolo Ciuccarelli</li>
+            <li>Stefano Mandato</li>
+            <li>Michele Mauri</li>
+            <li>Simone Vantini</li>
+            <li>Salvatore Zingale</li>
+          </ul>
+        </div>
+        <div class="ftext">
+          <h3 class="font-weight-bold">Teaching assistants</h3>
+          <ul>
+            <li>Ángeles Briones</li>
+            <li>Gabriele Colombo</li>
+            <li>Jacopo Di Iorio</li>
+            <li>Tommaso Elli</li>
+            <li>Beatrice Gobbo</li>
+			 <li>Michele Invernizzi</li>
+            <li>Ginevra Terenghi</li>
+          </ul>
+        </div>
+
+		</div>
+    </div>
+  </footer>
+
 		</div>
 		
 	</div>
+
+	<div id="loader">
+	
+	<img src="assets/Loading-Page.gif" class="lastg">
+	</div>
 	  <script src="js/jquery.scrollify.js"></script>
 <script src="js/js.js"></script>
+<script>
 
+
+	window.onload = function () { 
+		
+     document.getElementById("loader").style.display = "none";
+	$(window).scrollTop(0);
+   
+}
+</script>
+	<script type="text/javascript">
+		<!--//--><![CDATA[//><!--
+			var images = new Array()
+			function preload() {
+				for (i = 0; i < preload.arguments.length; i++) {
+					images[i] = new Image()
+					images[i].src = preload.arguments[i]
+				}
+			}
+			preload(
+					"assets/Asset8b.png",
+					"assets/Asset9.png",
+					"assets/Asset10.png",
+					"assets/Asset3.png",
+					"assets/Asset32.png",
+					"assets/Asset33.png",
+					"assets/Asset5.png",
+					"assets/Asset6.png",
+					"assets/Asset7.png",
+				
+			)
+
+		//--><!]]>
+	</script>
 </body>
    
 </html>
