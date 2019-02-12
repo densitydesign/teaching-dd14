@@ -1,4 +1,56 @@
-		::-webkit-scrollbar-track
+
+
+.full1 p {
+	width: 100%;
+	padding-left: 5%;
+}
+.full1 a {
+	color: white;
+	
+}
+
+
+.full1 h2 {
+	width: 10%;
+	color: white;
+	font-family: 'Fira Sans';
+	font-size: 200%;
+	padding-left: 5%;
+}
+.full1{ 
+	width: 100%;
+	color: white;
+	font-family: 'Fira Sans';
+	font-size: 150%;
+	padding: 0 5%;
+	height: 100vh;
+	background: url(../assets/bgend.png) no-repeat center center;
+	background-size: cover;
+
+}
+.specialx {
+	position: absolute;
+	left: 45%;
+	width: 10%;
+	top: 32%;
+	color: gray;
+	font-family: 'Fira Sans';
+	font-weight: 400;
+}
+.about{
+	position: absolute;
+	top: 3%;
+	left: 89%;
+	font-size: 150%;
+	color: black;
+	font-family: 'Fira Sans';
+	text-decoration: none;
+}
+.about:hover {
+	font-weight: 500;
+	text-decoration: underline;
+}
+::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.3);
 	background-color: #F5F5F5;
@@ -1249,3 +1301,298 @@
 			cursor: pointer;
 			fill: #f0582a;
 		}
+.frow {
+	width: 90%;
+	padding: 0 5%;
+		
+}
+.ftext {
+	width: 19%;
+	padding: .5%;
+	margin: 0;
+	float: right;
+}
+.fimage {
+	width: 15%;
+	padding-top: 3%;
+	margin-right: 4%;
+	float: right;
+}
+.fimage2 {
+	width: 10%;
+	padding-top: 3%;
+	margin: 0 4%;
+	float: right;
+}
+footer {
+	color: white;
+	border-top: 1px solid white;
+	margin-top: 8%;
+	font-family: 'Fira Sans';	
+	height: 30vh;
+	
+	
+}
+footer h3 {
+	margin-left: 5%;
+}
+.sectione1{
+	width: 45%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+.ftext1 {
+	position: absolute;
+	left: 60%;
+	top: 10%;
+	
+	font-size: 60%
+}
+.ftext2 {
+	position: absolute;
+	left: 60%;
+	top: 40%;
+	
+	font-size: 60%
+}
+.ftext3 {
+	position: absolute;
+	left: 60%;
+	top: 65%;
+	
+	font-size: 60%
+}
+.fimage21 {
+	position: absolute;
+	left: 80%;
+	top: 45%;
+	width: 8%;
+	
+}
+.fimage22 {
+	position: absolute;
+	left: 80%;
+	top: 13%;
+	width: 8%;
+	
+}
+.xx{
+	width: 2%;
+	position: absolute;
+	top: 10%;
+	left: 2%;
+}
+.full1 ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+.full1 h3{
+	padding-left: 0%;
+}
+.abody{
+	height: 100vh;
+	background: url(../assets/bgend.png)
+}
+@media screen and (min-width: 1360px) {
+		.specialx {
+	left: 45%;
+	top: 32%;
+} 
+	 .d2{
+			position: relative;
+			top: 39.2%;
+			left: -680%;
+			width: 60px;
+			opacity: .5;
+		}
+ 		.ikona {
+			position: absolute;
+			width: 3%;
+			top: 42.3%;
+			left: 48.2%;
+			user-select: none;
+		}
+	.input1 h1 {
+			
+			padding-top: 10%;
+		}
+	.bug {
+
+			top: 17.5%;
+			left: 0%;
+			width: 25%;
+
+		}
+		.bug2 {
+
+			top: 10.2%;
+			left: 69.5%;
+			width: 25%;
+
+		}
+		.bug3 {
+
+			top: 10.2%;
+			left: 3.6%;
+			width: 25%;
+
+		}
+		.krajk {
+			margin-top: 8%;
+	}
+		#result {
+			position: absolute;
+			top: 33.5%;
+			left: 48%;
+}
+		.lastg{
+		margin-top: 0;
+	}
+}
+@media screen and (min-width: 1440px) {
+		.specialx {
+	left: 45%;
+	top: 28%;
+} 
+.bug {
+			position: absolute;
+			top: 21.8%;
+			left: 0%;
+
+		}
+		.bug2 {
+			position: absolute;
+			top: 15.2%;
+			left: 70%;
+
+		}
+		.bug3 {
+			position: absolute;
+			top: 15.2%;
+			left: 3.6%;
+
+		}
+		.input1 h1 {
+			
+			padding-top: 10%;
+		}
+	.d2{
+			position: relative;
+			top: 40.6%;
+			left: -680%;
+			width: 60px;
+			opacity: .5;
+		}
+ 		.ikona {
+			position: absolute;
+			width: 3%;
+			top: 35.3%;
+			left: 48.2%;
+			user-select: none;
+		}
+	#result {
+			position: absolute;
+			top: 36%;
+			left: 48%;
+}
+		.lastg{
+		margin-top: 2%;
+	}
+}
+@media screen and (min-width: 1500px ) {
+	.specialx {
+	left: 45%;
+	top: 35%;
+} 
+	.d2{
+			position: relative;
+			top: 40.2%;
+			left: -680%;
+			width: 60px;
+			opacity: .5;
+		}
+ 		.ikona {
+			position: absolute;
+			width: 3%;
+			top: 44.3%;
+			left: 48.2%;
+			user-select: none;
+		}
+		.input1 h1 {
+			
+			padding-top: 12.5%;
+		}
+	.bug {
+			position: absolute;
+			top: 17.5%;
+			left: 0%;
+
+		}
+		.bug2 {
+			position: absolute;
+			top: 10.2%;
+			left: 70%;
+
+		}
+		.bug3 {
+			position: absolute;
+			top: 10.2%;
+			left: 3.6%;
+
+		}
+	#result {
+			position: absolute;
+			top: 35%;
+			left: 48%;
+}
+	.lastg{
+		margin-top: 2.5%;
+	}
+}
+@media screen and (min-width: 1600px ) {
+		.specialx {
+	left: 45%;
+	top: 35%;
+} 
+	 .d2{
+			position: relative;
+			top: 41.7%;
+			left: -680%;
+			width: 60px;
+			opacity: .5;
+		}
+ 		.ikona {
+			position: absolute;
+			width: 3%;
+			top: 41.8%;
+			left: 48.2%;
+			user-select: none;
+		}
+		.input1 h1 {
+			
+			padding-top: 15%;
+		}
+	.bug {
+			position: absolute;
+			top: 21.8%;
+			left: -.5%;
+
+		}
+		.bug2 {
+			position: absolute;
+			top: 14.7%;
+			left: 69.5%;
+
+		}
+		.bug3 {
+			position: absolute;
+			top: 15.0%;
+			left: 3.3%;
+
+		}
+	#result {
+			position: absolute;
+			top: 37%;
+			left: 48%;
+	}
+}
