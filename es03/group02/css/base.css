@@ -690,9 +690,11 @@ a:focus {
   }
   .nav__chapter {
     font-size: inherit;
+    font-family: inherit;
     font-weight: normal;
     margin: 0;
     display: inline-block;
     line-height: 1;
+    opacity: 1;
   }
 }
