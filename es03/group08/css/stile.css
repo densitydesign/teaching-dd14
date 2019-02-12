@@ -211,21 +211,21 @@ img.audioimg1{
 
 
 .sliding-background {
-    background: url("/img/homepage/finalflash.png") repeat-x;
+    background: url("../img/homepage/finalflash.png") repeat-x;
     height:190px;
     width: 5076px;
     animation: slide 20s linear infinite;
 }
 
 .sliding-ticket {
-    background: url("/img/MainSelection/ticketr1.png") repeat-x;
+    background: url("../img/MainSelection/ticketr1.png") repeat-x;
     height:190px;
     width: 5076px;
     animation: slide1 20s linear infinite;
 }
 
 .sliding-ticket1 {
-    background: url("/img/MainSelection/ticketr2.png") repeat-x;
+    background: url("../img/MainSelection/ticketr2.png") repeat-x;
     height:190px;
     width: 5076px;
     animation: slide1 20s linear infinite;
