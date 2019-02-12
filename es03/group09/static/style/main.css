@@ -177,7 +177,7 @@ div.module.hidden {
 }
 
 #wrapper > #header > #session-title {
-    margin: 0 var(--sp);
+    margin: 0 var(--sp) 0 calc(var(--sp) * 8);
 }
 
 #wrapper > #header > #header-btns {

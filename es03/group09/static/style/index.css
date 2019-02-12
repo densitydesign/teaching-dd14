@@ -1,9 +1,9 @@
 #wrapper > #content {
     max-width: 960px;
-    padding: calc(var(--sp) * 4) calc(var(--sp) * 4) 0 calc(var(--sp) * 4) ;
+    padding: calc(var(--sp) * 4);
 
-    display: grid;
-    grid-template: 8fr 1fr / 1fr;
+    display: flex;
+    flex-direction: column;
 
     height: 100%;
 }
@@ -12,7 +12,8 @@
     font-family: var(--f-el);
     font-size: 2.1em;
 
-    margin-bottom: calc(var(--sp) * 4);
+    height: 100%;
+    /* margin-bottom: calc(var(--sp) * 4); */
 }
 #wrapper > #content > #hero .ti-cursor {
     left: -1.3ch !important;
@@ -139,13 +140,12 @@
 }
 
 #wrapper > #content > a {
-    display: block;
+    display: inline-block;
     position: relative;
-    text-align: center;
-    max-width: 100px;
+    max-width: 150px;
 }
-
 #wrapper > #content > a > div#continue {
+    text-align: center;
     display: inline-block;
     
     font-family: 'IBM Plex Mono Light';
