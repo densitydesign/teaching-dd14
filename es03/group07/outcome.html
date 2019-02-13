@@ -12,7 +12,7 @@
 
 <body>
     <div id="loading-mask"></div>
-
+{}
     <a id="hamburger-icon" title="Menu">
             <span class="line line-1"></span>
             <span class="line line-2"></span>
@@ -84,6 +84,7 @@
                 <div class="outcome-text-container">
                     <p class="bolso-text white"><span class="bold">Was your choice difficult?</span><br> What you have experienced has happened and is going to happen many times again, for every single dam that is planned to be built in Brazil. The Belo Monte case is soon to be closed: whatever its outcome, it will set a precedent for future environmental justice appeals. This concerns all of us, and our planet.</p>
                 </div>
+                <span id="scrollDown" class="down"></span>
             </div>
         </div>
     </div>
@@ -92,12 +93,11 @@
             <div class="a">
                 <p class="title-text white">Wild Card: <br>The Future</p>
                 <p class="bolso-text white">
-                    The new President <span class="bold">Jair Bolsonaro</span>, on the day of his official investiture, stripped the agency in charge of indigenous affairs of the power to demarcate indigenous lands with his first decree. Instead, the agriculture ministry will take over those functions.
-                    Today, Bolsonaro’s Brazil seems to be a fertile land for businesses and enterprise who wish to maximise the exploitation of natural resources, stomping over environmental rights.
+                    The new President <span class="bold">Jair Bolsonaro</span>, on the day of his official investiture, stripped the agency in charge of indigenous affairs of the power to demarcate indigenous lands with his first decree. Instead, the agriculture ministry will take over those functions. Today, Bolsonaro's Brazil seems to be a fertile land for businesses and enterprise who wish to maximise the exploitation of Amazonian natural resources, stomping over environmental rights.
                 </p>
                 <a href="https://www.theguardian.com/world/2019/jan/02/brazil-jair-bolsonaro-amazon-rainforest-protections" target="_blank"class='btn-4'>Source&#x2197;</a>
                 <p class="bolso-text white">What will the future hold?<br>Only time will tell.</p>
-                <ul class="final-links">
+                <ul class="final-links bolso-fix">
                     <a href="index.html" id="go-back">
                         <li>Home</li>
                     </a>
@@ -111,6 +111,7 @@
             </div>
         </div>
     </div>
+    
     <div class="b" id="#bolsy-portrait">
     </div>
 
@@ -137,7 +138,7 @@
         var fb = firebase.initializeApp(config);
         var db = firebase.firestore();
 
-        var numeroNo; 
+        var numeroNo;
         var numeroSi;
         db.collection("containerRisposte").get().then((snapshot) => {
             snapshot.docs.forEach(doc => {
@@ -162,7 +163,7 @@
                 }
             })
         });
-
+    
     </script>
 
 </body>
