@@ -1,30 +1,496 @@
-$(document).ready(function() {
-    $(".flow").on("mouseenter", function(event) {
-        $(".text, .flow").addClass("greyed");
-        $(event.currentTarget).removeClass("greyed");
-        $(event.currentTarget).next().removeClass("greyed");
-    }).on("mouseleave", function(event){
-        $(".text, .flow").removeClass("greyed");
-    });
-    $(".text").on("mouseenter", function(event) {
-        $(".text, .flow").addClass("greyed");
-        $(event.currentTarget).removeClass("greyed");
-        $(event.currentTarget).prev().removeClass("greyed");
-    }).on("mouseleave", function(event){
-        $(".text, .flow").removeClass("greyed");
-    });
-        $(".flow-02").on("mouseenter", function(event) {
-        $(".text-02, .flow-02").addClass("greyed-02");
-        $(event.currentTarget).removeClass("greyed-02");
-        $(event.currentTarget).next().removeClass("greyed-02");
-    }).on("mouseleave", function(event){
-        $(".text-02, .flow-02").removeClass("greyed-02");
-    });
-    $(".text-02").on("mouseenter", function(event) {
-        $(".text-02, .flow-02").addClass("greyed-02");
-        $(event.currentTarget).removeClass("greyed-02");
-        $(event.currentTarget).prev().removeClass("greyed-02");
-    }).on("mouseleave", function(event){
-        $(".text-02, .flow-02").removeClass("greyed-02");
-    });
+//overview3
+
+$("#btn_ontext").click(function(event){
+  $('#pop_up').css('display','block')
+  })
+$("#xpopup").click(function(event){
+    $('#pop_up').css('display','none')
+  })
+//resource 1
+$("#btn_w").click(function(event){
+  $("#btnwater_tec").css("fill","#FFFFFF");
+  $("#btnwater_text").css("fill","#04151F");
+  $("#btnsoil_text").css('fill','#FFFFFF');
+  $("#btnsoil_tec").css('fill','none');
+  $("#btnsoil_tec").css('stroke','#FFFFFF');
+  if($('#pic_soil').css("display") == 'none'){
+    $("#pic_water").show();
+  }
+  else{
+    $("#pic_soil").hide();
+    $("#pic_water").show();
+  }
+  })
+  $("#btn_s").click(function(event){
+    $("#btnsoil_tec").css("fill","#FFFFFF");
+    $("#btnsoil_text").css("fill","#04151F");
+    $("#btnwater_text").css('fill','#FFFFFF');
+    $("#btnwater_tec").css('fill','none');
+    $("#btnwater_tec").css('stroke','#FFFFFF');
+    if($('#pic_water').css("display") == 'none'){
+      $("#pic_soil").show();
+    }
+    else{
+      $("#pic_water").hide();
+      $("#pic_soil").show();
+    }
+    })
+//10
+$("#btn_languse").click(function(event){
+  $("#land_tec").css("fill","#FFFFFF");
+  $("#land_text").css("fill","#04151F");
+  $("#water_text").css('fill','#FFFFFF');
+  $("#water_tec").css('fill','none');
+  $("#water_tec").css('stroke','#FFFFFF');
+  if($('#water').css("display") == 'none'){
+    $("#land").show();
+  }
+  else{
+    $("#water").hide();
+    $("#land").show();
+  }
+  })
+  $("#btn_wateruse").click(function(event){
+    $("#water_tec").css("fill","#FFFFFF");
+    $("#water_text").css("fill","#04151F");
+    $("#land_text").css('fill','#FFFFFF');
+    $("#land_tec").css('fill','none');
+    $("#land_tec").css('stroke','#FFFFFF');
+    if($('#land').css("display") == 'none'){
+      $("#water").show();
+    }
+    else{
+      $("#land").hide();
+      $("#water").show();
+    }
+    })
+//chile water scarcity 11
+$("#btn1").click(function(event){
+  $("#b1_tec").css("fill","#FFFFFF");
+  $("#b1_text").css("fill","#04151F");
+  $("#b2_text").css('fill','#FFFFFF');
+  $("#b2_tec").css('fill','none');
+  $("#b2_tec").css('stroke','#FFFFFF');
+  $("#b3_text").css('fill','#FFFFFF');
+  $("#b3_tec").css('fill','none');
+  $("#b3_tec").css('stroke','#FFFFFF');
+  if($('#pic2').css("display") == 'none'&& $('#pic3').css("display") == 'none'){
+    $("#pic1").show();
+  }
+  else{
+    $("#pic2").hide();
+    $("#pic3").hide();
+    $("#pic1").show();
+  }
 })
+$("#btn2").click(function(event){
+  $("#b2_tec").css("fill","#FFFFFF");
+  $("#b2_text").css("fill","#04151F");
+  $("#b1_text").css('fill','#FFFFFF');
+  $("#b1_tec").css('fill','none');
+  $("#b1_tec").css('stroke','#FFFFFF');
+  $("#b3_text").css('fill','#FFFFFF');
+  $("#b3_tec").css('fill','none');
+  $("#b3_tec").css('stroke','#FFFFFF');
+  if($('#pic1').css("display") == 'none'&& $('#pic3').css("display") == 'none'){
+    $("#pic2").show();
+  }
+  else{
+    $("#pic1").hide();
+    $("#pic3").hide();
+    $("#pic2").show();
+  }
+})
+$("#btn3").click(function(event){
+  $("#b3_tec").css("fill","#FFFFFF");
+  $("#b3_text").css("fill","#04151F");
+  $("#b2_text").css('fill','#FFFFFF');
+  $("#b2_tec").css('fill','none');
+  $("#b2_tec").css('stroke','#FFFFFF');
+  $("#b1_text").css('fill','#FFFFFF');
+  $("#b1_tec").css('fill','none');
+  $("#b1_tec").css('stroke','#FFFFFF');
+  if($('#pic2').css("display") == 'none'&& $('#pic1').css("display") == 'none'){
+    $("#pic3").show();
+  }
+  else{
+    $("#pic2").hide();
+    $("#pic1").hide();
+    $("#pic3").show();
+  }
+})
+//12
+$("#btn_grey").click(function(event){
+  $("#grey_tec").css("fill","#FFFFFF");
+  $("#grey_text").css("fill","#04151F");
+  $("#all_text").css('fill','#FFFFFF');
+  $("#all_tec").css('fill','none');
+  $("#all_tec").css('stroke','#FFFFFF');
+  $("#green_text").css('fill','#FFFFFF');
+  $("#green_tec").css('fill','none');
+  $("#green_tec").css('stroke','#FFFFFF');
+  $("#blue_text").css('fill','#FFFFFF');
+  $("#blue_tec").css('fill','none');
+  $("#blue_tec").css('stroke','#FFFFFF');
+  if($('#all').css("display") == 'none'&& $('#green').css("display") == 'none'&& $('#blue').css("display") == 'none'){
+    $("#grey").show();
+  }
+  else{
+    $("#all").hide();
+    $("#green").hide();
+    $("#blue").hide();
+    $("#grey").show();
+  }
+})
+
+$("#btn_all").click(function(event){
+  $("#all_tec").css("fill","#FFFFFF");
+  $("#all_text").css("fill","#04151F");
+  $("#grey_text").css('fill','#FFFFFF');
+  $("#grey_tec").css('fill','none');
+  $("#grey_tec").css('stroke','#FFFFFF');
+  $("#green_text").css('fill','#FFFFFF');
+  $("#green_tec").css('fill','none');
+  $("#green_tec").css('stroke','#FFFFFF');
+  $("#blue_text").css('fill','#FFFFFF');
+  $("#blue_tec").css('fill','none');
+  $("#blue_tec").css('stroke','#FFFFFF');
+  if($('#grey').css("display") == 'none'&& $('#green').css("display") == 'none'&& $('#blue').css("display") == 'none'){
+    $("#all").show();
+  }
+  else{
+    $("#all").show();
+    $("#green").hide();
+    $("#blue").hide();
+    $("#grey").hide();
+  }
+})
+
+$("#btn_green").click(function(event){
+  $("#green_tec").css("fill","#FFFFFF");
+  $("#green_text").css("fill","#04151F");
+  $("#all_text").css('fill','#FFFFFF');
+  $("#all_tec").css('fill','none');
+  $("#all_tec").css('stroke','#FFFFFF');
+  $("#grey_text").css('fill','#FFFFFF');
+  $("#grey_tec").css('fill','none');
+  $("#grey_tec").css('stroke','#FFFFFF');
+  $("#blue_text").css('fill','#FFFFFF');
+  $("#blue_tec").css('fill','none');
+  $("#blue_tec").css('stroke','#FFFFFF');
+  if($('#all').css("display") == 'none'&& $('#grey').css("display") == 'none'&& $('#blue').css("display") == 'none'){
+    $("#green").show();
+  }
+  else{
+    $("#all").hide();
+    $("#green").show();
+    $("#blue").hide();
+    $("#grey").hide();
+  }
+})
+
+$("#btn_blue").click(function(event){
+  $("#blue_tec").css("fill","#FFFFFF");
+  $("#blue_text").css("fill","#04151F");
+  $("#all_text").css('fill','#FFFFFF');
+  $("#all_tec").css('fill','none');
+  $("#all_tec").css('stroke','#FFFFFF');
+  $("#grey_text").css('fill','#FFFFFF');
+  $("#grey_tec").css('fill','none');
+  $("#grey_tec").css('stroke','#FFFFFF');
+  $("#green_text").css('fill','#FFFFFF');
+  $("#green_tec").css('fill','none');
+  $("#green_tec").css('stroke','#FFFFFF');
+  if($('#all').css("display") == 'none'&& $('#grey').css("display") == 'none'&& $('#green').css("display") == 'none'){
+    $("#blue").show();
+  }
+  else{
+    $("#all").hide();
+    $("#green").hide();
+    $("#blue").show();
+    $("#grey").hide();
+  }
+})
+
+//production growth1
+
+$('.btn_pg1').mouseenter(function(event){
+  $('.btn_pg1').addClass('faded');
+  $(this).removeClass('faded');
+})
+
+$('.btn_pg1').mouseleave(function(event){
+  $('.btn_pg1').removeClass('faded');
+})
+//section11_new newplayer
+$("#btn_export").click(function(event){
+  $("#export_tec").css("fill","#000000");
+  $("#export_text").css("fill","#FFFFFF");
+  $("#import_text").css('fill','#FFFFFF');
+  $("#import_tec").css('fill','none');
+  $("#import_tec").css('stroke','#FFFFFF');
+  if($('#section_import').css("display") == 'none'){
+    $("#section_export").css('display','block');
+  }
+  else{
+    $("#section_import").css('display','none');
+    $("#section_export").css('display','block');
+  }
+  })
+  $("#btn_import").click(function(event){
+    $("#import_tec").css("fill","#000000");
+    $("#import_text").css("fill","#FFFFFF");
+    $("#export_text").css('fill','#FFFFFF');
+    $("#export_tec").css('fill','none');
+    $("#export_tec").css('stroke','#FFFFFF');
+    if($("#section_export").css("display") == 'none'){
+      $("#section_import").css('display','block');
+    }
+    else{
+      $("#section_export").css('display','none');
+      $("#section_import").css('display','block');
+    }
+    })
+//section11_check years
+$('#btn2001').mouseenter(function(event){
+  $('#import_2001').addClass('show');
+})
+$('#btn2001').mouseleave(function(event){
+  $('#import_2001').removeClass('show');
+})
+//
+$('#btn2003').mouseenter(function(event){
+  $('#import_2003').addClass('show');
+})
+$('#btn2003').mouseleave(function(event){
+  $('#import_2003').removeClass('show');
+})
+//
+$('#btn2005').mouseenter(function(event){
+  $('#import_2005').addClass('show');
+})
+$('#btn2005').mouseleave(function(event){
+  $('#import_2005').removeClass('show');
+})
+//
+$('#btn2007').mouseenter(function(event){
+  $('#import_2007').addClass('show');
+})
+$('#btn2007').mouseleave(function(event){
+  $('#import_2007').removeClass('show');
+})
+//
+$('#btn2009').mouseenter(function(event){
+  $('#import_2009').addClass('show');
+})
+$('#btn2009').mouseleave(function(event){
+  $('#import_2009').removeClass('show');
+})
+//
+$('#btn2011').mouseenter(function(event){
+  $('#import_2011').addClass('show');
+})
+$('#btn2011').mouseleave(function(event){
+  $('#import_2011').removeClass('show');
+})
+//
+$('#btn2013').mouseenter(function(event){
+  $('#import_2013').addClass('show');
+})
+$('#btn2013').mouseleave(function(event){
+  $('#import_2013').removeClass('show');
+})
+//
+$('#btn2015').mouseenter(function(event){
+  $('#import_2015').addClass('show');
+})
+$('#btn2015').mouseleave(function(event){
+  $('#import_2015').removeClass('show');
+})
+//
+$('#btn2017').mouseenter(function(event){
+  $('#import_2017').addClass('show');
+})
+$('#btn2017').mouseleave(function(event){
+  $('#import_2017').removeClass('show');
+})
+//export_check_year
+$('#btnex2001').mouseenter(function(event){
+  $('#Export_2001').addClass('show');
+})
+$('#btnex2001').mouseleave(function(event){
+  $('#Export_2001').removeClass('show');
+})
+//
+$('#btnex2003').mouseenter(function(event){
+  $('#Export_2003').addClass('show');
+})
+$('#btnex2003').mouseleave(function(event){
+  $('#Export_2003').removeClass('show');
+})
+//
+$('#btnex2005').mouseenter(function(event){
+  $('#Export_2005').addClass('show');
+})
+$('#btnex2005').mouseleave(function(event){
+  $('#Export_2005').removeClass('show');
+})
+//
+$('#btnex2007').mouseenter(function(event){
+  $('#Export_2007').addClass('show');
+})
+$('#btnex2007').mouseleave(function(event){
+  $('#Export_2007').removeClass('show');
+})
+//
+$('#btnex2009').mouseenter(function(event){
+  $('#Export_2009').addClass('show');
+})
+$('#btnex2009').mouseleave(function(event){
+  $('#Export_2009').removeClass('show');
+})
+//
+$('#btnex2011').mouseenter(function(event){
+  $('#Export_2011').addClass('show');
+})
+$('#btnex2011').mouseleave(function(event){
+  $('#Export_2011').removeClass('show');
+})
+//
+$('#btnex2013').mouseenter(function(event){
+  $('#Export_2013').addClass('show');
+})
+$('#btnex2013').mouseleave(function(event){
+  $('#Export_2013').removeClass('show');
+})
+//
+$('#btnex2015').mouseenter(function(event){
+  $('#Export_2015').addClass('show');
+})
+$('#btnex2015').mouseleave(function(event){
+  $('#Export_2015').removeClass('show');
+})
+//
+$('#btnex2017').mouseenter(function(event){
+  $('#Export_2017').addClass('show');
+})
+$('#btnex2017').mouseleave(function(event){
+  $('#Export_2017').removeClass('show');
+})
+
+
+//section12
+
+$('.group-viz01').mouseenter(function(event){
+      $('.group-viz01').addClass('faded');
+      $(this).removeClass('faded');
+    })
+$('.group-viz01').mouseleave(function(event){
+      $('.group-viz01').removeClass('faded');
+});
+//
+$('#dominicon').mouseenter(function(event){
+      $('#num_dm').addClass('show');
+    })
+$('#dominicon').mouseleave(function(event){
+      $('#num_dm').removeClass('faded');
+});
+//
+
+$('#Mexico_c').mouseenter(function(event){
+      $('#num_Mx').addClass('show');
+    })
+$('#Mexico_c').mouseleave(function(event){
+      $('#num_Mx').removeClass('show');
+});
+//
+$('#peru_c').mouseenter(function(event){
+  $('#num_peru').addClass('show');
+    })
+$('#peru_c').mouseleave(function(event){
+      $('#num_peru').removeClass('show');
+});
+//
+$('#dominicon').mouseenter(function(event){
+      $('#num_dm').addClass('show');
+    })
+$('#dominicon').mouseleave(function(event){
+      $('#num_dm').removeClass('show');
+});
+//
+$('#USA_c').mouseenter(function(event){
+      $('#num_usa').addClass('show');
+    })
+$('#USA_c').mouseleave(function(event){
+      $('#num_usa').removeClass('show');
+});
+//
+$('#brazil_c').mouseenter(function(event){
+      $('#num_brazil').addClass('show');
+    })
+$('#brazil_c').mouseleave(function(event){
+      $('#num_brazil').removeClass('show');
+});
+//
+$('#kenya_c').mouseenter(function(event){
+      $('#num_kenya').addClass('show');
+    })
+$('#kenya_c').mouseleave(function(event){
+      $('#num_kenya').removeClass('show');
+});
+//
+$('#israel_c').mouseenter(function(event){
+      $('#num_israel').addClass('show');
+    })
+$('#israel_c').mouseleave(function(event){
+      $('#num_israel').removeClass('show');
+});
+//
+$('#spain').mouseenter(function(event){
+      $('#num_spain').addClass('show');
+    })
+$('#spain').mouseleave(function(event){
+      $('#num_spain').removeClass('show');
+});
+//
+$('#south_afri').mouseenter(function(event){
+      $('#num_south_afri').addClass('show');
+    })
+$('#south_afri').mouseleave(function(event){
+      $('#num_south_afri').removeClass('show');
+});
+//
+$('#chile_c').mouseenter(function(event){
+      $('#num_chile').addClass('show');
+    })
+$('#chile_c').mouseleave(function(event){
+      $('#num_chile').removeClass('show');
+});
+//
+$('#haiti').mouseenter(function(event){
+      $('#num_haiti').addClass('show');
+    })
+$('#haiti').mouseleave(function(event){
+      $('#num_haiti').removeClass('show');
+});
+//
+$('#venezuela').mouseenter(function(event){
+      $('#num_vene').addClass('show');
+    })
+$('#venezuela').mouseleave(function(event){
+      $('#num_vene').removeClass('show');
+});
+//
+$('#cameroon_c').mouseenter(function(event){
+      $('#num_cam').addClass('show');
+    })
+$('#cameroon_c').mouseleave(function(event){
+      $('#num_cam').removeClass('show');
+});
+//
+$('#indonesia').mouseenter(function(event){
+      $('#num_indonesia').addClass('show');
+    })
+$('#indonesia').mouseleave(function(event){
+      $('#num_indonesia').removeClass('show');
+});
