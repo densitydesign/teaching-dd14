@@ -67,9 +67,11 @@ a {
     height: 50px;
     position: fixed;
     left: 0vw;
-    top: 0;
+    top: 50vh;
+    margin-top: auto;
+    margin-bottom: auto;
     display: block;
-    margin: 2vh auto 0.2vw auto;
+    margin: 1vh auto 0.2vw auto;
     z-index: 100;
     transform: scale(0.4);
 }
@@ -277,7 +279,7 @@ a {
     grid-column: 1;
     z-index: 16;
     margin-top: 20vh;
-    margin-left: 4vw;
+    margin-left: 6vw;
     margin-right: 2vw;
 }
 
@@ -419,7 +421,7 @@ a {
 .a {
     grid-column: 1/7;
     margin-top: 17vh;
-    padding-left: 4rem;
+    padding-left: 6rem;
     padding-right: 4rem;
     z-index: 10;
 }
@@ -463,6 +465,12 @@ a {
     margin-left: 0;
     padding-left: 0;
     left: -1.3rem;
+}
+
+.bolso-fix {
+    margin-left: 0;
+    padding-left: 0;
+    left: 4.7rem;
 }
 
 #go-back {
@@ -1117,6 +1125,20 @@ a {
     cursor: pointer;
     transform: rotate(45deg) scale(1.2);
     transition: all 0.2s ease-in-out;
+}
+
+.down {
+    position: absolute;
+    right: 50vw;
+    top: 90vh;
+    width: 1.4em;
+    height: 1.4em;
+    border-top: 5px solid #fff;
+    border-right: 5px solid #fff;
+    border-radius: 4px;
+    -moz-transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
 }
 
 /*POPUP STYLES*/
