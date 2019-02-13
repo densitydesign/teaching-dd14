@@ -1,0 +1,11 @@
+- Popup overlappati nella mappa *
+- Legenda mappa brasile *
+- Favicon *
+- Fixare bug di quando spingi about nella pagina di bolso (capire come mettergli la class che lo fa diventare una x senza scazzare tutto)
+
+- Provare il sito su varie risoluzioni e modificare le robe che van male *
+- bordi nella mappa *
+
+- LEVARE DAL CODICE LE ROBE NON USATE
+
+- 

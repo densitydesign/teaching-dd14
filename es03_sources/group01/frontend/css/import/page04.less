@@ -1,0 +1,44 @@
+#animals {
+
+    svg {
+
+        & > g {
+            transition: transform @ease, opacity @ease;
+            cursor: pointer;
+
+            &:focus {
+                transform: scale(0.9);
+            }
+
+            &.is-hidden {
+                opacity: 0.6;
+            }
+
+            &:hover {
+                transform: translateY(-10px);
+            }
+        }
+    }
+
+}
+
+
+.explain {
+    background: @black;
+    color: @white;
+    margin: 0px 2rem;
+    overflow: hidden;
+    display: none;
+
+    h1 {
+        padding: 2rem;
+        font-family: @title;
+        text-transform: uppercase;
+    }
+
+    p {
+        margin-bottom: 2rem;
+        font-family: @title;
+        font-size: 1.2rem;
+    }
+}

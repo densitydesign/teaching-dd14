@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+      />
+    <title>Schrödinger's Data Box</title>
+    <link rel="stylesheet" type="text/css" href="css/intro.css" />
+    <link rel="stylesheet" type="text/css" href="css/cursor.css" />
+
+    <style> 
+      canvas { 
+       position:absolute; 
+       top:0; 
+       left:0; 
+       width:100%; 
+       height:100%; 
+       z-index:-1; 
+      } 
+      .count:hover {
+        background-color: #7b9899;
+        color: blueviolet;
+      }
+
+      .sixstate:hover {
+        background-color: #7b9899;
+        color: blueviolet;
+      }
+
+      .sixfont:hover {
+        background-color: #7b9899;
+        color: blueviolet;
+      }
+
+      .sixtitle:hover {
+        background-color: #7b9899;
+        color: blueviolet;
+      }
+     </style>
+  </head>
+  <body style="background-color:#7a9899; height:100%;overflow:hidden;">
+
+    <!-- cursor -->
+    <div class="cursor">
+      <div
+        class="cursor__inner cursor__inner--circle"
+        style="transform: translateX(-10px) translateY(-10px) scale(1); opacity:
+        1;"></div>
+      <div
+        class="cursor__inner cursor__inner--dot"
+        style="transform: translateX(-3px) translateY(-3px);"></div>
+    </div>
+
+    <!-- back -->
+    <div>
+      <a class="backicon" href="index.html" style="fill:aquamarine !important">
+        <svg id="icon-arrow" viewBox="0 0 24 24" width="8%" height="8%">
+          <title>arrow</title>
+          <polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6
+            3.1,12
+            9,18 10.2,16.8"></polygon>
+        </svg></svg>
+    </a>
+  </div>
+
+
+  <!-- svg interaction -->
+  <div class="container" style="margin-top: 20px;">
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-11">
+        <h1 class="sixtitle">Twitter DataBox</h1>
+        <p class="sixstate">Newspaper in the real world is like a
+          documentary about social life, recording historical events and the
+          value thinking of the people at that moment.The data volume of
+          graphic and word content in a newspaper is nearly 4,600 KB.About 6,000
+          tweets per second are sent by users, generating nearly 600 million
+          tweets per day. It produce around 155,520 GB of data volume per day.
+          This data amount of tweet issued by users in one day is equivalent to
+          printing 33.8 million newspapers.It's twice times as the total of the
+          top ten US newspapers per week.</p>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-sm-1">
+      </div>
+      <div class="col-sm-3">
+        <p class="sixfont">Number of Posts Uploaded_<br/><span class="count">6000</span>
+            <br/>/second</p>
+            <br>
+            <p class="sixfont">Data Traffic
+              Globally_<br/>
+                <span class="count">155520</span>
+                <br>GB/day</p>
+              <br>
+              <p class="sixfont">The Information Volume_<br>equals<br><span
+                  class="count">33808695</span><br>newspapers
+                <br/>/day</p>
+                <br>
+                <p class="sixfont">Data Traffic
+                  GB/day_<br>
+                  <span class="count">175204</span>
+                  <br>GB/day</p>
+
+
+              </div>
+              <div class="col-sm-8">
+                <img style="height: 34%; margin-left: 78%; margin-top: 23%;
+                  z-index:-2;"
+                  src="assets/news/people.gif">
+              </div>
+            </div>
+          </div>
+
+
+          <script src="js/cursor.js"></script>
+          <script src="js/jquery-3.3.1.min.js"></script>
+          <script src="js/counter.js"></script>
+          <script src="js/news.js"></script></div>
+        <script src="js/snowflake.js"></script>
+        <script src="js/p5.min.js"></script>
+        <script src="js/addons/p5.dom.min.js"></script>
+      </body>
+    </html>

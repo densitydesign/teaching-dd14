@@ -1,0 +1,88 @@
+
+
+.pop_button {
+  margin: auto;
+  width: 200px;
+  background: linear-gradient(45deg, purple, pink);
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 1em;
+  border: 2px solid white;
+  transition: all 500ms ease;
+}
+
+.pop_button:hover {
+  letter-spacing: 1px;
+  transition: all 500ms ease;
+  background: linear-gradient(45deg, plum, purple);
+  border: 2px solid purple;
+  cursor: pointer;
+}
+
+.pop_button:focus+.modal {
+  opacity: 1;
+  visibility: visible;
+  transition: all 500ms ease;
+}
+
+.pop_button:focus+.modal .modal__content {
+  height: 60%;
+  opacity: 1;
+  transition: all 500ms ease;
+}
+
+.pop_button:focus {
+  outline: none;
+}
+
+.modal {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 500ms ease;
+}
+
+.modal .modal__content {
+  margin: auto;
+  background-color: white;
+  width: 60%;
+  height: 0;
+  opacity: 0;
+  margin: auto;
+  transition: all 500ms ease;
+  border-radius: 1em;
+  overflow: hidden;
+  border: 1px groove purple;
+  box-shadow: 2px 2px 2px black;
+  background-color: white;
+}
+
+.modal .modal__content .modal__body,
+.modal .modal__content .modal__footer {
+  padding: 10px;
+}
+
+.modal .modal__content .modal__header {
+  padding: 10px;
+  height: 10%;
+  font-size: 1.5em;
+  background-color: plum;
+  font-weight: bold;
+  border-bottom: 1px solid purple;
+}
+
+.modal .modal__content .modal__body {
+  height: 60%;
+}
+
+.modal .modal__content .modal__footer {
+  height: 20%;
+}

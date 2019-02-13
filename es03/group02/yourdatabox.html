@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script type="text/javascript" src="js/GetPD.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/form.css" />
+    <title>Schrödinger's Data Box</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+      />
+
+    <link rel="stylesheet" type="text/css" href="css/intro.css" />
+    <link rel="stylesheet" type="text/css" href="css/cursor.css" />
+
+    <style>
+      canvas {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+      }
+      #extend_words{
+
+    position: absolute;
+    margin-top: -174px;
+    margin-left: 78%;
+    width: 400px;
+    font-size: 16px;
+    color:#7383b3;
+
+      }
+      :root {
+        /* generic */
+        --gutterSm: 0.4rem;
+        --gutterMd: 0.8rem;
+        --gutterLg: 1.6rem;
+        --gutterXl: 2.4rem;
+        --gutterXx: 7.2rem;
+        --colorPrimary400: #7e57c2;
+        --colorPrimary600: #cbccf6;
+        --colorPrimary800: #4527a0;
+        --fontFamily: "Dosis", sans-serif;
+        --fontSizeSm: 1.2rem;
+        --fontSizeMd: 1.6rem;
+        --fontSizeLg: 2.1rem;
+        --fontSizeXl: 2.8rem;
+        --fontSizeXx: 3.6rem;
+        --lineHeightSm: 1.1;
+        --lineHeightMd: 1.8;
+        --transitionDuration: 300ms;
+        --transitionTF: cubic-bezier(0.645, 0.045, 0.355, 1);
+
+        /* floated labels */
+        --inputPaddingV: var(--gutterMd);
+        --inputPaddingH: var(--gutterLg);
+        --inputFontSize: var(--fontSizeLg);
+        --inputLineHeight: var(--lineHeightMd);
+        --labelScaleFactor: 0.8;
+        --labelDefaultPosY: 50%;
+        --labelTransformedPosY: calc(
+          (var(--labelDefaultPosY)) -
+            (var(--inputPaddingV) * var(--labelScaleFactor)) -
+            (var(--inputFontSize) * var(--inputLineHeight))
+        );
+        --inputTransitionDuration: var(--transitionDuration);
+        --inputTransitionTF: var(--transitionTF);
+      }
+
+      .Input {
+        position: relative;
+        margin-left:-20px;
+      }
+
+      .Input-text {
+        display: block;
+        margin: 10px;
+        padding: var(--inputPaddingV) var(--inputPaddingH);
+        color: inherit;
+        width: 280%;
+        font-family: inherit;
+        font-size: 14px;
+        font-weight: inherit;
+        line-height: var(--inputLineHeight);
+        border: none;
+        border-radius: 1rem;
+        transition: box-shadow var(--transitionDuration);
+        height: 40px;
+      }
+      .Input-text::placeholder {
+        color: #b0bec5;
+      }
+      .Input-text:focus {
+        outline: none;
+        box-shadow: 0.5rem 0.5rem 1.4rem var(--colorPrimary600);
+        /* box-shadow: 2px 7px 4px black; */
+      }
+      .Input-label {
+        display: block;
+        position: absolute;
+        bottom: 50%;
+        left: 1rem;
+        color: #fff;
+        font-family: inherit;
+        font-size: var(--inputFontSize);
+        font-weight: inherit;
+        line-height: var(--inputLineHeight);
+        opacity: 0;
+        transform: translate3d(0, var(--labelDefaultPosY), 0) scale(1);
+        transform-origin: 0 0;
+        transition: opacity var(--inputTransitionDuration)
+            var(--inputTransitionTF),
+          transform var(--inputTransitionDuration) var(--inputTransitionTF),
+          visibility 0ms var(--inputTransitionDuration) var(--inputTransitionTF),
+          z-index 0ms var(--inputTransitionDuration) var(--inputTransitionTF);
+      }
+      .Input-text:placeholder-shown + .Input-label {
+        visibility: hidden;
+        z-index: -1;
+      }
+      .Input-text:not(:placeholder-shown) + .Input-label,
+      .Input-text:focus:not(:placeholder-shown) + .Input-label {
+        visibility: visible;
+        z-index: 1;
+        opacity: 1;
+        transform: translate3d(0, var(--labelTransformedPosY), 0)
+          scale(var(--labelScaleFactor));
+        transition: transform var(--inputTransitionDuration), visibility 0ms,
+          z-index 0ms;
+      }
+
+      .fill:hover,
+      .fill:focus {
+        box-shadow: inset 0 0 0 2em var(--hover);
+      }
+      .pulse:hover,
+      .pulse:focus {
+        animation: pulse 1s;
+        box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+      }
+      @keyframes pulse {
+        0% {
+          box-shadow: 0 0 0 0 var(--hover);
+        }
+      }
+      .close:hover,
+      .close:focus {
+        box-shadow: inset -3.5em 0 0 0 var(--hover),
+          inset 3.5em 0 0 0 var(--hover);
+      }
+      .raise:hover,
+      .raise:focus {
+        box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+        transform: translateY(-0.25em);
+      }
+      .up:hover,
+      .up:focus {
+        box-shadow: inset 0 -3.25em 0 0 var(--hover);
+      }
+      .slide:hover,
+      .slide:focus {
+        box-shadow: inset 6.5em 0 0 0 var(--hover);
+      }
+      .offset {
+        box-shadow: 0.3em 0.3em 0 0 var(--color),
+          inset 0.3em 0.3em 0 0 var(--color);
+      }
+      .offset:hover,
+      .offset:focus {
+        box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+      }
+      .fill {
+        --color: #a972cb;
+        --hover: #cb72aa;
+      }
+      .pulse {
+        --color: #ef6eae;
+        --hover: #4e4d4d;
+      }
+      button {
+        color: var(--color);
+        transition: 0.25s;
+      }
+      button:hover,
+      button:focus {
+        border-color: var(--hover);
+        color: #fff;
+      }
+      button {
+        background: none;
+        border: 2px solid;
+        font: inherit;
+        line-height: 1;
+        margin: 0.5em;
+        padding: 1em 2em;
+      }
+
+      .description {
+        /* font-family: initial;
+        font-size: medium; */
+        margin: 0;
+  font-style: italic;
+  color: black;
+      }
+
+      
+      .number {
+        font-size: 30px; 
+        margin: 0;
+  font-style: italic;
+  color: #7383b3;
+      }
+
+      #dayConsume{
+        margin: 0;
+  font-style: italic;
+  color: #686aa9;
+      }
+
+      #dayCo2{
+        margin: 0;
+  font-style: italic;
+  color: #686aa9;
+      }
+
+      #dayLiveCo2{
+        margin: 0;
+  font-style: italic;
+  color: #686aa9; 
+      }
+
+      #wrap {
+  position: absolute;
+  left: 80%;
+  top: 38%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
+.cube-wrapper {
+  -webkit-perspective: 600px;
+  -webkit-perspective-origin: 50% 50px;
+  
+   perspective: 600px;
+   perspective-origin: 50% 50px;  
+}
+
+.cube {
+  position: relative;
+  width: 100px;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform-origin: 50px 50px 0px; 
+  transform-style: preserve-3d;
+  transform-origin: 50px 50px 0px;
+}
+
+.cube div {
+  outline: 1px solid aliceblue;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  opacity: 0.7;
+  box-shadow: inset 0px 0px 20px aliceblue;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cube div.back {
+  -webkit-transform: translateZ(-50px) rotateY(180deg);
+  transform: translateZ(-50px) rotateY(180deg);
+  opacity:.5;
+  background-image: url("assets/tips/01.png");background-size: 100%;
+}
+.cube div.right {
+  -webkit-transform: rotateY(-270deg) translateX(50px);
+  -webkit-transform-origin: top right;
+  transform: rotateY(-270deg) translateX(50px);
+  transform-origin: top right;
+  opacity:.5;
+  background-image: url("assets/tips/02.png");background-size: 100%;
+}
+.cube div.left {
+  -webkit-transform: rotateY(270deg) translateX(-50px);
+  -webkit-transform-origin: center left;
+  transform: rotateY(270deg) translateX(-50px);
+  transform-origin: center left;
+  opacity:.5;
+  background-image: url("assets/tips/03.png"); background-size: 100%;
+
+}
+.cube div.top {
+  -webkit-transform: rotateX(-90deg) translateY(-50px);
+  -webkit-transform-origin: top center;
+  transform: rotateX(-90deg) translateY(-50px);
+  transform-origin: top center;
+  opacity:.5;
+  background-image: url("assets/tips/04.png");background-size: 100%;
+}
+.cube div.bottom {
+  -webkit-transform: rotateX(90deg) translateY(50px);
+  -webkit-transform-origin: bottom center; 
+  transform: rotateX(90deg) translateY(50px);
+  transform-origin: bottom center;
+  opacity:.5;
+  background-image: url("assets/tips/05.png");background-size: 100%;
+}
+.cube div.front {
+  -webkit-transform: translateZ(50px);
+  transform: translateZ(50px);
+  opacity:.5;
+  background-image: url("assets/tips/06.png");background-size: 100%;
+}
+
+    </style>
+  </head>
+
+  <body style="background-color: #edb4b8;">
+
+    <!-- <div style="margin-left:100px;margin-top: 100px; z-index:-1;">
+      <h1>How much energy do you consume in digital
+        world?</h1>
+    </div> -->
+    <!-- cursor -->
+    <div class="cursor">
+      <div
+        class="cursor__inner cursor__inner--circle"
+        style="transform: translateX(-10px) translateY(-10px) scale(1); opacity:
+        1;"></div>
+      <div
+        class="cursor__inner cursor__inner--dot"
+        style="transform: translateX(-3px) translateY(-3px);"></div>
+    </div>
+
+    <div class="container">
+      <header class="codrops-header">
+        <div class="codrops-header__links">
+          <a href="introduction.html">Introduction</a>
+          <a href="yourdatabox.html">YourBox</a>
+        </div>
+      </header>
+
+      <nav class="nav">
+        <button class="nav__button">
+          <span class="nav__button-text">index</span>
+        </button>
+        <h2 class="nav__chapter">Schrödinger's Data Box</h2>
+        <div class="toc">
+          <a class="toc__item" href="index.html">
+            <span class="toc__item-page">01.</span>
+            <span class="toc__item-title">Our Data Box</span>
+          </a>
+          <a class="toc__item" href="introduction.html">
+            <span class="toc__item-page">02.</span>
+            <span class="toc__item-title">introduction</span>
+          </a>
+          <a class="toc__item" href="instagram.html">
+            <span class="toc__item-page">03.</span>
+            <span class="toc__item-title">instagram</span>
+          </a>
+          <a class="toc__item" href="email.html">
+            <span class="toc__item-page">04.</span>
+            <span class="toc__item-title">email</span>
+          </a>
+          <a class="toc__item" href="twitter.html">
+            <span class="toc__item-page">05.</span>
+            <span class="toc__item-title">twitter</span>
+          </a>
+          <a class="toc__item" href="snapchat.html">
+            <span class="toc__item-page">06.</span>
+            <span class="toc__item-title">snapchat</span>
+          </a>
+          <a class="toc__item" href="itunes.html">
+            <span class="toc__item-page">07.</span>
+            <span class="toc__item-title">itunes</span>
+          </a>
+          <a class="toc__item" href="youtube.html">
+            <span class="toc__item-page">08.</span>
+            <span class="toc__item-title">youtube</span>
+          </a>
+          <a class="toc__item" href="datacenterbox.html">
+            <span class="toc__item-page">09.</span>
+            <span class="toc__item-title">data center box</span>
+          </a>
+          <a class="toc__item" href="yourdatabox.html">
+            <span class="toc__item-page">10.</span>
+            <span class="toc__item-title">your data box</span>
+          </a>
+        </div>
+      </nav>
+
+      <!--Introduction-->
+
+      <div class="row loginEntity" style="position: relative;magin-top:20px;
+        margin-left:-80px;">
+        <div style="margin-left:10px;margin-top: 100px; z-index:-1;">
+          <h1>How much energy do you consume in digital
+            world?</h1>
+        </div>
+        <div class="col-sm-9">
+          <table style="border:0;margin-top: 90px;">
+            <tr>
+              <td>
+                <div class="Input">
+                  <input
+                    placeholder="How long do you watch Youtube every day?
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/hours"
+                    class="Input-text"
+                    id="tv"
+                    name="tv"
+                    type="text"
+                    />
+                </div>
+              </td>
+
+              <td>
+                <p id="pid"></p>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="Input">
+                  <input
+                    placeholder="How long do you use Snapchat every day?
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/hours"
+                    class="Input-text"
+                    id="ts"
+                    name="ts"
+                    type="text"
+                    />
+                </div>
+              </td>
+
+              <td>
+                <p id="pis"></p>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="Input">
+                  <input
+                    class="Input-text"
+                    placeholder="How long do you listen music online every day?
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/hours"
+                    id="tm"
+                    name="tm"
+                    type="text"
+                    />
+                </div>
+              </td>
+
+              <td>
+                <p id="pim"></p>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="Input">
+                  <input
+                    class="Input-text"
+                    placeholder="How many emails do you send&receive every day?
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/email"
+                    id="te"
+                    name="te"
+                    type="text"
+                    />
+                </div>
+              </td>
+
+              <td>
+                <p id="pie"></p>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="Input">
+                  <input
+                    placeholder="How long do you browse Instagram every day?
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/hours"
+                    class="Input-text"
+                    id="ti"
+                    name="ti"
+                    type="text"
+                    />
+                </div>
+              </td>
+
+              <td>
+                <p id="pii"></p>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="Input">
+                  <input
+                    placeholder="How long do you visit Twitter every day?
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/hours"
+                    class="Input-text"
+                    id="tt"
+                    name="tt"
+                    type="text"
+                    />
+                </div>
+              </td>
+
+              <td>
+                <p id="pit"></p>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <button
+                  style="width:302% ;margin-left:-8px;margin-top:50px"
+                  type="button"
+                  class="pulse"
+                  onclick="myFunction()">
+                  Click Here
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <p id="dayConsume"></p>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <p id="dayCo2"></p>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <p id="dayLiveCo2"></p>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <p id="extend_words"></p>
+              </td>
+            </tr>
+          </table>
+          <div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h5>The calculated data sources:</h5>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="row">
+              <div class="col-sm-4" style="font-size:6px;">
+
+
+                <h6 style="font-size:14px;">1.Twitter</h6>
+                <p><a
+                    href=https://www.brandwatch.com/blog/twitter-stats-and-statistics>
+                    Every
+                    second around 6,000 tweets are tweeted.</a></p>
+                <p><a href=https://www.charitymobile.com/datausage.html>How much
+                    data does
+                    social media use? </a></p>
+                <p><a href=http://science.sciencemag.org/content/332/6025/60>How
+                    much data volume of one newspaper? </a></p>
+                <p><a href=https://en.wikipedia.org/wiki/World_population>How
+                    many
+                    population in the world?</a></p>
+              </div>
+
+
+              <div class="col-sm-4" style="font-size:6px;">
+                <h6 style="font-size:14px;">2.Instagram</h6>
+                <p><a
+                    href=https://www.domo.com/learn/data-never-sleeps-6>Around
+                    820 pictures/s are posted on Instagram.</a></p>
+                <p><a
+                    href=https://www.wirefly.com/guides/how-much-data-does-instagram-use>How
+                    much
+                    data Does Instagram use? </a></p>
+                <p><a
+                    href=https://www.quora.com/Energy-Consumption-How-much-electricity-does-an-espresso-machine-consume-while-it-is-on>The
+                    energy consumption of one cup of Espresso. </a></p>
+                <p><a
+                    href=https://www.ashden.org/news/how-much-energy-does-it-take-to-check-facebook
+                    https://www.edn.com/electronics-blogs/5g-waves/4460339/Video-killed-the-Energy-Star--Why-5G-must-use-less-power->Conversion
+                    of power consumed by network traffic</a></p>
+              </div>
+
+
+              <div class="col-sm-4" style="font-size:6px;">
+                <h6 style="font-size:14px;">3.Emails</h6>
+                <p><a
+                    href=http://www.internetlivestats.com/one-second/#email-band>Around
+                    2,770,285 Spam Emails/s are sent.</a></p>
+                <p><a
+                    href=https://www.lifewire.com/what-is-the-average-size-of-an-email-message-1171208>How
+                    much
+                    data of one email? </a></p>
+                <p><a
+                    href=https://www.theguardian.com/environment/green-living-blog/2010/oct/21/carbon-footprint-email>The
+                    carbon footprint of one spam email. </a></p>
+                <p><a
+                    href=https://projects.ncsu.edu/project/treesofstrength/treefact.htm>The
+                    volume of carbon absorbed by tree.</a></p>
+              </div>
+            </div>
+
+
+
+            <br>
+            <br>
+
+
+
+            <div class="row">
+              <div class="col-sm-4" style="font-size:6px;">
+                <h6 style="font-size:14px;">4.iTunes</h6>
+                <p><a
+                    href=http://www.everysecond.io/apple>Around 194
+                    Songs/s are downloaded.</a></p>
+                <p><a
+                    href=https://www3.bellmts.ca/mts/support/internet/high+speed/internet+data+usage+calculat>Data
+                    of one song downloaded.</a></p>
+                <p><a href=
+                    https://www.crownaudio.com/how-much-amplifier-power>Power in
+                    holding a concert in a stadium.</a></p>
+                <p><a
+                    href=https://www.nbnco.com.au/blog/entertainment/how-much-data-does-music-streaming-use>How
+                    much data does music streaming use? </a></p>
+              </div>
+
+
+
+              <div class="col-sm-4" style="font-size:6px;">
+                <h6 style="font-size:14px;">5.Snapchat</h6>
+                <p><a
+                    href=https://www.domo.com/learn/data-never-sleeps-6>Around
+                    34,723 snaps/s are shared by users.</a></p>
+                <p><a href=https://www.youtube.com/watch?v=oWlDn9iFepQ>How much
+                    cellular data does Snapchat use? </a></p>
+                <p><a href=http://energyusecalculator.com/electricity_oven.htm>How
+                    much power to bake a pizza for 15 mins?</a></p>
+                <p><a
+                    href=https://www.ashden.org/news/how-much-energy-does-it-take-to-check-facebook
+                    https://www.ashden.org/news/how-much-energy-does-it-take-to-check-facebook
+                    https://www.edn.com/electronics-blogs/5g-waves/4460339/Video-killed-the-Energy-Star--Why-5G-must-use-less-power->Conversion
+                    of power consumed by network traffic</a></p>
+              </div>
+
+
+
+              <div class="col-sm-4" style="font-size:6px;">
+                <h6 style="font-size:14px;">6.Youtube</h6>
+                <p><a
+                    href=http://www.everysecond.io/youtube>How
+                    many hours viewed by users in a second? </a></p>
+                <p><a href=
+                    https://www.ashden.org/news/how-much-energy-does-it-take-to-check-facebook
+                    https://www.edn.com/electronics-blogs/5g-waves/4460339/Video-killed-the-Energy-Star--Why-5G-must-use-less-power->Conversion
+                    of power consumed by network traffic</a></p>
+                <p><a href=https://www.space.com/17638-how-big-is-earth.html>How
+                    Many Miles Around the Earth? </a></p>
+                <p><a href=https://www.tesla.com/modelx>Power and mileage Model
+                    S could use.</a></p>
+              </div>
+
+
+
+            </div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+        </div>
+      </div>
+    </div>
+
+    <div id="wrap">
+      <div class="cube-wrapper">
+        <div class="cube">
+          <div class="front"></div>
+          <div class="back"></div>
+          <div class="top"></div>
+          <div class="bottom"></div>
+          <div class="left"></div>
+          <div class="right"></div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/databox.js"></script>
+    <script src="js/cursor.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/demo.js"></script>
+    <script src="js/p5.min.js"></script>
+    <script src="js/addons/p5.dom.min.js"></script>
+    <script src="js/addons/p5.sound.min.js"></script>
+    <!-- <script src="js/sketch.js"></script> -->
+  </body>
+</html>

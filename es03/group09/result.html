@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ph3 - results</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="static/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon-16x16.png">
+    <link rel="manifest" href="static/images/site.webmanifest">
+    <link rel="mask-icon" href="static/images/safari-pinned-tab.svg" color="#18181a">
+    <link rel="shortcut icon" href="static/images/favicon.ico">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="msapplication-config" content="static/images/browserconfig.xml">
+    <meta name="theme-color" content="#18181a">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="static/style/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="static/style/result.css" />
+
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-firestore.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105694460-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-105694460-2');
+    </script>
+
+    <script>
+        var config = {
+            apiKey: "AIzaSyBtgxTHNCdaV73K01M83YaJ8DK45U9VJfA",
+            authDomain: "ph03-56c1f.firebaseapp.com",
+            databaseURL: "https://ph03-56c1f.firebaseio.com",
+            projectId: "ph03-56c1f",
+            storageBucket: "ph03-56c1f.appspot.com",
+            messagingSenderId: "209808074135"
+        };
+        var fb = firebase.initializeApp(config);
+        var db = firebase.firestore();
+        db.settings({timestampsInSnapshots: true});
+    </script>
+
+
+</head>
+
+<body>
+    <div id="wall">
+        <p>:(</p>
+        <p>This website has been designed to be enjoyed on&nbsp;desktop&nbsp;devices or tablets.</p>
+        <p>Please check back from your laptop, tablet or personal&nbsp;computer!</p>
+    </div>
+    <div id="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="results-selection.html">Results</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+    
+    <div id="wrapper">
+        <div id="header">
+            <div id="page-title">
+                <a href="results-selection.html">&larr; Other categories</a>
+            </div>
+            <div id="header-btns">
+                <div id="hamburger">
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                </div>
+            </div>
+        </div>
+        <div id="content">
+
+            <div id="content-timeline">
+
+                <div id="content-svg">
+
+                </div>
+
+                <div id="content-grid">
+                    <div class="content-grid-bar"></div>
+                    <div class="content-grid-bar"></div>
+                    <div class="content-grid-bar"></div>
+                    <div class="content-grid-bar"></div>
+                    <div class="content-grid-bar"></div>
+                    <div class="content-grid-bar"></div>
+                    <div class="content-grid-bar"></div>
+                    <div class="content-grid-bar"></div>
+                    <div class="content-grid-bar"></div>
+                    <div class="content-grid-bar"></div>
+                    <div class="content-grid-bar"></div>
+                    <div class="content-grid-bar"></div>
+                </div>
+
+                <div id="censor-line"></div>
+
+                <div id="content-selector">
+                    <div class="selector">1</div>
+                    <div class="selector">2</div>
+                    <div class="selector">3</div>
+                    <div class="selector">4</div>
+                    <div class="selector">5</div>
+                    <div class="selector">6</div>
+                </div>
+
+            </div>
+
+            <div id="content-area">
+
+                <div id="content-viewer" class="module">
+                    <video src="" id="playback-content">
+                        <source type="video/mp4">
+                        <track src="">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div id="content-info" class="module">
+                    <div id="content-desc">
+                        <div class="content-desc-shadow"></div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod cupiditate praesentium in tempora aperiam inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod cupiditate praesentium in tempora aperiam inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod cupiditate praesentium in tempora aperiam inventore?</p>
+                        <div class="content-desc-shadow"></div>
+                    </div>
+                    <p id="content-source"><a href="#" target="_blank">source</a></p>
+                    <p id="content-average"></p>
+                    <p id="content-average-label">Average&nbsp;moderation&nbsp;rate</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="static/js/playback.js"></script>
+    
+    <script src="static/js/menu.js"></script>
+    
+    <script src="static/lib/d3.js"></script>
+    <script src="static/lib/anime.min.js"></script>
+    
+    <script src="static/js/result-tl.js"></script>
+    <script src="static/js/result-curves.js"></script>
+    <script src="static/js/backend.js"></script>
+    
+</body>
+
+</html>

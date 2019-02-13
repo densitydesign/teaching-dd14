@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    {% include head.html %}
+
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:description" content="The ideology that today’s feminism brings to the attention is a constant complaining about manspreading and mansplaining, that pushes to one and only message: “Men are evil, broken and wrong”. In a society which increasingly lacks a positive identity for men, feminism carries out a sexual strategy through which women want to create a matriarchal society, covering it up as a demand of equality. Don’t be a mangina: follow the 5 steps to make sure women didn’t brainwash you.">
+    <meta property="og:image" content="{{ site.image | relative_url | prepend: 'https://densitydesign.github.io' }}">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="@Mozzillation">
+    <meta name="twitter:title" content="{{ site.title }}">
+    <meta name="twitter:description" content="The ideology that today’s feminism brings to the attention is a constant complaining about manspreading and mansplaining, that pushes to one and only message: “Men are evil, broken and wrong”. In a society which increasingly lacks a positive identity for men, feminism carries out a sexual strategy through which women want to create a matriarchal society, covering it up as a demand of equality. Don’t be a mangina: follow the 5 steps to make sure women didn’t brainwash you.">
+    <meta name="twitter:image" content="{{ site.image | relative_url | prepend: 'https://densitydesign.github.io' }}">
+</head>
+
+<body>
+
+    <div class="calendarpopup"></div>
+    <div class="loader">
+        <div class="loader_ball"></div>
+        <div class="loader_text">LOADING</div>
+    </div>
+
+    <div class="cookies">
+        <div class="cookies_text">THIS WEBSITE USES COOKIES TO IMPROVE THE EXPERIENCE</div>
+        <div class="cookies_button agree">I AGREE</div>
+
+        <div class="cookies_mobile">WATCH ON DESKTOP FOR A COMPLETE UX</div>
+
+    </div>
+
+
+    <section class="front page is-active">
+        <div class="front_rotate  hide">
+            <div class="front_rotate_title">
+                {{ site.title }}
+            </div>
+        </div>
+        <div class="front_title">
+            <div class="module">
+                {{ site.title }}
+            </div>
+        </div>
+
+
+        <div class="front_content">
+            <div class="module">
+                {{ content }}
+            </div>
+        </div>
+    </section>
+
+
+    {% for page in site.pages %}
+
+    <section class="page n{{page.number}}" data-number="{{page.number}}">
+
+        <div class="page_content content">
+
+            <section class="snap header">
+                <div class="module">
+
+                    <div class="page_title">
+                        <div class="title">
+                            {{ page.title }}<span>*</span>
+                        </div>
+                    </div>
+
+                    <div class="page_cover" style="background-image: url({{page.cover | relative_url }})">
+                    </div>
+
+                </div>
+
+
+
+            </section>
+
+
+
+            <div class="page_text">
+                {{page.content}}
+            </div>
+
+
+
+        </div>
+
+        <div class="page_number">
+            .{{ page.number }}
+        </div>
+
+
+    </section>
+    {% endfor %}
+
+    <section class="page n6 is-end" data-number="6" id="end">
+
+        <div class="page_content content">
+            <section class="snap">
+
+                <div class="module">
+                    <div class="page_title">
+                        Stop hate against women.
+                    </div>
+
+                    <div class="page_subtitle2">
+                        Everything you read was shared by real users.
+
+                    </div>
+
+
+                    <div class="page_subtitle">
+                        <p>From the "lightest" and normalized form of sexism to the harshest misogynist hate-speech the Internet is the place where gender based hate spreads the most. All the words used inside this website are comments and posts shared by real people.</p>
+                        <p>
+                            Join our campaign: spread awareness about the topic by sharing this post, generate your erased insult and let’s defeat the hate together.</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="snap">
+
+                <div class="module">
+
+                    <div class="page_roulette">
+
+
+                        <div class="page_roulette_img">
+
+                            <div class="page_roulette_img_loading">
+                                <img src="{{ 'frontend/loading.svg' | relative_url}}">
+                            </div>
+
+                            <div class="page_roulette_img_images">
+
+                                <img src="{{ 'frontend/img/share/lofi/01/ig.png' | relative_url}}" data-number="01">
+                                <img src="{{ 'frontend/img/share/lofi/02/ig.png' | relative_url}}" data-number="02">
+                                <img src="{{ 'frontend/img/share/lofi/03/ig.png' | relative_url}}" data-number="03">
+                                <img src="{{ 'frontend/img/share/lofi/04/ig.png' | relative_url}}" data-number="04">
+                                <img src="{{ 'frontend/img/share/lofi/05/ig.png' | relative_url}}" data-number="05">
+                                <img src="{{ 'frontend/img/share/lofi/06/ig.png' | relative_url}}" data-number="06">
+                                <img src="{{ 'frontend/img/share/lofi/07/ig.png' | relative_url}}" data-number="07">
+                                <img src="{{ 'frontend/img/share/lofi/08/ig.png' | relative_url}}" data-number="08">
+                                <img src="{{ 'frontend/img/share/lofi/09/ig.png' | relative_url}}" data-number="09">
+                                <img src="{{ 'frontend/img/share/lofi/10/ig.png' | relative_url}}" data-number="10">
+                                <img src="{{ 'frontend/img/share/lofi/11/ig.png' | relative_url}}" data-number="11">
+                                <img src="{{ 'frontend/img/share/lofi/12/ig.png' | relative_url}}" data-number="12">
+                                <img src="{{ 'frontend/img/share/lofi/13/ig.png' | relative_url}}" data-number="13">
+                                <img src="{{ 'frontend/img/share/lofi/14/ig.png' | relative_url}}" data-number="14">
+                                <img src="{{ 'frontend/img/share/lofi/15/ig.png' | relative_url}}" data-number="15">
+                                <img src="{{ 'frontend/img/share/lofi/16/ig.png' | relative_url}}" data-number="16">
+                                <img src="{{ 'frontend/img/share/lofi/17/ig.png' | relative_url}}" data-number="17">
+                                <img src="{{ 'frontend/img/share/lofi/18/ig.png' | relative_url}}" data-number="18">
+                                <img src="{{ 'frontend/img/share/lofi/19/ig.png' | relative_url}}" data-number="19">
+                                <img src="{{ 'frontend/img/share/lofi/20/ig.png' | relative_url}}" data-number="20">
+                            </div>
+
+
+                        </div>
+
+
+
+
+
+                        <div class="page_roulette_share">
+                            <h1>SHARE ON YOUR SOCIAL PROFILES <br>
+                                AND STAND AGAINST MISOGYNY</h1>
+
+                            <div class="page_roulette_share_social">
+                                <div class="button fb">
+                                    FB
+                                </div>
+                                <div class="button tw">
+                                    TW
+                                </div>
+                                <div class="button ig">
+                                    IG
+                                </div>
+                                <div class="button st">
+                                    STORY
+                                </div>
+                            </div>
+
+                            <div class="page_roulette_share_separator">
+                                <span>OR</span>
+                            </div>
+
+                            <div class="page_roulette_generate start button">
+                                GENERATE NEW ONE
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="page_footer">
+                        <p><a href="./method">Find out more about the project</a></p>
+                    </div>
+
+
+                </div>
+            </section>
+        </div>
+
+        <div class="page_number">
+            *
+        </div>
+
+
+    </section>
+
+
+    {% include footer.html %}
+</body>
+
+</html>

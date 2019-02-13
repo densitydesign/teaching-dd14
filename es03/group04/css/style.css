@@ -1,0 +1,188 @@
+/* roboto-mono-regular - latin */
+@font-face {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-mono-v5-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local('Roboto Mono'), local('RobotoMono-Regular'),
+        url('../fonts/roboto-mono-v5-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/roboto-mono-v5-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/roboto-mono-v5-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/roboto-mono-v5-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/roboto-mono-v5-latin-regular.svg#RobotoMono') format('svg');
+    /* Legacy iOS */
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i');
+
+
+/* MARGIN IMMAGINI */
+
+.intro {
+    margin-bottom: -9px;
+}
+
+.research {
+    margin-bottom: -7px;
+}
+
+.square {
+    margin-bottom: -7px;
+}
+
+.about {
+    margin-bottom: -7px;
+}
+
+.intro {
+    margin-bottom: -7px;
+}
+
+.bg {
+    margin-bottom: -9px;
+}
+
+
+/* CURSORI */
+
+.pointer,
+.esc,
+.arrow,
+.click-menu1 {
+    cursor: pointer;
+}
+
+.pointerman {
+    cursor: url(cursor.png), auto;
+}
+
+.where,
+.PERSONE_FISSE,
+.cartelli {
+    pointer-events: none;
+}
+
+
+/* LINK */
+
+svg a.lightlink {
+    fill: #F8F7EC !important;
+    cursor: pointer;
+}
+
+svg a.darklink {
+    fill: #042e3a !important;
+    cursor: pointer;
+    z-index: 300;
+}
+
+.cartelli {
+    pointer-events: none;
+}
+
+
+/* SQUARE */
+
+.bottone-resp {
+    font-size: 14px;
+    margin-top: 8px;
+    color: rgb(248, 247, 236);
+    background-color: rgb(4, 46, 58);
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+    margin-top: 0.5em;
+    pointer-events: none;
+    outline: 0;
+}
+
+.bottone {
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 8px;
+    color: rgb(248, 247, 236);
+    background-color: rgb(4, 46, 58);
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+}
+
+.bottone:hover {
+    background-color: rgb(248, 247, 236);
+    color: rgb(4, 46, 58);
+    cursor: pointer;
+    transition: all 0.25s ease 0s;
+    border-color: rgb(248, 247, 236);
+}
+
+.bottone:focus {
+    outline: 0;
+}
+
+.commento {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13px;
+    border-color: #F9F8EC;
+    background-color: #042e3a !important;
+    color: #F9F8EC !important;
+    border: 2px;
+    width: 235px;
+}
+
+.commento:focus {
+    outline: 0;
+}
+
+.other-answer {
+    color: rgb(248, 247, 236);
+    text-decoration: underline;
+    margin-bottom: 0 !important;
+    margin-top: .5em;
+}
+
+.other-answer:hover {
+    color: rgb(248, 247, 236);
+    text-decoration: underline;
+    margin-bottom: 0 !important;
+    margin-top: .5em;
+}
+
+.a-other-answer {
+    color: rgb(248, 247, 236);
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.a-other-answer:hover {
+    color: rgb(248, 247, 236);
+    text-decoration: underline;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #F8F7EC;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #F8F7EC;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #F8F7EC;
+}

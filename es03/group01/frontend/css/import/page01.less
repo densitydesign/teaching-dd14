@@ -1,0 +1,110 @@
+#calendar {
+    position: relative;
+
+    .st0 {
+        fill: @black  !important;
+    }
+
+    #other {
+        pointer-events: none;
+    }
+
+    g[id*="x32"] {
+        animation: blink infinite 2s;
+        cursor: pointer;
+        transition: opacity @ease;
+
+
+
+
+        &.is-hover {
+            opacity: 1;
+            animation: none;
+        }
+
+        &.is-disabled {
+            opacity: 0.5;
+            animation: none;
+        }
+    }
+
+    #_x32_1 {
+        animation-delay: 0.1s;
+    }
+
+    #_x32_2 {
+        animation-delay: 0.2s;
+    }
+
+    #_x32_3 {
+        animation-delay: 0.3s;
+    }
+
+    #_x32_4 {
+        animation-delay: 0.4s;
+    }
+
+    #_x32_5 {
+        animation-delay: 0.5s;
+    }
+
+    #_x32_6 {
+        animation-delay: 0.6s;
+    }
+
+    #_x32_7 {
+        animation-delay: 0.7s;
+    }
+
+    #_x32_8 {
+        animation-delay: 0.8s;
+    }
+
+
+
+}
+
+.calendarpopup-mobile {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    background: @black;
+    color: @color1;
+    padding: 25px;
+    font-family: @title;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: none;
+    pointer-events: none;
+    transition: opacity @ease;
+
+
+}
+
+
+
+.calendarpopup {
+    position: absolute;
+    max-width: 300px;
+    height: auto;
+    background: @black;
+    color: @color1;
+    padding: 25px;
+    border: 1px solid @white;
+    font-family: @title;
+    font-size: 12px;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity @ease;
+
+    @media @mobile {
+        display: none;
+    }
+
+    &.is-visible {
+        opacity: 1;
+    }
+}

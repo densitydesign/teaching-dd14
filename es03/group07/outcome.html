@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>The Great Amazonian Barrage</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin="" />
+    <link rel="shortcut icon" type="image/png" href="./assets/iconsfolder/favicon.png"/>
+</head>
+
+<body>
+    <div id="loading-mask"></div>
+
+    <a id="hamburger-icon" title="Menu">
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+        </a>
+        <div id="nav" class="menuSidenav">
+            <div class="menu-links white center">
+                <a href="index.html">Home</a>
+                <a href="#" id="about">About</a>
+                <a href="https://densitydesign.github.io/teaching-dd14/es02/group07/" target="_blank">Research</a>
+            </div>
+            <div class="about-container">
+                <div class="about-a">
+                    <p class="title-text white">About</p>
+                    <p class="about-text white"><span class="bold">The Great Amazonian Barrage</span> is the result of a long exploration of water related struggles as part of the Final Synthesis Studio (C3) of the Master Degree in Communication Design at Politecnico di Milano. After a thorough data-driven analysis of water conflicts, a Digital Methods driven analysis of dam controversies led to the creation of this website, aimed at raising awareness on the impacts of hydroelectric power through an exemplary case study: Belo Monte in Brazil. </p>
+                    <ul class="final-links fix">
+                        <a href="index.html" id="go-back">
+                            <li>Home</li>
+                        </a>
+                        <a id="about">
+                            <li class="white">About</li>
+                        </a>
+                        <a href="https://densitydesign.github.io/teaching-dd14/es02/group07/" target="_blank" id="research">
+                            <li class="center">Research</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="about-b">
+                    <p class="team-text white"><span class="bold">Project by</span></p>
+                    <ul class="team white">
+                        <li>Alessandra Facchin</li>
+                        <li>Alessandro Ferrari</li>
+                        <li>Jingjing Gui</li>
+                        <li>Paula Lozano</li>
+                        <li>Nicolò Marchetti</li>
+                        <li>Valeria Quiroga</li>
+                    </ul>
+                    <p class="team-text white"><span class="bold">Faculty</span></p>
+                    <ul class="team white">
+                        <li>Paolo Ciuccarelli</li>
+                        <li>Stefano Mandato</li>
+                        <li>Michele Mauri</li>
+                        <li>Simone Vantini</li>
+                        <li>Salvatore Zingale</li>
+                    </ul>
+                    <p class="team-text white"><span class="bold">Teaching<br>Assistants</span></p>
+                    <ul class="team white">
+                        <li>Ángeles Briones</li>
+                        <li>Gabriele Colombo</li>
+                        <li>Jacopo Di Iorio</li>
+                        <li>Tommaso Elli</li>
+                        <li>Beatrice Gobbo</li>
+                        <li>Michele Invernizzi</li>
+                        <li>Ginevra Terenghi</li>
+                    </ul>
+                </div>
+                <div class="about-c">
+                    <a href="https://densitydesign.github.io/teaching-dd14/" target="blank"><img src="assets/img/Logo_DensityDesign.png" class="logo-uni"></a>
+                    <img class="logo-uni" src="assets/img/Logo_Politecnico_Milano.png">
+                </div>
+            </div>
+        </div>
+
+    <div id="outcome">
+        <div class="outcome-container">
+            <div class="outcome-a">
+                <p class="persone-text" id="container_si"></p>
+                <p class="persone-text" id="container_no"></p>
+                <div class="outcome-text-container">
+                    <p class="bolso-text white"><span class="bold">Was your choice difficult?</span><br> What you have experienced has happened and is going to happen many times again, for every single dam that is planned to be built in Brazil. The Belo Monte case is soon to be closed: whatever its outcome, it will set a precedent for future environmental justice appeals. This concerns all of us, and our planet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bolso">
+        <div id="bolso-container">
+            <div class="a">
+                <p class="title-text white">Wild Card: <br>The Future</p>
+                <p class="bolso-text white">
+                    The new President <span class="bold">Jair Bolsonaro</span>, on the day of his official investiture, stripped the agency in charge of indigenous affairs of the power to demarcate indigenous lands with his first decree. Instead, the agriculture ministry will take over those functions.
+                    Today, Bolsonaro’s Brazil seems to be a fertile land for businesses and enterprise who wish to maximise the exploitation of natural resources, stomping over environmental rights.
+                </p>
+                <a href="https://www.theguardian.com/world/2019/jan/02/brazil-jair-bolsonaro-amazon-rainforest-protections" target="_blank"class='btn-4'>Source&#x2197;</a>
+                <p class="bolso-text white">What will the future hold?<br>Only time will tell.</p>
+                <ul class="final-links">
+                    <a href="index.html" id="go-back">
+                        <li>Home</li>
+                    </a>
+                    <a id="about-2" onclick="openMenu(), showAbout()">
+                        <li>About</li>
+                    </a>
+                    <a href="https://densitydesign.github.io/teaching-dd14/es02/group07/" target="_blank" id="research">
+                        <li class="center">Research</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="b" id="#bolsy-portrait">
+    </div>
+
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
+<script type="text/javascript" src="scripts/script-2.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.2/firebase.js"></script>
+
+<script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyASg3O8h1ZDVUWVLL-A-eGb0Az7i0gJBb8",
+            authDomain: "rispostebelomonte.firebaseapp.com",
+            databaseURL: "https://rispostebelomonte.firebaseio.com",
+            projectId: "rispostebelomonte",
+            storageBucket: "rispostebelomonte.appspot.com",
+            messagingSenderId: "499750476328"
+        };
+        var fb = firebase.initializeApp(config);
+        var db = firebase.firestore();
+
+        var numeroNo; 
+        var numeroSi;
+        db.collection("containerRisposte").get().then((snapshot) => {
+            snapshot.docs.forEach(doc => {
+                numeroNo = doc.data().no;
+                if(numeroNo > 1) {
+                    document.getElementById('container_no').innerHTML = "<span class='outcome-number white'>" + numeroNo + "</span>" + " people chose <span class='bold white'>NO</span>";
+                }
+                else {
+                    document.getElementById('container_no').innerHTML = "<span class='outcome-number white'>" + numeroNo + '</span>' + " person chose <span class='bold white'>NO</span>";
+                }
+            })
+        });
+
+        db.collection("containerRisposte").get().then((snapshot) => {
+            snapshot.docs.forEach(doc => {
+                numeroSi = doc.data().yes;
+                if(numeroSi > 1) {
+                    document.getElementById('container_si').innerHTML = "<span class='outcome-number white'>" + numeroSi + "</span>" + " people chose <span class='bold white'>YES</span>";
+                }
+                else {
+                    document.getElementById('container_si').innerHTML = "<span class='outcome-number white'>" + numeroSi + '</span>' + " person chose <span class='bold white'>YES</span>";
+                }
+            })
+        });
+
+    </script>
+
+</body>
+</html>

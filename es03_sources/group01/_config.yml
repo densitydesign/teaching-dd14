@@ -1,0 +1,27 @@
+title: The Anti·Feminist Manifesto
+image:  /frontend/img/share/default/cover.png
+markdown: kramdown
+baseurl: /teaching-dd14/es03/group01
+
+
+collections:
+  pages:
+    output: false
+    permalink: /:path
+    layout: "redirect"
+  share:
+    output: true
+    permalink: /:title
+    layout: "share"
+
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "default"
+      output: true
+      is_page: true
+      

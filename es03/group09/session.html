@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>RegulHate – </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="static/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon-16x16.png">
+    <link rel="manifest" href="static/images/site.webmanifest">
+    <link rel="mask-icon" href="static/images/safari-pinned-tab.svg" color="#18181a">
+    <link rel="shortcut icon" href="static/images/favicon.ico">
+    <meta name="msapplication-TileColor" content="#b91d47">
+    <meta name="msapplication-config" content="static/images/browserconfig.xml">
+    <meta name="theme-color" content="#18181a">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="static/style/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="static/style/session.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="static/style/curves.css" />
+
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-firestore.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105694460-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-105694460-2');
+    </script>
+
+    <script>
+        var config = {
+            apiKey: "AIzaSyBtgxTHNCdaV73K01M83YaJ8DK45U9VJfA",
+            authDomain: "ph03-56c1f.firebaseapp.com",
+            databaseURL: "https://ph03-56c1f.firebaseio.com",
+            projectId: "ph03-56c1f",
+            storageBucket: "ph03-56c1f.appspot.com",
+            messagingSenderId: "209808074135"
+        };
+        var fb = firebase.initializeApp(config);
+        var db = firebase.firestore();
+        db.settings({timestampsInSnapshots: true});
+    </script>
+
+</head>
+
+<body>
+    <div id="wall">
+        <p>:(</p>
+        <p>This website has been designed to be enjoyed on&nbsp;desktop&nbsp;devices or tablets.</p>
+        <p>Please check back from your laptop, tablet or personal&nbsp;computer!</p>
+    </div>
+    <div id="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="results-selection.html">Results</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+    <div id="wrapper">
+        <div id="header">
+            <div id="session-title">
+                Race
+            </div>
+            <div id="header-btns">
+                <div id="help" class="disabled">
+                    help
+                </div>
+                <div id="hamburger">
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="tutorial">
+            <div id="tutorial-area">
+                <div class="tut-area icons">
+                    <img src="static/assets/handle-gif/handle.gif" height="120px" />
+                </div>
+                <div class="tut-area icons" id="keys">
+                    <div class="tut-playback-icons">
+                        <svg width="64px" version="1.1" viewBox="0 0 36 36">
+                            <path d="m 12,12 h 2 v 12 h -2 z m 3.5,6 8.5,6 V 12 z">
+                        </svg>
+                    </div>
+                    <div class="tut-playback-icons">
+                        <svg width="64px" viewBox="0 0 36 36">
+                            <defs>
+                                <path id="pause-icon" data-state="playing" d="M11,10 L16,10 16,26 11,26 M20,10 L25,10 25,26 20,26" />
+                                <path id="play-icon" data-state="paused" d="M11,10 L18,13.74 18,22.28 11,26 M18,13.74 L26,18 26,18 18,22.28" />
+                            </defs>
+                            <use xlink:href="#play-icon" />
+                        </svg>
+                    </div>
+                    <div class="tut-playback-icons">
+                        <svg width="64px" version="1.1" viewBox="0 0 36 36">
+                            <path d="M 12,24 20.5,18 12,12 V 24 z M 22,12 v 12 h 2 V 12 h -2 z">
+                        </svg>
+                    </div>
+                    <div class="icon">
+                        &#8592;
+                    </div>
+                    <div class="icon">
+                        spacebar
+                    </div>
+                    <div class="icon">
+                        &#8594;
+                    </div>
+                </div>
+                <div class="tut-area icons">
+                    <div class="module show" id="data-yes">
+                        I agree
+                    </div>
+                    <div class="module show" id="data-no">
+                        I do not agree
+                    </div>
+                </div>
+
+                <div class="tut-area text">
+                    The following controversial contents were found online.
+                    Now you have the power to regulate these contents by choosing how much volume to subtract to each
+                    voice, depending on the level of offensiveness you&nbsp;perceive.
+                </div>
+                <div class="tut-area text">
+                    You will analyze 6 contents and will be able to navigate through them.
+                    If you are more comfortable, you can also use your keyboard.
+                </div>
+                <div class="tut-area text" id="consent-text">
+                    If you agree, we will collect data about choices you make in this game for the sole purpose of
+                    representing them anonymously in a graphical visualization.<br>
+                    If you do not agree, you will still be able to play, but no data will be collected.
+                    <!-- Drag the handles to regulate the volume.
+                    When you are finished click “Done” and watch the results. -->
+                </div>
+            </div>
+        </div>
+
+        <div id="content">
+            <div id="timeline">
+                <div id="timeline-header">
+                    <div class="timeline-marker">Volume</div>
+                    <div class="timeline-marker">100%</div>
+                    <div class="timeline-marker">100%</div>
+                    <div class="timeline-marker">100%</div>
+                    <div class="timeline-marker">100%</div>
+                    <div class="timeline-marker">100%</div>
+                    <div class="timeline-marker">100%</div>
+                    <div class="timeline-marker"></div>
+                </div>
+                <div id="timeline-line">
+                    <div id="timeline-line-bars">
+                        <div class="timeline-line-section scaler">
+                            <div class="scale">I&nbsp;can<br>tolerate&nbsp;it</div>
+                            <div class="scale">I&nbsp;could<br>tolerate&nbsp;it</div>
+                            <div class="scale">I can&nbsp;not<br>tolerate&nbsp;it</div>
+                            <div class="scale">This&nbsp;is<br>insane!</div>
+                            <div class="scale" style="color: red">Censor</div>
+                        </div>
+
+                        <div id="curves"></div>
+
+                        <div id="timeline-line-units">
+                            <div class="timeline-line-section bar" js-spacer="first"></div>
+                            <div class="timeline-line-section bar" js-spacer="first"></div>
+                            <div class="timeline-line-section bar" js-spacer="second"></div>
+                            <div class="timeline-line-section bar" js-spacer="second"></div>
+                            <div class="timeline-line-section bar" js-spacer="third"></div>
+                            <div class="timeline-line-section bar" js-spacer="third"></div>
+                            <div class="timeline-line-section bar" js-spacer="fourth"></div>
+                            <div class="timeline-line-section bar" js-spacer="fourth"></div>
+                            <div class="timeline-line-section bar" js-spacer="fifth"></div>
+                            <div class="timeline-line-section bar" js-spacer="fifth"></div>
+                            <div class="timeline-line-section bar" js-spacer="sixth"></div>
+                            <div class="timeline-line-section bar" js-spacer="sixth"></div>
+                        </div>
+
+                        <div class="timeline-line-section scaler">
+                            <div class="scale">I&nbsp;can<br>tolerate&nbsp;it</div>
+                            <div class="scale">I&nbsp;could<br>tolerate&nbsp;it</div>
+                            <div class="scale">I can&nbsp;not<br>tolerate&nbsp;it</div>
+                            <div class="scale">This&nbsp;is<br>insane!</div>
+                            <div class="scale" style="color: red">Censor</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="timeline-censor">
+                </div>
+            </div>
+
+            <audio id="playback-interference" src="static/assets/interference.mp3" loop></audio>
+            <div id="playback">
+
+                <div id="playback-container" class="module">
+                    <video id="playback-content">
+                        <source type="video/mp4">
+                        <track src="" id="captions-track" kind="captions" srclang="en" label="English" default/>
+                        Your browser does not support the video tag.
+                    </video>
+                    <div id="captions-viewer">
+                        <span>
+                            [•••]
+                        </span>
+                    </div>
+                </div>
+
+                <div id="playback-controls" class="module">
+
+                    <button id="previous" class="playback-control">
+                        <svg width="72px" version="1.1" viewBox="0 0 36 36">
+                            <path d="m 12,12 h 2 v 12 h -2 z m 3.5,6 8.5,6 V 12 z" class="playback-control-button"></path>
+                        </svg>
+                        <span class="playback-control-label">
+                            Previous<br>Content
+                        </span>
+                    </button>
+
+                    <button id="play" class="playback-control">
+                        <svg width="72px" viewBox="0 0 36 36">
+                            <defs>
+                                <path id="pause-icon" data-state="playing" class="playback-control-button" d="M11,10 L16,10 16,26 11,26 M20,10 L25,10 25,26 20,26" />
+                                <path id="play-icon" data-state="paused" class="playback-control-button" d="M11,10 L18,13.74 18,22.28 11,26 M18,13.74 L26,18 26,18 18,22.28" />
+                            </defs>
+                            <use xlink:href="#play-icon" />
+                        </svg>
+                        <span class="playback-control-label">
+                            Play/Pause
+                        </span>
+                    </button>
+
+                    <button id="next" class="playback-control">
+                        <svg width="72px" version="1.1" viewBox="0 0 36 36">
+                            <path d="M 12,24 20.5,18 12,12 V 24 z M 22,12 v 12 h 2 V 12 h -2 z" class="playback-control-button"></path>
+                        </svg>
+                        <span class="playback-control-label">
+                            Next<br>Content
+                        </span>
+                    </button>
+
+                </div>
+                <div id="playback-endbutton" class="module">
+                    <a style="cursor: pointer;">Done</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="static/js/menu.js"></script>
+    
+    <script src="static/lib/d3.js"></script>
+    <script src="static/lib/anime.min.js"></script>
+    
+    <script src="static/js/curves.js"></script>
+    <script src="static/js/playback.js"></script>
+    <script src="static/js/session.js"></script>
+    <script src="static/js/timeline.js"></script>
+    <script src="static/js/backend.js"></script>
+    
+</body>
+</html>

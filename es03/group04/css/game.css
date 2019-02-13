@@ -1,0 +1,117 @@
+/* GAME DIV */
+
+.game {
+    width: 100%;
+    position: relative;
+    z-index: 5;
+    top: 0;
+    margin-top: -146%;
+}
+
+
+.blacklists {
+    position: sticky !important;
+    position: -webkit-sticky !important;
+    /* Safari */
+    top: 0px;
+    z-index: 6;
+    transform: translateX(89%);
+    margin-top: -707px;
+}
+
+
+.blacklistshover {
+    transform: translateX(0px);
+    transition-duration: 2s;
+}
+
+
+.rec {
+    position: sticky !important;
+    position: -webkit-sticky !important;
+    /* Safari */
+    top: 0;
+    z-index: 6;
+    pointer-events: none;
+}
+
+
+.vuoto {
+    height: 100vh;
+}
+
+.ch,
+.warningesc {
+    cursor: pointer;
+}
+
+
+/* SHAKE */
+
+.shake {
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+@keyframes shake {
+
+    10%,
+    90% {
+        transform: translate3d(-1px, -1px, -1px);
+    }
+
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-2px, 0, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(2px, 0, 0);
+    }
+}
+
+
+/* REC PULSAZIONE */
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(0.8);
+        opacity: 0.7;
+    }
+
+    50% {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(0.8);
+        opacity: 0.7;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.9);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.9);
+        opacity: 1;
+    }
+}

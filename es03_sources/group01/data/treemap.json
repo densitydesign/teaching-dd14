@@ -1,0 +1,98 @@
+{
+    "name": "flare",
+    "children": [
+        {
+            "name": "MGTOW",
+            "size": 891,
+            "color": "#FFBDBD",
+            "children": [
+                {
+                    "name": "The Hypocrisy, Stupidity and Cowardness of women",
+                    "link": "https://www.mgtow.com/forums/topic/the-hypocrisy-stupidity-and-cowardness-of-women/",
+                    "size": 469
+        }, {
+                    "name": "More proof ALL women are whores",
+                    "link": "https://www.mgtow.com/forums/topic/more-proof-all-women-are-whores/",
+                    "size": 385
+        }, {
+                    "name": "Women are stupid",
+                    "link": "https://www.mgtow.com/forums/topic/women-are-stupid/",
+                    "size": 178
+        }
+
+
+                ]
+        },
+
+        {
+            "name": "Reddit",
+            "color": "#FF6D4A",
+            "children": [
+                {
+                    "name": "PMS Is Real, but it’s not about irritability",
+                    "link": "https://www.reddit.com/r/MGTOW/comments/8ys7up/pms_is_real_but_its_not_about_irritability_medium/",
+                    "size": 117
+        }, {
+                    "name": "PMS: License to be a cunt",
+                    "link": "https://www.reddit.com/r/MGTOW/comments/5raw14/pms_license_to_be_a_cunt/",
+                    "size": 224
+        }
+
+
+                ]
+        },
+
+        {
+            "name": "debate.org",
+            "color": "#44B582",
+            "children": [
+                {
+                    "name": "Are women inferior to men?",
+                    "link": "https://www.debate.org/opinions/are-women-inferior-to-men",
+                    "size": 327
+        }
+
+
+                ]
+        },
+        {
+            "name": "bodybuilding.com",
+            "color": "#5276F7",
+            "children": [
+                {
+                    "name": "Are all women inherently gold diggers?",
+                    "link": "https://forum.bodybuilding.com/showthread.php?t=152961121&page=1",
+                    "size": 454
+        }]
+        },
+
+        {
+            "name": "Wikihow",
+            "color": "#FACB22",
+            "children": [
+                {
+                    "name": "How to spot a gold digger",
+                    "link": "https://www.wikihow.com/Spot-a-Gold-Digger",
+                    "size": 359
+        }
+
+
+                ]
+            },
+
+        {
+            "name": "Though Catalogue",
+            "color": "#F0F0F0",
+            "children": [
+                {
+                    "name": "10 Reasons Why Men Are The Superior Sex",
+                    "link": "https://thoughtcatalog.com/andrea-benito/2013/06/10-reasons-why-men-are-the-superior-sex/",
+                    "size": 672
+        }
+
+
+                ]
+            }
+
+            ]
+}

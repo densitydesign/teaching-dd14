@@ -1,0 +1,1206 @@
+/****VARIABLES *****/
+html {
+  --color-letter: #1b1464;
+  --font-title: 'Spectral', serif;
+  --font-text: 'Karla', sans-serif;
+  --link-visited: #ffbbbc;
+  --color-second: #45b6a2;
+  --color-red: #ff0000;
+}
+
+/**** BODY PROPERTY ****/
+
+html {
+  max-width: 100%;
+  overflow-x: hidden
+}
+
+body {
+  background-color: #fff;
+  margin: 0px;
+  /*cursor:url(''), auto;
+  /* The image used */
+  background-image: url("addons/back.png");
+  /* Set a specific height */
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.alt-grid [class*="col-"] {
+  padding-left:0;padding-right:0
+}
+.alt-grid .row {
+  margin-left:0;margin-right:0
+}
+
+/* container adjusted */
+.alt-grid .container {
+  width:100%;max-width:none;padding:0;
+}
+  .linki{
+    margin-bottom:10px;
+    text-align: center;
+  }
+ .externallink {
+  font-family: var(--font-text);
+  font-size: 16px;
+  color:var(--color-letter);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+ .externallink:hover  {
+  color:var(--color-second);
+  transition:0.5s;
+  text-decoration: none;
+
+}
+
+
+/* BODYMOVIN PER ILTITOLO */
+#lottie5 {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  text-align: center;
+  opacity: 1;
+}
+
+
+
+
+/**** ISTRUZIONE *****/
+
+.scrollainbasso {
+  color: var(--color-letter);
+  font-family: var(--font-text);
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  margin-bottom: 100px;
+}
+
+
+a .scrollainbasso {
+  text-align: center;
+  text-decoration: none;
+
+}
+
+a:hover .scrollainbasso {
+  color: var(--color-red);
+  transition: 0.5s;
+
+}
+
+.spanato {
+  text-align: center;*/
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+
+/*****FRECCIA*****/
+.cls-1, .cls-4 {
+  fill: none;
+}
+
+.cls-2 {
+  clip-path: url(#clip-path);
+}
+
+.cls-3 {
+  fill: none;
+}
+
+.cls-4 {
+  stroke: var(--color-letter);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 3px;
+}
+
+.tastino {
+  max-width: 40px;
+  max-height: auto;
+  margin-top: 20px;
+}
+
+
+/****SCHEMA GRANDE****/
+
+
+.discover {
+  font-family: var(--font-text);
+  color: var(--color-letter);
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+
+}
+
+
+
+#schemapositivo{
+  margin-bottom: 50px;
+
+}
+
+#secondo:focus {
+  outline: 0;
+}
+
+.stacco {
+  margin-bottom: 200px;
+}
+
+.stacco:hover p {
+  color: var(--color-red);
+  transition: 0.5s;
+
+
+}
+.stacco:hover a {
+  text-decoration: none;
+
+}
+/**** SVG PHARMA*****/
+
+#pharma:focus {
+  outline: 0;
+}
+
+/* svg animation pharma */
+.st0 {
+  fill: #FF0000;
+  stroke: #FF0000;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.st1 {
+  fill: #FFFFFF;
+  stroke: #FF0000;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.st2 {
+  fill: none;
+}
+
+.st3 {
+  fill: #FF0000;
+}
+
+.st4 {
+  font-family: var(--font-title);
+  font-weight: 700;
+}
+
+.st5 {
+  font-size: 28px;
+}
+
+.st6 {
+  fill: #FFFFFF;
+  stroke: #010036;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.st7 {
+  fill: #FFFFFF;
+  stroke: #000036;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.st8 {
+  fill: #1B1464;
+}
+
+.st9 {
+  font-size: 28px;
+}
+
+/**** HOVER SU PHARMA *****/
+
+.boxpos-1, .boxpos-2 {
+  fill: #fff;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.5px;
+}
+
+.boxpos-1 {
+  stroke: #010036;
+}
+
+.boxpos-2 {
+  stroke: #000036;
+}
+
+.boxpos-3 {
+  font-size: 39.51px;
+  fill: #1b1464;
+  font-family: Spectral-Bold, Spectral;
+  font-weight: 700;
+}
+
+.pospharma {
+  font-family: var(--font-text);
+  color: var(--color-letter);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 50px;
+
+
+
+
+}
+
+.negpharma {
+  font-family: var(--font-text);
+  color: var( --color-red);
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 50px;
+
+
+}
+
+.boxneg-1, .boxneg-3 {
+  fill: red;
+}
+
+.boxneg-1, .boxneg-2 {
+  stroke: red;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.5px;
+}
+
+.boxneg-2 {
+  fill: #fff;
+}
+
+.boxneg-3 {
+  font-size: 55px;
+  font-family: Spectral-Bold, Spectral;
+  font-weight: 700;
+}
+
+#vedipharma  .showsvg{
+  display: block;
+  opacity:1;
+  margin-bottom: 50px;
+}
+
+#vedipharma  .hidesvg{
+  display:none;
+  opacity:0;
+  margin-bottom: 50px;
+}
+
+ #vedipharma:hover  .hidesvg {
+  display: block;
+  opacity:1;
+  margin-bottom: 50px;
+  transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -webkit-transition: opacity .5s ease-in-out;
+
+
+}
+
+#vedipharma:hover  .showsvg {
+  display: none;
+  opacity:0;
+  margin-bottom: 50px;
+  transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -webkit-transition: opacity .5s ease-in-out;
+
+}
+/*@-webkit-keyframes slide-down {
+      0% { opacity: 0; -webkit-transform: translateY(-100%); }
+    100% { opacity: 1; -webkit-transform: translateY(0); }*/
+
+/*** DISCOVER MORE PHARMA ***/
+#flip .plus{
+  fill:var(--color-letter);
+  opacity:0.5;
+}
+#flip1 .plus{
+  fill:var(--color-letter);
+  opacity:0.5;
+}
+#flip2 .plus{
+  fill:var(--color-letter);
+  opacity:0.5;
+}
+
+#flip:hover .plus{
+  fill:var(--color-red);
+  opacity:1;
+  transition: 0.5s;
+}
+#flip1:hover .plus{
+  fill:var(--color-red);
+  opacity:1;
+  transition: 0.5s;
+}
+#flip2:hover .plus{
+  fill:var(--color-red);
+  opacity:1;
+  transition: 0.5s;
+}
+
+.more {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.openlink:hover  {
+  color:var(--color-red);
+  transition: 0.5s;
+  opacity:1;
+}
+
+
+
+.discovermore{
+      font-family: var(--font-text);
+      color: var(--color-letter);
+      font-size: 18px;
+      text-align: center;
+      font-weight: 400;
+    }
+
+#seemore {
+    background-image: url('addons/sfondosottoparte.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:90% 95%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+.meno {
+  fill: var(--color-letter);
+}
+.meno:hover {
+  fill: var(--color-red);
+  transition: 0.5s;
+}
+.videomargini {
+  margin-top: 50px;
+}
+video {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-left: -20px;
+  margin-right: -20px;
+
+}
+
+
+/****** SVG DOCTOR ******/
+.patientimg img{
+  width:40%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+
+}
+
+ .dottore img {
+  width:80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+
+
+}
+
+/*** first box doctor***/
+.boxdoc1-1 {
+  fill: #fff;
+  stroke: #000036;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.5px;
+}
+
+.boxdoc1-2 {
+  font-size: 46px;
+}
+
+.boxdoc1-13, .boxdoc1-2, .boxdoc1-5, .boxdoc1-6 {
+  fill: #1b1464;
+  font-family: Karla-Bold, Karla;
+}
+
+.boxdoc1-13, .boxdoc1-2, .boxdoc1-5, .boxdoc1-7 {
+  font-weight: 700;
+}
+
+.boxdoc1-11, .boxdoc1-3 {
+  font-size: 38.25px;
+}
+
+.boxdoc1-3 {
+  letter-spacing: 0em;
+}
+
+.boxdoc1-12, .boxdoc1-4 {
+  font-size: 26px;
+}
+
+.boxdoc1-4 {
+  letter-spacing: 0em;
+}
+
+.boxdoc1-5 {
+  font-size: 19.36px;
+}
+
+.boxdoc1-13, .boxdoc1-6 {
+  font-size: 30px;
+}
+
+.boxdoc1-10, .boxdoc1-8 {
+  font-family: Karla-Regular, Karla;
+}
+
+.boxdoc1-9 {
+  font-size: 23.24px;
+}
+
+.boxdoc1-10 {
+  letter-spacing: 0em;
+}
+
+/*** second box doctor***/
+
+.boxdoc2-1, .boxdoc2-3, .boxdoc2-4 {
+  fill: red;
+}
+
+.boxdoc2-1, .boxdoc2-2 {
+  stroke: red;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2px;
+}
+
+.boxdoc2-2 {
+  fill: #fff;
+}
+
+.boxdoc2-3 {
+  font-size: 60px;
+  font-family: Spectral-Bold, Spectral;
+}
+
+.boxdoc2-3, .boxdoc2-4 {
+  font-weight: 700;
+}
+
+.boxdoc2-4 {
+  font-size: 28px;
+  font-family: Karla-Bold, Karla;
+}
+
+/**** HOVER ON DOCTOR ****/
+#vedidoctor .showsvg {
+  display: block;
+  margin-bottom: 50px;
+
+}
+#vedidoctor .hidesvg {
+  display: none;
+  margin-bottom: 50px;
+
+}
+#vedidoctor:hover .hidesvg {
+  display: block;
+  margin-bottom: 50px;
+
+}
+#vedidoctor:hover .showsvg {
+  display: none;
+  margin-bottom: 50px;
+
+}
+/*** DISCOVERMORE doctor ***/
+
+
+#seemore1 {
+    background-image: url('addons/sfondosottoparte.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:90% 100%;
+    text-align: center;
+  }
+
+
+/*** SVG PATIENT***/
+.marginepaziente {
+  margin-top: 200px;
+}
+
+.boxpat1-1, .boxpat1-2 {
+  fill: #fff;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.37px;
+}
+
+.boxpat1-1 {
+  stroke: #010036;
+}
+
+.boxpat1-2 {
+  stroke: #000036;
+}
+
+.boxpat1-3 {
+  font-size: 23.1px;
+  font-family: Karla-Bold, Karla;
+}
+
+.boxpat1-3, .boxpat1-5 {
+  fill: #1b1464;
+  font-weight: 700;
+}
+
+.boxpat1-4 {
+  fill: none;
+  stroke: #1b1464;
+  stroke-miterlimit: 10;
+  stroke-width: 0.74px;
+}
+
+.boxpat1-5 {
+  font-size: 34.38px;
+  font-family: Spectral-Bold, Spectral;
+}
+
+
+
+.boxpat2-1 {
+  font-size: 28px;
+  font-family: Karla-Bold, Karla;
+}
+
+.boxpat2-1, .boxpat2-2, .boxpat2-4 {
+  fill: red;
+}
+
+.boxpat2-1, .boxpat2-4 {
+  font-weight: 700;
+}
+
+.boxpat2-2, .boxpat2-3 {
+  stroke: red;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.boxpat2-2 {
+  stroke-width: 1.5px;
+}
+
+.boxpat2-3 {
+  fill: #fff;
+  stroke-width: 2px;
+}
+
+.boxpat2-4 {
+  font-size: 55px;
+  font-family: Spectral-Bold, Spectral;
+}
+
+/**** HOVER ON PATIENT ****/
+#vedipatient .showsvg{
+  display: block;
+  margin-bottom: 50px;
+}
+#vedipatient .hidesvg{
+  display: none;
+  margin-bottom: 50px;
+}
+#vedipatient:hover .showsvg {
+  display: none;
+  margin-bottom: 50px;
+}
+#vedipatient:hover .hidesvg {
+  display: block;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+/* svg animation patient*/
+.pa0 {
+  fill: #FF0000;
+  stroke: #FF0000;
+  paroke-width: 1.2949;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.pa1 {
+  fill: #FFFFFF;
+  stroke: #FF0000;
+  stroke-width: 1.2949;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.pa2 {
+  fill: #FF0000;
+  stroke: #FF0000;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.pa3 {
+  fill: #FFFFFF;
+  stroke: #FF0000;
+  stroke-width: 0.7867;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.pa4 {
+  fill: none;
+}
+
+.pa5 {
+  fill: #FF0000;
+}
+
+.pa6 {
+  font-family: var(--font-text);
+  font-weight: 700;
+}
+
+.pa7 {
+  font-size: 28px;
+}
+
+.pa8 {
+  fill: #FFFFFF;
+  stroke: #FF0000;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.pa9 {
+  font-family: var(--font-title);
+  font-weight: 700;
+}
+
+.pa10 {
+  font-size: 55px;
+}
+
+.pa11 {
+  display: none;
+}
+
+.pa12 {
+  display: inline;
+}
+
+.pa13 {
+  fill: #FFFFFF;
+  stroke: #010036;
+  stroke-width: 1.3665;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.pa14 {
+  fill: #FFFFFF;
+  stroke: #000036;
+  stroke-width: 1.3665;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.pa15 {
+  fill: #1B1464;
+}
+
+.pa16 {
+  font-size: 23.0983px;
+}
+
+.pa17 {
+  fill: none;
+  stroke: #1B1464;
+  stroke-width: 0.7362;
+  stroke-miterlimit: 10;
+}
+
+.pa18 {
+  font-size: 34.3759px;
+}
+
+/*** approfondimento doctor ***/
+
+
+#seemore2 {
+    background-image: url('addons/sfondosottoparte.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:90% 100%;
+    text-align: center;
+
+  }
+
+
+a {
+  text-decoration: none;
+}
+
+
+
+img {
+  display: block;
+}
+.wordcolorred{
+animation: wordcolorred infinite 9s;
+}
+@keyframes wordcolorred {
+  0% {
+    content: 'Opioids';
+    color: var(--color-letter);
+    font-family: var(--font-title);
+    font-weight: 700;
+    font-size: 70px;
+  }
+
+  50% {
+    content: 'Paradox';
+    color: var(--color-red);
+    font-family: var(--font-title);
+    font-weight: 700;
+    font-size: 70px;
+  }
+
+  100% {
+    content: 'Opioids';
+    color: var(--color-letter);
+    font-family: var(--font-title);
+    font-weight: 700;
+    font-size: 70px;
+  }
+}
+.numerimorti {
+  width: 100%;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#seemore {
+  padding: 50px;
+  display: none;
+}
+
+#vid {
+  margin: 0 auto;
+}
+
+/****** PRIMA SCHERMATA *******/
+.spazio {
+  min-height: 800px;
+}
+
+.quaranta {
+  margin-top: 200px;
+  text-align: center;
+  color: var(--color-letter);
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 70px;
+}
+
+.americani {
+  text-align: center;
+  color: var(--color-letter);
+  font-family: var(--font-text);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.margine {
+  margin-top: 200px;
+  text-align: center;
+}
+
+
+
+/******* SECONDA SCHERMATA ******/
+.about {
+  text-align: left;
+  color: var(--color-letter);
+  font-family: var(--font-text);
+  font-weight: 700;
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+a:hover .about {
+  transition: 0.5s;
+  color: var(--color-second);
+}
+
+.su {
+  margin-top: 50px;
+
+}
+
+.first {
+  min-height: 100px;
+}
+
+.sistemaposi {
+  min-height: 500px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/******* FRASI INTERCALANTI DELLA NARRAZIONE ******/
+#frasone {
+  text-align: center;
+  color: var(--color-letter);
+  font-family: var(--font-text);
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 100px;
+  margin-top:50px;
+}
+#frasonebianco {
+  text-align: center;
+  color: #ffffff;
+  font-family: var(--font-text);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#puntato {
+  text-align: center;
+  color:var(--color-red);
+  font-family: var(--font-text);
+  font-weight: 700;
+  font-size: 20px;
+}
+#frasonecattivo{
+  text-align: center;
+  color: var(--color-letter);
+  font-family: var(--font-text);
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+
+}
+
+.marginenumeri{
+  margin-top: 100px;
+
+}
+
+.marginefinale {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.marginegigante {
+  margin-top: 100px;
+  margin-bottom: 200px
+}
+
+#titolonebianco {
+  text-align: center;
+  color: #ffffff;
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 40px;
+}
+
+
+
+
+/******* PAROLE COLORATE ******/
+.wordcolor {
+  color: #ff0000;
+}
+
+/******* TESTO CAPITOLI ******/
+.text-cap {
+  font-family: var(--font-text);
+  color: var(--color-letter);
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.text-capbianco {
+  font-family: var(--font-text);
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.rettangolo {
+  background-color: white;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.sfondino {
+  background-image: url("addons/sfondo2.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+
+
+
+}
+
+
+
+/******* classe per i link ******/
+.openlink {
+  color: var(--color-letter);
+  font-family: var(--font-text);
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  opacity:0.5;
+}
+
+
+
+
+
+
+
+
+
+/***** SOTTOPAGINE******/
+.principale {
+  font-family: var(--font-title);
+  color: var(--color-letter);
+  font-size: 38px;
+  font-weight: 700;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+/****** ABOUT PAGE ******/
+.home {
+  font-family: var(--font-text);
+  color: var(--color-letter);
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 40px;
+
+}
+
+.about-distanza {
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.home:hover {
+  color: var(--color-second);
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.about-opioid {
+  font-family: var(--font-text);
+  color: var(--color-letter);
+  font-size: 18px;
+  font-weight: 700;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.about-density {
+  font-family: var(--font-text);
+  color: var(--color-letter);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.line {
+  margin-bottom: 10px;
+  height: 47px;
+  border-bottom: 2px solid var(--color-letter);
+  position: absolute;
+}
+
+.density {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--color-letter);
+}
+
+.density:hover {
+  color: var(--color-second);
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.testo {
+  font-family: var(--font-text);
+  color: var(--color-letter);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: justify;
+  margin-bottom: 100px;
+}
+
+.back {
+  font-family: var(--font-text);
+  margin-bottom: 50px;
+  font-weight: 700;
+  color: var(--color-letter);
+}
+
+/***** SVG *****/
+.marginisvg {
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+
+
+
+/****** COUNTER ********/
+
+.doctor {
+  width: 100%;
+  height:auto;
+}
+
+
+.evil {
+  width: 100%;
+  height:auto;
+
+}
+
+.svgcentrale{
+  width: 100%;
+  height:auto;
+
+}
+/****** FOOTER ********/
+
+.footer {
+  background-color: #f4f4f7;
+
+  /*background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;*/
+}
+
+.about-footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.marginefooter{
+  margin-top: 15px;
+}
+
+.progetto {
+  opacity: 1;
+  color: var(--color-letter);
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.nomi {
+  opacity: 1;
+  color: var(--color-letter);
+  font-family: var(--font-text);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.logo-dd {
+  margin-top: 40px;
+  margin-left: 10px;
+  width:90%;
+  height: auto;
+
+}
+
+.logo-polimi {
+  margin-top: 40px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}

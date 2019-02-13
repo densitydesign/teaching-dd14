@@ -1,0 +1,77 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("menu_sfondo.jpg");
+    background-repeat: repeat;
+    background-size: 1600px auto;
+    background-color: #042e3a;
+}
+
+
+/* LOADER */
+
+.loader {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: #042e3a;
+    background-image: url("menu_sfondo.jpg");
+    background-size: cover;
+    z-index: 1000;
+    top: 0;
+}
+
+
+.wrapped {
+    width: 50%;
+    margin: 0 auto;
+    z-index: 1000;
+}
+
+
+.cameraman {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    z-index: 1000;
+    padding-top: 15%;
+}
+
+
+/* HOMEPAGE */
+
+.arrow {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+.arrow {
+    -webkit-animation: mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+
+::-webkit-scrollbar { 
+    display: none; 
+}

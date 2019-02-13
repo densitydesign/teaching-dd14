@@ -1,0 +1,44 @@
+.st0 {
+  fill-opacity: 0
+}
+.closed{
+  opacity:0;
+  cursor: pointer;
+}
+.continu {
+  display: none;
+}
+.continu.visible{
+  display: block;
+  cursor: pointer;
+}
+.btn{
+  cursor: pointer;
+}
+.btnok{
+  opacity:0;
+  cursor: pointer;
+}
+.avo{
+  opacity:0;
+}
+.avo.visible{
+  opacity:1;
+}
+.lables{
+  opacity:0;
+}
+.lables.visible{
+  opacity:1;
+}
+
+
+html{
+  font-family: 'Helvetica Neue',Helvetica,Arial,PingFangSC-Regular,sans-serif;
+  font-weight: 300;
+  height: 100%;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
