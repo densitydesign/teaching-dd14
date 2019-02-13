@@ -37,7 +37,7 @@ for(var i = 0, len = avocados.length; i < len; ++i){
       window.location.href="part2.html#3rdPage";
       })
       $(idadd).text("Water Scarcity");
-      var str = "Deforestation,Mafia";
+      var str = "Deforestation";
       var strs = str.split(",") ;
       d3.select(idadd)
         .selectAll("tspan")
