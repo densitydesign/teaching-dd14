@@ -71,7 +71,6 @@ var bolso_fadeout = TweenMax.to('.b', 0.4, {
     opacity: 0
 });
 
-
 //INITALIZE SCROLLMAGIC
 var controller = new ScrollMagic.Controller({
     globalSceneOptions: { // options for every scene
