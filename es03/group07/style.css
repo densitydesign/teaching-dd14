@@ -66,8 +66,8 @@ a {
     width: 100px;
     height: 50px;
     position: fixed;
-    left: 0vw;
-    top: 50vh;
+    right: 0vw;
+    top: 1vh;
     margin-top: auto;
     margin-bottom: auto;
     display: block;
@@ -190,6 +190,7 @@ a {
     max-height: 100%;
     overflow-y: scroll;
 }
+
 .team {
     text-indent: 0px;
     padding-left: 0;
@@ -421,7 +422,7 @@ a {
 .a {
     grid-column: 1/7;
     margin-top: 17vh;
-    padding-left: 6rem;
+    padding-left: 4rem;
     padding-right: 4rem;
     z-index: 10;
 }
@@ -456,7 +457,7 @@ a {
 .final-links li {
     display: block;
     white-space: nowrap;
-    padding: 1.5rem;    
+    padding: 1.5rem;
     flex-grow: 1;
     text-align: center;
 }
@@ -467,14 +468,8 @@ a {
     left: -1.3rem;
 }
 
-.bolso-fix {
-    margin-left: 0;
-    padding-left: 0;
-    left: 4.7rem;
-}
-
 #go-back {
-    right: 0;   
+    right: 0;
 }
 
 .final-links a {
@@ -788,14 +783,39 @@ a {
 }
 
 #closebtn {
-    text-decoration: none;
-    color: #000000;
-    font-family: "IBM Plex Sans Regular", sans-serif;
-    font-size: 4rem;
     position: absolute;
-    top: 0;
-    right: 2vw;
+    top: 0.5vh;
+    left: 0.5vw;
     color: white;
+    width: 50px;
+    height: 100px;
+    display: block;
+    transform: scale(0.4);
+}
+
+#closebtn .line {
+    display: block;
+    background: #ecf0f1;
+    width: 100px;
+    height: 8px;
+    position: absolute;
+    left: 0;
+    border-radius: 4px;
+    transition: all 0.4s;
+}
+
+#closebtn .line-1 {
+    top: 0%;
+    transform: translateY(25px) translateX(0) rotate(45deg);
+    -webkit-transform: translateY(25px) translateX(0) rotate(45deg);
+    -moz-transform: translateY(25px) translateX(0) rotate(45deg);
+}
+
+#closebtn .line-2 {
+    top: 100%;
+    transform: translateY(-75px) translateX(0) rotate(-45deg);
+    -webkit-transform: translateY(-75px) translateX(0) rotate(-45deg);
+    -moz-transform: translateY(-75px) translateX(0) rotate(-45deg);
 }
 
 #hai_finito {
@@ -1141,6 +1161,31 @@ a {
     transform: rotate(135deg);
 }
 
+.bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0) rotate(135deg);
+    }
+
+    40% {
+        transform: translateY(-30px) rotate(135deg);
+    }
+
+    60% {
+        transform: translateY(-15px) rotate(135deg);
+    }
+}
+
 /*POPUP STYLES*/
 
 #popup_container {
@@ -1195,94 +1240,115 @@ a {
     .landing-title {
         font-size: 4rem;
     }
+
     .landing-subtitle {
         font-size: 1.2rem;
         max-width: 70%;
 
     }
+
     .intro-text {
         font-size: 2.4rem;
         line-height: 3.3rem;
     }
+
     .icone_tutorial {
         width: 3vw;
         padding-left: 0.2rem;
         padding-right: 0.2rem;
     }
+
     #screen_tutorial {
         width: 7vw;
     }
+
     .contenuto_overlay {
         width: 75vw;
         top: 7.5vh;
     }
+
     .title-text {
         font-size: 1.8rem;
     }
+
     .tutorial-text {
         font-size: 1.1rem;
         line-height: 1.5rem;
     }
+
     .testino-tutorial {
         width: 100%;
     }
+
     .base_text {
         font-size: 0.8rem;
         max-width: 95%;
     }
+
     .btn-dummy {
         font-size: 0.8rem;
         padding-top: 0.8rem;
         padding-bottom: 0.8rem;
         margin-bottom: 0rem;
     }
+
     .btn-1 {
         font-size: 0.8rem;
         padding-top: 0.8rem;
         padding-bottom: 0.8rem;
     }
+
     .btn-2 {
         font-size: 0.7rem;
     }
+
     .btn-3 {
         font-size: 0.8rem;
         padding-top: 0.8rem;
         padding-bottom: 0.8rem;
     }
+
     .btn-4 {
         font-size: 0.7rem;
     }
+
     .actor-name {
         font-size: 0.8rem;
     }
+
     .actor-type {
         font-size: 0.8rem;
         max-width: 90%;
     }
+
     .statement-text {
         font-size: 1rem;
         padding-bottom: 0rem;
-    } 
+    }
+
     .a {
         margin-top: 12vh;
-    } 
+    }
+
     .persone-text {
         font-size: 3rem;
     }
+
     .outcome-number {
         font-size: 3.5rem;
     }
+
     .bolso-text {
         font-size: 1.3rem;
         line-height: 1.8rem;
     }
+
     .about-text {
         font-size: 1.3rem;
         line-height: 1.8rem;
     }
+
     .outcome-text-container {
         margin-top: 10vh;
     }
 }
-
-
