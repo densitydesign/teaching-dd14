@@ -7,7 +7,7 @@ let spritesheet;
 let textures = [];
 
 function preload() {
-  spritesheet = loadImage('assets/news/flakes35.png');
+  spritesheet = loadImage('/assets/news/flakes35.png');
 }
 
 function setup() {

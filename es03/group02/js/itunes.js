@@ -1,10 +1,8 @@
 var mySong;
-var myImage;
 let autoplay = false;
 
 function preload() {
   mySong = loadSound('./assets/music/ap.wav');
-  myImage = loadImage('./assets/ap.png');
 }
 
 function setup() {
