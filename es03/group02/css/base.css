@@ -36,7 +36,7 @@ html {
 
 body {
   margin: 0;
-  background: url(/assets/index.png) no-repeat;
+  background: url(../assets/index.png) no-repeat;
   /* background-color: #bebff8 !important; */
   background-size: cover;
   background-attachment: fixed;
