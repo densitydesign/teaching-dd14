@@ -59,7 +59,7 @@ function myFunction() {
     dayLiveCo2,
     'It is&nbsp;',
     Math.round(liveCO2Consume * 100) / 100,
-    '&nbsp;times hat of your daily breathing.'
+    '&nbsp;times than your daily breathing.'
   );
 
   let trs = document.querySelector('table > tbody').children;
